@@ -395,8 +395,12 @@ def realm(n):
 # ------------------------------------------------------------------ groups
 def cat(c): return [a["name"] for a in ASSETS if a["category"] == c]
 from assets.flora2 import SPECS as _F2S
-_F2 = {x["asset"] for x in _F2S}   # flora wave 2 items have their own specs
-def mk(names, f): return [s for s in (f(n) for n in names) if s]
+from assets.wave3 import PLANTS as _W3P
+_F2 = {x["asset"] for x in _F2S} | {"Item_%s_%s" % (k, n) for n, k, *_ in _W3P}   # flora wave 2 items have their own specs
+def _try(f, n):
+    try: return f(n)
+    except KeyError: return None   # owned by another spec module (flora2 / wave3)
+def mk(names, f): return [s for s in (_try(f, n) for n in names) if s]
 GROUPS = {
  "stations": mk(cat("Stations"), station), "blocks": mk(cat("Blocks"), block), "gatherables": mk([n for n in cat("Gatherables") if n not in _F2], gatherable),
  "armor": mk(cat("Armor"), armor), "town": mk(cat("Town"), town), "vehicles": mk(cat("Vehicles"), vehicle), "sky": mk(cat("Sky"), sky),

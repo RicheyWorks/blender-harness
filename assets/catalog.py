@@ -271,5 +271,8 @@ for n, kind, price, power in [("Herb", "use", 10, 25), ("Tonic", "use", 30, 10),
 
 from assets.flora2 import entries as _flora2   # flora wave 2: gatherable plants (growing, harvested, item)
 R.extend(_flora2())
+from assets.wave3 import entries as _wave3   # wave 3: fuller world (plants, trees, animals, town, realm)
+_have = {r["name"] for r in R}
+R.extend(x for x in _wave3() if x["name"] not in _have)
 
 ASSETS = R
