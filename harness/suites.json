@@ -26,6 +26,11 @@
    "floor": 30
   },
   {
+   "name": "bus",
+   "module": "harness.test_bus",
+   "floor": 8
+  },
+  {
    "name": "walk",
    "module": "harness.walk",
    "floor": 14,
