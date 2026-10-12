@@ -86,9 +86,9 @@
    ]
   },
   "standin": {
-   "at": 1791828743,
-   "of": 5,
-   "ok": 5,
+   "at": 1791828950,
+   "of": 6,
+   "ok": 6,
    "suites": [
     {
      "fails": [],
@@ -141,6 +141,19 @@
       "11/11"
      ],
      "total": 11
+    },
+    {
+     "fails": [],
+     "floor": 30,
+     "got": 31,
+     "mark": "ok",
+     "name": "build",
+     "rc": 0,
+     "tail": [
+      "PASS glb: bad magic is rejected",
+      "31/31"
+     ],
+     "total": 31
     },
     {
      "fails": [],

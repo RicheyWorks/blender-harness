@@ -64,6 +64,16 @@ def build(art=DEFAULT_ART, out=None):
                                           fill=PatternFill("solid", fgColor=col)))
         for i, w in enumerate([26, 12, 22, 36, 26, 10, 10, 30, 8, 10, 60, 60, 40], 1):
             ws.column_dimensions[get_column_letter(i)].width = w
+    # anything saved on disk that the catalog doesn't name: listed, so nothing built goes missing
+    known = {a["name"] for a in ASSETS}
+    stray = sorted(f[:-6] for k in sorted(os.listdir(art)) if os.path.isdir(os.path.join(art, k))
+                   for f in os.listdir(os.path.join(art, k)) if f.endswith(".blend") and f[:-6] not in known)
+    ws = wb.create_sheet("Uncatalogued")
+    ws.append(["Saved .blend not in assets/catalog.py", "Folder"])
+    for c in ws[1]: c.font, c.fill = head, hfill
+    for n in stray:
+        ws.append([n, kind_of(n) or "(scene/test)"])
+    ws.column_dimensions["A"].width = 40
     summ.append(["Category", "Total", "Planned", "Built", "Judged", "READY", "Shipped", "Other", "% done (Judged+)"])
     for c in summ[1]: c.font, c.fill = head, hfill
     for cat in CATS:

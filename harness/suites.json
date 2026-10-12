@@ -1,8 +1,43 @@
-{"suites": [
-  {"name": "contract", "module": "harness.test_contract", "floor": 27},
-  {"name": "judge", "module": "harness.test_judge", "floor": 15},
-  {"name": "queue", "module": "harness.test_queue", "floor": 33},
-  {"name": "client", "module": "harness.test_client", "floor": 11},
-  {"name": "walk", "module": "harness.walk", "floor": 14, "args": ["--no-ledger"]},
-  {"name": "live", "module": "harness.live", "floor": 20, "live": true}
-]}
+{
+ "suites": [
+  {
+   "name": "contract",
+   "module": "harness.test_contract",
+   "floor": 27
+  },
+  {
+   "name": "judge",
+   "module": "harness.test_judge",
+   "floor": 15
+  },
+  {
+   "name": "queue",
+   "module": "harness.test_queue",
+   "floor": 33
+  },
+  {
+   "name": "client",
+   "module": "harness.test_client",
+   "floor": 11
+  },
+  {
+   "name": "build",
+   "module": "harness.test_build",
+   "floor": 30
+  },
+  {
+   "name": "walk",
+   "module": "harness.walk",
+   "floor": 14,
+   "args": [
+    "--no-ledger"
+   ]
+  },
+  {
+   "name": "live",
+   "module": "harness.live",
+   "floor": 20,
+   "live": true
+  }
+ ]
+}

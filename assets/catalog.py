@@ -256,7 +256,9 @@ for n, mech, prio in [("Bld_Realm_Town", "Town: shops, inn", 3), ("Bld_Realm_Cas
                       ("Prop_Realm_Mountain", "Overworld mountain massif", 3), ("Prop_Realm_Forest", "Overworld forest clump", 3),
                       ("Prop_Realm_CaveEntrance", "Cave mouth", 3),
                       ("Prop_Realm_Cave_Stalactite", "Cave battle backdrop", 2), ("Prop_Realm_Cave_Stalagmite", "Cave battle backdrop", 3),
-                      ("Prop_Realm_Cave_Floor", "Cave battle floor tile", 2), ("Prop_Realm_Cave_Wall", "Cave battle backdrop", 3)]:
+                      ("Prop_Realm_Cave_Floor", "Cave battle floor tile", 2), ("Prop_Realm_Cave_Wall", "Cave battle backdrop", 3),
+                      ("Prop_Realm_Cave_Ceiling", "Cave battle backdrop: layered rock ceiling + stalactites", 2),
+                      ("Prop_Realm_Cave_Torch", "Cave battle lighting", 2)]:
     add(n, "Dragon Warrior", mech, "", "", "", prio=prio, world=DW)
 for n, kind, price, power in [("Herb", "use", 10, 25), ("Tonic", "use", 30, 10), ("Antidote", "use", 8, 0), ("Torch", "use", 8, 3),
                               ("Wings", "use", 25, 0), ("MightSeed", "use", 0, 2), ("LifeSeed", "use", 0, 6), ("BronzeKey", "key", 45, 1),

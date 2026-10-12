@@ -54,3 +54,7 @@ Companion to `Daedalus2/docs/AUTOMATION-LESSONS.md` (Unreal and Windows).
 20. Building from bevelled boxes in one bmesh, 1 object and up to 3 slots, gives 300-450 tris per tool, far under 3k.
     Hex colours go in linear (`(c/255)**2.2`); emission on the last slot for glowing heads.
 21. READY rows wait while Unreal is in Play: STATUS.md says "Waiting on: Unreal to leave Play mode". Not ours to clear.
+22. Batch builds go through `blender-job.ps1 -Start -Run "assets.runner build <specs module>"`: 56 tools took about 2 minutes,
+    longer than one 60 s call. Every asset is judged, exported to .glb and self-checked before it is saved.
+23. Rendering a composed scene from collection instances (empties) keeps the source assets untouched; exclude the
+    source collections from the view layer, and the instances still render.

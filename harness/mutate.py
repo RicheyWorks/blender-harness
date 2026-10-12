@@ -26,6 +26,14 @@ MUTANTS = [
     ("client drops params", "bharness/client.py", '"params": params', '"params": {}', "harness.test_client"),
     ("client reads one chunk only", "bharness/client.py", "while not buf.endswith(b\"\\n\"):", "for _ in range(1):", "harness.test_client"),
     ("turntable action is dropped", "bharness/plugins/render.py", 'Action("turntable"', 'Action("turntable_x"', "harness.walk"),
+ ("palette falls back to black", "bharness/palette.py", "return PALETTE[c.lower()]", "return PALETTE.get(c.lower(), '000000')", "harness.test_build"),
+    ("palette skips gamma", "bharness/palette.py", "/ 255.0) ** 2.2", "/ 255.0)", "harness.test_build"),
+    ("spec allows 4 materials", "bharness/build.py", "if not 1 <= len(mats) <= 3:", "if not 1 <= len(mats) <= 4:", "harness.test_build"),
+    ("duplicate parts allowed", "bharness/build.py", "        if n in names:", "        if False:", "harness.test_build"),
+    ("bad material index allowed", "bharness/build.py", "if not 0 <= mi < len(mats):", "if False:", "harness.test_build"),
+    ("glb ignores lost triangles", "bharness/glb.py", 'add("triangles: Blender = file", bt == ft', 'add("triangles: Blender = file", True', "harness.test_build"),
+    ("glb ignores sizes", "bharness/glb.py", 'add("sizes: Blender = file", len(bd) == len(fd) and', 'add("sizes: Blender = file", True or', "harness.test_build"),
+    ("glb ignores node scale", "bharness/glb.py", "abs(s - 1) < 1e-4 for s in n[\"scale\"]", "True for s in n[\"scale\"]", "harness.test_build"),
 ]
 
 
