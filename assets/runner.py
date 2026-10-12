@@ -140,7 +140,9 @@ def main(a=sys.argv[1:]):
     if cmd == "scene":
         print(json.dumps(scene(ctx, mod))); print(json.dumps({"tracker": tracker()})); return 0
     bad = 0
-    for s in mod.SPECS:
+    grp = [x.split("=", 1)[1] for x in a if x.startswith("--group=")]
+    specs = mod.GROUPS[grp[0]] if grp else mod.SPECS
+    for s in specs:
         if names and s["asset"] not in names:
             continue
         try:

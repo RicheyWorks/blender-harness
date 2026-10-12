@@ -85,8 +85,30 @@ def wolf():
              b((0.06, 0.04, 0.05), (-0.08, -0.775, 0.79), EYE), b((0.06, 0.04, 0.05), (0.08, -0.775, 0.79), EYE)]},
             {"name": "_Tail", "pivot": [0, 0.48, 0.62], "boxes": [b((0.12, 0.30, 0.12), (0, 0.62, 0.66), BODY), b((0.10, 0.12, 0.10), (0, 0.80, 0.72), ACC)]}] + legs
 
-PLANS = {0: lambda a: slime(0.8 if "Lucky" not in a else 0.5), 1: lambda a: wisp(), 2: lambda a: spiky(), 3: lambda a: cap(),
-         4: lambda a: knight(2.4 if "Stone" in a else 2.1), 5: lambda a: wing(), 6: lambda a: box(), 7: lambda a: orb()}
+def drip():
+    """Lucky Drip: a gold teardrop (wide base, leaning point), shine on the top-left, beady eyes."""
+    return [{"name": "_Body", "pivot": [0, 0, 0], "boxes": [
+        b((0.50, 0.46, 0.12), (0, 0, 0.06), BODY), b((0.56, 0.52, 0.14), (0, 0, 0.18), BODY), b((0.50, 0.46, 0.12), (0, 0, 0.31), BODY),
+        b((0.38, 0.36, 0.10), (0.01, 0, 0.42), BODY), b((0.26, 0.24, 0.08), (0.03, 0, 0.51), BODY), b((0.16, 0.16, 0.08), (0.05, 0, 0.59), BODY),
+        b((0.09, 0.09, 0.08), (0.08, 0, 0.66), BODY), b((0.05, 0.05, 0.06), (0.11, 0, 0.72), BODY),
+        b((0.08, 0.05, 0.12), (-0.15, -0.24, 0.34), EYE), b((0.05, 0.05, 0.08), (-0.10, -0.20, 0.47), EYE),
+        b((0.40, 0.05, 0.05), (0, -0.27, 0.08), ACC)]},
+        {"name": "_Eyes", "pivot": [0, -0.26, 0.24], "boxes": [b((0.08, 0.05, 0.10), (-0.10, -0.27, 0.24), ACC), b((0.08, 0.05, 0.10), (0.10, -0.27, 0.24), ACC),
+        b((0.10, 0.05, 0.03), (0, -0.27, 0.15), ACC)]}]
+
+def orb2():
+    """Stare Orb: a floating eyeball (layered sphere), huge iris + pupil, lid ridge, three dangling tendrils."""
+    layers = [(0.30, 0.28), (0.48, 0.42), (0.58, 0.56), (0.58, 0.70), (0.48, 0.84), (0.30, 0.95)]
+    body = [b((w, w, 0.13), (0, 0, z), BODY) for w, z in layers]
+    lid = [b((0.50, 0.06, 0.06), (0, -0.27, 0.86), BODY), b((0.40, 0.06, 0.05), (0, -0.27, 0.48), BODY)]
+    tend = [b((0.06, 0.06, 0.10), (x, y, z), ACC) for (x, y) in ((-0.12, 0.05), (0.12, 0.05), (0, -0.10)) for z in (0.16, 0.07)] + \
+           [b((0.04, 0.04, 0.05), (x, y, 0.0 + 0.025), ACC) for (x, y) in ((-0.14, 0.06), (0.14, 0.06), (0, -0.12))]
+    return [{"name": "_Orb", "pivot": [0, 0, 0.62], "boxes": body + lid + tend},
+            {"name": "_Eye", "pivot": [0, -0.30, 0.66], "boxes": [b((0.34, 0.04, 0.30), (0, -0.30, 0.66), ACC), b((0.16, 0.04, 0.16), (0, -0.32, 0.66), EYE),
+             b((0.05, 0.03, 0.05), (0.06, -0.335, 0.71), BODY)]}]
+
+PLANS = {0: lambda a: drip() if "Lucky" in a else slime(0.8), 1: lambda a: wisp(), 2: lambda a: spiky(), 3: lambda a: cap(),
+         4: lambda a: knight(2.4 if "Stone" in a else 2.1), 5: lambda a: wing(), 6: lambda a: box(), 7: lambda a: orb2()}
 
 SPECS = []
 for a in ASSETS:
@@ -99,4 +121,5 @@ for a in ASSETS:
     body, acc = notes.split(" body")[0].lstrip("#"), notes.split(", #")[1].split(" accent")[0]
     shape = int(notes.split("shape ")[1].split(";")[0].split()[0])
     eye = "F8F8F8" if shape != 7 else "202024"
+    if "Lucky" in n: eye = "FFF6C8"
     SPECS.append({"asset": n, "materials": [body, acc, eye], "glow": [1] if "Ember" in n or "Glass" in n else [], "parts": PLANS[shape](n)})
