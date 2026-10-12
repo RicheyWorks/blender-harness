@@ -15,20 +15,17 @@ def h(x, y):
     t = base + n*max(0, 1-d) + ridge
     t = round(t/3.0)*3.0*0.15 + t*0.85                # terraced tiers
     return t if d < 0.96 else t*(1-(d-0.96)/0.04)-3*(d-0.96)/0.04 if d < 1 else -3
-# terrain
-bm = bmesh.new(); N = 120; step = 2*R*1.08/N; vs = {}
-for i in range(N+1):
-    for j in range(N+1):
-        x, y = -R*1.08+i*step, -R*1.08+j*step
-        vs[i, j] = bm.verts.new((x, y, h(x, y)))
-for i in range(N):
-    for j in range(N):
-        bm.faces.new((vs[i, j], vs[i+1, j], vs[i+1, j+1], vs[i, j+1]))
-# underside rock cone (floating island)
-ring = [v for v in bm.verts if math.hypot(v.co.x, v.co.y) > R*1.0]
-for v in ring: v.co.z = min(v.co.z, -4 - (math.hypot(v.co.x, v.co.y)-R)*0) - (R*1.08-math.hypot(v.co.x,v.co.y))*0
-bmesh.ops.delete(bm, geom=[v for v in bm.verts if math.hypot(v.co.x, v.co.y) > R*1.005], context='VERTS')
-me = bpy.data.meshes.new(NAME+"_Terrain"); bm.to_mesh(me); bm.free()
+# terrain: polar mesh, smooth circular rim (no grid stair-steps)
+bm = bmesh.new(); RINGS, SEG = 90, 256
+ctr = bm.verts.new((0, 0, h(0, 0))); rings = []
+for i in range(1, RINGS+1):
+    rr = R*1.0*i/RINGS; rings.append([bm.verts.new((rr*math.cos(j*6.283185/SEG), rr*math.sin(j*6.283185/SEG), h(rr*math.cos(j*6.283185/SEG), rr*math.sin(j*6.283185/SEG)))) for j in range(SEG)])
+for j in range(SEG): bm.faces.new((ctr, rings[0][j], rings[0][(j+1) % SEG]))
+for i in range(RINGS-1):
+    for j in range(SEG): bm.faces.new((rings[i][j], rings[i+1][j], rings[i+1][(j+1) % SEG], rings[i][(j+1) % SEG]))
+lip = [bm.verts.new((v.co.x*1.01, v.co.y*1.01, -3.0)) for v in rings[-1]]
+for j in range(SEG): bm.faces.new((rings[-1][j], lip[j], lip[(j+1) % SEG], rings[-1][(j+1) % SEG]))
+me = bpy.data.meshes.new(NAME+"_Terrain"); bm.normal_update(); bm.to_mesh(me); bm.free()
 ter = bpy.data.objects.new(NAME+"_Terrain", me); root.objects.link(ter)
 col = me.color_attributes.new("Col", "BYTE_COLOR", "CORNER")
 for poly in me.polygons:
@@ -75,8 +72,8 @@ def scatter(pool, n, cx, cy, rad, tag, s=(0.9, 1.3)):
 trees = pick(r"Prop_Tree_.*_Mature", 20) or pick(r"Prop_Tree_", 20)
 herbs = pick(r"Prop_Herb_", 40); blooms = pick(r"Prop_Bloom_", 30)
 ores = pick(r"Prop_OreNode_.*_Large", 10) + pick(r"Prop_OreNode_.*_Small", 10)
-stations = [x for x in names if re.search(r"Smelter|Forge|Cook|Anvil|Bench|Kiln|Loom|Furnace|Mill|Still", x) and not x.startswith("Item_")][:12]
-mobs = pick(r"Mob_(Meadow|Forest)_(Grazer|Hopper|Crawler)", 18); crew = pick(r"Mob_Crew_", 12)
+stations = [x for x in names if re.search(r"Smelter|Forge|Cook|Anvil|Bench|Kiln|Loom|Furnace|Mill|Still", x) and not x.startswith(("Item_", "Mob_", "Prop_BBIsle_", "Prop_Decor_"))][:12]
+mobs = pick(r"Mob_(Meadow|Forest)_(Grazer|Hopper|Crawler)", 18); crew = [c for c in pick(r"Mob_Crew_", 12) if c != "Mob_Crew_Cook"]
 rocks = pick(r"Prop_Island_(Boulder|Driftwood|Tidepool)", 30); chests = pick(r"Prop_Chest_", 6)
 scatter(trees, 140, 35, -25, 70, "orchard-forest", (1.0, 1.6))
 scatter(trees, 60, -20, 60, 40, "north-grove", (1.0, 1.5))
@@ -89,7 +86,14 @@ for k, st in enumerate(stations):                                  # crafting pl
     t = k/max(1, len(stations))*6.283; put(st, 10+14*math.cos(t), 5+14*math.sin(t), 1.0, rot=t+math.pi, tag="crafting-plaza")
 for k, c in enumerate(chests): put(c, 10+4*math.cos(k), 5+4*math.sin(k), 1.0, tag="crafting-plaza")
 scatter(mobs, 40, 55, 45, 22, "livestock-pen")
-for k, c in enumerate(crew): put(c, 10+7*math.cos(k*0.52), 5+7*math.sin(k*0.52), 1.0, tag="crew")
+for k, c in enumerate(crew): put(c, 10+7*math.cos(k*0.52), 5+7*math.sin(k*0.52), 1.0, rot=k*0.52+math.pi, tag="crew-npc")
+if "Mob_Crew_Cook" in names and "Prop_CookingPot_Lit" in names:   # the cook works the plaza pot
+    put("Prop_CookingPot_Lit", 2, -4, 1.2, tag="crafting-plaza"); put("Mob_Crew_Cook", 3.2, -4, 1.0, rot=math.pi/2, tag="crew-npc")
+bbi = [x for x in names if x.startswith("Prop_BBIsle_")]   # island-only unique models: lanes + plaza ring
+for k, an in enumerate(bbi):
+    t = k*2.399; rr = 22 + (k % 9)*9
+    x, y = 10+rr*math.cos(t), 5+rr*math.sin(t)
+    if math.hypot(x, y) < R*0.9: put(an, x, y, 1.0, tag="bbisle-unique")
 for k in range(70):                                                # shoreline rocks
     t = random.uniform(0, 6.283); rr = R*random.uniform(0.86, 0.95); put(rocks[k % len(rocks)], rr*math.cos(t), rr*math.sin(t), random.uniform(0.8, 2.0), tag="shore")
 # ark dock: pier east + moored ark
@@ -107,8 +111,8 @@ if "Veh_Ark" in names: put("Veh_Ark", R*0.82+40, -12, 1.0, rot=math.pi/2, zoff=z
 sun = bpy.data.objects.new("Sun", bpy.data.lights.new("Sun", "SUN")); sun.data.energy = 5; sun.rotation_euler = (0.9, 0.2, 2.3); sc.collection.objects.link(sun)
 w = bpy.data.worlds.new("Sky"); sc.world = w; w.use_nodes = True; w.node_tree.nodes["Background"].inputs[0].default_value = (0.25, 0.48, 0.90, 1); w.node_tree.nodes["Background"].inputs[1].default_value = 0.9
 cam = bpy.data.objects.new("Cam", bpy.data.cameras.new("Cam")); sc.collection.objects.link(cam); sc.camera = cam
-cam.location = (190, -200, 105); cam.data.lens = 35
-d = Vector((30, 0, -8)) - cam.location; cam.rotation_euler = d.to_track_quat("-Z", "Y").to_euler()
+cam.location = (235, -255, 130); cam.data.lens = 35
+d = Vector((50, -10, -5)) - cam.location; cam.rotation_euler = d.to_track_quat("-Z", "Y").to_euler()
 sc.render.engine = "BLENDER_EEVEE_NEXT"; sc.render.resolution_x, sc.render.resolution_y = 1920, 1080; sc.render.filepath = PNG
 sc.view_settings.view_transform = "AgX"
 bpy.ops.render.render(write_still=True)

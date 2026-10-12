@@ -9,7 +9,8 @@ from collections import Counter
 
 ART = r"C:\Users\730ri\projects\bot-team\art"
 STATE = os.path.join(ART, "bus", "autowave.json"); CUR = os.path.join(ART, "bus", "autowave_current.json")
-ROT = ["crafting", "island", "ark", "creatures", "flora"]
+ROT = ["decor", "crafting", "island", "ark", "decor", "creatures", "flora"]
+CAP = {"creatures": 3, "flora": 3, "island": 4}   # stop near-duplicate recolour waves after N passes
 BLENDER = r"C:\Program Files\Blender Foundation\Blender 4.3\blender.exe"
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NOWIN = getattr(subprocess, "CREATE_NO_WINDOW", 0)
@@ -82,8 +83,20 @@ def flora(k, r):
         out.append({"asset": "Item_%s_%s" % (kd, nn), "materials": mats, "glow": [], "parts": [{"name": "", "boxes": F.item(nn, kd)}]})
     return out
 
-GEN = {"crafting": crafting, "island": island, "ark": ark, "creatures": creatures, "flora": flora}
-SIZE = {"crafting": "~0.3-0.5 m", "island": "0.6-2.2 m", "ark": "2 m grid", "creatures": "varies", "flora": "~0.4 m"}
+STYLES = [("Copper", "C8703A", "34343A", "FFB84D"), ("Driftwood", "C8B8A0", "6B4A2A", "2F80D8"), ("Frost", "D8E8F4", "4A5C7A", "7FE3FF"),
+          ("Ember", "4A2A1A", "C8703A", "FF6A3D"), ("Reef", "2F9E8F", "E4DDCF", "F29BC0"), ("Moss", "4A6B2A", "8C5A2A", "C8F060"),
+          ("Ivory", "E4DDCF", "A09080", "F2C230"), ("Obsidian", "24242A", "5C389E", "A070FF"), ("Sandstone", "D8B880", "8C6A40", "E05050"),
+          ("Jade", "3A8C5A", "E4DDCF", "F2C230"), ("Rust", "8C3A1A", "4A4F5C", "FF8A3D"), ("Pearl", "F4F6FB", "A0B8C8", "4FE3D0")]
+def decor(k, r):
+    from assets.bbkit import FAM, build
+    out = []
+    for st in STYLES:
+        nm, a, bc, c = st
+        out += [{"asset": "Prop_Decor_%s_%s" % (f, nm), "materials": [a, bc, c], "glow": [2] if nm in ("Ember", "Obsidian", "Frost") else [],
+                 "parts": [{"name": "", "boxes": build(f, "decor-%s-%s" % (f, nm))}]} for f in sorted(FAM)]
+    return out
+GEN = {"decor": decor, "crafting": crafting, "island": island, "ark": ark, "creatures": creatures, "flora": flora}
+SIZE = {"decor": "0.5-5 m", "crafting": "~0.3-0.5 m", "island": "0.6-2.2 m", "ark": "2 m grid", "creatures": "varies", "flora": "~0.4 m"}
 
 def __getattr__(name):   # GROUPS / SPECS / ORDER for headless.py and addrows.py
     cur = json.load(open(CUR, encoding="utf-8"))
@@ -103,10 +116,12 @@ def wave(bus, st):
     from bharness.plugins.queue import QueuePlugin
     from bharness.context import Context
     have = {r["asset"] for r in QueuePlugin(Context()).rows()}
+    for c in CAP: st.setdefault("n_" + c, CAP[c])   # earlier waves already used these passes
     for _ in range(len(ROT)):
         k = st["k"] = st.get("k", 0) + 1; cat = ROT[k % len(ROT)]
-        specs = [s for s in GEN[cat](k, None) if s["asset"] not in have and not os.path.exists(os.path.join(ART, "glb", s["asset"] + ".glb"))]
-        if specs: break
+        if st.get("n_" + cat, 0) >= CAP.get(cat, 99): continue
+        specs = [s for s in GEN[cat](k, None) if s["asset"] not in have and not os.path.exists(os.path.join(ART, "glb", s["asset"] + ".glb"))][:60]
+        if specs: st["n_" + cat] = st.get("n_" + cat, 0) + 1; break
     json.dump({"k": k, "cat": cat, "specs": specs}, open(CUR, "w", encoding="utf-8")); json.dump(st, open(STATE, "w"))
     bus.send("note", {"asset": "-", "text": "DOING blender-team auto-wave %d (%s, %d assets): READY fell below the floor; building headless now." % (k, cat, len(specs))})
     log = os.path.join(os.environ.get("LOCALAPPDATA", ART), "Daedalus", "jobs", "autowave-build.log")
