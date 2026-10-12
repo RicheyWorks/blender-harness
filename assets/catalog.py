@@ -277,5 +277,8 @@ R.extend(x for x in _wave3() if x["name"] not in _have)
 from assets.wave4 import entries as _wave4   # wave 4: ores, smelting, cooking, ark parts
 _have = {r["name"] for r in R}
 R.extend(x for x in _wave4() if x["name"] not in _have)
+from assets.wave5 import entries as _wave5   # wave 5: chests (#4) + ark crew (#16)
+_have = {r["name"] for r in R}
+R.extend(x for x in _wave5() if x["name"] not in _have)
 
 ASSETS = R
