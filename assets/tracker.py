@@ -17,7 +17,7 @@ from bharness.plugins.queue import parse, state, kind_of
 from bharness.plugins.judge import BUDGET
 from assets.catalog import ASSETS
 
-CATS = ["Tools", "Weapons", "Armor", "Stations", "Flora", "Fauna", "Gatherables", "Blocks", "Town", "Vehicles", "Sky", "Other Worlds"]
+CATS = ["Tools", "Weapons", "Armor", "Stations", "Flora", "Fauna", "Gatherables", "Blocks", "Town", "Vehicles", "Sky", "Other Worlds", "Dragon Warrior"]
 COLS = ["Asset name", "Category", "Biome/World", "Mechanic it serves", "Ingredients/drops", "Tier", "Tri budget",
         "Moving parts", "Priority", "Status", "File path", "Turntable path", "Notes"]
 COLOR = {"Planned": "D9D9D9", "Built": "FFE699", "Judged": "BDD7EE", "READY": "A9D08E", "Shipped": "548235",

@@ -19,10 +19,20 @@ saved = (sc.camera, r.filepath, r.image_settings.file_format, r.resolution_x, r.
 cd = bpy.data.cameras.new("BH_TT_Cam"); cam = bpy.data.objects.new("BH_TT_Cam", cd)
 ld = bpy.data.lights.new("BH_TT_Sun", "SUN"); ld.energy = 3; sun = bpy.data.objects.new("BH_TT_Sun", ld)
 sun.rotation_euler = (0.8, 0.2, 0.6)
-sc.collection.objects.link(cam); sc.collection.objects.link(sun)
+fd = bpy.data.lights.new("BH_TT_Fill", "SUN"); fd.energy = 1.0; fd.color = (0.75, 0.82, 1.0); fill = bpy.data.objects.new("BH_TT_Fill", fd)
+fill.rotation_euler = (1.1, 0.0, -2.2)
+rd = bpy.data.lights.new("BH_TT_Rim", "SUN"); rd.energy = 2.0; rim = bpy.data.objects.new("BH_TT_Rim", rd)
+rim.rotation_euler = (-0.9, 0.0, 3.0)
+for o in (cam, sun, fill, rim): sc.collection.objects.link(o)
+oldworld = sc.world; tw = bpy.data.worlds.new("BH_TT_World"); tw.use_nodes = True
+bgc = %(bg)r
+if bgc:
+    tw.node_tree.nodes["Background"].inputs[0].default_value = tuple((int(bgc[k:k+2], 16) / 255.0) ** 2.2 for k in (0, 2, 4)) + (1.0,)
+tw.node_tree.nodes["Background"].inputs[1].default_value = 0.6
+sc.world = tw
 out = []
 try:
-    sc.camera = cam; r.image_settings.file_format = "PNG"; r.film_transparent = True
+    sc.camera = cam; r.image_settings.file_format = "PNG"; r.film_transparent = not bgc
     r.resolution_x, r.resolution_y, r.resolution_percentage = %(size)d, %(size)d, 100
     os.makedirs(%(folder)r, exist_ok=True)
     for i in range(%(n)d):
@@ -35,7 +45,9 @@ finally:
     (sc.camera, r.filepath, r.image_settings.file_format, r.resolution_x, r.resolution_y,
      r.resolution_percentage, r.film_transparent) = saved
     bpy.data.objects.remove(cam); bpy.data.cameras.remove(cd)
-    bpy.data.objects.remove(sun); bpy.data.lights.remove(ld)
+    for o, d in ((sun, ld), (fill, fd), (rim, rd)):
+        bpy.data.objects.remove(o); bpy.data.lights.remove(d)
+    sc.world = oldworld; bpy.data.worlds.remove(tw)
 result = out
 '''
 
@@ -53,9 +65,9 @@ class RenderPlugin(Plugin):
                 f.write(base64.b64decode(res["image_png_base64"]))
         return {"width": res["width"], "height": res["height"], "path": path}
 
-    def turntable(self, name, n=8, size=768, folder=None):
+    def turntable(self, name, n=8, size=768, folder=None, bg="E9E4DA"):
         folder = folder or self.promo_dir(name)
-        return run(self.ctx.bridge, TURNTABLE % {"name": name, "n": int(n), "size": int(size), "folder": folder},
+        return run(self.ctx.bridge, TURNTABLE % {"name": name, "n": int(n), "size": int(size), "folder": folder, "bg": bg},
                    timeout=600)
 
     def actions(self):

@@ -24,9 +24,9 @@ class Context:
 
 
 def build(ctx=None, ceiling=Risk.SCENE, extra=()):
-    from .plugins import bridge, probe, judge, render, queue
+    from .plugins import bridge, probe, judge, render, queue, export
     ctx = ctx or Context()
     reg = Registry()
-    for cls in (bridge.BridgePlugin, probe.ProbePlugin, judge.JudgePlugin, render.RenderPlugin, queue.QueuePlugin) + tuple(extra):
+    for cls in (bridge.BridgePlugin, probe.ProbePlugin, judge.JudgePlugin, render.RenderPlugin, queue.QueuePlugin, export.ExportPlugin) + tuple(extra):
         reg.add(cls(ctx))
     return ctx, Gateway(reg, ceiling=ceiling, log=ctx.log)

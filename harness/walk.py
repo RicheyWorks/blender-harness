@@ -15,7 +15,9 @@ POOLS = {"name": "Prop_BHTest", "asset": "Prop_BHTest", "code": "result = 1+1", 
 EXCLUDE = {"bridge.object": "needs an object name that exists; probe.asset covers object reads",
            "queue.open": "replaces the open file; covered by test_queue and the live suite",
            "queue.retry": "needs a BLOCKED row; test_queue drives it",
-           "queue.block": "needs a READY row; test_queue drives it"}
+           "queue.block": "needs a READY row; test_queue drives it",
+           "export.glb": "needs a real glTF exporter; the live runner exports and self-checks every asset",
+           "export.lod": "needs real Decimate modifiers; the live runner covers it"}
 ARGS = {"bridge.python": ["code"], "probe.asset": ["name"], "judge.asset": ["name"], "render.turntable": ["name", "n"],
         "queue.claim": ["asset"], "queue.save": ["asset"], "queue.ready": ["asset"]}
 CORE = ("bridge.ping", "bridge.scene", "bridge.filestate", "bridge.python", "probe.asset", "judge.asset",
