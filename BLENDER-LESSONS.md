@@ -62,3 +62,6 @@ Companion to `Daedalus2/docs/AUTOMATION-LESSONS.md` (Unreal and Windows).
 ## Background jobs must be invisible (2026-10-12)
 blender-job.ps1 launched cmd via WMI Win32_Process.Create with no startup info, so a 'bharness-job' console popped up in front of Richey's work.
 Fix: pass a Win32_ProcessStartup with ShowWindow=0; Python subprocess calls use creationflags=CREATE_NO_WINDOW. Any new launcher must be hidden by default (-WindowStyle Hidden, pythonw, or 0x08000000).
+
+## Shared machine limits (2026-10-12)
+RAM is about 6 GB free. Never launch an Unreal editor: only one runs, and it belongs to the Unreal team. Run one Blender job at a time, hidden, using -b where possible. Do light work, such as heightmaps, in plain Python.
