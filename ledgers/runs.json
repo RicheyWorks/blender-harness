@@ -1,0 +1,161 @@
+{
+ "entries": {
+  "live": {
+   "at": 1791822722,
+   "of": 6,
+   "ok": 6,
+   "suites": [
+    {
+     "fails": [],
+     "floor": 27,
+     "got": 27,
+     "mark": "ok",
+     "name": "contract",
+     "rc": 0,
+     "tail": [
+      "PASS bridge.python is SCENE risk",
+      "27/27"
+     ],
+     "total": 27
+    },
+    {
+     "fails": [],
+     "floor": 15,
+     "got": 15,
+     "mark": "ok",
+     "name": "judge",
+     "rc": 0,
+     "tail": [
+      "PASS off-centre fails",
+      "15/15"
+     ],
+     "total": 15
+    },
+    {
+     "fails": [],
+     "floor": 33,
+     "got": 34,
+     "mark": "ok",
+     "name": "queue",
+     "rc": 0,
+     "tail": [
+      "PASS set_row == watcher's set_row",
+      "34/34"
+     ],
+     "total": 34
+    },
+    {
+     "fails": [],
+     "floor": 11,
+     "got": 11,
+     "mark": "ok",
+     "name": "client",
+     "rc": 0,
+     "tail": [
+      "PASS every call is logged with ms and bytes",
+      "11/11"
+     ],
+     "total": 11
+    },
+    {
+     "fails": [],
+     "floor": 14,
+     "got": 14,
+     "mark": "ok",
+     "name": "walk",
+     "rc": 0,
+     "tail": [
+      "PASS stand-in drives every non-excluded action",
+      "14/14"
+     ],
+     "total": 14
+    },
+    {
+     "fails": [],
+     "floor": 20,
+     "got": 24,
+     "mark": "ok",
+     "name": "live",
+     "rc": 0,
+     "tail": [
+      "PASS Blender reopened the file it had before, clean",
+      "24/24"
+     ],
+     "total": 24
+    }
+   ]
+  },
+  "standin": {
+   "at": 1791822685,
+   "of": 5,
+   "ok": 5,
+   "suites": [
+    {
+     "fails": [],
+     "floor": 27,
+     "got": 27,
+     "mark": "ok",
+     "name": "contract",
+     "rc": 0,
+     "tail": [
+      "PASS bridge.python is SCENE risk",
+      "27/27"
+     ],
+     "total": 27
+    },
+    {
+     "fails": [],
+     "floor": 15,
+     "got": 15,
+     "mark": "ok",
+     "name": "judge",
+     "rc": 0,
+     "tail": [
+      "PASS off-centre fails",
+      "15/15"
+     ],
+     "total": 15
+    },
+    {
+     "fails": [],
+     "floor": 33,
+     "got": 34,
+     "mark": "ok",
+     "name": "queue",
+     "rc": 0,
+     "tail": [
+      "PASS set_row == watcher's set_row",
+      "34/34"
+     ],
+     "total": 34
+    },
+    {
+     "fails": [],
+     "floor": 11,
+     "got": 11,
+     "mark": "ok",
+     "name": "client",
+     "rc": 0,
+     "tail": [
+      "PASS every call is logged with ms and bytes",
+      "11/11"
+     ],
+     "total": 11
+    },
+    {
+     "fails": [],
+     "floor": 14,
+     "got": 14,
+     "mark": "ok",
+     "name": "walk",
+     "rc": 0,
+     "tail": [
+      "PASS stand-in drives every non-excluded action",
+      "14/14"
+     ],
+     "total": 14
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "entries": {
+  "live": {
+   "at": 1791822723,
+   "buckets": {
+    "driven": 8,
+    "excluded": 4,
+    "refused": 5
+   },
+   "discovered": 17,
+   "excluded_why": {
+    "bridge.object": "needs an object name that exists; probe.asset covers object reads",
+    "queue.block": "needs a READY row; test_queue drives it",
+    "queue.open": "replaces the open file; covered by test_queue and the live suite",
+    "queue.retry": "needs a BLOCKED row; test_queue drives it"
+   },
+   "rows": {
+    "driven": [
+     "bridge.filestate",
+     "bridge.ping",
+     "bridge.scene",
+     "judge.asset",
+     "probe.asset",
+     "queue.board",
+     "queue.mine",
+     "render.shot"
+    ],
+    "excluded": [
+     "bridge.object",
+     "queue.block",
+     "queue.open",
+     "queue.retry"
+    ],
+    "refused": [
+     "bridge.python",
+     "queue.claim",
+     "queue.ready",
+     "queue.save",
+     "render.turntable"
+    ]
+   }
+  }
+ }
+}

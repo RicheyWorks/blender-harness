@@ -1,0 +1,103 @@
+{
+ "entries": {
+  "harness": {
+   "at": 1791822728,
+   "inconclusive": 0,
+   "killed": 18,
+   "mutants": 18,
+   "rows": [
+    {
+     "detail": "harness.test_contract: FAIL FILE action refused under SCENE  did not raise",
+     "name": "the risk ceiling is ignored",
+     "verdict": "killed"
+    },
+    {
+     "detail": "harness.test_contract: FAIL accounting balances when every action has a bucket  {'discovered': 5, 'buckets': {'UNACCOUNTED': ['p.nuke', 'p.write'], 'driven': ['p.edit', 'p.look'], 'failed': ['p.bad']}",
+     "name": "refusals are not ledgered",
+     "verdict": "killed"
+    },
+    {
+     "detail": "harness.test_contract: FAIL an undriven action is UNACCOUNTED  ",
+     "name": "accounting ignores UNACCOUNTED",
+     "verdict": "killed"
+    },
+    {
+     "detail": "harness.test_queue: FAIL a concurrent edit to another row survives our write  ",
+     "name": "queue writes skip the re-read guard",
+     "verdict": "killed"
+    },
+    {
+     "detail": "harness.test_queue: FAIL claim refuses someone else's DOING  did not raise",
+     "name": "claim takes any row",
+     "verdict": "killed"
+    },
+    {
+     "detail": "harness.test_queue: FAIL no Blender work while the watcher is SHIPPING  did not raise",
+     "name": "the watcher's SHIPPING is ignored",
+     "verdict": "killed"
+    },
+    {
+     "detail": "harness.test_queue: FAIL open refuses over unsaved work in another file  did not raise",
+     "name": "unsaved work is not protected",
+     "verdict": "killed"
+    },
+    {
+     "detail": "harness.test_queue: FAIL ready refuses when the judge fails, row unchanged  None",
+     "name": "ready skips the judge",
+     "verdict": "killed"
+    },
+    {
+     "detail": "harness.test_queue: FAIL open the asset's saved .blend (EXEC, no modal)  RuntimeError('bridge: fake: a modal would open (INVOKE_DEFAULT)')",
+     "name": "file ops open modals",
+     "verdict": "killed"
+    },
+    {
+     "detail": "harness.test_queue: RuntimeError: bridge: fake: a modal would open (INVOKE_DEFAULT)",
+     "name": "save opens a file browser",
+     "verdict": "killed"
+    },
+    {
+     "detail": "harness.test_queue: FAIL claim refuses BLOCKED (not a Blender fault)  did not raise",
+     "name": "BLOCKED rows can be claimed",
+     "verdict": "killed"
+    },
+    {
+     "detail": "harness.test_queue: AttributeError: 'NoneType' object has no attribute 'replace'",
+     "name": "set_row rewrites Notes always",
+     "verdict": "killed"
+    },
+    {
+     "detail": "harness.test_judge: FAIL rejects: over prop budget  None",
+     "name": "judge ignores the triangle budget",
+     "verdict": "killed"
+    },
+    {
+     "detail": "harness.test_judge: FAIL empty asset fails (zero meshes is not a pass)  ",
+     "name": "judge passes an empty asset",
+     "verdict": "killed"
+    },
+    {
+     "detail": "harness.test_judge: FAIL rejects: unapplied scale  None",
+     "name": "judge ignores scale",
+     "verdict": "killed"
+    },
+    {
+     "detail": "harness.test_client: FAIL one JSON line out, one back; params echoed  ",
+     "name": "client drops params",
+     "verdict": "killed"
+    },
+    {
+     "detail": "harness.test_client: bharness.client.BridgeError: unparseable reply (130775 bytes): b'{\"id\": 5, \"status\": \"ok\", \"result\": \"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+     "name": "client reads one chunk only",
+     "verdict": "killed"
+    },
+    {
+     "detail": "harness.walk: FAIL core action present: render.turntable  ",
+     "name": "turntable action is dropped",
+     "verdict": "killed"
+    }
+   ],
+   "survived": 0
+  }
+ }
+}
