@@ -44,3 +44,13 @@ Companion to `Daedalus2/docs/AUTOMATION-LESSONS.md` (Unreal and Windows).
 ## Running on the PC
 16. Device-link calls die at 60 s. Long jobs go through `blender-job.ps1 -Start` (WMI), then `-Wait` in later calls.
 17. The suite convention: `PASS`/`FAIL` lines and `n/m` last. `run_all` marks a suite EMPTY without it.
+
+## Building real assets (2026-10-12, priority-1 tools)
+18. `MeshPolygon` has `.vertices`, not `.verts` (that's bmesh). A build that dies halfway leaves an untitled scene with
+    changes in Blender, and the never-discard guard then (rightly) blocks the next `open`. `assets/tools.py` now drops
+    its own half-built scene on failure; `assets/_reset_own.py` clears one only if it holds nothing but that asset.
+19. Only the Status and Notes cells may change, so assets with no QUEUE.md row (Tool_Shovel, Tool_Axe, Wpn_Blaster,
+    Wpn_Sword today) are built, judged, rendered and saved but not flipped; someone has to add their rows.
+20. Building from bevelled boxes in one bmesh, 1 object and up to 3 slots, gives 300-450 tris per tool, far under 3k.
+    Hex colours go in linear (`(c/255)**2.2`); emission on the last slot for glowing heads.
+21. READY rows wait while Unreal is in Play: STATUS.md says "Waiting on: Unreal to leave Play mode". Not ours to clear.
