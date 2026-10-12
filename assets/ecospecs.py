@@ -43,7 +43,7 @@ TREES = {"Oak": ("7A5232", "4AA44F", "round"), "Birch": ("F2F3F3", "8CC040", "ro
          "Spruce": ("5A3A22", "2C6B3A", "conifer"), "Pine": ("6B4A2A", "3A7A3A", "conifer"), "Cypress": ("6B5A3A", "4B6B2F", "conifer"),
          "Mangrove": ("6B5A3A", "4B974B", "round"), "Kelp": ("6B8C2F", "4B974B", "kelp"), "Kapok": ("8C7A5A", "2C8C18", "round"),
          "Banana": ("8CC040", "59D940", "palm"), "Bamboo": ("8CC040", "59D940", "bamboo"), "Larch": ("6B4A2A", "C8B040", "conifer"),
-         "StarWillow": ("5C389E", "7FE3FF", "droop")}
+         "StarWillow": ("3A2A5C", "6A4CC8", "droop")}
 FLOWER = {"Bluebell": "4AA8FF", "Foxglove": "C060C0", "Sunflower": "F5CD30", "Poppy": "D82800", "DesertRose": "F29BC0",
           "Edelweiss": "F4F6FB", "Lotus": "F29BC0", "WaterLily": "F4F6FB", "SeaAnemone": "F87850", "Orchid": "C080F0",
           "Hibiscus": "FF4D4D", "Gentian": "0058F8", "NovaBloom": "7FE3FF"}
@@ -73,6 +73,10 @@ def quad(L=1.0, H=1.0, head=0.32, legs=0.40, tail=True, horns=False, ears="up", 
         hb += [b((head * 0.35, head * 0.15, head * 0.15), (s * head * 0.62, hy, hz + head * 0.2), A) for s in (-1, 1)]
     if horns:
         hb += [b((0.04, 0.04, head * 0.5), (s * head * 0.3, hy + 0.02, hz + head * 0.7), C if horns == "c" else B2) for s in (-1, 1)]
+    if wool:   # fleece tufts on the back, sides and crown
+        parts[0]["boxes"] += [b((bw * 0.45, L * 0.3, bh * 0.25), (sx * bw * 0.22, y * L, bz + bh * 0.55), A) for sx in (-1, 1) for y in (-0.3, 0.05, 0.32)]
+        parts[0]["boxes"] += [b((bw * 0.2, L * 0.35, bh * 0.4), (sx * bw * 0.55, y * L, bz), A) for sx in (-1, 1) for y in (-0.18, 0.2)]
+        hb.append(b((head * 0.9, head * 0.6, head * 0.35), (0, hy + head * 0.12, hz + head * 0.6), A))
     if neck:
         parts[0]["boxes"].append(b((head * 0.7, head * 0.7, bh), (0, -L / 2 + 0.02, bz + bh * 0.4), A))
     parts.append({"name": "_Head", "pivot": [0, -L / 2, hz], "boxes": hb})
@@ -92,8 +96,10 @@ def bird(S=0.3, flight=True, long_legs=False, beak=0.08):
              {"name": "_Head", "pivot": [0, -S * 0.5, bz + S * 0.4], "boxes": [b((S * 0.55, S * 0.55, S * 0.55), (0, -S * 0.55, bz + S * 0.55), A),
               b((S * 0.2, beak * 1.5, S * 0.14), (0, -S * 0.9 - beak * 0.5, bz + S * 0.5), C),
               b((S * 0.1, 0.02, S * 0.1), (-S * 0.17, -S * 0.83, bz + S * 0.65), B2), b((S * 0.1, 0.02, S * 0.1), (S * 0.17, -S * 0.83, bz + S * 0.65), B2)]}]
+    parts[0]["boxes"] += [b((S * 0.7, S * 0.35, S * 0.08), (0, S * 1.05, bz + S * 0.18), B2), b((S * 0.5, S * 0.06, S * 0.45), (0, -S * 0.61, bz - S * 0.05), C if long_legs else B2)]
+    parts[1]["boxes"].append(b((S * 0.14, S * 0.3, S * 0.2), (0, -S * 0.45, bz + S * 0.9), B2))
     for n, s in (("_WingL", -1), ("_WingR", 1)):
-        parts.append({"name": n, "pivot": [s * S * 0.4, 0, bz + S * 0.2], "boxes": [b((S * (0.7 if flight else 0.15), S * 0.9, S * 0.1), (s * S * (0.75 if flight else 0.45), 0.02, bz + S * 0.25), B2)]})
+        parts.append({"name": n, "pivot": [s * S * 0.4, 0, bz + S * 0.2], "boxes": [b((S * 0.12, S * 0.5, S * 0.08), (s * S * (1.05 if flight else 0.48), S * 0.15, bz + S * 0.22), A), b((S * (0.7 if flight else 0.15), S * 0.9, S * 0.1), (s * S * (0.75 if flight else 0.45), 0.02, bz + S * 0.25), B2)]})
     return parts
 
 def insect(S=0.12, wings=True, legs6=True):
@@ -195,14 +201,25 @@ def canopy(style, trunk_h, size, rng_name):
     elif style == "conifer":
         for i, w in enumerate((1.0, 0.8, 0.6, 0.4, 0.2)):
             out.append(b((size * w, size * w, size * 0.32), (0, 0, trunk_h * 0.45 + i * size * 0.3), B2))
-    elif style == "palm":
-        out += [b((size * 0.9, size * 0.18, 0.06), (size * 0.4 * dx, size * 0.4 * dy, trunk_h - 0.02), B2) for dx, dy in ((1, 0), (-1, 0))]
-        out += [b((size * 0.18, size * 0.9, 0.06), (0, size * 0.4 * dy, trunk_h - 0.04), B2) for dy in (1, -1)]
-        out.append(b((size * 0.25, size * 0.25, size * 0.2), (0, 0, trunk_h + 0.05), B2))
+    elif style == "palm":   # 8 arched fronds: a rising inner segment and a drooping outer one, plus a crown
+        import math
+        for k in range(8):
+            a = 2 * math.pi * k / 8 + 0.2; ca, sa = math.cos(a), math.sin(a); L = size * 0.55
+            ex, ey = (abs(ca) * L + 0.06, abs(sa) * L + 0.06)
+            out.append(b((ex if abs(ca) > 0.5 else 0.14 * size + 0.04, ey if abs(sa) > 0.5 else 0.14 * size + 0.04, 0.06), (ca * L * 0.5, sa * L * 0.5, trunk_h + 0.08), B2))
+            out.append(b((max(abs(ca) * L * 0.8, 0.1 * size), max(abs(sa) * L * 0.8, 0.1 * size), 0.06), (ca * L * 1.25, sa * L * 1.25, trunk_h - 0.12 * size), B2))
+            out.append(b((0.08 * size + 0.03, 0.08 * size + 0.03, 0.14 * size), (ca * L * 1.75, sa * L * 1.75, trunk_h - 0.28 * size), B2))
+        out.append(b((size * 0.28, size * 0.28, size * 0.22), (0, 0, trunk_h + 0.06), B2))
+        out += [b((0.1 * size + 0.04,) * 3, (dx * size * 0.12, dy * size * 0.12, trunk_h - 0.06), C) for dx, dy in ((1, 0), (-1, 0.3), (0, -1))]
     elif style == "spiky":
         out += [b((size * 0.15, size * 0.15, size * 0.4), (size * 0.3 * dx, size * 0.3 * dy, trunk_h + size * 0.1), B2) for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1))]
-    elif style == "kelp":
-        out += [b((size * 0.25, 0.04, size * 0.3), (size * 0.12 * (-1) ** i, 0, trunk_h * (0.2 + 0.18 * i)), B2) for i in range(5)]
+    elif style == "kelp":   # three swaying stalks with broad alternating blades and gas bladders
+        for j, (sx, sy, f) in enumerate(((0, 0, 1.0), (size * 0.25, size * 0.15, 0.75), (-size * 0.2, -size * 0.1, 0.6))):
+            if j: out.append(b((0.05 + 0.03 * size, 0.05 + 0.03 * size, trunk_h * f), (sx, sy, trunk_h * f / 2), A))
+            for i in range(5):
+                z = trunk_h * f * (0.18 + 0.17 * i); sd = (-1) ** (i + j)
+                out.append(b((size * 0.32, 0.05, size * 0.22), (sx + sd * size * 0.17, sy, z), B2))
+                out.append(b((0.06 + 0.04 * size,) * 3, (sx + sd * 0.04, sy, z - size * 0.13), C))
     elif style == "bamboo":
         out += [b((size * 0.3, 0.04, 0.05), (size * 0.15 * (-1) ** i, 0, trunk_h * (0.4 + 0.15 * i)), B2) for i in range(4)]
     return out
@@ -222,10 +239,12 @@ def tree(a):
     parts = [{"name": "", "boxes": boxes}]
     if leaves:
         parts.append({"name": "_Top", "pivot": [0, 0, th * 0.8], "boxes": leaves})
-    accent = "D82800" if sp in ("Oak", "Apple") else "F29BC0" if sp == "Kapok" else "F2C230"
+    accent = "D82800" if sp in ("Oak", "Apple") else "F29BC0" if sp == "Kapok" else "7FE3FF" if sp == "StarWillow" else "6B8C2F" if sp == "Kelp" else "6B4A2A" if style == "palm" else "F2C230"
+    if sp == "StarWillow":   # glow lives only in small hanging star-lights, so the canopy keeps its violet
+        parts[-1]["boxes"] += [b((0.08 + 0.06 * sc,) * 3, (0.9 * sc * dx, 0.9 * sc * dy, th - 0.45 * sc), C) for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1), (0.7, 0.7), (-0.7, -0.7))]
     if stage == "Mature" and style == "round":
         parts[-1]["boxes"] += [b((0.12, 0.12, 0.12), (0.5 * (h(name, k) - 0.5) * 2.0, -0.95 * sc, th + 0.3 + 0.5 * h(name, k + 3)), C) for k in range(3)]
-    return {"asset": name, "materials": [trunk, leaf, accent], "glow": [1, 2] if sp == "StarWillow" else [], "parts": parts}
+    return {"asset": name, "materials": [trunk, leaf, accent], "glow": [2] if sp == "StarWillow" else [], "parts": parts}
 
 def crop(a):
     c, st = a["name"].split("_")[2], int(a["name"].split("_")[3][1])
