@@ -99,6 +99,8 @@ for part, bm in built:
     for v in bm.verts:
         v.co.x -= piv[0]; v.co.y -= piv[1]; v.co.z -= piv[2]
     oname = name + part.get("name", "")
+    for stale in (bpy.data.meshes.get(oname), bpy.data.objects.get(oname)):   # a leftover datablock would push ours to .001 (mesh name != node name in the GLB)
+        if stale is not None: stale.name = oname + "_stale"
     me = bpy.data.meshes.new(oname); bm.to_mesh(me); bm.free()
     ob = bpy.data.objects.new(oname, me); col.objects.link(ob)
     ob.location = (piv[0] - off[0], piv[1] - off[1], piv[2] - off[2])
