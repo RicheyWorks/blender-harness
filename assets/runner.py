@@ -142,6 +142,11 @@ def main(a=sys.argv[1:]):
     bad = 0
     grp = [x.split("=", 1)[1] for x in a if x.startswith("--group=")]
     specs = mod.GROUPS[grp[0]] if grp else mod.SPECS
+    ship = "--ship" in a
+    if ship:
+        from bharness.bus import Bus
+        from bharness import handoff
+        ship = Bus(ctx.art); handoff.status("building", grp[0] if grp else a[1], "", art=ctx.art)
     for s in specs:
         if names and s["asset"] not in names:
             continue
@@ -150,6 +155,10 @@ def main(a=sys.argv[1:]):
         except Exception as e:
             rec = {"asset": s["asset"], "error": repr(e)[:300]}
         bad += bool(rec.get("fails") or rec.get("glb_fails") or rec.get("error"))
+        if ship and not (rec.get("fails") or rec.get("glb_fails") or rec.get("error") or rec.get("skipped")):
+            from assets.ship import ship_one
+            from bharness.bus import Bus
+            rec["ship"] = ship_one(ctx, ship if ship is not True else Bus(ctx.art), rec["asset"])
         print(json.dumps(rec), flush=True)
     print(json.dumps({"tracker": tracker()}))
     return 1 if bad else 0

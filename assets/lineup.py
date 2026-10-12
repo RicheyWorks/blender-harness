@@ -41,8 +41,8 @@ def light(n, kind, rot, energy):
     d = bpy.data.lights.new(n, kind); d.energy = energy; o = bpy.data.objects.new(n, d); o.rotation_euler = rot; sc.collection.objects.link(o)
 light("Sun", "SUN", (math.radians(50), 0, math.radians(25)), 3.5); light("Fill", "SUN", (math.radians(70), 0, math.radians(-140)), 1.2)
 cd = bpy.data.cameras.new("Cam"); cd.type = "ORTHO"; cam = bpy.data.objects.new("Cam", cd); sc.collection.objects.link(cam)
-tilt = math.radians(8)
-cd.ortho_scale = W
+tilt = 0.0   # pure front: an ortho camera tilt pushed the tops of tall trees out of frame
+cd.ortho_scale = max(W, H)
 cam.rotation_euler = (math.radians(90) - tilt, 0, 0); cam.location = (W / 2, -40, H / 2 + 40 * math.tan(tilt))
 sc.camera = cam
 r = sc.render; r.resolution_x = int(W * px_per_m); r.resolution_y = int(H * px_per_m); r.resolution_percentage = 100
@@ -82,11 +82,14 @@ def main(a=sys.argv[1:]):
             p = os.path.join(ctx.art, n.split("_")[0], n + ".blend")
             if os.path.exists(p): items.append((n, p))
         items.sort(key=lambda t: (not t[0].startswith("Mob_"), t[0]))
-        png = os.path.join(folder, "Lineup_%s.png" % slug(b))
-        res = run(ctx.bridge, CODE % (items, png, 140.0), timeout=900)
-        run(ctx.bridge, "import bpy\nbpy.ops.wm.save_as_mainfile('EXEC_DEFAULT', filepath=%r, check_existing=False)\nresult=1" % png.replace(".png", ".blend"))
-        res.update({"biome": b, "png": png})
-        print(json.dumps(res), flush=True)
+        chunks = [items[i:i + 24] for i in range(0, len(items), 24)]   # long biomes split into several strips
+        for k, part in enumerate(chunks):
+            png = os.path.join(folder, "Lineup_%s%s.png" % (slug(b), "_%d" % (k + 1) if len(chunks) > 1 else ""))
+            res = run(ctx.bridge, CODE % (part, png, 140.0), timeout=900)
+            run(ctx.bridge, "import bpy\nbpy.ops.wm.save_as_mainfile('EXEC_DEFAULT', filepath=%r, check_existing=False)\nresult=1" % png.replace(".png", ".blend"))
+            res.update({"biome": b, "png": png})
+            json.dump(res, open(png.replace(".png", ".json"), "w"))
+            print(json.dumps(res), flush=True)
     return 0
 
 
