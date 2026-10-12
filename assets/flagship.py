@@ -89,11 +89,20 @@ scatter(mobs, 40, 55, 45, 22, "livestock-pen")
 for k, c in enumerate(crew): put(c, 10+7*math.cos(k*0.52), 5+7*math.sin(k*0.52), 1.0, rot=k*0.52+math.pi, tag="crew-npc")
 if "Mob_Crew_Cook" in names and "Prop_CookingPot_Lit" in names:   # the cook works the plaza pot
     put("Prop_CookingPot_Lit", 2, -4, 1.2, tag="crafting-plaza"); put("Mob_Crew_Cook", 3.2, -4, 1.0, rot=math.pi/2, tag="crew-npc")
-bbi = [x for x in names if x.startswith("Prop_BBIsle_")]   # island-only unique models: lanes + plaza ring
-for k, an in enumerate(bbi):
-    t = k*2.399; rr = 22 + (k % 9)*9
-    x, y = 10+rr*math.cos(t), 5+rr*math.sin(t)
-    if math.hypot(x, y) < R*0.9: put(an, x, y, 1.0, tag="bbisle-unique")
+bbi = [x for x in names if x.startswith("Prop_BBIsle_")]   # island-only unique models, zoned with spacing (no clutter)
+ZONE = {"farm": (("Beehive", "Trough", "Coop", "Scarecrow", "Planter", "Windmill", "Fence"), (55, 45), 8, 42),
+        "village": (("Bench", "Table", "Shelf", "Barrel", "Crate", "Cart", "Well", "Tent", "Sign", "Lamp", "Banner", "Bell"), (10, 5), 18, 55),
+        "monument": (("Statue", "Arch", "Obelisk", "Totem", "Sundial", "Bridge"), (0, 0), 60, 100)}
+taken = [(o.location.x, o.location.y) for o in root.objects if "catalog" in o]
+rng = random.Random(500)
+for an in bbi:
+    fam = an.split("_")[2]; z = next((v for v in ZONE.values() if fam in v[0]), ZONE["village"]); (cx, cy), r0, r1 = z[1], z[2], z[3]
+    gap = 6.0 if fam in ("Windmill", "Arch", "Bridge", "Tent", "Obelisk") else 3.5
+    for tries in range(200):
+        ang = rng.uniform(0, 6.283); rr = rng.uniform(r0, r1); x, y = cx+rr*math.cos(ang), cy+rr*math.sin(ang)
+        if math.hypot(x, y) < R*0.88 and h(x, y) > 1.5 and all((x-p)**2+(y-q)**2 > gap*gap for p, q in taken): break
+        if tries == 199: gap *= 0.8
+    taken.append((x, y)); put(an, x, y, 1.0, rot=math.atan2(cy-y, cx-x) if fam in ("Bench", "Statue", "Arch", "Sign") else None, tag="bbisle-unique")
 for k in range(70):                                                # shoreline rocks
     t = random.uniform(0, 6.283); rr = R*random.uniform(0.86, 0.95); put(rocks[k % len(rocks)], rr*math.cos(t), rr*math.sin(t), random.uniform(0.8, 2.0), tag="shore")
 # ark dock: pier east + moored ark
