@@ -169,11 +169,14 @@ class QueuePlugin(Plugin):
     def guard_blender(self, asset):
         """Raise Blocked unless Blender may be used for this asset now. Returns the file state."""
         busy = self.watcher_busy()
+        if busy and getattr(self.ctx.bridge, "headless", False):
+            # headless Blender is a separate process: the watcher only needs the GUI Blender (9876) and the shipping asset's own file
+            busy = [a for a in busy if a == asset]
         if busy:
             raise Blocked("the watcher is shipping %s; Blender is in use" % ", ".join(busy))
         fs = run(self.ctx.bridge, FILESTATE)
         own = os.path.normcase(os.path.abspath(self.blend_path(asset)))
-        if fs["dirty"] and fs["file"] and os.path.normcase(os.path.abspath(fs["file"])) != own:
+        if fs["dirty"] and fs["file"] and not getattr(self.ctx.bridge, "headless", False) and os.path.normcase(os.path.abspath(fs["file"])) != own:
             raise Blocked("Blender has unsaved work in %s; save it first (never discarded)" % fs["file"])
         return fs
 
@@ -181,7 +184,7 @@ class QueuePlugin(Plugin):
         """Open the asset's .blend, or a new empty file if it has none. No modals: EXEC, load_ui=False."""
         fs = self.guard_blender(asset)
         p = self.blend_path(asset)
-        if fs["dirty"] and not fs["file"]:
+        if fs["dirty"] and not fs["file"] and not getattr(self.ctx.bridge, "headless", False):   # headless: our own throwaway process
             raise Blocked("Blender has an unsaved untitled file; save it first (never discarded)")
         if os.path.exists(p):
             code = "import bpy\nbpy.ops.wm.open_mainfile('EXEC_DEFAULT', filepath=%r, load_ui=False)\nresult=bpy.data.filepath" % p

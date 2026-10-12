@@ -24,7 +24,9 @@ if ($Start) {
     if (-not $Run) { $Run = "harness.run_all" + $(if ($Live) { " --live" } else { "" }) }
     Remove-Item $Log, $Exit -ErrorAction SilentlyContinue
     $py = (Get-Command python).Source
-    $cmd = "cmd /v:on /c title bharness-job & cd /d `"$Here`" & set PYTHONPATH=$Here & `"$py`" -u -m $Run > `"$Log`" 2>&1 & echo !ERRORLEVEL! > `"$Exit`""
+    # Post-job hook: our Blender tidy, then the shared cleanup script if one is published (2Hot2Trot's hook point)
+    $Hook = if ($env:DAEDALUS_POST_JOB_HOOK) { $env:DAEDALUS_POST_JOB_HOOK } else { "C:\Users\730ri\projects\bot-team\hooks\post-job.ps1" }
+    $cmd = "cmd /v:on /c title bharness-job & cd /d `"$Here`" & set PYTHONPATH=$Here & `"$py`" -u -m $Run > `"$Log`" 2>&1 & echo !ERRORLEVEL! > `"$Exit`" & `"$py`" -m bharness.tidy >> `"$Log`" 2>&1 & if exist `"$Hook`" powershell -NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -File `"$Hook`" -Job bharness >> `"$Log`" 2>&1"
     # Hidden: ShowWindow=0 (SW_HIDE) so the job console never pops up over Richey's work.
     $si = New-CimInstance -ClassName Win32_ProcessStartup -ClientOnly -Property @{ ShowWindow = [uint16]0 }
     $r = Invoke-CimMethod Win32_Process -MethodName Create -Arguments @{ CommandLine = $cmd; CurrentDirectory = $Here; ProcessStartupInformation = $si }
