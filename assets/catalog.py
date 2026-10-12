@@ -274,5 +274,8 @@ R.extend(_flora2())
 from assets.wave3 import entries as _wave3   # wave 3: fuller world (plants, trees, animals, town, realm)
 _have = {r["name"] for r in R}
 R.extend(x for x in _wave3() if x["name"] not in _have)
+from assets.wave4 import entries as _wave4   # wave 4: ores, smelting, cooking, ark parts
+_have = {r["name"] for r in R}
+R.extend(x for x in _wave4() if x["name"] not in _have)
 
 ASSETS = R

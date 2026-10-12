@@ -18,8 +18,9 @@ def main(a):
     batch, tt = int(opt.get("batch", 10)), int(opt.get("turntable", 4))
     ctx = Context(bridge=LocalBridge()); bus = Bus(ctx.art); pend = []; t0 = time.time(); built = 0
     log = open(os.path.join(ctx.art, "bus", "headless.jsonl"), "a", encoding="utf-8")
+    nosend = "--no-send" in a
     def flush():
-        ids = [bus.send("asset.ready", {"asset": n, "batch": len(pend)}) for n in pend]
+        ids = [] if nosend else [bus.send("asset.ready", {"asset": n, "batch": len(pend)}) for n in pend]
         rec = {"at": time.strftime("%H:%M:%S"), "sent": list(pend), "ids": ids, "built": built, "min": round((time.time() - t0) / 60, 2)}
         log.write(json.dumps(rec) + "\n"); log.flush(); print(json.dumps(rec), flush=True); pend.clear()
     for g in groups:
