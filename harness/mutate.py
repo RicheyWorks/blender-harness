@@ -4,6 +4,7 @@
 Each mutant: copy bharness/ + harness/ to a temp dir, require the `old` anchor exactly once (else inconclusive),
 replace it, run only the named suite there. SURVIVED = the suite stayed green = write a new check."""
 import concurrent.futures as cf, os, shutil, subprocess, sys, tempfile
+NOWIN = getattr(subprocess, "CREATE_NO_WINDOW", 0)   # Windows: never flash a console
 from harness.ledger import record
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -49,7 +50,7 @@ def one(i):
         open(p, "w", encoding="utf-8").write(src.replace(old, new))
         args = ["--no-ledger"] if suite == "harness.walk" else []
         try:
-            r = subprocess.run([sys.executable, "-m", suite] + args, cwd=d, capture_output=True, text=True, timeout=300,
+            r = subprocess.run([sys.executable, "-m", suite] + args, cwd=d, capture_output=True, creationflags=NOWIN, text=True, timeout=300,
                                env=dict(os.environ, PYTHONPATH=d))
         except subprocess.TimeoutExpired:
             return dict(name=name, verdict="killed", detail="timeout")

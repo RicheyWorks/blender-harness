@@ -58,3 +58,7 @@ Companion to `Daedalus2/docs/AUTOMATION-LESSONS.md` (Unreal and Windows).
     longer than one 60 s call. Every asset is judged, exported to .glb and self-checked before it is saved.
 23. Rendering a composed scene from collection instances (empties) keeps the source assets untouched; exclude the
     source collections from the view layer, and the instances still render.
+
+## Background jobs must be invisible (2026-10-12)
+blender-job.ps1 launched cmd via WMI Win32_Process.Create with no startup info, so a 'bharness-job' console popped up in front of Richey's work.
+Fix: pass a Win32_ProcessStartup with ShowWindow=0; Python subprocess calls use creationflags=CREATE_NO_WINDOW. Any new launcher must be hidden by default (-WindowStyle Hidden, pythonw, or 0x08000000).

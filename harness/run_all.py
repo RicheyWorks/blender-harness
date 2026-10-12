@@ -4,6 +4,7 @@
 Marks: ok | FAIL (exit != 0) | FAIL* (exit 0 but a FAIL line or n < m) | SHORT (m < floor) | EMPTY (no n/m line).
 Last line: ok_suites/total_suites. Exit 0 only when every suite is ok. Live suites need --live (real Blender)."""
 import concurrent.futures as cf, json, os, re, subprocess, sys
+NOWIN = getattr(subprocess, "CREATE_NO_WINDOW", 0)   # Windows: never flash a console
 from harness.ledger import record
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -11,7 +12,7 @@ SPEC = os.path.join(ROOT, "harness", "suites.json")
 
 
 def run(s):
-    p = subprocess.run([sys.executable, "-m", s["module"]] + s.get("args", []), cwd=ROOT, capture_output=True,
+    p = subprocess.run([sys.executable, "-m", s["module"]] + s.get("args", []), cwd=ROOT, capture_output=True, creationflags=NOWIN,
                        text=True, timeout=s.get("timeout", 900), env=dict(os.environ, PYTHONPATH=ROOT))
     lines = p.stdout.strip().splitlines()
     m = re.match(r"^(\d+)/(\d+)$", lines[-1].strip()) if lines else None

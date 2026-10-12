@@ -25,7 +25,9 @@ if ($Start) {
     Remove-Item $Log, $Exit -ErrorAction SilentlyContinue
     $py = (Get-Command python).Source
     $cmd = "cmd /v:on /c title bharness-job & cd /d `"$Here`" & set PYTHONPATH=$Here & `"$py`" -u -m $Run > `"$Log`" 2>&1 & echo !ERRORLEVEL! > `"$Exit`""
-    $r = Invoke-CimMethod Win32_Process -MethodName Create -Arguments @{ CommandLine = $cmd; CurrentDirectory = $Here }
+    # Hidden: ShowWindow=0 (SW_HIDE) so the job console never pops up over Richey's work.
+    $si = New-CimInstance -ClassName Win32_ProcessStartup -ClientOnly -Property @{ ShowWindow = [uint16]0 }
+    $r = Invoke-CimMethod Win32_Process -MethodName Create -Arguments @{ CommandLine = $cmd; CurrentDirectory = $Here; ProcessStartupInformation = $si }
     $r.ProcessId | Set-Content $PidFile
     "STARTED pid $($r.ProcessId): python -m $Run  (log $Log)"; exit 0
 }
