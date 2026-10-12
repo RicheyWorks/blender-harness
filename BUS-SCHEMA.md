@@ -1,32 +1,19 @@
-# Blender team <-> Unreal team message bus: schema v1 (proposal from the Blender team)
+﻿# Blender team <-> Unreal team bus: we use the Unreal team's team link
 
-Transport is the **Unreal team's local HTTP server** (their design). The Blender team adapts to their endpoints;
-these names are a proposal until they publish theirs. Discovery: `art\BUS.json` = `{"url": "http://127.0.0.1:<port>"}`
-(the server writes it on start), or the env var `DAEDALUS_BUS`.
-Fallback, when the server is down: the file bus (`art\bus\outbox-blender.jsonl` out, `art\feed.jsonl` in). The outbox
-is replayed on reconnect; `id` makes POST idempotent.
+**Superseded:** our earlier proposal (v1 envelope, /v1/* endpoints) is withdrawn. The bus is the Unreal team's team link
+(ADR-053, Daedalus2/docs/TEAMLINK.md, `asset_pipeline.teamlink serve`) on **127.0.0.1:9890**, log bot-team\link\log.jsonl.
+- Blender team name: `blender-team`. Unreal team name: `unreal-team`.
+- We send: `note {text}`, `ping`, `asset.ready {asset}`.
+- We receive: `pong`, `ack`, `asset.added`, `asset.shipping`, `asset.shipped`, `asset.rejected`, `asset.blocked`,
+  `asset.waiting`, `note`.
+- Endpoints: POST /send · GET /wait?me=blender-team&after=ID&timeout<=55 · POST /ack · POST /heartbeat · GET /pending
+  · /presence · /log · /health.
+- Our client is blender-harness `bharness/bus.py` (`python -m bharness.bus health|ping|note|ready <Asset>|wait`). It keeps
+  a cursor in art\bus\blender-client.json and acks everything it reads. If the broker is down, outgoing messages queue
+  and replay when it's back, and incoming falls back to feed.jsonl.
 
-## Envelope
-```json
-{"v": 1, "id": "uuid4", "from": "blender|unreal", "to": "unreal|blender", "type": "…", "asset": "Kind_Name|null",
- "at": "2026-10-12T12:00:00", "reply_to": "id|null", "body": {}}
-```
-| type | from | body |
-|---|---|---|
-| hello | either | `{"client": "blender-harness", "version": "<git sha>"}` |
-| ready | blender | the `blender` half of jobs\<Asset>.json: glb path, glb_sha1, tris, meshes, materials, selfcheck |
-| status | blender | `{"state": "idle|building|fixing|paused", "group", "progress": "n/m"}` |
-| note | either | `{"text": "…"}` (replaces NOTES\*.md for live talk; NOTES stay for the record) |
-| ack | either | `{}` with reply_to |
-| shipping / shipped / rejected | unreal | the watcher's feed fields: `result`, `dest`, `why`, `detail`, `unreal_tris` |
-| blocked / waiting | unreal | `{"why": "Play running | Unreal closed | socket reset | Blender unsaved"}`; auto-retried by the Unreal team |
-
-## Endpoints (proposed)
-- `GET  /v1/health` → `{"ok": true, "v": 1}`
-- `POST /v1/messages` (envelope) → `{"ok": true, "id": "…"}`; a repeated id → ok, no duplicate
-- `GET  /v1/messages?to=blender&since=<id>` → `[envelope…]` oldest first
-- (optional) `GET /v1/status` → the board as JSON (what STATUS.md shows)
-
-QUEUE.md stays the record of truth for row status; the bus carries the events in real time.
-Blender team client: blender-harness `bharness/bus.py` (`python -m bharness.bus health|send|poll`), tests in
-`harness/test_bus.py` against a stand-in server (8/8).
+Load balancer: RicheyWorks/LoadBalancerPro (C:\Users\730ri\projects\LoadBalancerPro_RicheyWorks) is a Java 17 Spring
+Boot reverse proxy. It isn't running on this PC right now; its demo profiles use :8080, with an API key required and
+proxying off by default. If Richey wants the link behind it, that's one `/proxy/teamlink/**` route to 127.0.0.1:9890,
+with a /health check and a long read timeout (above 60 s, so /wait long-polls survive). Clients then point
+DAEDALUS_BUS (or art\BUS.json) at the proxy URL, with no code change.

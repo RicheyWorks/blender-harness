@@ -28,7 +28,7 @@
   {
    "name": "bus",
    "module": "harness.test_bus",
-   "floor": 8
+   "floor": 9
   },
   {
    "name": "walk",
