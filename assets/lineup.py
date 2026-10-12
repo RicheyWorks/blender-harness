@@ -32,7 +32,7 @@ for name, path in items:
     e = bpy.data.objects.new("L_" + name, None); e.instance_type = "COLLECTION"; e.instance_collection = col
     e.location = (x + gap / 2 - lo.x, 0, 0); sc.collection.objects.link(e)
     placed.append({"asset": name, "x0": x, "x1": x + w + gap, "h": hi.z, "w": w}); x += w + gap
-W = x; H = max(p["h"] for p in placed) * 1.12 + 0.3
+W = x; H = max(p["h"] for p in placed) * 1.25 + 0.4   # headroom: the tallest canopy touched the top edge
 g = bpy.data.meshes.new("Ground"); import bmesh; bm = bmesh.new(); bmesh.ops.create_cube(bm, size=1); bm.to_mesh(g); bm.free()
 go = bpy.data.objects.new("Ground", g); go.scale = (W + 2, 4, 0.02); go.location = (W / 2, 1.5, -0.011); sc.collection.objects.link(go)
 gm = bpy.data.materials.new("GroundMat"); gm.use_nodes = True; gm.node_tree.nodes["Principled BSDF"].inputs[0].default_value = (0.55, 0.52, 0.47, 1); g.materials.append(gm)

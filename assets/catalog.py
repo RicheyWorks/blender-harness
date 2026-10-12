@@ -269,4 +269,7 @@ for n, kind, price, power in [("Herb", "use", 10, 25), ("Tonic", "use", 30, 10),
     add("Item_Realm_" + n, "Dragon Warrior", "Realm %s (RetroItem; price %d, power %d)" % (kind, price, power),
         "dropped by realm foes / shops", kind, prio=3 if kind in ("weapon", "armor") else 4, world=DW)
 
+from assets.flora2 import entries as _flora2   # flora wave 2: gatherable plants (growing, harvested, item)
+R.extend(_flora2())
+
 ASSETS = R

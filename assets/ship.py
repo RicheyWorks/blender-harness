@@ -39,6 +39,8 @@ def ship_one(ctx, bus, asset, timeout=120, gap=1.0):
                 handoff.fold({"asset": asset, "event": rec["result"], "at": m.get("ts"), "why": b.get("why"), "result": b.get("result")}, ctx.art)
                 log(ctx, rec); time.sleep(gap); return rec
             if m["type"] in ("asset.blocked", "asset.waiting"): blocked = b.get("why") or m["type"]
+            if m["type"] == "asset.added":   # Unreal queued it (e.g. waiting for Play mode to end): don't block the build line
+                rec.update(result="queued", id=m["id"], seconds=round(time.time() - t0, 1)); log(ctx, rec); time.sleep(gap); return rec
         if mid is None and bus.health().get("ok"):   # broker came back: our queued ready was replayed
             mid = "replayed"
     if blocked: rec.update(result="blocked", detail=blocked)
