@@ -28,6 +28,16 @@ from .bridge import run, FILESTATE
 from .judge import judge, passed, first_failure
 from .probe import asset as probe_asset
 
+
+def replace_retry(tmp, path, tries=20, wait=0.15):
+    """os.replace with retry: on Windows a reader holding QUEUE.md open makes os.replace raise PermissionError [WinError 5]
+    (seen 23:32 on the art-queue watcher). Retry briefly instead of failing the write."""
+    for i in range(tries):
+        try: return os.replace(tmp, path)
+        except PermissionError:
+            if i == tries - 1: raise
+            time.sleep(wait * (1 + i))
+
 KINDS = ("Tool", "Item", "Mob", "Veh", "Bld", "Prop", "Sky", "Wpn")
 
 
@@ -130,7 +140,7 @@ class QueuePlugin(Plugin):
             tmp = self.path + ".bh.tmp"
             with open(tmp, "w", encoding="utf-8", newline="") as f:
                 f.write(after)
-            os.replace(tmp, self.path)
+            replace_retry(tmp, self.path)
             self.event(asset, state(status).lower(), status=status, by=self.ctx.who)
             return status
         raise Blocked("QUEUE.md kept changing under us; try again")

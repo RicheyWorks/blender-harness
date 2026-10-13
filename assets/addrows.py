@@ -30,7 +30,7 @@ def main(a=sys.argv[1:]):
         if q.read() != before: continue
         tmp = q.path + ".bh.tmp"
         with open(tmp, "w", encoding="utf-8", newline="") as f: f.write(after)
-        os.replace(tmp, q.path)
+        __import__('bharness.plugins.queue', fromlist=['replace_retry']).replace_retry(tmp, q.path)
         names = [l.split("|")[2].strip() for l in new]
         print(json.dumps({"added": len(new), "no_blend": nob[:20], "first": new[0], "last": new[-1], "names": names})); return 0
     print(json.dumps({"error": "QUEUE.md kept changing"})); return 1
