@@ -121,8 +121,9 @@ def mat(n, c, emit=0.0, alpha=1.0):
     m = bpy.data.materials.get(n) or bpy.data.materials.new(n); m.use_nodes = True; p = m.node_tree.nodes["Principled BSDF"]
     p.inputs[0].default_value = c; m.diffuse_color = c
     if alpha < 1: p.inputs["Alpha"].default_value = alpha; p.inputs["Roughness"].default_value = 0.05
+    if emit: p.inputs["Emission Color"].default_value = c; p.inputs["Emission Strength"].default_value = emit
     return m
-MW, MS, MWOOD = mat("M_BB_Water", (0.15, 0.45, 0.85, 1), alpha=0.8), mat("M_BB_Stone", (0.62, 0.60, 0.56, 1)), mat("M_BB_WaterWood", (0.42, 0.28, 0.16, 1))
+MW, MS, MWOOD = mat("M_BB_Water", (0.10, 0.75, 1.0, 1), emit=0.6, alpha=0.9), mat("M_BB_Stone", (0.62, 0.60, 0.56, 1)), mat("M_BB_WaterWood", (0.42, 0.28, 0.16, 1))
 def blk(n, size, loc, m, rz=0.0):
     bpy.ops.mesh.primitive_cube_add(size=1, location=loc); o = bpy.context.object; o.scale = size; o.rotation_euler.z = rz; o.name = NAME + "_Water_" + n
     o.data.materials.append(m)
@@ -138,7 +139,9 @@ def run(n, a, b2, w, m, lift=0.4, arches=False):
     (ax, ay), (bx, by) = a, b2; L = math.hypot(bx-ax, by-ay); rz = math.atan2(by-ay, bx-ax); seg = max(1, int(L/4))
     for i in range(seg):
         t0 = (i+0.5)/seg; x, y = ax+(bx-ax)*t0, ay+(by-ay)*t0; zt = h(x, y) + lift + (2.5 if arches else 0)
-        blk("%s_%02d_bed" % (n, i), (L/seg+0.05, w+0.5, 0.35), (x, y, zt), MS, rz); blk("%s_%02d_w" % (n, i), (L/seg+0.05, w, 0.1), (x, y, zt+0.2), MW, rz)
+        W = w * 1.6; blk("%s_%02d_bed" % (n, i), (L/seg+0.05, W+0.8, 0.3), (x, y, zt-0.35), MS, rz)                     # deeper: floor sits lower
+        for sd in (-1, 1): blk("%s_%02d_wall%d" % (n, i, sd), (L/seg+0.05, 0.4, 0.9), (x - sd*math.sin(rz)*(W/2+0.2), y + sd*math.cos(rz)*(W/2+0.2), zt), MS, rz)
+        blk("%s_%02d_w" % (n, i), (L/seg+0.05, W, 0.12), (x, y, zt+0.05), MW, rz)
         if arches and i % 2 == 0: blk("%s_%02d_pier" % (n, i), (0.8, w+0.5, 2.5), (x, y, h(x, y)+lift+1.1), MS, rz)
 SPRING, CIST, WELL, WHEEL = (-35, 30), (-12, 8), (16, -10), (30, 20)
 z = h(*SPRING); cyl("Spring_Pool", 4.5, 0.6, (SPRING[0], SPRING[1], z+0.2), MS); cyl("Spring_Water", 4.0, 0.15, (SPRING[0], SPRING[1], z+0.5), MW)

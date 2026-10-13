@@ -15,6 +15,9 @@ col = bpy.data.collections[%(name)r]
 pts = [o.matrix_world @ Vector(c) for o in col.all_objects if o.type == "MESH" for c in o.bound_box]
 lo = Vector([min(p[i] for p in pts) for i in range(3)]); hi = Vector([max(p[i] for p in pts) for i in range(3)])
 mid = (lo + hi) / 2; rad = max((hi - lo).length, 0.1)
+dx, dy = hi.x - lo.x, hi.y - lo.y
+thin = min(dx, dy) < 0.25 * max(dx, dy, hi.z - lo.z, 1e-3)   # fences/signs/banners: a 0/90/180/270 set shows them edge-on
+if thin: rad = max(max(dx, dy, hi.z - lo.z) * 1.2, 0.1)   # frame on the real extent, not the diagonal
 saved = (sc.camera, r.filepath, r.image_settings.file_format, r.resolution_x, r.resolution_y, r.resolution_percentage, r.film_transparent)
 cd = bpy.data.cameras.new("BH_TT_Cam"); cam = bpy.data.objects.new("BH_TT_Cam", cd)
 ld = bpy.data.lights.new("BH_TT_Sun", "SUN"); ld.energy = 3; sun = bpy.data.objects.new("BH_TT_Sun", ld)
@@ -36,7 +39,7 @@ try:
     r.resolution_x, r.resolution_y, r.resolution_percentage = %(size)d, %(size)d, 100
     os.makedirs(%(folder)r, exist_ok=True)
     for i in range(%(n)d):
-        a = 2 * math.pi * i / %(n)d - math.pi / 2   # frame 0 looks at the front (-Y)
+        a = 2 * math.pi * i / %(n)d - math.pi / 2 + (math.pi / 4 if thin else 0.0)   # frame 0 = front (-Y); thin props offset 45 deg so no frame is edge-on
         cam.location = mid + Vector((math.cos(a), math.sin(a), 0.55)) * rad * 1.6
         cam.rotation_euler = (mid - cam.location).to_track_quat("-Z", "Y").to_euler()
         r.filepath = os.path.join(%(folder)r, "turn_%%02d.png" %% i)
