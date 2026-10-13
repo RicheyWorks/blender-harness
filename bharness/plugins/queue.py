@@ -199,7 +199,9 @@ class QueuePlugin(Plugin):
         p = self.blend_path(asset)
         os.makedirs(os.path.dirname(p), exist_ok=True)
         return run(self.ctx.bridge, "import bpy\nbpy.ops.wm.save_as_mainfile('EXEC_DEFAULT', filepath=%r, check_existing=False)\n"
-                                    "result={'file': bpy.data.filepath, 'dirty': bpy.data.is_dirty}" % p)
+                                    "import os, time\n"
+                                    "result={'file': bpy.data.filepath, 'dirty': bpy.data.is_dirty, 'bg': bpy.app.background, "
+                                    "'fresh': os.path.exists(bpy.data.filepath) and time.time() - os.path.getmtime(bpy.data.filepath) < 30}" % p)
 
     def ready(self, asset, turntable=0, notes=None):
         """Judge -> (turntable) -> save -> READY. Refuses unless the row is ours and every check passes."""
@@ -215,7 +217,8 @@ class QueuePlugin(Plugin):
             from .render import RenderPlugin
             shots = RenderPlugin(self.ctx).turntable(asset, n=turntable)
         saved = self.save(asset)
-        if saved["dirty"]:
+        # blender -b (4.3) reports is_dirty=True even right after open/save; there, trust a just-written file at the same path
+        if saved["dirty"] and not (saved.get("bg") and saved.get("fresh") and os.path.normcase(saved["file"]) == os.path.normcase(self.blend_path(asset))):
             raise Blocked("save did not stick: " + str(saved))
         size = next((c["detail"] for c in checks if c["check"] == "size (info)"), "")
         tris = next((c["detail"] for c in checks if c["check"] == "triangle budget"), "")
