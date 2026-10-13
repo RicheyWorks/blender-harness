@@ -44,7 +44,7 @@ rm.use_nodes = True; rm.node_tree.nodes["Principled BSDF"].inputs[0].default_val
 for c in cone.users_collection: c.objects.unlink(cone)
 root.objects.link(cone)
 # catalog
-names = sorted(f[:-4] for f in os.listdir(GLB) if f.endswith(".glb"))
+names = sorted(f[:-4] for f in os.listdir(GLB) if f.endswith(".glb") and not f.endswith("_LOD1.glb"))   # LOD1s are not separate models
 def pick(rx, n): return [x for x in names if re.match(rx, x) and "_Harvested" not in x and "_Depleted" not in x][:n]
 proto = {}
 def load(an):
@@ -180,8 +180,16 @@ for o in root.all_objects: o.select_set(True)
 out = os.path.join(GLB, NAME+".glb")
 bpy.ops.export_scene.gltf(filepath=out, use_selection=True, export_apply=True)
 for o in bpy.data.objects: o.select_set(False)
-for o in BASE: o.select_set(True)
+# Base = ONE mesh (multi-material). A multi-node glb imports into Unreal as hundreds of StaticMeshes and the island script
+# then found only one stray part (a pier block): "base ok" but no terrain visible. Join copies so the scene/.blend keep parts.
+bpy.ops.object.select_all(action="DESELECT"); _dup = []
+for o in BASE:
+    c = o.copy(); c.data = o.data.copy(); bpy.context.scene.collection.objects.link(c); c.select_set(True); _dup.append(c)
+bpy.context.view_layer.objects.active = _dup[0]; bpy.ops.object.join(); _jb = bpy.context.view_layer.objects.active
+_jb.name = _jb.data.name = "Prop_Island_BlenderBoss_Base"; bpy.ops.object.transform_apply(location=True, rotation=True, scale=True)
+bpy.ops.object.select_all(action="DESELECT"); _jb.select_set(True)
 bpy.ops.export_scene.gltf(filepath=os.path.join(GLB, "Prop_Island_BlenderBoss_Base.glb"), use_selection=True, export_apply=True)
+print("BASE_JOINED", len(BASE), len(_jb.data.polygons), len(_jb.data.materials)); bpy.data.objects.remove(_jb)
 json.dump({"island": "BlenderBoss", "origin_cm": [-6000000, 6000000, 0], "radius_m": R, "base_asset": "Prop_Island_BlenderBoss_Base",
            "hero_cam_m": [235, -255, 130], "hero_target_m": [50, -10, -5], "placements": LAYOUT}, open(os.path.join(ART, "flagship", "layout.json"), "w"), indent=0)
 bpy.ops.wm.save_as_mainfile(filepath=os.path.join(ART, "flagship", NAME+".blend"))
