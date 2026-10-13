@@ -86,9 +86,9 @@
    ]
   },
   "standin": {
-   "at": 1791828950,
-   "of": 6,
-   "ok": 6,
+   "at": 1791837116,
+   "of": 7,
+   "ok": 7,
    "suites": [
     {
      "fails": [],
@@ -154,6 +154,19 @@
       "31/31"
      ],
      "total": 31
+    },
+    {
+     "fails": [],
+     "floor": 9,
+     "got": 9,
+     "mark": "ok",
+     "name": "bus",
+     "rc": 0,
+     "tail": [
+      "PASS replay on reconnect",
+      "9/9"
+     ],
+     "total": 9
     },
     {
      "fails": [],
