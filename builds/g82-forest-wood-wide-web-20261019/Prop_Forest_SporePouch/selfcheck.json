@@ -1,0 +1,95 @@
+[
+ [
+  "mesh node Prop_Forest_SporePouch",
+  true,
+  ""
+ ],
+ [
+  "Prop_Forest_SporePouch tris 560",
+  true,
+  560
+ ],
+ [
+  "Prop_Forest_SporePouch parent None",
+  true,
+  null
+ ],
+ [
+  "collision UCX_Prop_Forest_SporePouch_00 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_Forest_SporePouch_00 tris 28, no material, parent Prop_Forest_SporePouch",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Grip under Prop_Forest_SporePouch",
+  true,
+  ""
+ ],
+ [
+  "sockets sidecar present",
+  true,
+  ""
+ ],
+ [
+  "sidecar = glb sockets in UE space",
+  true,
+  ""
+ ],
+ [
+  "native socket rotation == sidecar (pre-rotated empties)",
+  true,
+  []
+ ],
+ [
+  "render bounds = predicted (1 mm)",
+  true,
+  [
+   [
+    -0.055,
+    0.0,
+    -0.0537
+   ],
+   [
+    0.055,
+    0.148,
+    0.06
+   ]
+  ]
+ ],
+ [
+  "LOD1 glb present",
+  true,
+  ""
+ ],
+ [
+  "LOD1 tris 227",
+  true,
+  227
+ ],
+ [
+  "LOD1 has no sockets/collision",
+  true,
+  ""
+ ],
+ [
+  "build_report ok",
+  true,
+  {
+   "triangles": true,
+   "bounds": true,
+   "objects": true,
+   "collision_tris": true,
+   "lod1_triangles": true,
+   "sidecar_sockets": true
+  }
+ ],
+ [
+  "report sha256 = files",
+  true,
+  ""
+ ]
+]

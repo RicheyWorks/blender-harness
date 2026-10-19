@@ -1,0 +1,79 @@
+{
+ "asset": "Prop_Forest_SporePouch",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "e69d54d4a9b26159b740f91ab55ff5c29e308450a80e54b1bca82412ac1d7f0c",
+ "lod0": {
+  "objects": {
+   "Prop_Forest_SporePouch": 560
+  },
+  "triangles": 560,
+  "bounds_min": [
+   -0.055,
+   -0.06,
+   0.0
+  ],
+  "bounds_max": [
+   0.055,
+   0.0537,
+   0.148
+  ],
+  "dimensions": [
+   0.11,
+   0.1137,
+   0.148
+  ],
+  "materials": {
+   "Prop_Forest_SporePouch": [
+    "Prop_Forest_SporePouch_M0",
+    "Prop_Forest_SporePouch_M1",
+    "Prop_Forest_SporePouch_M2"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Grip"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_Forest_SporePouch_00",
+   "triangles": 28
+  }
+ ],
+ "files": {
+  "Prop_Forest_SporePouch.glb": {
+   "bytes": 34088,
+   "sha256": "216a4cfbe8810b045af562d68809e78426f59399720b702f2d887fe5782a7a0c"
+  },
+  "Prop_Forest_SporePouch.blend": {
+   "bytes": 497584,
+   "sha256": "217058a8aa3463d181a17f4fc727f729524caa3b95ad87c80f0024fe7af9f673"
+  },
+  "Prop_Forest_SporePouch_LOD1.glb": {
+   "bytes": 14732,
+   "sha256": "74fc49259bad706883a5aed4df798d42f8bc7dd8dc86a56e105c7fe948d1f4f7"
+  },
+  "Prop_Forest_SporePouch.sockets.json": {
+   "bytes": 682,
+   "sha256": "eab6b56ab5d4fbbbd49c94fc9d9060bbb82a1f2ad642ee53665924c9445b4f75"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 227,
+  "ratio": 0.405,
+  "dimensions": [
+   0.1046,
+   0.1137,
+   0.148
+  ]
+ },
+ "sockets_sidecar": "Prop_Forest_SporePouch.sockets.json",
+ "ok": true
+}
