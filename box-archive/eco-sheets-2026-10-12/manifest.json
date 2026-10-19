@@ -1,0 +1,1472 @@
+{
+ "what": "blender-team Oct 12 ecosystem-wave contact sheets, group lists and source turntable renders (box /workspace), archived 2026-10-19",
+ "files": [
+  {
+   "path": "e2/Mob_Ant/turn_02.png",
+   "bytes": 539203,
+   "sha256": "e00a5ed18b391340935027936ce5be69c7aac130b0d2b042beee8e789acb16fd",
+   "box_source": "/workspace/e2/Mob_Ant/turn_02.png",
+   "mtime": "2026-10-12 11:32"
+  },
+  {
+   "path": "e2/Mob_Bee/turn_02.png",
+   "bytes": 533711,
+   "sha256": "3be450f2b94bfd5058d86d78e3d61f589af85d9cbcfd1583c1cec6d3ba3ef460",
+   "box_source": "/workspace/e2/Mob_Bee/turn_02.png",
+   "mtime": "2026-10-12 11:32"
+  },
+  {
+   "path": "e2/Mob_Beetle/turn_02.png",
+   "bytes": 538447,
+   "sha256": "7c70a8fc707d8e15c669f43bd6bae66fa0a15c20c36ca47bea297ed4f7db4ed1",
+   "box_source": "/workspace/e2/Mob_Beetle/turn_02.png",
+   "mtime": "2026-10-12 11:32"
+  },
+  {
+   "path": "e2/Mob_Bird_Sparrow/turn_02.png",
+   "bytes": 531941,
+   "sha256": "7860cf57af2131c8efb3476cc900d9c1ded4aa4e7623c87bdc38e07a7c6b0e59",
+   "box_source": "/workspace/e2/Mob_Bird_Sparrow/turn_02.png",
+   "mtime": "2026-10-12 11:33"
+  },
+  {
+   "path": "e2/Mob_Blindfish/turn_02.png",
+   "bytes": 527852,
+   "sha256": "122792fb78f23f8d29b0d510f1cccbe363bb989f3e4873be7dcc3f34e342f300",
+   "box_source": "/workspace/e2/Mob_Blindfish/turn_02.png",
+   "mtime": "2026-10-12 11:33"
+  },
+  {
+   "path": "e2/Mob_Butterfly/turn_02.png",
+   "bytes": 533844,
+   "sha256": "72f7c1f91b83a4e2d41dde646126cea8dd54ce5bdbfbad196ea83b0ba0a1f283",
+   "box_source": "/workspace/e2/Mob_Butterfly/turn_02.png",
+   "mtime": "2026-10-12 11:33"
+  },
+  {
+   "path": "e2/Mob_Caribou/turn_02.png",
+   "bytes": 536948,
+   "sha256": "9747a56fd252aefc614f08cf947ad9a0d63609bf404c1dc97d2a492ef0d613bc",
+   "box_source": "/workspace/e2/Mob_Caribou/turn_02.png",
+   "mtime": "2026-10-12 11:33"
+  },
+  {
+   "path": "e2/Mob_Carp/turn_02.png",
+   "bytes": 535295,
+   "sha256": "ca5c51d40804dd8ab2e235f5699b740ce80450c1132c4e055213c4a520c5ce8d",
+   "box_source": "/workspace/e2/Mob_Carp/turn_02.png",
+   "mtime": "2026-10-12 11:33"
+  },
+  {
+   "path": "e2/Mob_Catfish/turn_02.png",
+   "bytes": 528247,
+   "sha256": "6e4c805e0a880654504846c50ac8a640eba37cd32b961e082254260c4ab9395f",
+   "box_source": "/workspace/e2/Mob_Catfish/turn_02.png",
+   "mtime": "2026-10-12 11:33"
+  },
+  {
+   "path": "e2/Mob_Char/turn_02.png",
+   "bytes": 531876,
+   "sha256": "9104a02d60d58a823c2d79a6063d4716dc189eaf8239c423d22651c0bd119f8c",
+   "box_source": "/workspace/e2/Mob_Char/turn_02.png",
+   "mtime": "2026-10-12 11:33"
+  },
+  {
+   "path": "e2/Mob_Clownfish/turn_02.png",
+   "bytes": 533632,
+   "sha256": "906346909d8757242c988fc145aca93e5a98e8eafd28b9c06be3c27fe8836ddc",
+   "box_source": "/workspace/e2/Mob_Clownfish/turn_02.png",
+   "mtime": "2026-10-12 11:33"
+  },
+  {
+   "path": "e2/Mob_Crab/turn_02.png",
+   "bytes": 540149,
+   "sha256": "e4ee6e289287ee15b4eca8f7961e39110adc0694ae29398b1b2f13c5f8010234",
+   "box_source": "/workspace/e2/Mob_Crab/turn_02.png",
+   "mtime": "2026-10-12 11:33"
+  },
+  {
+   "path": "e2/Mob_Deer/turn_02.png",
+   "bytes": 539123,
+   "sha256": "bf2ad369af4c744391735fd0695b963a0f4480f18384984712590760078f4eac",
+   "box_source": "/workspace/e2/Mob_Deer/turn_02.png",
+   "mtime": "2026-10-12 11:33"
+  },
+  {
+   "path": "e2/Mob_Dragonfly/turn_02.png",
+   "bytes": 531985,
+   "sha256": "5917b84a392203cec617c3abfbefd74c597699967d079a11923541bdb25c0ecc",
+   "box_source": "/workspace/e2/Mob_Dragonfly/turn_02.png",
+   "mtime": "2026-10-12 11:33"
+  },
+  {
+   "path": "e2/Mob_Duck/turn_02.png",
+   "bytes": 532884,
+   "sha256": "0f9ab2974e9550c3d0f9839cedf24d3b85d4672659e3dd46e4325537c9efdc4b",
+   "box_source": "/workspace/e2/Mob_Duck/turn_02.png",
+   "mtime": "2026-10-12 11:33"
+  },
+  {
+   "path": "e2/Mob_Firefly/turn_02.png",
+   "bytes": 531592,
+   "sha256": "be58613033ba711c79d2627f3e51bc157c4c6cb825261f6ba4499fb9ea92c230",
+   "box_source": "/workspace/e2/Mob_Firefly/turn_02.png",
+   "mtime": "2026-10-12 11:33"
+  },
+  {
+   "path": "e2/Mob_Fish_Carp/turn_02.png",
+   "bytes": 535348,
+   "sha256": "c463d6d46e79604b448685fe7edf8dc8983f919b019b171c9338a9d03419d086",
+   "box_source": "/workspace/e2/Mob_Fish_Carp/turn_02.png",
+   "mtime": "2026-10-12 11:33"
+  },
+  {
+   "path": "e2/Mob_Frog/turn_02.png",
+   "bytes": 538583,
+   "sha256": "937fad3ad3ed0afb491b56f8d36b8a8982f61c869f818cadc417731a81e025d6",
+   "box_source": "/workspace/e2/Mob_Frog/turn_02.png",
+   "mtime": "2026-10-12 11:33"
+  },
+  {
+   "path": "e2/Mob_Glimmerling/turn_02.png",
+   "bytes": 532364,
+   "sha256": "7ab4055886eb07baeb9453cb455024c5207e2cbe998604059db056c4e3895cba",
+   "box_source": "/workspace/e2/Mob_Glimmerling/turn_02.png",
+   "mtime": "2026-10-12 11:33"
+  },
+  {
+   "path": "e2/Mob_Glowworm/turn_02.png",
+   "bytes": 531279,
+   "sha256": "caa7157a38d111ace94b73e3664fe47fb96bb3f1481f9217649986a14c08812a",
+   "box_source": "/workspace/e2/Mob_Glowworm/turn_02.png",
+   "mtime": "2026-10-12 11:33"
+  },
+  {
+   "path": "e2/Mob_Grasshopper/turn_02.png",
+   "bytes": 533976,
+   "sha256": "dd0e3fe38a91834f2622380530db564c20d8380de86a3a8477bc67a2fdb397ae",
+   "box_source": "/workspace/e2/Mob_Grasshopper/turn_02.png",
+   "mtime": "2026-10-12 11:33"
+  },
+  {
+   "path": "e2/Mob_Gull/turn_02.png",
+   "bytes": 529495,
+   "sha256": "dfc4c5c08d31a6f7b8cecd97386cfe702a64003b8ba688e6d93ceb64e3af5327",
+   "box_source": "/workspace/e2/Mob_Gull/turn_02.png",
+   "mtime": "2026-10-12 11:33"
+  },
+  {
+   "path": "e2/Mob_Hare/turn_02.png",
+   "bytes": 532413,
+   "sha256": "8a84e48352c5a495e5897ba8c91cf571fc6fa785f2d283c3984747316e2f2473",
+   "box_source": "/workspace/e2/Mob_Hare/turn_02.png",
+   "mtime": "2026-10-12 11:33"
+  },
+  {
+   "path": "e2/Mob_Jerboa/turn_02.png",
+   "bytes": 536035,
+   "sha256": "b852e3af9b0c08a62cd00a825274705c59de545256ce724533bf8606e4f26848",
+   "box_source": "/workspace/e2/Mob_Jerboa/turn_02.png",
+   "mtime": "2026-10-12 11:33"
+  },
+  {
+   "path": "e2/Mob_Ladybird/turn_02.png",
+   "bytes": 535203,
+   "sha256": "6af4a6ce3aa91427a4d67d429a77b88df115ec64aab75260df778ceb41db5696",
+   "box_source": "/workspace/e2/Mob_Ladybird/turn_02.png",
+   "mtime": "2026-10-12 11:33"
+  },
+  {
+   "path": "e2/Mob_Lizard/turn_02.png",
+   "bytes": 535027,
+   "sha256": "4bf9de582c977b263ed6fe4360bd466c5beb2d56856c9f1ae20de119854fa82b",
+   "box_source": "/workspace/e2/Mob_Lizard/turn_02.png",
+   "mtime": "2026-10-12 11:33"
+  },
+  {
+   "path": "e2/Mob_Lumamoth/turn_02.png",
+   "bytes": 531053,
+   "sha256": "0462469daa61c7e3940a23f0f242eb237da43cf00facfcb43565297deaa8a548",
+   "box_source": "/workspace/e2/Mob_Lumamoth/turn_02.png",
+   "mtime": "2026-10-12 11:33"
+  },
+  {
+   "path": "e2/Mob_Marmot/turn_02.png",
+   "bytes": 534200,
+   "sha256": "7597b66f72aed3b725423acfc1d5b2a52689b8e3d6a0185c7e9bce39e56f317c",
+   "box_source": "/workspace/e2/Mob_Marmot/turn_02.png",
+   "mtime": "2026-10-12 11:33"
+  },
+  {
+   "path": "e2/Mob_Monkey/turn_02.png",
+   "bytes": 536700,
+   "sha256": "d52aa918dbe8b937f06daba5674531adc7d124448dacdd1fc60ca58365329487",
+   "box_source": "/workspace/e2/Mob_Monkey/turn_02.png",
+   "mtime": "2026-10-12 11:33"
+  },
+  {
+   "path": "e2/Mob_MorphoButterfly/turn_02.png",
+   "bytes": 532953,
+   "sha256": "5cc23be981e21a03336764370ffca1dc125e43c14b04631ddc238868c1186de3",
+   "box_source": "/workspace/e2/Mob_MorphoButterfly/turn_02.png",
+   "mtime": "2026-10-12 11:33"
+  },
+  {
+   "path": "e2/Mob_MountainGoat/turn_02.png",
+   "bytes": 535317,
+   "sha256": "38d690109cb963639288499570c84c049ba5975a15c93b843a6774ef6fde7d26",
+   "box_source": "/workspace/e2/Mob_MountainGoat/turn_02.png",
+   "mtime": "2026-10-12 11:33"
+  },
+  {
+   "path": "e2/Mob_Mouse/turn_02.png",
+   "bytes": 538275,
+   "sha256": "a27cae9437afba9798e3bd7d3989f03a1c3af31d055dbf22deb2ec5913c2aa37",
+   "box_source": "/workspace/e2/Mob_Mouse/turn_02.png",
+   "mtime": "2026-10-12 11:33"
+  },
+  {
+   "path": "e2/Mob_Nebulafish/turn_02.png",
+   "bytes": 534567,
+   "sha256": "889b7baf2779d5d793bd02128c88798f6fce2993f16280c551c66da78ce14c94",
+   "box_source": "/workspace/e2/Mob_Nebulafish/turn_02.png",
+   "mtime": "2026-10-12 11:33"
+  },
+  {
+   "path": "e2/Mob_Newt/turn_02.png",
+   "bytes": 536961,
+   "sha256": "66a4e7b74d157801db98bd6989da41e5969e20c5869e986c05b768b6f85a3133",
+   "box_source": "/workspace/e2/Mob_Newt/turn_02.png",
+   "mtime": "2026-10-12 11:33"
+  },
+  {
+   "path": "e2/Mob_Owl/turn_02.png",
+   "bytes": 532232,
+   "sha256": "de0b9ef781f693a9f39a93c59024892e9dbc1821c83032ea7b285f9f57c87f73",
+   "box_source": "/workspace/e2/Mob_Owl/turn_02.png",
+   "mtime": "2026-10-12 11:33"
+  },
+  {
+   "path": "e2/Mob_Parrot/turn_02.png",
+   "bytes": 533650,
+   "sha256": "34494e00c67c8716305e22cb3458e87521b9bb7bac4db067a5017c5455ac2c9b",
+   "box_source": "/workspace/e2/Mob_Parrot/turn_02.png",
+   "mtime": "2026-10-12 11:33"
+  },
+  {
+   "path": "e2/Mob_Pheasant/turn_02.png",
+   "bytes": 536038,
+   "sha256": "d58d2ecb96893fc0386bb601fadeaa9757816c3ba731ca73ffa3cf07f3a4df16",
+   "box_source": "/workspace/e2/Mob_Pheasant/turn_02.png",
+   "mtime": "2026-10-12 11:33"
+  },
+  {
+   "path": "e2/Mob_Piranha/turn_02.png",
+   "bytes": 537161,
+   "sha256": "de38b9d4714e8aa1e010f9a407de11b31410a35189339a1c7e3e7d9b4085d1b9",
+   "box_source": "/workspace/e2/Mob_Piranha/turn_02.png",
+   "mtime": "2026-10-12 11:33"
+  },
+  {
+   "path": "e2/Mob_Pufferfish/turn_02.png",
+   "bytes": 534238,
+   "sha256": "aba8e75750516d4a12e86e447e6719cf8ccbd64e37ffb3cdb13e65189a3028d5",
+   "box_source": "/workspace/e2/Mob_Pufferfish/turn_02.png",
+   "mtime": "2026-10-12 11:33"
+  },
+  {
+   "path": "e2/Mob_Rabbit/turn_02.png",
+   "bytes": 535179,
+   "sha256": "0ba8b2a3352b44c3a39c8007d6e966eb8207a32e4440a758be50cf27f3b68361",
+   "box_source": "/workspace/e2/Mob_Rabbit/turn_02.png",
+   "mtime": "2026-10-12 11:33"
+  },
+  {
+   "path": "e2/Mob_Robin/turn_02.png",
+   "bytes": 531467,
+   "sha256": "b349a37b588630cf5336fde2696b81a5d08a18817e38a1091a0b091e50000712",
+   "box_source": "/workspace/e2/Mob_Robin/turn_02.png",
+   "mtime": "2026-10-12 11:33"
+  },
+  {
+   "path": "e2/Mob_Shrimp/turn_02.png",
+   "bytes": 533334,
+   "sha256": "520822937a42b9019f0b827d6c4709afd63e9102d329fd4408f1432a17986a3c",
+   "box_source": "/workspace/e2/Mob_Shrimp/turn_02.png",
+   "mtime": "2026-10-12 11:34"
+  },
+  {
+   "path": "e2/Mob_SnowyOwl/turn_02.png",
+   "bytes": 528559,
+   "sha256": "416677ea58c917bb8dea5106e3d0417084d8079eb31ccf76b32393bab308ea91",
+   "box_source": "/workspace/e2/Mob_SnowyOwl/turn_02.png",
+   "mtime": "2026-10-12 11:34"
+  },
+  {
+   "path": "e2/Mob_Sparrow/turn_02.png",
+   "bytes": 532062,
+   "sha256": "5e263ad35c69d601f27a581a3460a2dc3e96fdd32350302e352faf8c9fe80845",
+   "box_source": "/workspace/e2/Mob_Sparrow/turn_02.png",
+   "mtime": "2026-10-12 11:34"
+  },
+  {
+   "path": "e2/Mob_Squirrel/turn_02.png",
+   "bytes": 539114,
+   "sha256": "1c8951664a14f6fefcea03d0ed0d9dd69710a0bc4ab4d2d81af6d4bbedcfac85",
+   "box_source": "/workspace/e2/Mob_Squirrel/turn_02.png",
+   "mtime": "2026-10-12 11:34"
+  },
+  {
+   "path": "e2/Mob_Starling_Comet/turn_02.png",
+   "bytes": 531740,
+   "sha256": "9dd7630e82e9c948d7849411a06ace3b4c5a91a4f11bfee301a00f48760c8581",
+   "box_source": "/workspace/e2/Mob_Starling_Comet/turn_02.png",
+   "mtime": "2026-10-12 11:34"
+  },
+  {
+   "path": "e2/Mob_Tapir/turn_02.png",
+   "bytes": 533883,
+   "sha256": "178589610a99f8815d90cb20785eace046a9c88de8d871f947aa6dccf3f8cef8",
+   "box_source": "/workspace/e2/Mob_Tapir/turn_02.png",
+   "mtime": "2026-10-12 11:34"
+  },
+  {
+   "path": "e2/Mob_Toucan/turn_02.png",
+   "bytes": 530858,
+   "sha256": "b0c55a67dd5ecc019a4c15048d982853da959835c2d3548b43a125f79c114dbd",
+   "box_source": "/workspace/e2/Mob_Toucan/turn_02.png",
+   "mtime": "2026-10-12 11:34"
+  },
+  {
+   "path": "e2/Mob_Trout/turn_02.png",
+   "bytes": 533394,
+   "sha256": "fb2bc852200a4bcd4aef29edac1765e4b7ebb4e203ef45c6bd875361f2d9a059",
+   "box_source": "/workspace/e2/Mob_Trout/turn_02.png",
+   "mtime": "2026-10-12 11:34"
+  },
+  {
+   "path": "e2/Mob_Tuna/turn_02.png",
+   "bytes": 530443,
+   "sha256": "e5df4d1b6592270b61121cc22aa3b8f41a31ec647666e7623066b797f5e64c41",
+   "box_source": "/workspace/e2/Mob_Tuna/turn_02.png",
+   "mtime": "2026-10-12 11:34"
+  },
+  {
+   "path": "e2/Mob_Vulture/turn_02.png",
+   "bytes": 531186,
+   "sha256": "45c2cabc16b22c800f1ae387440fad9a2e97f11d65ef4322429ab10d65cf515e",
+   "box_source": "/workspace/e2/Mob_Vulture/turn_02.png",
+   "mtime": "2026-10-12 11:34"
+  },
+  {
+   "path": "e2/Prop_Crop_Carrot_S1/turn_02.png",
+   "bytes": 542959,
+   "sha256": "96f1f060fcc88bae2f0b45420151f7749f0a84ce53491614752c75644db2f7ab",
+   "box_source": "/workspace/e2/Prop_Crop_Carrot_S1/turn_02.png",
+   "mtime": "2026-10-12 11:25"
+  },
+  {
+   "path": "e2/Prop_Crop_Carrot_S2/turn_02.png",
+   "bytes": 547951,
+   "sha256": "c5ee89f1cdec69b8e9d865c4253323b1388e539b4c5ed5af53d23160f43b3dd8",
+   "box_source": "/workspace/e2/Prop_Crop_Carrot_S2/turn_02.png",
+   "mtime": "2026-10-12 11:25"
+  },
+  {
+   "path": "e2/Prop_Crop_Carrot_S3/turn_02.png",
+   "bytes": 548698,
+   "sha256": "a98de8d537f035f7238547fc2fe7633c4438e62656f112812641f8412dbc0e39",
+   "box_source": "/workspace/e2/Prop_Crop_Carrot_S3/turn_02.png",
+   "mtime": "2026-10-12 11:25"
+  },
+  {
+   "path": "e2/Prop_Crop_Carrot_S4/turn_02.png",
+   "bytes": 551621,
+   "sha256": "467c14104323b0961e92a970efc2ecb14f71cd0203232ec8281159bebfe29a26",
+   "box_source": "/workspace/e2/Prop_Crop_Carrot_S4/turn_02.png",
+   "mtime": "2026-10-12 11:25"
+  },
+  {
+   "path": "e2/Prop_Crop_Corn_S1/turn_02.png",
+   "bytes": 542429,
+   "sha256": "61e5602bed771bd56f20cb66eddfe7ba407e22e42dd3a92c2c4640321c4f8301",
+   "box_source": "/workspace/e2/Prop_Crop_Corn_S1/turn_02.png",
+   "mtime": "2026-10-12 11:25"
+  },
+  {
+   "path": "e2/Prop_Crop_Corn_S2/turn_02.png",
+   "bytes": 547397,
+   "sha256": "d2282ed07cead543cac1d8a7bae7eea642ee5cca5c4b7400c9a16404e2129ae9",
+   "box_source": "/workspace/e2/Prop_Crop_Corn_S2/turn_02.png",
+   "mtime": "2026-10-12 11:25"
+  },
+  {
+   "path": "e2/Prop_Crop_Corn_S3/turn_02.png",
+   "bytes": 548283,
+   "sha256": "df439074ae7fd3ee3126c34d5ff7f9b4ea82231afcba1715c73a2189522cd064",
+   "box_source": "/workspace/e2/Prop_Crop_Corn_S3/turn_02.png",
+   "mtime": "2026-10-12 11:25"
+  },
+  {
+   "path": "e2/Prop_Crop_Corn_S4/turn_02.png",
+   "bytes": 550895,
+   "sha256": "0428e917133d57ec6dce14908d8ff3d0d85da60eed6be5edf0114048abd4ca38",
+   "box_source": "/workspace/e2/Prop_Crop_Corn_S4/turn_02.png",
+   "mtime": "2026-10-12 11:25"
+  },
+  {
+   "path": "e2/Prop_Crop_Cotton_S1/turn_02.png",
+   "bytes": 542959,
+   "sha256": "d45d96a1579a85740f97c43f785266fb00b95bdfd1ac0d303a25620e35a8464e",
+   "box_source": "/workspace/e2/Prop_Crop_Cotton_S1/turn_02.png",
+   "mtime": "2026-10-12 11:25"
+  },
+  {
+   "path": "e2/Prop_Crop_Cotton_S2/turn_02.png",
+   "bytes": 547951,
+   "sha256": "7d2593ccb6ffb130041439061e3e3da437a1f4888472b652f2f78e5006c3ea24",
+   "box_source": "/workspace/e2/Prop_Crop_Cotton_S2/turn_02.png",
+   "mtime": "2026-10-12 11:25"
+  },
+  {
+   "path": "e2/Prop_Crop_Cotton_S3/turn_02.png",
+   "bytes": 548698,
+   "sha256": "dc3ce7fc5d1d81e8bc91c03313f996373a81685ccac8be6d80dd47b18bb7b162",
+   "box_source": "/workspace/e2/Prop_Crop_Cotton_S3/turn_02.png",
+   "mtime": "2026-10-12 11:25"
+  },
+  {
+   "path": "e2/Prop_Crop_Cotton_S4/turn_02.png",
+   "bytes": 549956,
+   "sha256": "eba5335b08660cf048ff0920a7f189dc8719181d6c50b2404220eb9fc5bda08a",
+   "box_source": "/workspace/e2/Prop_Crop_Cotton_S4/turn_02.png",
+   "mtime": "2026-10-12 11:25"
+  },
+  {
+   "path": "e2/Prop_Crop_Melon_S1/turn_02.png",
+   "bytes": 542959,
+   "sha256": "0e25198fc674c36a62bcf235517b9a410866832a4d7dd36342aed3f642645677",
+   "box_source": "/workspace/e2/Prop_Crop_Melon_S1/turn_02.png",
+   "mtime": "2026-10-12 11:25"
+  },
+  {
+   "path": "e2/Prop_Crop_Melon_S2/turn_02.png",
+   "bytes": 547951,
+   "sha256": "69a9b09eb7c5dc857a4f0a706968bdc3c0a6ac48661e58965cc255d904d91374",
+   "box_source": "/workspace/e2/Prop_Crop_Melon_S2/turn_02.png",
+   "mtime": "2026-10-12 11:25"
+  },
+  {
+   "path": "e2/Prop_Crop_Melon_S3/turn_02.png",
+   "bytes": 548698,
+   "sha256": "c235c6d078b1ef3a0829c0f441d2f70756ce91552be7260fa118574c9a755810",
+   "box_source": "/workspace/e2/Prop_Crop_Melon_S3/turn_02.png",
+   "mtime": "2026-10-12 11:25"
+  },
+  {
+   "path": "e2/Prop_Crop_Melon_S4/turn_02.png",
+   "bytes": 549518,
+   "sha256": "e864f6d4b9814a4ea0fb2c2956906bd653d7f5b7f1ffa61abd5bc4e022b0b3e0",
+   "box_source": "/workspace/e2/Prop_Crop_Melon_S4/turn_02.png",
+   "mtime": "2026-10-12 11:25"
+  },
+  {
+   "path": "e2/Prop_Crop_Potato_S1/turn_02.png",
+   "bytes": 542959,
+   "sha256": "6ea004a98a525b3fa329f923431e7f7e91cd3a770684a3731af1c11a24f6a4f4",
+   "box_source": "/workspace/e2/Prop_Crop_Potato_S1/turn_02.png",
+   "mtime": "2026-10-12 11:25"
+  },
+  {
+   "path": "e2/Prop_Crop_Potato_S2/turn_02.png",
+   "bytes": 547951,
+   "sha256": "8a43087562303e1b0ef2c7aa620771c810023ca5df22e475aaa7929971fafd5a",
+   "box_source": "/workspace/e2/Prop_Crop_Potato_S2/turn_02.png",
+   "mtime": "2026-10-12 11:25"
+  },
+  {
+   "path": "e2/Prop_Crop_Potato_S3/turn_02.png",
+   "bytes": 548698,
+   "sha256": "e853dbc86ef64e7f40fe36022bb2da86bb9226743312fe25a76d84e599f49486",
+   "box_source": "/workspace/e2/Prop_Crop_Potato_S3/turn_02.png",
+   "mtime": "2026-10-12 11:25"
+  },
+  {
+   "path": "e2/Prop_Crop_Potato_S4/turn_02.png",
+   "bytes": 551266,
+   "sha256": "9947a64293498d971b32fb6177dd87e4120efb6a5f0498b807ca79c198984683",
+   "box_source": "/workspace/e2/Prop_Crop_Potato_S4/turn_02.png",
+   "mtime": "2026-10-12 11:25"
+  },
+  {
+   "path": "e2/Prop_Crop_Pumpkin_S1/turn_02.png",
+   "bytes": 542959,
+   "sha256": "e5fe4c3c3f3d540ef24a7fc609eb05bc00cc2433336b92f823f27f3ba60e9189",
+   "box_source": "/workspace/e2/Prop_Crop_Pumpkin_S1/turn_02.png",
+   "mtime": "2026-10-12 11:25"
+  },
+  {
+   "path": "e2/Prop_Crop_Pumpkin_S2/turn_02.png",
+   "bytes": 547951,
+   "sha256": "ac5b8b3fbc49b925e9631d916b9c0a2f4c521a8addc172a56cf3be48403d78b3",
+   "box_source": "/workspace/e2/Prop_Crop_Pumpkin_S2/turn_02.png",
+   "mtime": "2026-10-12 11:25"
+  },
+  {
+   "path": "e2/Prop_Crop_Pumpkin_S3/turn_02.png",
+   "bytes": 548698,
+   "sha256": "54960c9f095ea5b8a06c10e4ed9965ae7ec486c343f05c2018017dacb0f048da",
+   "box_source": "/workspace/e2/Prop_Crop_Pumpkin_S3/turn_02.png",
+   "mtime": "2026-10-12 11:25"
+  },
+  {
+   "path": "e2/Prop_Crop_Pumpkin_S4/turn_02.png",
+   "bytes": 551291,
+   "sha256": "5b3b4001ddd9b90abec90dddf492056dcf94d2853aa5518a519d3da2090cbd5e",
+   "box_source": "/workspace/e2/Prop_Crop_Pumpkin_S4/turn_02.png",
+   "mtime": "2026-10-12 11:25"
+  },
+  {
+   "path": "e2/Prop_Crop_Rice_S1/turn_02.png",
+   "bytes": 543201,
+   "sha256": "8087d601aedf3c499083aa51e0ccb403758edffa24c2f05e4ef05e1f75d34ad7",
+   "box_source": "/workspace/e2/Prop_Crop_Rice_S1/turn_02.png",
+   "mtime": "2026-10-12 11:25"
+  },
+  {
+   "path": "e2/Prop_Crop_Rice_S2/turn_02.png",
+   "bytes": 548118,
+   "sha256": "8845a1c57955981c67ecb8a4fabf9be4471447e0aa724fe6db50ffd027adcbb2",
+   "box_source": "/workspace/e2/Prop_Crop_Rice_S2/turn_02.png",
+   "mtime": "2026-10-12 11:25"
+  },
+  {
+   "path": "e2/Prop_Crop_Rice_S3/turn_02.png",
+   "bytes": 548749,
+   "sha256": "e2c644dfb797d38ebbcd2a916d915c696277c6071f95a60b0c2b9ad865b585e0",
+   "box_source": "/workspace/e2/Prop_Crop_Rice_S3/turn_02.png",
+   "mtime": "2026-10-12 11:25"
+  },
+  {
+   "path": "e2/Prop_Crop_Rice_S4/turn_02.png",
+   "bytes": 550014,
+   "sha256": "7fb5c350f68feee7f3a1aa730f3401d9c0679fc2f349df2897bf2a14f4539fe3",
+   "box_source": "/workspace/e2/Prop_Crop_Rice_S4/turn_02.png",
+   "mtime": "2026-10-12 11:25"
+  },
+  {
+   "path": "e2/Prop_Crop_Starbean_S1/turn_02.png",
+   "bytes": 542807,
+   "sha256": "655a40abfea297826109649ea0318d47d85f4be5799526c1d636f3315263df6b",
+   "box_source": "/workspace/e2/Prop_Crop_Starbean_S1/turn_02.png",
+   "mtime": "2026-10-12 11:25"
+  },
+  {
+   "path": "e2/Prop_Crop_Starbean_S2/turn_02.png",
+   "bytes": 548015,
+   "sha256": "bf3b58c867ec24349d24450bb2e1bd91345f24b0324cc5e5368b1008b52adb78",
+   "box_source": "/workspace/e2/Prop_Crop_Starbean_S2/turn_02.png",
+   "mtime": "2026-10-12 11:25"
+  },
+  {
+   "path": "e2/Prop_Crop_Starbean_S3/turn_02.png",
+   "bytes": 548388,
+   "sha256": "8527319a5815d4df00d42c405703651e7ed21397d6c9fcb4526ddb30e7392469",
+   "box_source": "/workspace/e2/Prop_Crop_Starbean_S3/turn_02.png",
+   "mtime": "2026-10-12 11:25"
+  },
+  {
+   "path": "e2/Prop_Crop_Starbean_S4/turn_02.png",
+   "bytes": 549701,
+   "sha256": "a403829b90dc8031a7edfa143157c19285a72af04860624788c1ed8b2e67d415",
+   "box_source": "/workspace/e2/Prop_Crop_Starbean_S4/turn_02.png",
+   "mtime": "2026-10-12 11:25"
+  },
+  {
+   "path": "e2/Prop_Crop_Tomato_S1/turn_02.png",
+   "bytes": 542959,
+   "sha256": "3b7ea28233b36c80f657af6e60cc45184952690546085eae335d2adc25577d00",
+   "box_source": "/workspace/e2/Prop_Crop_Tomato_S1/turn_02.png",
+   "mtime": "2026-10-12 11:25"
+  },
+  {
+   "path": "e2/Prop_Crop_Tomato_S2/turn_02.png",
+   "bytes": 547951,
+   "sha256": "532a4cc552a2959f8c8b4bd9851535c3e629b38a9d537ea94986aa2e31cc60d0",
+   "box_source": "/workspace/e2/Prop_Crop_Tomato_S2/turn_02.png",
+   "mtime": "2026-10-12 11:25"
+  },
+  {
+   "path": "e2/Prop_Crop_Tomato_S3/turn_02.png",
+   "bytes": 548698,
+   "sha256": "354d491142decae3b4b3cb8331789d726f80418e73480b643fbe0dc4b6ef9c07",
+   "box_source": "/workspace/e2/Prop_Crop_Tomato_S3/turn_02.png",
+   "mtime": "2026-10-12 11:26"
+  },
+  {
+   "path": "e2/Prop_Crop_Tomato_S4/turn_02.png",
+   "bytes": 551796,
+   "sha256": "ce33a7b392e4ba115fe5daa1d67e029eb8a6b9dd503347cd562402100a6a4b80",
+   "box_source": "/workspace/e2/Prop_Crop_Tomato_S4/turn_02.png",
+   "mtime": "2026-10-12 11:26"
+  },
+  {
+   "path": "e2/Prop_Crop_Wheat_S1/turn_02.png",
+   "bytes": 543040,
+   "sha256": "1626b07894dda8c39208dc725c4d91c6cb2f9ddcde622cd921a905a561a855f3",
+   "box_source": "/workspace/e2/Prop_Crop_Wheat_S1/turn_02.png",
+   "mtime": "2026-10-12 11:25"
+  },
+  {
+   "path": "e2/Prop_Crop_Wheat_S2/turn_02.png",
+   "bytes": 547646,
+   "sha256": "8bc20f7b061c7f854910cf0d7b3ceefd5876f28dac88c7d5e99c931f09368b5f",
+   "box_source": "/workspace/e2/Prop_Crop_Wheat_S2/turn_02.png",
+   "mtime": "2026-10-12 11:25"
+  },
+  {
+   "path": "e2/Prop_Crop_Wheat_S3/turn_02.png",
+   "bytes": 548508,
+   "sha256": "392ef33ed4be211bd37dbff19f6be866d4373bc0695155e110725ed802b2426e",
+   "box_source": "/workspace/e2/Prop_Crop_Wheat_S3/turn_02.png",
+   "mtime": "2026-10-12 11:25"
+  },
+  {
+   "path": "e2/Prop_Crop_Wheat_S4/turn_02.png",
+   "bytes": 549515,
+   "sha256": "b2e5c9136a2a458f3e52a4fc6218f3ad96088edffd8ecd80e840e8f153f34eeb",
+   "box_source": "/workspace/e2/Prop_Crop_Wheat_S4/turn_02.png",
+   "mtime": "2026-10-12 11:25"
+  },
+  {
+   "path": "e2/Prop_Flower_Bluebell/turn_02.png",
+   "bytes": 532493,
+   "sha256": "c9373c890ddf57fb69f08019d6ba12a1f138b90d26206f7345c0e8fedd21d5d2",
+   "box_source": "/workspace/e2/Prop_Flower_Bluebell/turn_02.png",
+   "mtime": "2026-10-12 11:35"
+  },
+  {
+   "path": "e2/Prop_Flower_DesertRose/turn_02.png",
+   "bytes": 529970,
+   "sha256": "867671a1da790efdcf6f482e3c84032cda1a7b28acdc849a969e214ce324c9fa",
+   "box_source": "/workspace/e2/Prop_Flower_DesertRose/turn_02.png",
+   "mtime": "2026-10-12 11:35"
+  },
+  {
+   "path": "e2/Prop_Flower_Edelweiss/turn_02.png",
+   "bytes": 531309,
+   "sha256": "5cd937b4ab0b03eb72a0b4e7cc683102d3c526c945e6041bd2ae9820c1080969",
+   "box_source": "/workspace/e2/Prop_Flower_Edelweiss/turn_02.png",
+   "mtime": "2026-10-12 11:35"
+  },
+  {
+   "path": "e2/Prop_Flower_Foxglove/turn_02.png",
+   "bytes": 531151,
+   "sha256": "809d5f003cd5ee557c96d76aa4a172a7dbeed7f73ade5f35bc6fd4d3a7a9ec7c",
+   "box_source": "/workspace/e2/Prop_Flower_Foxglove/turn_02.png",
+   "mtime": "2026-10-12 11:35"
+  },
+  {
+   "path": "e2/Prop_Flower_Gentian/turn_02.png",
+   "bytes": 533408,
+   "sha256": "74b1c4b9a7fd0a3a3439fd635573cd44bc9c8b80d1f350dfc0f9c6630c092138",
+   "box_source": "/workspace/e2/Prop_Flower_Gentian/turn_02.png",
+   "mtime": "2026-10-12 11:35"
+  },
+  {
+   "path": "e2/Prop_Flower_Hibiscus/turn_02.png",
+   "bytes": 531194,
+   "sha256": "6fbc43d94bbe5b774170ee1479d436dc727a8b9952f7920909f9b80f04a91485",
+   "box_source": "/workspace/e2/Prop_Flower_Hibiscus/turn_02.png",
+   "mtime": "2026-10-12 11:35"
+  },
+  {
+   "path": "e2/Prop_Flower_Lotus/turn_02.png",
+   "bytes": 529970,
+   "sha256": "cdd65fa95c4a1853fce9bf06fe17eaca0b860ab580bbfccbb00d3e67ed85add4",
+   "box_source": "/workspace/e2/Prop_Flower_Lotus/turn_02.png",
+   "mtime": "2026-10-12 11:35"
+  },
+  {
+   "path": "e2/Prop_Flower_NovaBloom/turn_02.png",
+   "bytes": 529738,
+   "sha256": "6885e3837d0ea24e6d42584349a972c18efbd5fca33f6dd7646b82621b0a5600",
+   "box_source": "/workspace/e2/Prop_Flower_NovaBloom/turn_02.png",
+   "mtime": "2026-10-12 11:35"
+  },
+  {
+   "path": "e2/Prop_Flower_Orchid/turn_02.png",
+   "bytes": 530759,
+   "sha256": "f1c7eede55a93e7623eab20c387b4d0ae82d10b895116d4c4d5c8dd601e7f361",
+   "box_source": "/workspace/e2/Prop_Flower_Orchid/turn_02.png",
+   "mtime": "2026-10-12 11:35"
+  },
+  {
+   "path": "e2/Prop_Flower_Poppy/turn_02.png",
+   "bytes": 533173,
+   "sha256": "fc1925e8c763aa946159e7b7cc0afe75d8c747bfb87eee1f8cdfa322793ad18b",
+   "box_source": "/workspace/e2/Prop_Flower_Poppy/turn_02.png",
+   "mtime": "2026-10-12 11:35"
+  },
+  {
+   "path": "e2/Prop_Flower_Red/turn_02.png",
+   "bytes": 529970,
+   "sha256": "44bc4f55380c6c1572d460913f81ba3ef4a8ccf06c7996c232965351e0e616c7",
+   "box_source": "/workspace/e2/Prop_Flower_Red/turn_02.png",
+   "mtime": "2026-10-12 11:34"
+  },
+  {
+   "path": "e2/Prop_Flower_SeaAnemone/turn_02.png",
+   "bytes": 531659,
+   "sha256": "a712773b0d121dd7956ccdab5b6ee7762acde401d3ca5fbec02726dc68b20dee",
+   "box_source": "/workspace/e2/Prop_Flower_SeaAnemone/turn_02.png",
+   "mtime": "2026-10-12 11:35"
+  },
+  {
+   "path": "e2/Prop_Flower_Sunflower/turn_02.png",
+   "bytes": 531982,
+   "sha256": "24085a73b270c2792185de8527e8b0cd94fad0e908fc5beaf5d2d8a097ca64fc",
+   "box_source": "/workspace/e2/Prop_Flower_Sunflower/turn_02.png",
+   "mtime": "2026-10-12 11:35"
+  },
+  {
+   "path": "e2/Prop_Flower_WaterLily/turn_02.png",
+   "bytes": 531309,
+   "sha256": "e2bf14d73e8510f22317ccf53aa387ae9e7668648eed0678594f988f190a87c6",
+   "box_source": "/workspace/e2/Prop_Flower_WaterLily/turn_02.png",
+   "mtime": "2026-10-12 11:35"
+  },
+  {
+   "path": "e2/Prop_Grass_DuneGrass/turn_02.png",
+   "bytes": 541218,
+   "sha256": "c841a6878162073a6aa904f5773ada548de3576de5ab5fdcec87202351a8121e",
+   "box_source": "/workspace/e2/Prop_Grass_DuneGrass/turn_02.png",
+   "mtime": "2026-10-12 11:35"
+  },
+  {
+   "path": "e2/Prop_Grass_Hay/turn_02.png",
+   "bytes": 539800,
+   "sha256": "e72a42f0fbb60a6474b3720c1b3e76bdd77d50c1f9ab6f3f340b2298f9ae6319",
+   "box_source": "/workspace/e2/Prop_Grass_Hay/turn_02.png",
+   "mtime": "2026-10-12 11:35"
+  },
+  {
+   "path": "e2/Prop_Grass_MeadowGrass/turn_02.png",
+   "bytes": 532862,
+   "sha256": "fccf39a02a3777f6ae5d32855eb5d4a8fbfe402457a6ad90a0041b8ab6b88464",
+   "box_source": "/workspace/e2/Prop_Grass_MeadowGrass/turn_02.png",
+   "mtime": "2026-10-12 11:35"
+  },
+  {
+   "path": "e2/Prop_Grass_Moss/turn_02.png",
+   "bytes": 537243,
+   "sha256": "7fc5ef5dd81f3546464e2dd908241a90a3cc8ad3330811957f2afac162e93152",
+   "box_source": "/workspace/e2/Prop_Grass_Moss/turn_02.png",
+   "mtime": "2026-10-12 11:35"
+  },
+  {
+   "path": "e2/Prop_Grass_Seagrass/turn_02.png",
+   "bytes": 541623,
+   "sha256": "74a202ef699fe298aa3b2f6449d79a39e4b3ff6c19dfc84e37390d3562063eec",
+   "box_source": "/workspace/e2/Prop_Grass_Seagrass/turn_02.png",
+   "mtime": "2026-10-12 11:35"
+  },
+  {
+   "path": "e2/Prop_Grass_Sedge/turn_02.png",
+   "bytes": 540698,
+   "sha256": "3356db3582374a573a10d0266d542ee49354bc4f3f7b576203a886c9b0da646a",
+   "box_source": "/workspace/e2/Prop_Grass_Sedge/turn_02.png",
+   "mtime": "2026-10-12 11:35"
+  },
+  {
+   "path": "e2/Prop_Grass_Shimmergrass/turn_02.png",
+   "bytes": 530837,
+   "sha256": "591a337f94048de4603732d8b1282a5a60214e130ea6a6717abf427c3bf2dc3b",
+   "box_source": "/workspace/e2/Prop_Grass_Shimmergrass/turn_02.png",
+   "mtime": "2026-10-12 11:35"
+  },
+  {
+   "path": "e2/Prop_Grass_TallGrass/turn_02.png",
+   "bytes": 537721,
+   "sha256": "e8833a58459a8cf0abb480c1c8a6803f841ce074d5b7a084955dccc7201d7dd2",
+   "box_source": "/workspace/e2/Prop_Grass_TallGrass/turn_02.png",
+   "mtime": "2026-10-12 11:35"
+  },
+  {
+   "path": "e2/Prop_Grass_Tussock/turn_02.png",
+   "bytes": 539785,
+   "sha256": "e5b9a7e837da438e0bae771dfb07ca2c8777fc8cb1fa8eda70816e8b47e5e73f",
+   "box_source": "/workspace/e2/Prop_Grass_Tussock/turn_02.png",
+   "mtime": "2026-10-12 11:35"
+  },
+  {
+   "path": "e2/Prop_Grass_Vine/turn_02.png",
+   "bytes": 540337,
+   "sha256": "becca23c17bb9df143002afe19509536dc164c8a632c7a5df9c0224f630377c8",
+   "box_source": "/workspace/e2/Prop_Grass_Vine/turn_02.png",
+   "mtime": "2026-10-12 11:35"
+  },
+  {
+   "path": "e2/Prop_Herb_Aloe/turn_02.png",
+   "bytes": 539682,
+   "sha256": "d825fb1d94c0faa72f0110a0c3062bdc78df2be936d8ec52f2c9cf16edead2f0",
+   "box_source": "/workspace/e2/Prop_Herb_Aloe/turn_02.png",
+   "mtime": "2026-10-12 11:34"
+  },
+  {
+   "path": "e2/Prop_Herb_Bogmyrtle/turn_02.png",
+   "bytes": 539653,
+   "sha256": "4e0d2a0a43b52b6f6bc604c1e6549e8b30a1679cb2e173c559d3b258d8cc320c",
+   "box_source": "/workspace/e2/Prop_Herb_Bogmyrtle/turn_02.png",
+   "mtime": "2026-10-12 11:34"
+  },
+  {
+   "path": "e2/Prop_Herb_Ginger/turn_02.png",
+   "bytes": 540243,
+   "sha256": "fc6d6ae4b73ed2800c1f70d42082e195c140d04089e9d038a300b01a99a5519e",
+   "box_source": "/workspace/e2/Prop_Herb_Ginger/turn_02.png",
+   "mtime": "2026-10-12 11:34"
+  },
+  {
+   "path": "e2/Prop_Herb_Lichen/turn_02.png",
+   "bytes": 535379,
+   "sha256": "1fe25f4456d3f77e66b7ab720b823392994bfe4db3ba6cc50546f742668e1b0d",
+   "box_source": "/workspace/e2/Prop_Herb_Lichen/turn_02.png",
+   "mtime": "2026-10-12 11:34"
+  },
+  {
+   "path": "e2/Prop_Herb_Mint/turn_02.png",
+   "bytes": 541102,
+   "sha256": "76e17b5c8c6d9587c2ccc756561c2666b35cda5bc2948f19393db36aa4ff8975",
+   "box_source": "/workspace/e2/Prop_Herb_Mint/turn_02.png",
+   "mtime": "2026-10-12 11:34"
+  },
+  {
+   "path": "e2/Prop_Herb_Sage/turn_02.png",
+   "bytes": 538996,
+   "sha256": "a1dbaf9fcc143ff320cb07071885e1580a6f648e0cb6af0e860ad314a06e42d7",
+   "box_source": "/workspace/e2/Prop_Herb_Sage/turn_02.png",
+   "mtime": "2026-10-12 11:34"
+  },
+  {
+   "path": "e2/Prop_Herb_SeaSalt/turn_02.png",
+   "bytes": 536646,
+   "sha256": "0daf3185ce7d37dbb923c5d73d02c5f66550757da7854c921363bca5bfeba98f",
+   "box_source": "/workspace/e2/Prop_Herb_SeaSalt/turn_02.png",
+   "mtime": "2026-10-12 11:34"
+  },
+  {
+   "path": "e2/Prop_Herb_Stardust/turn_02.png",
+   "bytes": 533018,
+   "sha256": "26ac769469948ad11868aa6288d74ba86cc58869a10030a32791effaee654fbd",
+   "box_source": "/workspace/e2/Prop_Herb_Stardust/turn_02.png",
+   "mtime": "2026-10-12 11:34"
+  },
+  {
+   "path": "e2/Prop_Herb_Thyme/turn_02.png",
+   "bytes": 539629,
+   "sha256": "3c7caa9bbfedb44ee6ff697517f003961dd460d1636677682fa7c387b7ade456",
+   "box_source": "/workspace/e2/Prop_Herb_Thyme/turn_02.png",
+   "mtime": "2026-10-12 11:34"
+  },
+  {
+   "path": "e2/Prop_Mushroom/turn_02.png",
+   "bytes": 541557,
+   "sha256": "86ceecec564aa8f447c2d06cc5800d9a92143d2ae1edecce6b5b549c435b055b",
+   "box_source": "/workspace/e2/Prop_Mushroom/turn_02.png",
+   "mtime": "2026-10-12 11:35"
+  },
+  {
+   "path": "e2/Prop_Mushroom_Bracket/turn_02.png",
+   "bytes": 541557,
+   "sha256": "d83203042174158e8b9e78ed5b34b673186698976db21f4cbebc10ae535b3cca",
+   "box_source": "/workspace/e2/Prop_Mushroom_Bracket/turn_02.png",
+   "mtime": "2026-10-12 11:35"
+  },
+  {
+   "path": "e2/Prop_Mushroom_CaveShroom/turn_02.png",
+   "bytes": 538379,
+   "sha256": "2e704b15fd717be6d85fb1b793c78b1f906717e42b86326077a060a9528fe52f",
+   "box_source": "/workspace/e2/Prop_Mushroom_CaveShroom/turn_02.png",
+   "mtime": "2026-10-12 11:35"
+  },
+  {
+   "path": "e2/Prop_Mushroom_Frostcap/turn_02.png",
+   "bytes": 532566,
+   "sha256": "475a36bfe5e3b50501ef4ccafe572ed99c0b688c8030772a1be23944568bc1c5",
+   "box_source": "/workspace/e2/Prop_Mushroom_Frostcap/turn_02.png",
+   "mtime": "2026-10-12 11:35"
+  },
+  {
+   "path": "e2/Prop_Mushroom_Glowcap/turn_02.png",
+   "bytes": 532247,
+   "sha256": "5ea9517e7d589c89b508446fe1815e7ddebb89fdd3d32893a54cc1792127c171",
+   "box_source": "/workspace/e2/Prop_Mushroom_Glowcap/turn_02.png",
+   "mtime": "2026-10-12 11:35"
+  },
+  {
+   "path": "e2/Prop_Mushroom_Glowshroom/turn_02.png",
+   "bytes": 534121,
+   "sha256": "09fac903f6d1be45c0640620bdf4dfb2d9ddf206247650ba0f81c3ecc58dcdb0",
+   "box_source": "/workspace/e2/Prop_Mushroom_Glowshroom/turn_02.png",
+   "mtime": "2026-10-12 11:35"
+  },
+  {
+   "path": "e2/Prop_Mushroom_Porcini/turn_02.png",
+   "bytes": 538805,
+   "sha256": "df3bba9674b33bbb28d378a1c2ff6b86d837353b079deb7d3c61da3b910bad03",
+   "box_source": "/workspace/e2/Prop_Mushroom_Porcini/turn_02.png",
+   "mtime": "2026-10-12 11:35"
+  },
+  {
+   "path": "e2/Prop_Mushroom_Toadstool/turn_02.png",
+   "bytes": 540184,
+   "sha256": "c182d81d4de4cf80647ba265ec073138dccd7f85aa542d707ec3beb23acc3827",
+   "box_source": "/workspace/e2/Prop_Mushroom_Toadstool/turn_02.png",
+   "mtime": "2026-10-12 11:35"
+  },
+  {
+   "path": "e2/Prop_Mushroom_Voidcap/turn_02.png",
+   "bytes": 535172,
+   "sha256": "660f829168ddfda077b90f6ff2d5644512b51156f4cf7367bc1c791522e21861",
+   "box_source": "/workspace/e2/Prop_Mushroom_Voidcap/turn_02.png",
+   "mtime": "2026-10-12 11:35"
+  },
+  {
+   "path": "e2/Prop_Shrub_Cattail/turn_02.png",
+   "bytes": 529099,
+   "sha256": "e1e65907030c361c799dc89e82b3ce2bae6e2c6421edd02febd88945d4447704",
+   "box_source": "/workspace/e2/Prop_Shrub_Cattail/turn_02.png",
+   "mtime": "2026-10-12 11:35"
+  },
+  {
+   "path": "e2/Prop_Shrub_Coral_Brain/turn_02.png",
+   "bytes": 531687,
+   "sha256": "f69833def5e735c1eaa7bfda38633b0a2e6c48e7d08ca644c8d1766ca35b7108",
+   "box_source": "/workspace/e2/Prop_Shrub_Coral_Brain/turn_02.png",
+   "mtime": "2026-10-12 11:35"
+  },
+  {
+   "path": "e2/Prop_Shrub_Coral_Fan/turn_02.png",
+   "bytes": 531691,
+   "sha256": "6b8a7af8d8503771eed2ff40e4e447076eda367bea9961ce844bdb5659cbfae3",
+   "box_source": "/workspace/e2/Prop_Shrub_Coral_Fan/turn_02.png",
+   "mtime": "2026-10-12 11:35"
+  },
+  {
+   "path": "e2/Prop_Shrub_CrystalShrub2/turn_02.png",
+   "bytes": 529249,
+   "sha256": "25b716bbe06cb9e4419c8260ba5ae4caadc51873068b18f897714726545e8afb",
+   "box_source": "/workspace/e2/Prop_Shrub_CrystalShrub2/turn_02.png",
+   "mtime": "2026-10-12 11:35"
+  },
+  {
+   "path": "e2/Prop_Shrub_Fern/turn_02.png",
+   "bytes": 537072,
+   "sha256": "b3f51e9e9aff2d4c0395ee947b04fdf9230a8f52310ee5139dd633d65270fb78",
+   "box_source": "/workspace/e2/Prop_Shrub_Fern/turn_02.png",
+   "mtime": "2026-10-12 11:35"
+  },
+  {
+   "path": "e2/Prop_Shrub_Hazel/turn_02.png",
+   "bytes": 536914,
+   "sha256": "2bbb7733b5d2b7e6e67542874bbb6dc8215f16e3c3084bf8cb0f4608dc426c81",
+   "box_source": "/workspace/e2/Prop_Shrub_Hazel/turn_02.png",
+   "mtime": "2026-10-12 11:35"
+  },
+  {
+   "path": "e2/Prop_Shrub_Heather/turn_02.png",
+   "bytes": 527700,
+   "sha256": "e5721546298dd857e6a62138e9891dd3e64b46c85e2a6d30ee5301ffc3ab5a28",
+   "box_source": "/workspace/e2/Prop_Shrub_Heather/turn_02.png",
+   "mtime": "2026-10-12 11:35"
+  },
+  {
+   "path": "e2/Prop_Shrub_Hedge/turn_02.png",
+   "bytes": 536355,
+   "sha256": "7d69ad9bc92d35df0e0cc5b301f2a4037926f12f6ab50de47b593532a8dbb8c0",
+   "box_source": "/workspace/e2/Prop_Shrub_Hedge/turn_02.png",
+   "mtime": "2026-10-12 11:36"
+  },
+  {
+   "path": "e2/Prop_Shrub_Juniper/turn_02.png",
+   "bytes": 536754,
+   "sha256": "f435825d97505447a7df2b120b863804d2aa09a9b8ea5667562726f872265500",
+   "box_source": "/workspace/e2/Prop_Shrub_Juniper/turn_02.png",
+   "mtime": "2026-10-12 11:36"
+  },
+  {
+   "path": "e2/Prop_Shrub_Monstera/turn_02.png",
+   "bytes": 537100,
+   "sha256": "d2bb541f62184de74dcd10f7f7cfd59fef9f32c01b94f065652a67433237af14",
+   "box_source": "/workspace/e2/Prop_Shrub_Monstera/turn_02.png",
+   "mtime": "2026-10-12 11:36"
+  },
+  {
+   "path": "e2/Prop_Shrub_Reed/turn_02.png",
+   "bytes": 532727,
+   "sha256": "38668ae8029b37a173256fbf95e53b11dfab95a69b40c41bee95baa62c281346",
+   "box_source": "/workspace/e2/Prop_Shrub_Reed/turn_02.png",
+   "mtime": "2026-10-12 11:36"
+  },
+  {
+   "path": "e2/Prop_Shrub_Saguaro/turn_02.png",
+   "bytes": 526080,
+   "sha256": "726817301761b4741cd544c717f990f8220cefa026a4e92b2d3cd84d992d2a5b",
+   "box_source": "/workspace/e2/Prop_Shrub_Saguaro/turn_02.png",
+   "mtime": "2026-10-12 11:36"
+  },
+  {
+   "path": "e2/Prop_Shrub_Tumbleweed/turn_02.png",
+   "bytes": 532355,
+   "sha256": "31b4c23ec69c90c3e049c592f5c1d331f64e8b053aac3467ce248e34a6f2c55a",
+   "box_source": "/workspace/e2/Prop_Shrub_Tumbleweed/turn_02.png",
+   "mtime": "2026-10-12 11:36"
+  },
+  {
+   "path": "e2/Prop_Tree_Bamboo_Mature/turn_02.png",
+   "bytes": 526594,
+   "sha256": "96f7e5db65d66158d5a58ffcafae9120103664c6c9c553c19571a560004f1108",
+   "box_source": "/workspace/e2/Prop_Tree_Bamboo_Mature/turn_02.png",
+   "mtime": "2026-10-12 11:31"
+  },
+  {
+   "path": "e2/Prop_Tree_Bamboo_Sapling/turn_02.png",
+   "bytes": 530511,
+   "sha256": "bc7fffeefb0bc60ccee9333d932eb91296b834fbd69d32397769178dcaa0c79a",
+   "box_source": "/workspace/e2/Prop_Tree_Bamboo_Sapling/turn_02.png",
+   "mtime": "2026-10-12 11:31"
+  },
+  {
+   "path": "e2/Prop_Tree_Bamboo_Young/turn_02.png",
+   "bytes": 526818,
+   "sha256": "6563e6cb4db40f582238c42f1cf4b80c381762e14093d14d7d8e6bfcc4597bb6",
+   "box_source": "/workspace/e2/Prop_Tree_Bamboo_Young/turn_02.png",
+   "mtime": "2026-10-12 11:31"
+  },
+  {
+   "path": "e2/Prop_Tree_Banana_Mature/turn_02.png",
+   "bytes": 520977,
+   "sha256": "9784bd32b7bbf469bab195318d603c769d035859bb20f2d3fbe6e53b40031d0b",
+   "box_source": "/workspace/e2/Prop_Tree_Banana_Mature/turn_02.png",
+   "mtime": "2026-10-12 11:31"
+  },
+  {
+   "path": "e2/Prop_Tree_Banana_Sapling/turn_02.png",
+   "bytes": 521532,
+   "sha256": "12f3670a8fc0f24ec03b3efd348809e009bc52449912d4085b69d1899c0ce31d",
+   "box_source": "/workspace/e2/Prop_Tree_Banana_Sapling/turn_02.png",
+   "mtime": "2026-10-12 11:31"
+  },
+  {
+   "path": "e2/Prop_Tree_Banana_Young/turn_02.png",
+   "bytes": 521196,
+   "sha256": "17784dfb500b459591a275680b866a55f98bf6ab77cda8059fb56a6a3b53c68d",
+   "box_source": "/workspace/e2/Prop_Tree_Banana_Young/turn_02.png",
+   "mtime": "2026-10-12 11:31"
+  },
+  {
+   "path": "e2/Prop_Tree_Birch_Mature/turn_02.png",
+   "bytes": 535351,
+   "sha256": "433b2121930130bb86c2a88e3d2d2782bca7a5ac9c2780dd6ced86c7db6f4305",
+   "box_source": "/workspace/e2/Prop_Tree_Birch_Mature/turn_02.png",
+   "mtime": "2026-10-12 11:31"
+  },
+  {
+   "path": "e2/Prop_Tree_Birch_Sapling/turn_02.png",
+   "bytes": 537178,
+   "sha256": "d0a543a2edf2e426c23d46d82643093eea5d898126a4437e685c90e99f554085",
+   "box_source": "/workspace/e2/Prop_Tree_Birch_Sapling/turn_02.png",
+   "mtime": "2026-10-12 11:31"
+  },
+  {
+   "path": "e2/Prop_Tree_Birch_Young/turn_02.png",
+   "bytes": 535879,
+   "sha256": "d25fba4c881a8701cb7319707ae257f39adaa1272d748ec14056af148eb17cfc",
+   "box_source": "/workspace/e2/Prop_Tree_Birch_Young/turn_02.png",
+   "mtime": "2026-10-12 11:31"
+  },
+  {
+   "path": "e2/Prop_Tree_Cypress_Mature/turn_02.png",
+   "bytes": 537875,
+   "sha256": "70ef35f720ab4873b4a390340e278522b6eca04d8b75a52c8f04d0f6e37e72a9",
+   "box_source": "/workspace/e2/Prop_Tree_Cypress_Mature/turn_02.png",
+   "mtime": "2026-10-12 11:31"
+  },
+  {
+   "path": "e2/Prop_Tree_Cypress_Sapling/turn_02.png",
+   "bytes": 538794,
+   "sha256": "eee7466ca1e7e78e6e0c012f3b1dfdcba49403af5a1162c4cb845f171a0bf022",
+   "box_source": "/workspace/e2/Prop_Tree_Cypress_Sapling/turn_02.png",
+   "mtime": "2026-10-12 11:31"
+  },
+  {
+   "path": "e2/Prop_Tree_Cypress_Young/turn_02.png",
+   "bytes": 537851,
+   "sha256": "f982cdd95a346bf8c054a52621e0180459892ffe5f6fde314825d7832b89a78e",
+   "box_source": "/workspace/e2/Prop_Tree_Cypress_Young/turn_02.png",
+   "mtime": "2026-10-12 11:31"
+  },
+  {
+   "path": "e2/Prop_Tree_Joshua_Mature/turn_02.png",
+   "bytes": 527741,
+   "sha256": "a00afcf151513292d44f64cbef4d1e92bc8cde10b7d2333cd9d71910b165abc6",
+   "box_source": "/workspace/e2/Prop_Tree_Joshua_Mature/turn_02.png",
+   "mtime": "2026-10-12 11:31"
+  },
+  {
+   "path": "e2/Prop_Tree_Joshua_Sapling/turn_02.png",
+   "bytes": 529014,
+   "sha256": "81ce61975c98cef3f7ee33601893ce5ece88e90411ab7e17e2030849dc31f8b3",
+   "box_source": "/workspace/e2/Prop_Tree_Joshua_Sapling/turn_02.png",
+   "mtime": "2026-10-12 11:31"
+  },
+  {
+   "path": "e2/Prop_Tree_Joshua_Young/turn_02.png",
+   "bytes": 528380,
+   "sha256": "ab53d4c27de5598b0902be3da0c8c9cac0e924ba2a6b71383cc09447bac62d49",
+   "box_source": "/workspace/e2/Prop_Tree_Joshua_Young/turn_02.png",
+   "mtime": "2026-10-12 11:31"
+  },
+  {
+   "path": "e2/Prop_Tree_Kapok_Mature/turn_02.png",
+   "bytes": 537129,
+   "sha256": "e6d5dffb9b71ccb6386e5593c648d3f4c740769c98cc32cb1fac40b414385c1d",
+   "box_source": "/workspace/e2/Prop_Tree_Kapok_Mature/turn_02.png",
+   "mtime": "2026-10-12 11:31"
+  },
+  {
+   "path": "e2/Prop_Tree_Kapok_Sapling/turn_02.png",
+   "bytes": 537853,
+   "sha256": "ae23ba0f6ef5a866b4d3f56d73189f5c418ca9401d04121ed82580cca18d5a5b",
+   "box_source": "/workspace/e2/Prop_Tree_Kapok_Sapling/turn_02.png",
+   "mtime": "2026-10-12 11:31"
+  },
+  {
+   "path": "e2/Prop_Tree_Kapok_Young/turn_02.png",
+   "bytes": 536521,
+   "sha256": "2e0dbaf6e223f3e00dbafd13d2a9d4c2b4e6ef09b3c363d3329f8e8fc7c93bc9",
+   "box_source": "/workspace/e2/Prop_Tree_Kapok_Young/turn_02.png",
+   "mtime": "2026-10-12 11:31"
+  },
+  {
+   "path": "e2/Prop_Tree_Kelp_Mature/turn_02.png",
+   "bytes": 520592,
+   "sha256": "52028e9a5a1363423cda38c5328da12f6a83cdc8c08485da0f9c75c1dc0fb32d",
+   "box_source": "/workspace/e2/Prop_Tree_Kelp_Mature/turn_02.png",
+   "mtime": "2026-10-12 11:31"
+  },
+  {
+   "path": "e2/Prop_Tree_Kelp_Sapling/turn_02.png",
+   "bytes": 521943,
+   "sha256": "f3307b115275fd6d6ce37f65f623996c4729c0a11eb7dc910948b7225081ad62",
+   "box_source": "/workspace/e2/Prop_Tree_Kelp_Sapling/turn_02.png",
+   "mtime": "2026-10-12 11:31"
+  },
+  {
+   "path": "e2/Prop_Tree_Kelp_Young/turn_02.png",
+   "bytes": 520704,
+   "sha256": "2f8a94b9530377b0443cbe44842f549d4376d637c191648c349f110dbea1ebfd",
+   "box_source": "/workspace/e2/Prop_Tree_Kelp_Young/turn_02.png",
+   "mtime": "2026-10-12 11:31"
+  },
+  {
+   "path": "e2/Prop_Tree_Larch_Mature/turn_02.png",
+   "bytes": 535898,
+   "sha256": "473c338006b5926a6105441a46f0e12cc574b82bd7939ecf518ff679360aa3ef",
+   "box_source": "/workspace/e2/Prop_Tree_Larch_Mature/turn_02.png",
+   "mtime": "2026-10-12 11:31"
+  },
+  {
+   "path": "e2/Prop_Tree_Larch_Sapling/turn_02.png",
+   "bytes": 536381,
+   "sha256": "6e040ec71e90afdb0f8f01bc78dc25ce3a0ae7d613d756492298b1982ba27e70",
+   "box_source": "/workspace/e2/Prop_Tree_Larch_Sapling/turn_02.png",
+   "mtime": "2026-10-12 11:31"
+  },
+  {
+   "path": "e2/Prop_Tree_Larch_Young/turn_02.png",
+   "bytes": 536123,
+   "sha256": "601e0eec56e425782d0ecdeb1b9fddc858ef536540cb6f8d91dd4ba39c03701c",
+   "box_source": "/workspace/e2/Prop_Tree_Larch_Young/turn_02.png",
+   "mtime": "2026-10-12 11:32"
+  },
+  {
+   "path": "e2/Prop_Tree_Mangrove_Mature/turn_02.png",
+   "bytes": 537370,
+   "sha256": "87f7be8985ce5d8c0fb18bd177b3ee88cab5bceafc7a6ec8d1818a598eb7d157",
+   "box_source": "/workspace/e2/Prop_Tree_Mangrove_Mature/turn_02.png",
+   "mtime": "2026-10-12 11:31"
+  },
+  {
+   "path": "e2/Prop_Tree_Mangrove_Sapling/turn_02.png",
+   "bytes": 536771,
+   "sha256": "81e8c5f6bea38ede3bd66d827bc1c8c4fe87e9b0acec5969eab7d4fc6b0cffbf",
+   "box_source": "/workspace/e2/Prop_Tree_Mangrove_Sapling/turn_02.png",
+   "mtime": "2026-10-12 11:32"
+  },
+  {
+   "path": "e2/Prop_Tree_Mangrove_Young/turn_02.png",
+   "bytes": 536116,
+   "sha256": "9e2cc5ac4d22bf2d5b1e54dd65ef435eba70ca8e0fffd382a1d09e5364e2801e",
+   "box_source": "/workspace/e2/Prop_Tree_Mangrove_Young/turn_02.png",
+   "mtime": "2026-10-12 11:32"
+  },
+  {
+   "path": "e2/Prop_Tree_Maple_Mature/turn_02.png",
+   "bytes": 536237,
+   "sha256": "36c0c28417fc76baeb3363b0f0b90b07fe6951f48cb0826933946d8e41fd3af5",
+   "box_source": "/workspace/e2/Prop_Tree_Maple_Mature/turn_02.png",
+   "mtime": "2026-10-12 11:31"
+  },
+  {
+   "path": "e2/Prop_Tree_Maple_Sapling/turn_02.png",
+   "bytes": 536176,
+   "sha256": "86015cb2546fb2b2b124a8a8585bf94e0ea0a462773903e56caae033d586df31",
+   "box_source": "/workspace/e2/Prop_Tree_Maple_Sapling/turn_02.png",
+   "mtime": "2026-10-12 11:32"
+  },
+  {
+   "path": "e2/Prop_Tree_Maple_Young/turn_02.png",
+   "bytes": 535227,
+   "sha256": "e00398277905a120fa88e884e779f14e261286471936157313e9c227add60c65",
+   "box_source": "/workspace/e2/Prop_Tree_Maple_Young/turn_02.png",
+   "mtime": "2026-10-12 11:32"
+  },
+  {
+   "path": "e2/Prop_Tree_Oak_Mature/turn_02.png",
+   "bytes": 536245,
+   "sha256": "82b48b78d02d8e842964ac9cad38899b115cc82ba86865dc30556b31085a163e",
+   "box_source": "/workspace/e2/Prop_Tree_Oak_Mature/turn_02.png",
+   "mtime": "2026-10-12 11:31"
+  },
+  {
+   "path": "e2/Prop_Tree_Oak_Sapling/turn_02.png",
+   "bytes": 536548,
+   "sha256": "e2444f682dd5c6b7e32d458826b651d44834717ad1c148d100b37ff8c4e4eb17",
+   "box_source": "/workspace/e2/Prop_Tree_Oak_Sapling/turn_02.png",
+   "mtime": "2026-10-12 11:32"
+  },
+  {
+   "path": "e2/Prop_Tree_Oak_Young/turn_02.png",
+   "bytes": 535416,
+   "sha256": "4af8713e04c76644a04c71c4d6750c15d5829efed4bc753884983a0cbfbacb6e",
+   "box_source": "/workspace/e2/Prop_Tree_Oak_Young/turn_02.png",
+   "mtime": "2026-10-12 11:32"
+  },
+  {
+   "path": "e2/Prop_Tree_Palm_Mature/turn_02.png",
+   "bytes": 521332,
+   "sha256": "0d3e9e42917b52ab425505c4bfbeff153d667c69e83d3562d23baac6439a52ef",
+   "box_source": "/workspace/e2/Prop_Tree_Palm_Mature/turn_02.png",
+   "mtime": "2026-10-12 11:31"
+  },
+  {
+   "path": "e2/Prop_Tree_Palm_Sapling/turn_02.png",
+   "bytes": 521996,
+   "sha256": "86e721b0998fd6e014d92fc473c33b42de4f63623e6a16dcc120ceb5f16995e4",
+   "box_source": "/workspace/e2/Prop_Tree_Palm_Sapling/turn_02.png",
+   "mtime": "2026-10-12 11:32"
+  },
+  {
+   "path": "e2/Prop_Tree_Palm_Young/turn_02.png",
+   "bytes": 521539,
+   "sha256": "aba06cd64729e926d04ddc6840dd824c3f7af4bdeba4c6340019f5ecdb51179a",
+   "box_source": "/workspace/e2/Prop_Tree_Palm_Young/turn_02.png",
+   "mtime": "2026-10-12 11:32"
+  },
+  {
+   "path": "e2/Prop_Tree_Pine_Mature/turn_02.png",
+   "bytes": 534355,
+   "sha256": "02770b69152f51abcfd647763019e66a7546ba235453d65992725b240b35d032",
+   "box_source": "/workspace/e2/Prop_Tree_Pine_Mature/turn_02.png",
+   "mtime": "2026-10-12 11:31"
+  },
+  {
+   "path": "e2/Prop_Tree_Pine_Sapling/turn_02.png",
+   "bytes": 534522,
+   "sha256": "de553c7cd2f7ff50fe85b76c20e64dec7ba208a20e46b88684f74bae723f17b3",
+   "box_source": "/workspace/e2/Prop_Tree_Pine_Sapling/turn_02.png",
+   "mtime": "2026-10-12 11:32"
+  },
+  {
+   "path": "e2/Prop_Tree_Pine_Young/turn_02.png",
+   "bytes": 533986,
+   "sha256": "53c1efb6b6e568b216bbd86984513af95d19d284e8f4b8b9a9892cf583377461",
+   "box_source": "/workspace/e2/Prop_Tree_Pine_Young/turn_02.png",
+   "mtime": "2026-10-12 11:32"
+  },
+  {
+   "path": "e2/Prop_Tree_Spruce_Mature/turn_02.png",
+   "bytes": 537983,
+   "sha256": "3de68c92ea419786933219553953a471bb2786243c0cb2c45c990f8cd83d88eb",
+   "box_source": "/workspace/e2/Prop_Tree_Spruce_Mature/turn_02.png",
+   "mtime": "2026-10-12 11:31"
+  },
+  {
+   "path": "e2/Prop_Tree_Spruce_Sapling/turn_02.png",
+   "bytes": 539287,
+   "sha256": "24d81e4ef2dd6e24371d51a3e4fe4c7db094f29c15d9b8460f27f90b828efcec",
+   "box_source": "/workspace/e2/Prop_Tree_Spruce_Sapling/turn_02.png",
+   "mtime": "2026-10-12 11:32"
+  },
+  {
+   "path": "e2/Prop_Tree_Spruce_Young/turn_02.png",
+   "bytes": 538399,
+   "sha256": "a013d24e6456ca96a202833e776520886e9bfb094188390a2b7d7a7d2677c963",
+   "box_source": "/workspace/e2/Prop_Tree_Spruce_Young/turn_02.png",
+   "mtime": "2026-10-12 11:32"
+  },
+  {
+   "path": "e2/Prop_Tree_StarWillow_Mature/turn_02.png",
+   "bytes": 531154,
+   "sha256": "920909dbca9a252f3feecd53662c76bd881df6092d6c278f3a8a45eae38576a0",
+   "box_source": "/workspace/e2/Prop_Tree_StarWillow_Mature/turn_02.png",
+   "mtime": "2026-10-12 11:31"
+  },
+  {
+   "path": "e2/Prop_Tree_StarWillow_Sapling/turn_02.png",
+   "bytes": 531072,
+   "sha256": "3194b99625cd6e907ad14115f7a28dde1180bd109396c36f86e7a5bfb475cdb9",
+   "box_source": "/workspace/e2/Prop_Tree_StarWillow_Sapling/turn_02.png",
+   "mtime": "2026-10-12 11:32"
+  },
+  {
+   "path": "e2/Prop_Tree_StarWillow_Young/turn_02.png",
+   "bytes": 530706,
+   "sha256": "b05cbf15cf241c480da88fb43b5b131f5e90b833620415957570701ce4dd22ec",
+   "box_source": "/workspace/e2/Prop_Tree_StarWillow_Young/turn_02.png",
+   "mtime": "2026-10-12 11:32"
+  },
+  {
+   "path": "e2/Prop_Tree_Willow_Mature/turn_02.png",
+   "bytes": 539076,
+   "sha256": "be665c1a0defbe80e2635cacad831cbdf4910e5dd34563bf7d0461de5e81c57e",
+   "box_source": "/workspace/e2/Prop_Tree_Willow_Mature/turn_02.png",
+   "mtime": "2026-10-12 11:31"
+  },
+  {
+   "path": "e2/Prop_Tree_Willow_Sapling/turn_02.png",
+   "bytes": 538788,
+   "sha256": "cb549adc83c307b2fb9cf19289e9e7179552c36ce4c9d467854d73795964db8c",
+   "box_source": "/workspace/e2/Prop_Tree_Willow_Sapling/turn_02.png",
+   "mtime": "2026-10-12 11:32"
+  },
+  {
+   "path": "e2/Prop_Tree_Willow_Young/turn_02.png",
+   "bytes": 538538,
+   "sha256": "81ad2ba356c4d7e25359b393f03d3a89e2c1a46b6f39f082e9c46ed2fdd52d32",
+   "box_source": "/workspace/e2/Prop_Tree_Willow_Young/turn_02.png",
+   "mtime": "2026-10-12 11:32"
+  },
+  {
+   "path": "flora2_sheet_1.png",
+   "bytes": 578043,
+   "sha256": "030d8945c15f5b7558543ce027a1e5893c1498c3ab9170c2b16885195ff68d6e",
+   "box_source": "/workspace/flora2_sheet_1.png",
+   "mtime": "2026-10-12 13:11"
+  },
+  {
+   "path": "lists/g_all.txt",
+   "bytes": 5942,
+   "sha256": "a12bcf294534b826887ff03fbc287c3493d4e12839815c12283929dc5bb4eb42",
+   "box_source": "/workspace/g_all.txt",
+   "mtime": "2026-10-12 11:36"
+  },
+  {
+   "path": "lists/g_crops.txt",
+   "bytes": 1268,
+   "sha256": "7f73fe8fcfcf8dbc1e22a601b0c813e3d7611953f7581a52852b90db6eef76a6",
+   "box_source": "/workspace/g_crops.txt",
+   "mtime": "2026-10-12 11:36"
+  },
+  {
+   "path": "lists/g_fauna_rest.txt",
+   "bytes": 1220,
+   "sha256": "94811496107b6b1c7e6f1ae1eac317020e390268d0e4c70a14b058004bf8fb17",
+   "box_source": "/workspace/g_fauna_rest.txt",
+   "mtime": "2026-10-12 11:36"
+  },
+  {
+   "path": "lists/g_flora_rest.txt",
+   "bytes": 1744,
+   "sha256": "ecf6de4d7c11dccdb39398433f6c7d2738766f06dd47fc7a497c9706985f0859",
+   "box_source": "/workspace/g_flora_rest.txt",
+   "mtime": "2026-10-12 11:36"
+  },
+  {
+   "path": "lists/g_livestock_predators.txt",
+   "bytes": 529,
+   "sha256": "89c33ce4d1244457dbd4f05ef42bcc1974fe6dd367311eeb60a6be211c025517",
+   "box_source": "/workspace/g_livestock_predators.txt",
+   "mtime": "2026-10-12 11:36"
+  },
+  {
+   "path": "lists/g_trees.txt",
+   "bytes": 1710,
+   "sha256": "eea21c04fbf5332639c52afc039ba2f541dbcaf7353aae77c8531624c68d0a65",
+   "box_source": "/workspace/g_trees.txt",
+   "mtime": "2026-10-12 11:36"
+  },
+  {
+   "path": "lists/s_crops.txt",
+   "bytes": 788,
+   "sha256": "44a599bd1993fc0153b2fea457210bed2279620fc979cd45238eaae06d07bf23",
+   "box_source": "/workspace/s_crops/ (symlink names into /workspace/e2)",
+   "mtime": "2026-10-19 00:04"
+  },
+  {
+   "path": "lists/s_fauna_rest.txt",
+   "bytes": 608,
+   "sha256": "11c1d5a67c4926267bf223dee74c81cc3c186e5ec113fc82df80c2c3a66f91ff",
+   "box_source": "/workspace/s_fauna_rest/ (symlink names into /workspace/e2)",
+   "mtime": "2026-10-19 00:04"
+  },
+  {
+   "path": "lists/s_flora_rest.txt",
+   "bytes": 1084,
+   "sha256": "53a87ffa06a88e5f542a11a0e71f144c9ed7675cf46a1756a0c1b24d1b6294b0",
+   "box_source": "/workspace/s_flora_rest/ (symlink names into /workspace/e2)",
+   "mtime": "2026-10-19 00:04"
+  },
+  {
+   "path": "lists/s_trees.txt",
+   "bytes": 1134,
+   "sha256": "f1ca19e723e03fb641a4c1dff5058ed048d4efdb0a2ca0c135516e8306fc6e11",
+   "box_source": "/workspace/s_trees/ (symlink names into /workspace/e2)",
+   "mtime": "2026-10-19 00:04"
+  }
+ ],
+ "already_archived_in_box-archive/renders": [
+  {
+   "path": "../renders/eco_crops_sheet.png",
+   "bytes": 377910,
+   "sha256": "4eb7624e24ffbdf3d49a663fc312db0009068001007dca729f9c51b75a0e329d",
+   "box_source": "/workspace/eco_crops_sheet.png"
+  },
+  {
+   "path": "../renders/eco_fauna_rest_sheet.png",
+   "bytes": 513737,
+   "sha256": "f17b7bddd5465f8dc2da5b33a778fafb37820fba191bdd7cd6c0c48e34acd5c3",
+   "box_source": "/workspace/eco_fauna_rest_sheet.png"
+  },
+  {
+   "path": "../renders/eco_flora_rest_sheet.png",
+   "bytes": 525966,
+   "sha256": "f0a71030332bf71b811a46959a25777fa7f7ed504e29c56af9543c956c241865",
+   "box_source": "/workspace/eco_flora_rest_sheet.png"
+  },
+  {
+   "path": "../renders/eco_livestock_sheet.png",
+   "bytes": 284534,
+   "sha256": "4bfa2d0102a2f156a917ce71e105169cc96c8b4e26c439cb7e4b9a093be3d9c9",
+   "box_source": "/workspace/eco_livestock_sheet.png"
+  },
+  {
+   "path": "../renders/eco_trees_sheet.png",
+   "bytes": 430086,
+   "sha256": "541f79e016d689272d5bd4f243af27dd213711feb5aea171d81a29989aedea04",
+   "box_source": "/workspace/eco_trees_sheet.png"
+  }
+ ]
+}
