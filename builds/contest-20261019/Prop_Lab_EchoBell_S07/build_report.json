@@ -1,0 +1,81 @@
+{
+ "asset": "Prop_Lab_EchoBell_S07",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "999ca323a4c22cacad1e690bce0365f01a09fd2297675dbd2f824a00c2e3b19f",
+ "lod0": {
+  "objects": {
+   "Prop_Lab_EchoBell_S07": 824
+  },
+  "triangles": 824,
+  "bounds_min": [
+   -0.3537,
+   -0.3537,
+   0.0
+  ],
+  "bounds_max": [
+   0.3537,
+   0.3537,
+   0.7133
+  ],
+  "dimensions": [
+   0.7074,
+   0.7074,
+   0.7133
+  ],
+  "materials": {
+   "Prop_Lab_EchoBell_S07": [
+    "Prop_Lab_EchoBell_S07_M0",
+    "Prop_Lab_EchoBell_S07_M1",
+    "Prop_Lab_EchoBell_S07_M2"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Bell",
+  "SOCKET_Strike",
+  "SOCKET_Sound"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_Lab_EchoBell_S07_00",
+   "triangles": 28
+  }
+ ],
+ "files": {
+  "Prop_Lab_EchoBell_S07.glb": {
+   "bytes": 47992,
+   "sha256": "3533b0bf6c8c0375921154a7239f416fcbf14160c285793d2d467787986d197a"
+  },
+  "Prop_Lab_EchoBell_S07.blend": {
+   "bytes": 508424,
+   "sha256": "4c80f5f58bce3d4c8e835e35a989249de7ae6d8ac311af056b73224e15220d5c"
+  },
+  "Prop_Lab_EchoBell_S07_LOD1.glb": {
+   "bytes": 22084,
+   "sha256": "359f3a4796de5d973313318af8daeaf99c2bce6b5fe2f142659f0f0f9875122d"
+  },
+  "Prop_Lab_EchoBell_S07.sockets.json": {
+   "bytes": 730,
+   "sha256": "3ee3ddf3111994a4df3e989e7d8a929ef84a91961fdf25b756c6e798232faf04"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 376,
+  "ratio": 0.456,
+  "dimensions": [
+   0.7074,
+   0.7074,
+   0.7133
+  ]
+ },
+ "sockets_sidecar": "Prop_Lab_EchoBell_S07.sockets.json",
+ "ok": true
+}

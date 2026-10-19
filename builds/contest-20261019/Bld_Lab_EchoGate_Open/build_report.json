@@ -1,0 +1,107 @@
+{
+ "asset": "Bld_Lab_EchoGate_Open",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "f2b1e23e2785d4ac561520285caadbd2b5bc5a3351be42d04a0a4481f6fd3311",
+ "lod0": {
+  "objects": {
+   "Bld_Lab_EchoGate_Open": 528,
+   "Bld_Lab_EchoGate_Open_LeafL": 220,
+   "Bld_Lab_EchoGate_Open_LeafR": 220
+  },
+  "triangles": 968,
+  "bounds_min": [
+   -1.5,
+   -0.5,
+   0.0
+  ],
+  "bounds_max": [
+   1.5,
+   0.99,
+   4.0
+  ],
+  "dimensions": [
+   3.0,
+   1.49,
+   4.0
+  ],
+  "materials": {
+   "Bld_Lab_EchoGate_Open": [
+    "Bld_Lab_EchoGate_Open_M0",
+    "Bld_Lab_EchoGate_Open_M1"
+   ],
+   "Bld_Lab_EchoGate_Open_LeafL": [
+    "Bld_Lab_EchoGate_Open_M0",
+    "Bld_Lab_EchoGate_Open_M1",
+    "Bld_Lab_EchoGate_Open_M2"
+   ],
+   "Bld_Lab_EchoGate_Open_LeafR": [
+    "Bld_Lab_EchoGate_Open_M0",
+    "Bld_Lab_EchoGate_Open_M1",
+    "Bld_Lab_EchoGate_Open_M2"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Bell_L",
+  "SOCKET_Bell_R"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Bld_Lab_EchoGate_Open_00",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Bld_Lab_EchoGate_Open_01",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Bld_Lab_EchoGate_Open_02",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Bld_Lab_EchoGate_Open_03",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Bld_Lab_EchoGate_Open_04",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Bld_Lab_EchoGate_Open.glb": {
+   "bytes": 65792,
+   "sha256": "f8b84f66eed8819113d592358aeadc52b42e0aeceed044ea495a59139838678b"
+  },
+  "Bld_Lab_EchoGate_Open.blend": {
+   "bytes": 540816,
+   "sha256": "670d262d9da7694026d9e7acb23892720930c837eb4bbf831bba8df85c8e5300"
+  },
+  "Bld_Lab_EchoGate_Open_LOD1.glb": {
+   "bytes": 25768,
+   "sha256": "936a9e07d5b83220cb440a72672bbb67746355271f1f8e88ed5353fcf047481f"
+  },
+  "Bld_Lab_EchoGate_Open.sockets.json": {
+   "bytes": 564,
+   "sha256": "e8aa2bf6aa5e997401b2b159c21ff7f9656d4b6b875784bccd0e25c69c8bc82a"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 392,
+  "ratio": 0.405,
+  "dimensions": [
+   3.0,
+   1.34,
+   4.0
+  ]
+ },
+ "sockets_sidecar": "Bld_Lab_EchoGate_Open.sockets.json",
+ "ok": true
+}

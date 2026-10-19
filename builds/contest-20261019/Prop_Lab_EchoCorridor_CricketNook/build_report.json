@@ -1,0 +1,104 @@
+{
+ "asset": "Prop_Lab_EchoCorridor_CricketNook",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "4d37be6fddbcc65dfb7ae5bf597633a6c2f2dff32cc0e34840b38a7ae80c109f",
+ "lod0": {
+  "objects": {
+   "Prop_Lab_EchoCorridor_CricketNook": 704
+  },
+  "triangles": 704,
+  "bounds_min": [
+   -2.0,
+   -2.0,
+   0.0
+  ],
+  "bounds_max": [
+   2.0,
+   2.0,
+   4.0
+  ],
+  "dimensions": [
+   4.0,
+   4.0,
+   4.0
+  ],
+  "materials": {
+   "Prop_Lab_EchoCorridor_CricketNook": [
+    "Prop_Lab_EchoCorridor_CricketNook_M0",
+    "Prop_Lab_EchoCorridor_CricketNook_M1",
+    "Prop_Lab_EchoCorridor_CricketNook_M2"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Bell",
+  "SOCKET_Cricket"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_Lab_EchoCorridor_CricketNook_00",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_Lab_EchoCorridor_CricketNook_01",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_Lab_EchoCorridor_CricketNook_02",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_Lab_EchoCorridor_CricketNook_03",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_Lab_EchoCorridor_CricketNook_04",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_Lab_EchoCorridor_CricketNook_05",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_Lab_EchoCorridor_CricketNook_06",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_Lab_EchoCorridor_CricketNook.glb": {
+   "bytes": 51496,
+   "sha256": "38170608455c3be81e93ec9ae79a1a6a798edb80f8fa6bb49c12305a08f2633e"
+  },
+  "Prop_Lab_EchoCorridor_CricketNook.blend": {
+   "bytes": 531872,
+   "sha256": "0a9962498482b2685c21e4d4e7b4cf0b42ad3ca6cdcc518a2c903bdc89304bb1"
+  },
+  "Prop_Lab_EchoCorridor_CricketNook_LOD1.glb": {
+   "bytes": 19796,
+   "sha256": "187b472e236f5a138dcef90b670cb5dacfac38ef729a48414c0df9f0b10b5010"
+  },
+  "Prop_Lab_EchoCorridor_CricketNook.sockets.json": {
+   "bytes": 594,
+   "sha256": "86634bb504a1072e03f1b7630004dd7707b970cb0af8ade223a80d2624bcb1f2"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 308,
+  "ratio": 0.438,
+  "dimensions": [
+   4.0,
+   4.0,
+   4.0
+  ]
+ },
+ "sockets_sidecar": "Prop_Lab_EchoCorridor_CricketNook.sockets.json",
+ "ok": true
+}

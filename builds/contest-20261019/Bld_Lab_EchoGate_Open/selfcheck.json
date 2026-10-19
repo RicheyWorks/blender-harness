@@ -1,0 +1,165 @@
+[
+ [
+  "mesh node Bld_Lab_EchoGate_Open",
+  true,
+  ""
+ ],
+ [
+  "Bld_Lab_EchoGate_Open tris 528",
+  true,
+  528
+ ],
+ [
+  "Bld_Lab_EchoGate_Open parent None",
+  true,
+  null
+ ],
+ [
+  "mesh node Bld_Lab_EchoGate_Open_LeafL",
+  true,
+  ""
+ ],
+ [
+  "Bld_Lab_EchoGate_Open_LeafL tris 220",
+  true,
+  220
+ ],
+ [
+  "Bld_Lab_EchoGate_Open_LeafL parent Bld_Lab_EchoGate_Open",
+  true,
+  "Bld_Lab_EchoGate_Open"
+ ],
+ [
+  "mesh node Bld_Lab_EchoGate_Open_LeafR",
+  true,
+  ""
+ ],
+ [
+  "Bld_Lab_EchoGate_Open_LeafR tris 220",
+  true,
+  220
+ ],
+ [
+  "Bld_Lab_EchoGate_Open_LeafR parent Bld_Lab_EchoGate_Open",
+  true,
+  "Bld_Lab_EchoGate_Open"
+ ],
+ [
+  "collision UCX_Bld_Lab_EchoGate_Open_00 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Bld_Lab_EchoGate_Open_00 tris 12, no material, parent Bld_Lab_EchoGate_Open",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Bld_Lab_EchoGate_Open_01 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Bld_Lab_EchoGate_Open_01 tris 12, no material, parent Bld_Lab_EchoGate_Open",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Bld_Lab_EchoGate_Open_02 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Bld_Lab_EchoGate_Open_02 tris 12, no material, parent Bld_Lab_EchoGate_Open",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Bld_Lab_EchoGate_Open_03 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Bld_Lab_EchoGate_Open_03 tris 12, no material, parent Bld_Lab_EchoGate_Open_LeafL",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Bld_Lab_EchoGate_Open_04 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Bld_Lab_EchoGate_Open_04 tris 12, no material, parent Bld_Lab_EchoGate_Open_LeafR",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Bell_L under Bld_Lab_EchoGate_Open",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Bell_R under Bld_Lab_EchoGate_Open",
+  true,
+  ""
+ ],
+ [
+  "sockets sidecar present",
+  true,
+  ""
+ ],
+ [
+  "sidecar = glb sockets in UE space",
+  true,
+  ""
+ ],
+ [
+  "render bounds = predicted (1 mm)",
+  true,
+  [
+   [
+    -1.5,
+    0.0,
+    -0.99
+   ],
+   [
+    1.5,
+    4.0,
+    0.5
+   ]
+  ]
+ ],
+ [
+  "LOD1 glb present",
+  true,
+  ""
+ ],
+ [
+  "LOD1 tris 392",
+  true,
+  392
+ ],
+ [
+  "LOD1 has no sockets/collision",
+  true,
+  ""
+ ],
+ [
+  "build_report ok",
+  true,
+  {
+   "triangles": true,
+   "bounds": true,
+   "objects": true,
+   "collision_tris": true,
+   "lod1_triangles": true,
+   "sidecar_sockets": true
+  }
+ ],
+ [
+  "report sha256 = files",
+  true,
+  ""
+ ]
+]

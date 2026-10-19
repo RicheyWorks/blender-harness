@@ -1,0 +1,50 @@
+{
+ "asset": "Prop_Lab_EchoBell_S05",
+ "units": "cm",
+ "space": "unreal",
+ "note": "UE +X forward, +Y right, +Z up, cm; location relative to parent node; rotation [pitch, yaw, roll] deg",
+ "sockets": [
+  {
+   "name": "SOCKET_Bell",
+   "parent": "Prop_Lab_EchoBell_S05",
+   "location": [
+    0.0,
+    0.0,
+    76.67
+   ],
+   "rotation": [
+    90.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "name": "SOCKET_Sound",
+   "parent": "Prop_Lab_EchoBell_S05",
+   "location": [
+    0.0,
+    0.0,
+    35.569
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "name": "SOCKET_Strike",
+   "parent": "Prop_Lab_EchoBell_S05",
+   "location": [
+    37.545,
+    0.0,
+    7.904
+   ],
+   "rotation": [
+    0.0,
+    180.0,
+    0.0
+   ]
+  }
+ ]
+}

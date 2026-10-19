@@ -1,0 +1,120 @@
+[
+ [
+  "mesh node Prop_Lab_EchoCorridor_Corner",
+  true,
+  ""
+ ],
+ [
+  "Prop_Lab_EchoCorridor_Corner tris 484",
+  true,
+  484
+ ],
+ [
+  "Prop_Lab_EchoCorridor_Corner parent None",
+  true,
+  null
+ ],
+ [
+  "collision UCX_Prop_Lab_EchoCorridor_Corner_00 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_Lab_EchoCorridor_Corner_00 tris 12, no material, parent Prop_Lab_EchoCorridor_Corner",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_Lab_EchoCorridor_Corner_01 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_Lab_EchoCorridor_Corner_01 tris 12, no material, parent Prop_Lab_EchoCorridor_Corner",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_Lab_EchoCorridor_Corner_02 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_Lab_EchoCorridor_Corner_02 tris 12, no material, parent Prop_Lab_EchoCorridor_Corner",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_Lab_EchoCorridor_Corner_03 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_Lab_EchoCorridor_Corner_03 tris 12, no material, parent Prop_Lab_EchoCorridor_Corner",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Bell under Prop_Lab_EchoCorridor_Corner",
+  true,
+  ""
+ ],
+ [
+  "sockets sidecar present",
+  true,
+  ""
+ ],
+ [
+  "sidecar = glb sockets in UE space",
+  true,
+  ""
+ ],
+ [
+  "render bounds = predicted (1 mm)",
+  true,
+  [
+   [
+    -2.0,
+    0.0,
+    -2.0
+   ],
+   [
+    2.0,
+    4.0,
+    2.0
+   ]
+  ]
+ ],
+ [
+  "LOD1 glb present",
+  true,
+  ""
+ ],
+ [
+  "LOD1 tris 264",
+  true,
+  264
+ ],
+ [
+  "LOD1 has no sockets/collision",
+  true,
+  ""
+ ],
+ [
+  "build_report ok",
+  true,
+  {
+   "triangles": true,
+   "bounds": true,
+   "objects": true,
+   "collision_tris": true,
+   "lod1_triangles": true,
+   "sidecar_sockets": true
+  }
+ ],
+ [
+  "report sha256 = files",
+  true,
+  ""
+ ]
+]

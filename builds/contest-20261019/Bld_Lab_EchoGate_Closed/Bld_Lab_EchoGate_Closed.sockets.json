@@ -1,0 +1,36 @@
+{
+ "asset": "Bld_Lab_EchoGate_Closed",
+ "units": "cm",
+ "space": "unreal",
+ "note": "UE +X forward, +Y right, +Z up, cm; location relative to parent node; rotation [pitch, yaw, roll] deg",
+ "sockets": [
+  {
+   "name": "SOCKET_Bell_L",
+   "parent": "Bld_Lab_EchoGate_Closed",
+   "location": [
+    48.0,
+    125.0,
+    284.0
+   ],
+   "rotation": [
+    -90.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "name": "SOCKET_Bell_R",
+   "parent": "Bld_Lab_EchoGate_Closed",
+   "location": [
+    48.0,
+    -125.0,
+    284.0
+   ],
+   "rotation": [
+    -90.0,
+    0.0,
+    0.0
+   ]
+  }
+ ]
+}
