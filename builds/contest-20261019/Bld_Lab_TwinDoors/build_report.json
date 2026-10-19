@@ -1,0 +1,92 @@
+{
+ "asset": "Bld_Lab_TwinDoors",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "8f025114e55d20106c17dda98712b0a26f3dbd6a8d5e113e8786d667829ad840",
+ "lod0": {
+  "objects": {
+   "Bld_Lab_TwinDoors": 436
+  },
+  "triangles": 436,
+  "bounds_min": [
+   -2.9,
+   -0.45,
+   0.0
+  ],
+  "bounds_max": [
+   2.9,
+   0.45,
+   4.35
+  ],
+  "dimensions": [
+   5.8,
+   0.9,
+   4.35
+  ],
+  "materials": {
+   "Bld_Lab_TwinDoors": [
+    "Bld_Lab_TwinDoors_M0"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Door_A",
+  "SOCKET_Door_B",
+  "SOCKET_Hinge_DoorA",
+  "SOCKET_Hinge_DoorB"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Bld_Lab_TwinDoors_00",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Bld_Lab_TwinDoors_01",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Bld_Lab_TwinDoors_02",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Bld_Lab_TwinDoors_03",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Bld_Lab_TwinDoors.glb": {
+   "bytes": 30752,
+   "sha256": "69cfd9e4c8ffed308bda0ca08e2630a2895a2f7c991e42f9721d0d5381ab78d4"
+  },
+  "Bld_Lab_TwinDoors.blend": {
+   "bytes": 463580,
+   "sha256": "e154df6f96a5165b58b67102801d0655f75860ae4520607cea0f5e4d7249f376"
+  },
+  "Bld_Lab_TwinDoors_LOD1.glb": {
+   "bytes": 15268,
+   "sha256": "98caedb860849297595956d6f02fa7d604673ab5b6a0d01f709b7163296cd71a"
+  },
+  "Bld_Lab_TwinDoors.sockets.json": {
+   "bytes": 2044,
+   "sha256": "6ce6b206fc6668a6f0931e3a2008619113435f22d03a59422acba61f36359821"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 248,
+  "ratio": 0.569,
+  "dimensions": [
+   5.6,
+   0.82,
+   4.2
+  ]
+ },
+ "sockets_sidecar": "Bld_Lab_TwinDoors.sockets.json",
+ "ok": true
+}

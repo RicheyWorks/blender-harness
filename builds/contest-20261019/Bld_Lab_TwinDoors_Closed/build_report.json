@@ -1,0 +1,108 @@
+{
+ "asset": "Bld_Lab_TwinDoors_Closed",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "11c608d0ebb1a42ac7aca1eca813bb32438b747d40fb8018db5f8b6c06523dcb",
+ "lod0": {
+  "objects": {
+   "Bld_Lab_TwinDoors_Closed": 436,
+   "Bld_Lab_TwinDoors_Closed_DoorA": 168,
+   "Bld_Lab_TwinDoors_Closed_DoorB": 168
+  },
+  "triangles": 772,
+  "bounds_min": [
+   -2.9,
+   -0.45,
+   0.0
+  ],
+  "bounds_max": [
+   2.9,
+   0.45,
+   4.35
+  ],
+  "dimensions": [
+   5.8,
+   0.9,
+   4.35
+  ],
+  "materials": {
+   "Bld_Lab_TwinDoors_Closed": [
+    "Bld_Lab_TwinDoors_Closed_M0"
+   ],
+   "Bld_Lab_TwinDoors_Closed_DoorA": [
+    "Bld_Lab_TwinDoors_Closed_M1",
+    "Bld_Lab_TwinDoors_Closed_M2"
+   ],
+   "Bld_Lab_TwinDoors_Closed_DoorB": [
+    "Bld_Lab_TwinDoors_Closed_M1",
+    "Bld_Lab_TwinDoors_Closed_M2"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Door_A",
+  "SOCKET_Door_B"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Bld_Lab_TwinDoors_Closed_00",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Bld_Lab_TwinDoors_Closed_01",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Bld_Lab_TwinDoors_Closed_02",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Bld_Lab_TwinDoors_Closed_03",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Bld_Lab_TwinDoors_Closed_04",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Bld_Lab_TwinDoors_Closed_05",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Bld_Lab_TwinDoors_Closed.glb": {
+   "bytes": 51668,
+   "sha256": "15ac22f321113d4eeaf6379db6e5967ce8fad031a8f928776f6b51f02c61d419"
+  },
+  "Bld_Lab_TwinDoors_Closed.blend": {
+   "bytes": 535284,
+   "sha256": "771ef7f8ceac83dd70540d215b431b7f4d5be79c8fa4709a5788ca22492c690f"
+  },
+  "Bld_Lab_TwinDoors_Closed_LOD1.glb": {
+   "bytes": 27304,
+   "sha256": "5e74a2deb829867dc1aad5dc0073fb68a0947b9304289c842621d325d444f41b"
+  },
+  "Bld_Lab_TwinDoors_Closed.sockets.json": {
+   "bytes": 975,
+   "sha256": "339219973df7df13f4109a2c4f54e5ec044ad462251ff9a5d3839f7c3f85a601"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 432,
+  "ratio": 0.56,
+  "dimensions": [
+   5.6,
+   0.82,
+   4.2
+  ]
+ },
+ "sockets_sidecar": "Bld_Lab_TwinDoors_Closed.sockets.json",
+ "ok": true
+}

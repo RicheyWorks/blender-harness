@@ -1,0 +1,71 @@
+{
+ "asset": "Prop_Lab_SurveyMap_A",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "ee10177bfccd2f5bd1c25361ccec392acc97b0d0b76e2cd1668c282e41f642f1",
+ "lod0": {
+  "objects": {
+   "Prop_Lab_SurveyMap_A": 288
+  },
+  "triangles": 288,
+  "bounds_min": [
+   -0.2999,
+   -0.2,
+   -0.0
+  ],
+  "bounds_max": [
+   0.2999,
+   0.2,
+   0.0179
+  ],
+  "dimensions": [
+   0.5998,
+   0.4,
+   0.0179
+  ],
+  "materials": {
+   "Prop_Lab_SurveyMap_A": [
+    "Prop_Lab_SurveyMap_A_M0",
+    "Prop_Lab_SurveyMap_A_M1",
+    "Prop_Lab_SurveyMap_A_M2"
+   ]
+  }
+ },
+ "sockets": [],
+ "collision": [
+  {
+   "name": "UCX_Prop_Lab_SurveyMap_A_00",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_Lab_SurveyMap_A.glb": {
+   "bytes": 19628,
+   "sha256": "cad66f243aeb25da03dd9ce757dc6c83f94060e0076faf7d66f5ad9e7d36c70a"
+  },
+  "Prop_Lab_SurveyMap_A.blend": {
+   "bytes": 487128,
+   "sha256": "f47939ca396bf188d300322a6bd0e0887d879bfcdb415285a0affd443b9dad0f"
+  },
+  "Prop_Lab_SurveyMap_A_LOD1.glb": {
+   "bytes": 12472,
+   "sha256": "1b39f3b036bf1ba9a9fb7da717e569578c9cb68371f57e91fab66f393442986b"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true
+ },
+ "lod1": {
+  "triangles": 180,
+  "ratio": 0.625,
+  "dimensions": [
+   0.5998,
+   0.4,
+   0.0179
+  ]
+ },
+ "ok": true
+}

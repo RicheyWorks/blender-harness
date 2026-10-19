@@ -1,0 +1,82 @@
+{
+ "asset": "Prop_WZ_GoalNet",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "4e455a1fc493dd6c9b2793da656dd92f7d7c098c3f54af6ccd8a8572cc81506c",
+ "lod0": {
+  "objects": {
+   "Prop_WZ_GoalNet": 516
+  },
+  "triangles": 516,
+  "bounds_min": [
+   -1.55,
+   -0.5,
+   0.0
+  ],
+  "bounds_max": [
+   1.55,
+   0.48,
+   2.05
+  ],
+  "dimensions": [
+   3.1,
+   0.98,
+   2.05
+  ],
+  "materials": {
+   "Prop_WZ_GoalNet": [
+    "Prop_WZ_GoalNet_M0",
+    "Prop_WZ_GoalNet_M1"
+   ]
+  }
+ },
+ "sockets": [],
+ "collision": [
+  {
+   "name": "UCX_Prop_WZ_GoalNet_00",
+   "triangles": 28
+  },
+  {
+   "name": "UCX_Prop_WZ_GoalNet_01",
+   "triangles": 28
+  },
+  {
+   "name": "UCX_Prop_WZ_GoalNet_02",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_WZ_GoalNet_03",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_WZ_GoalNet.glb": {
+   "bytes": 33384,
+   "sha256": "2a531d5b0f36a18c4e9f60b02df365b978ce87ec1e1216b1b0cfc95c13be967f"
+  },
+  "Prop_WZ_GoalNet.blend": {
+   "bytes": 484032,
+   "sha256": "05b9017682f14bce17f39e212022c3f66a7e82bd251d36a9dc9b34de9f684c1a"
+  },
+  "Prop_WZ_GoalNet_LOD1.glb": {
+   "bytes": 13908,
+   "sha256": "a7746a1e78603ce3b25d53c1b0d93b546a609c68f54a5ae4868765a36bab2dc1"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true
+ },
+ "lod1": {
+  "triangles": 228,
+  "ratio": 0.442,
+  "dimensions": [
+   3.1,
+   0.98,
+   2.0433
+  ]
+ },
+ "ok": true
+}

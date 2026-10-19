@@ -1,0 +1,70 @@
+{
+ "asset": "Bld_Lab_TwinDoors_DoorB",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "0d9723773cee27f166b76cb4a61cf9045bb63defee01d64fa69232675f189810",
+ "lod0": {
+  "objects": {
+   "Bld_Lab_TwinDoors_DoorB": 168
+  },
+  "triangles": 168,
+  "bounds_min": [
+   -1.98,
+   -0.08,
+   0.0
+  ],
+  "bounds_max": [
+   -0.02,
+   0.08,
+   3.48
+  ],
+  "dimensions": [
+   1.96,
+   0.16,
+   3.48
+  ],
+  "materials": {
+   "Bld_Lab_TwinDoors_DoorB": [
+    "Bld_Lab_TwinDoors_DoorB_M1",
+    "Bld_Lab_TwinDoors_DoorB_M2"
+   ]
+  }
+ },
+ "sockets": [],
+ "collision": [
+  {
+   "name": "UCX_Bld_Lab_TwinDoors_DoorB_00",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Bld_Lab_TwinDoors_DoorB.glb": {
+   "bytes": 11776,
+   "sha256": "ed248c0b1e90eeb37b2bd7ef5c99d9290829cada482b330d633790c96919f391"
+  },
+  "Bld_Lab_TwinDoors_DoorB.blend": {
+   "bytes": 458976,
+   "sha256": "7c0a25020d8b685c5646bd91d2722eacddbf922b8dfef0964d27b827fa6088dc"
+  },
+  "Bld_Lab_TwinDoors_DoorB_LOD1.glb": {
+   "bytes": 6824,
+   "sha256": "95d3e0ba2e546fd87dcc70fd6c27ed291b14a6c563e37a0f7478d65526b13ba2"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true
+ },
+ "lod1": {
+  "triangles": 92,
+  "ratio": 0.548,
+  "dimensions": [
+   1.96,
+   0.16,
+   3.48
+  ]
+ },
+ "ok": true
+}

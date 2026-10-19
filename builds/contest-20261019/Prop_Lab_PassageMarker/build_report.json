@@ -1,0 +1,75 @@
+{
+ "asset": "Prop_Lab_PassageMarker",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "d952ab538577846c09f2373615295c8f39c80227daf3f8c0d6ac1c7ce8f7718a",
+ "lod0": {
+  "objects": {
+   "Prop_Lab_PassageMarker": 444
+  },
+  "triangles": 444,
+  "bounds_min": [
+   -0.2628,
+   -0.3988,
+   -0.0
+  ],
+  "bounds_max": [
+   0.2995,
+   0.2579,
+   1.2
+  ],
+  "dimensions": [
+   0.5623,
+   0.6567,
+   1.2
+  ],
+  "materials": {
+   "Prop_Lab_PassageMarker": [
+    "Prop_Lab_PassageMarker_M0",
+    "Prop_Lab_PassageMarker_M1",
+    "Prop_Lab_PassageMarker_M2"
+   ]
+  }
+ },
+ "sockets": [],
+ "collision": [
+  {
+   "name": "UCX_Prop_Lab_PassageMarker_00",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_Lab_PassageMarker_01",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_Lab_PassageMarker.glb": {
+   "bytes": 30852,
+   "sha256": "4369cc266d2209e776dcdcd2285f3f6f000ed551ae2cefc10766b8cebe9fbc67"
+  },
+  "Prop_Lab_PassageMarker.blend": {
+   "bytes": 497744,
+   "sha256": "e4976ccf026e539a17f2cc00771af239d57cf5621c251b7605594831a3fb5801"
+  },
+  "Prop_Lab_PassageMarker_LOD1.glb": {
+   "bytes": 17516,
+   "sha256": "eb811332176b83457e61148b27e6a6d05e0ead30444433ca8cfe84b77cb1c1ea"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true
+ },
+ "lod1": {
+  "triangles": 256,
+  "ratio": 0.577,
+  "dimensions": [
+   0.5623,
+   0.6175,
+   1.2
+  ]
+ },
+ "ok": true
+}

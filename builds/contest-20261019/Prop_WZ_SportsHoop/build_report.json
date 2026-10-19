@@ -1,0 +1,119 @@
+{
+ "asset": "Prop_WZ_SportsHoop",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "45ff6256efd5d360567f9f1a604b8ce5780cc98b0a6ade07beab9e0b9b6ad003",
+ "lod0": {
+  "objects": {
+   "Prop_WZ_SportsHoop": 344
+  },
+  "triangles": 344,
+  "bounds_min": [
+   -0.9,
+   -1.445,
+   0.0
+  ],
+  "bounds_max": [
+   0.9,
+   0.4,
+   3.955
+  ],
+  "dimensions": [
+   1.8,
+   1.845,
+   3.955
+  ],
+  "materials": {
+   "Prop_WZ_SportsHoop": [
+    "Prop_WZ_SportsHoop_M0",
+    "Prop_WZ_SportsHoop_M1",
+    "Prop_WZ_SportsHoop_M2"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Rim"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_WZ_SportsHoop_00",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_WZ_SportsHoop_01",
+   "triangles": 28
+  },
+  {
+   "name": "UCX_Prop_WZ_SportsHoop_02",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_WZ_SportsHoop_03",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_WZ_SportsHoop_04",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_WZ_SportsHoop_05",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_WZ_SportsHoop_06",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_WZ_SportsHoop_07",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_WZ_SportsHoop_08",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_WZ_SportsHoop_09",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_WZ_SportsHoop_10",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_WZ_SportsHoop.glb": {
+   "bytes": 34964,
+   "sha256": "0ef6209deec8b20e63e59ea134a8d34169cbdcb3dc4d2b83510d302e40a20f9d"
+  },
+  "Prop_WZ_SportsHoop.blend": {
+   "bytes": 533988,
+   "sha256": "01fbd6cc55d60647bcf0a4f19aba1a42d2da87c54e0964068b0f36671effcf30"
+  },
+  "Prop_WZ_SportsHoop_LOD1.glb": {
+   "bytes": 12744,
+   "sha256": "5afa058b24dd1c5fec196739a99dd8e2c4cee9f4c6feb16c4a900d1a7ffe9499"
+  },
+  "Prop_WZ_SportsHoop.sockets.json": {
+   "bytes": 669,
+   "sha256": "6aceaf6229fd91b14a1ff0ebecdd559e923affc630f4be37abb2401562285ef8"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 188,
+  "ratio": 0.547,
+  "dimensions": [
+   1.8,
+   1.845,
+   3.955
+  ]
+ },
+ "sockets_sidecar": "Prop_WZ_SportsHoop.sockets.json",
+ "ok": true
+}

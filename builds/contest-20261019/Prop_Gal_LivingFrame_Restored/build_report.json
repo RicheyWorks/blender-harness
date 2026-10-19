@@ -1,0 +1,85 @@
+{
+ "asset": "Prop_Gal_LivingFrame_Restored",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "79ba20de915ae1ead04569412bbc129d1cbfc05fdff98e7230022bb2bb108bd4",
+ "lod0": {
+  "objects": {
+   "Prop_Gal_LivingFrame_Restored": 364,
+   "Prop_Gal_LivingFrame_Restored_Canvas": 120
+  },
+  "triangles": 484,
+  "bounds_min": [
+   -1.0,
+   -0.06,
+   0.0
+  ],
+  "bounds_max": [
+   1.0,
+   0.04,
+   1.5
+  ],
+  "dimensions": [
+   2.0,
+   0.1,
+   1.5
+  ],
+  "materials": {
+   "Prop_Gal_LivingFrame_Restored": [
+    "Prop_Gal_LivingFrame_Restored_M0",
+    "Prop_Gal_LivingFrame_Restored_M1"
+   ],
+   "Prop_Gal_LivingFrame_Restored_Canvas": [
+    "Prop_Gal_LivingFrame_Restored_M2",
+    "Prop_Gal_LivingFrame_Restored_M3",
+    "Prop_Gal_LivingFrame_Restored_M4"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Canvas",
+  "SOCKET_Light"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_Gal_LivingFrame_Restored_00",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_Gal_LivingFrame_Restored.glb": {
+   "bytes": 32892,
+   "sha256": "f4bbcb204303124b881e57b1b9dc8520f8c2d3de6dc35df8e5bbbe525aa19596"
+  },
+  "Prop_Gal_LivingFrame_Restored.blend": {
+   "bytes": 547440,
+   "sha256": "57eda942c44c724d3b15bc0261ac4ae04a510c17702a8a7d5d4032f1698cf126"
+  },
+  "Prop_Gal_LivingFrame_Restored_LOD1.glb": {
+   "bytes": 14856,
+   "sha256": "0d7ada5dd90b6e31ac0c73aeecdde63ca7a6da2b282bcfbd929efd8b581cf2bc"
+  },
+  "Prop_Gal_LivingFrame_Restored.sockets.json": {
+   "bytes": 986,
+   "sha256": "d5159a1d39056af40d3e915ede39a933b755a7f91a464ec2c7f01aaa3463fdf9"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 196,
+  "ratio": 0.405,
+  "dimensions": [
+   2.0,
+   0.1,
+   1.5
+  ]
+ },
+ "sockets_sidecar": "Prop_Gal_LivingFrame_Restored.sockets.json",
+ "ok": true
+}

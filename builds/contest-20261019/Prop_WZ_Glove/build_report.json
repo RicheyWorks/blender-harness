@@ -1,0 +1,78 @@
+{
+ "asset": "Prop_WZ_Glove",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "dffd5801b970b49be618308a7fdaa908663f9300689ed1b52de4f5d78365baaa",
+ "lod0": {
+  "objects": {
+   "Prop_WZ_Glove": 332
+  },
+  "triangles": 332,
+  "bounds_min": [
+   -0.1612,
+   -0.055,
+   0.0
+  ],
+  "bounds_max": [
+   0.09,
+   0.075,
+   0.3073
+  ],
+  "dimensions": [
+   0.2512,
+   0.13,
+   0.3073
+  ],
+  "materials": {
+   "Prop_WZ_Glove": [
+    "Prop_WZ_Glove_M0",
+    "Prop_WZ_Glove_M1"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Hand"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_WZ_Glove_00",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_WZ_Glove.glb": {
+   "bytes": 22036,
+   "sha256": "06f5bc380e4cc369a8d2064c10c50ab3b327e607d1e3627643361a47091799cb"
+  },
+  "Prop_WZ_Glove.blend": {
+   "bytes": 466944,
+   "sha256": "3f5a585b3814a8cf2a81b7dd81cc339f28ba02e63aab8adbd4816941f26c21cd"
+  },
+  "Prop_WZ_Glove_LOD1.glb": {
+   "bytes": 11256,
+   "sha256": "fbf63d28878c4356f1585ecd9e562b91a423dcc5e76ab1319b01cd8a635114e4"
+  },
+  "Prop_WZ_Glove.sockets.json": {
+   "bytes": 662,
+   "sha256": "e30b6c644dc87d186615e30110b281b161369f2884e8e1f7345685e36736db86"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 168,
+  "ratio": 0.506,
+  "dimensions": [
+   0.2512,
+   0.1138,
+   0.3078
+  ]
+ },
+ "sockets_sidecar": "Prop_WZ_Glove.sockets.json",
+ "ok": true
+}

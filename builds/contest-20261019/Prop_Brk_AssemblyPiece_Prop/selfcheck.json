@@ -1,0 +1,95 @@
+[
+ [
+  "mesh node Prop_Brk_AssemblyPiece_Prop",
+  true,
+  ""
+ ],
+ [
+  "Prop_Brk_AssemblyPiece_Prop tris 232",
+  true,
+  232
+ ],
+ [
+  "Prop_Brk_AssemblyPiece_Prop parent None",
+  true,
+  null
+ ],
+ [
+  "collision UCX_Prop_Brk_AssemblyPiece_Prop_00 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_Brk_AssemblyPiece_Prop_00 tris 12, no material, parent Prop_Brk_AssemblyPiece_Prop",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Snap_Base under Prop_Brk_AssemblyPiece_Prop",
+  true,
+  ""
+ ],
+ [
+  "sockets sidecar present",
+  true,
+  ""
+ ],
+ [
+  "sidecar = glb sockets in UE space",
+  true,
+  ""
+ ],
+ [
+  "native socket rotation == sidecar (pre-rotated empties)",
+  true,
+  []
+ ],
+ [
+  "render bounds = predicted (1 mm)",
+  true,
+  [
+   [
+    -0.125,
+    0.0,
+    -0.125
+   ],
+   [
+    0.125,
+    0.9858,
+    0.165
+   ]
+  ]
+ ],
+ [
+  "LOD1 glb present",
+  true,
+  ""
+ ],
+ [
+  "LOD1 tris 120",
+  true,
+  120
+ ],
+ [
+  "LOD1 has no sockets/collision",
+  true,
+  ""
+ ],
+ [
+  "build_report ok",
+  true,
+  {
+   "triangles": true,
+   "bounds": true,
+   "objects": true,
+   "collision_tris": true,
+   "lod1_triangles": true,
+   "sidecar_sockets": true
+  }
+ ],
+ [
+  "report sha256 = files",
+  true,
+  ""
+ ]
+]

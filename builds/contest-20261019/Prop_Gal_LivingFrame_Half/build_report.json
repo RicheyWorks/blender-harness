@@ -1,0 +1,85 @@
+{
+ "asset": "Prop_Gal_LivingFrame_Half",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "e5599bf11f58d50b9817aa69754ab0afc7a4dfa8dc93fad8abdc854b42fc9f0c",
+ "lod0": {
+  "objects": {
+   "Prop_Gal_LivingFrame_Half": 364,
+   "Prop_Gal_LivingFrame_Half_Canvas": 120
+  },
+  "triangles": 484,
+  "bounds_min": [
+   -1.0,
+   -0.06,
+   0.0
+  ],
+  "bounds_max": [
+   1.0,
+   0.04,
+   1.5
+  ],
+  "dimensions": [
+   2.0,
+   0.1,
+   1.5
+  ],
+  "materials": {
+   "Prop_Gal_LivingFrame_Half": [
+    "Prop_Gal_LivingFrame_Half_M0",
+    "Prop_Gal_LivingFrame_Half_M1"
+   ],
+   "Prop_Gal_LivingFrame_Half_Canvas": [
+    "Prop_Gal_LivingFrame_Half_M2",
+    "Prop_Gal_LivingFrame_Half_M3",
+    "Prop_Gal_LivingFrame_Half_M4"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Canvas",
+  "SOCKET_Light"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_Gal_LivingFrame_Half_00",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_Gal_LivingFrame_Half.glb": {
+   "bytes": 32640,
+   "sha256": "2ea3ab06c336c75d79383e6a258b9ccbafc5e64a21b09972fd6f18e93f268ff8"
+  },
+  "Prop_Gal_LivingFrame_Half.blend": {
+   "bytes": 547440,
+   "sha256": "ec4377902e99cefc4b60decf9217b49bba6c982ece8378e9976fc32319123991"
+  },
+  "Prop_Gal_LivingFrame_Half_LOD1.glb": {
+   "bytes": 14608,
+   "sha256": "9e907354230ddeb7528df2bd4ecdf8897ad3ce99742915c6db4a546519a50a8d"
+  },
+  "Prop_Gal_LivingFrame_Half.sockets.json": {
+   "bytes": 974,
+   "sha256": "beb62c2ca909d946b0942ab7c3487d1a9a6eddb46f5ee0ac3925b2ae6e50a142"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 196,
+  "ratio": 0.405,
+  "dimensions": [
+   2.0,
+   0.1,
+   1.5
+  ]
+ },
+ "sockets_sidecar": "Prop_Gal_LivingFrame_Half.sockets.json",
+ "ok": true
+}

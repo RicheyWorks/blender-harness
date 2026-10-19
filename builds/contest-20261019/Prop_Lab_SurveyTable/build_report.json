@@ -1,0 +1,80 @@
+{
+ "asset": "Prop_Lab_SurveyTable",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "f953ac08a97cc0daec8d11ddeb45192c2bf4436df2f6964359f9f7bc9e0de8a8",
+ "lod0": {
+  "objects": {
+   "Prop_Lab_SurveyTable": 444
+  },
+  "triangles": 444,
+  "bounds_min": [
+   -0.75,
+   -0.45,
+   0.0
+  ],
+  "bounds_max": [
+   0.75,
+   0.45,
+   0.918
+  ],
+  "dimensions": [
+   1.5,
+   0.9,
+   0.918
+  ],
+  "materials": {
+   "Prop_Lab_SurveyTable": [
+    "Prop_Lab_SurveyTable_M0",
+    "Prop_Lab_SurveyTable_M1",
+    "Prop_Lab_SurveyTable_M2"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_MapA",
+  "SOCKET_MapB"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_Lab_SurveyTable_00",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_Lab_SurveyTable.glb": {
+   "bytes": 29124,
+   "sha256": "ad9dcb40bfd00e2b480c8568121e71706d7ce19fd7b30a3aba7cc6d8417257b0"
+  },
+  "Prop_Lab_SurveyTable.blend": {
+   "bytes": 495416,
+   "sha256": "ce06f9a37821a460e03e665a39976aacbe420ba88f4598025188add5a3778fe4"
+  },
+  "Prop_Lab_SurveyTable_LOD1.glb": {
+   "bytes": 17472,
+   "sha256": "318b91151a5b4e6a718afbbffe5bae8e89ed14da4d89480c388e1f07e2398e26"
+  },
+  "Prop_Lab_SurveyTable.sockets.json": {
+   "bytes": 957,
+   "sha256": "ddb1b0e713734f02622690a388a1d04f2e40d2a7e15a571b18ec43a7f20686e8"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 260,
+  "ratio": 0.586,
+  "dimensions": [
+   1.5,
+   0.9,
+   0.8453
+  ]
+ },
+ "sockets_sidecar": "Prop_Lab_SurveyTable.sockets.json",
+ "ok": true
+}

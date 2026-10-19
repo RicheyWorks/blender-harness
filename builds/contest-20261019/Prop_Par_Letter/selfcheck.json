@@ -1,0 +1,79 @@
+[
+ [
+  "mesh node Prop_Par_Letter",
+  true,
+  ""
+ ],
+ [
+  "Prop_Par_Letter tris 80",
+  true,
+  80
+ ],
+ [
+  "Prop_Par_Letter parent None",
+  true,
+  null
+ ],
+ [
+  "collision UCX_Prop_Par_Letter_00 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_Par_Letter_00 tris 12, no material, parent Prop_Par_Letter",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Carry under Prop_Par_Letter",
+  true,
+  ""
+ ],
+ [
+  "sockets sidecar present",
+  true,
+  ""
+ ],
+ [
+  "sidecar = glb sockets in UE space",
+  true,
+  ""
+ ],
+ [
+  "native socket rotation == sidecar (pre-rotated empties)",
+  true,
+  []
+ ],
+ [
+  "render bounds = predicted (1 mm)",
+  true,
+  [
+   [
+    -0.1,
+    0.0,
+    -0.06
+   ],
+   [
+    0.1,
+    0.007,
+    0.06
+   ]
+  ]
+ ],
+ [
+  "build_report ok",
+  true,
+  {
+   "triangles": true,
+   "bounds": true,
+   "objects": true,
+   "collision_tris": true,
+   "sidecar_sockets": true
+  }
+ ],
+ [
+  "report sha256 = files",
+  true,
+  ""
+ ]
+]

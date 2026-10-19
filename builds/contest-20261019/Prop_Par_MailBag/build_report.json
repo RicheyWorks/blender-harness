@@ -1,0 +1,79 @@
+{
+ "asset": "Prop_Par_MailBag",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "58849a391b1bf8f584a1690e51192cbb2162f293c85a8b3fdc44332303fe1da1",
+ "lod0": {
+  "objects": {
+   "Prop_Par_MailBag": 184
+  },
+  "triangles": 184,
+  "bounds_min": [
+   -0.23,
+   -0.115,
+   0.0
+  ],
+  "bounds_max": [
+   0.23,
+   0.075,
+   0.5363
+  ],
+  "dimensions": [
+   0.46,
+   0.19,
+   0.5363
+  ],
+  "materials": {
+   "Prop_Par_MailBag": [
+    "Prop_Par_MailBag_M0",
+    "Prop_Par_MailBag_M1",
+    "Prop_Par_MailBag_M2"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Carry"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_Par_MailBag_00",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_Par_MailBag.glb": {
+   "bytes": 14260,
+   "sha256": "3d4cb4b8806f9e4373f40d8eb9acd588196edd22b3baadfa3c1322175cd48cda"
+  },
+  "Prop_Par_MailBag.blend": {
+   "bytes": 484780,
+   "sha256": "9a7a4a72e52c4e0a4a263d5c121bfa8fb0afeaa6abc581232dd3d2aee9a55e22"
+  },
+  "Prop_Par_MailBag_LOD1.glb": {
+   "bytes": 7236,
+   "sha256": "ff4cfaae7ede770f0dcdd65d605333adabee57a242f32e868ddafa919f98d987"
+  },
+  "Prop_Par_MailBag.sockets.json": {
+   "bytes": 664,
+   "sha256": "59c881ea7895a86995a4d15d408a5b48a24a40788a2058f2c73656f487b3f66c"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 84,
+  "ratio": 0.457,
+  "dimensions": [
+   0.46,
+   0.19,
+   0.5363
+  ]
+ },
+ "sockets_sidecar": "Prop_Par_MailBag.sockets.json",
+ "ok": true
+}

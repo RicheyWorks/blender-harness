@@ -1,0 +1,195 @@
+[
+ [
+  "mesh node Prop_WZ_SportsHoop",
+  true,
+  ""
+ ],
+ [
+  "Prop_WZ_SportsHoop tris 344",
+  true,
+  344
+ ],
+ [
+  "Prop_WZ_SportsHoop parent None",
+  true,
+  null
+ ],
+ [
+  "collision UCX_Prop_WZ_SportsHoop_00 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_WZ_SportsHoop_00 tris 12, no material, parent Prop_WZ_SportsHoop",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_WZ_SportsHoop_01 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_WZ_SportsHoop_01 tris 28, no material, parent Prop_WZ_SportsHoop",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_WZ_SportsHoop_02 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_WZ_SportsHoop_02 tris 12, no material, parent Prop_WZ_SportsHoop",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_WZ_SportsHoop_03 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_WZ_SportsHoop_03 tris 12, no material, parent Prop_WZ_SportsHoop",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_WZ_SportsHoop_04 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_WZ_SportsHoop_04 tris 12, no material, parent Prop_WZ_SportsHoop",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_WZ_SportsHoop_05 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_WZ_SportsHoop_05 tris 12, no material, parent Prop_WZ_SportsHoop",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_WZ_SportsHoop_06 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_WZ_SportsHoop_06 tris 12, no material, parent Prop_WZ_SportsHoop",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_WZ_SportsHoop_07 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_WZ_SportsHoop_07 tris 12, no material, parent Prop_WZ_SportsHoop",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_WZ_SportsHoop_08 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_WZ_SportsHoop_08 tris 12, no material, parent Prop_WZ_SportsHoop",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_WZ_SportsHoop_09 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_WZ_SportsHoop_09 tris 12, no material, parent Prop_WZ_SportsHoop",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_WZ_SportsHoop_10 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_WZ_SportsHoop_10 tris 12, no material, parent Prop_WZ_SportsHoop",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Rim under Prop_WZ_SportsHoop",
+  true,
+  ""
+ ],
+ [
+  "sockets sidecar present",
+  true,
+  ""
+ ],
+ [
+  "sidecar = glb sockets in UE space",
+  true,
+  ""
+ ],
+ [
+  "native socket rotation == sidecar (pre-rotated empties)",
+  true,
+  []
+ ],
+ [
+  "render bounds = predicted (1 mm)",
+  true,
+  [
+   [
+    -0.9,
+    0.0,
+    -0.4
+   ],
+   [
+    0.9,
+    3.955,
+    1.445
+   ]
+  ]
+ ],
+ [
+  "LOD1 glb present",
+  true,
+  ""
+ ],
+ [
+  "LOD1 tris 188",
+  true,
+  188
+ ],
+ [
+  "LOD1 has no sockets/collision",
+  true,
+  ""
+ ],
+ [
+  "build_report ok",
+  true,
+  {
+   "triangles": true,
+   "bounds": true,
+   "objects": true,
+   "collision_tris": true,
+   "lod1_triangles": true,
+   "sidecar_sockets": true
+  }
+ ],
+ [
+  "report sha256 = files",
+  true,
+  ""
+ ]
+]

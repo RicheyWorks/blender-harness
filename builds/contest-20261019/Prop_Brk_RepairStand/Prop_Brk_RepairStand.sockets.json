@@ -1,0 +1,134 @@
+{
+ "asset": "Prop_Brk_RepairStand",
+ "units": "cm",
+ "space": "unreal",
+ "note": "UE +X forward, +Y right, +Z up, cm; UE = 100 * (x_b, -y_b, z_b) = 100 * (gx, gz, gy) (UEB 48725); location relative to parent node; rotation [pitch, yaw, roll] deg: plain sockets [0, 0, 0] = mesh-aligned, attach sockets +X along barrel/shaft, +Z up; native empties pre-rotated to match",
+ "sockets": [
+  {
+   "name": "SOCKET_Snap_Cockpit",
+   "parent": "Prop_Brk_RepairStand",
+   "location": [
+    -60.0,
+    0.0,
+    123.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Snap_Engine",
+   "parent": "Prop_Brk_RepairStand",
+   "location": [
+    0.0,
+    30.0,
+    13.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Snap_Prop",
+   "parent": "Prop_Brk_RepairStand",
+   "location": [
+    60.0,
+    30.0,
+    13.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Snap_Tail",
+   "parent": "Prop_Brk_RepairStand",
+   "location": [
+    60.0,
+    0.0,
+    123.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Snap_Wheel",
+   "parent": "Prop_Brk_RepairStand",
+   "location": [
+    -60.0,
+    30.0,
+    13.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Snap_Wing",
+   "parent": "Prop_Brk_RepairStand",
+   "location": [
+    0.0,
+    0.0,
+    123.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  }
+ ]
+}

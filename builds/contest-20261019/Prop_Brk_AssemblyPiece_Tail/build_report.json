@@ -1,0 +1,78 @@
+{
+ "asset": "Prop_Brk_AssemblyPiece_Tail",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "5ccd1a44cbc154e95eef9672b530d1457397378d4d9234e71c094d19a81ce05d",
+ "lod0": {
+  "objects": {
+   "Prop_Brk_AssemblyPiece_Tail": 156
+  },
+  "triangles": 156,
+  "bounds_min": [
+   -0.25,
+   -0.25,
+   0.0
+  ],
+  "bounds_max": [
+   0.25,
+   0.33,
+   0.65
+  ],
+  "dimensions": [
+   0.5,
+   0.58,
+   0.65
+  ],
+  "materials": {
+   "Prop_Brk_AssemblyPiece_Tail": [
+    "Prop_Brk_AssemblyPiece_Tail_M0",
+    "Prop_Brk_AssemblyPiece_Tail_M1"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Snap_Base"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_Brk_AssemblyPiece_Tail_00",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_Brk_AssemblyPiece_Tail.glb": {
+   "bytes": 11488,
+   "sha256": "2fe5e4372f301c54bab29e9fa8e40a55152357b34159e4f6aad2a37cc9350415"
+  },
+  "Prop_Brk_AssemblyPiece_Tail.blend": {
+   "bytes": 460248,
+   "sha256": "6878dd1fb46502137ce3169d07a4fd232e93a83dc6a383e077979c02dbb3a1f9"
+  },
+  "Prop_Brk_AssemblyPiece_Tail_LOD1.glb": {
+   "bytes": 5156,
+   "sha256": "118595681cdf90b43802dce6702b785f3239905a05b591d7b9847528d0714149"
+  },
+  "Prop_Brk_AssemblyPiece_Tail.sockets.json": {
+   "bytes": 689,
+   "sha256": "b969618302c864c36096612e38c877dcc0e4cfd2c1e550b4c072e6f7077ffe18"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 64,
+  "ratio": 0.41,
+  "dimensions": [
+   0.5,
+   0.58,
+   0.65
+  ]
+ },
+ "sockets_sidecar": "Prop_Brk_AssemblyPiece_Tail.sockets.json",
+ "ok": true
+}

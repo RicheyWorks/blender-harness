@@ -1,0 +1,83 @@
+{
+ "asset": "Prop_Par_PlotMailbox",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "40d4a786e088ca7f30ea67191a55d9b68d7ecd9ea5f20f3986cb80a2292383ac",
+ "lod0": {
+  "objects": {
+   "Prop_Par_PlotMailbox": 228
+  },
+  "triangles": 228,
+  "bounds_min": [
+   -0.14,
+   -0.24,
+   0.0
+  ],
+  "bounds_max": [
+   0.14,
+   0.24,
+   1.235
+  ],
+  "dimensions": [
+   0.28,
+   0.48,
+   1.235
+  ],
+  "materials": {
+   "Prop_Par_PlotMailbox": [
+    "Prop_Par_PlotMailbox_M0",
+    "Prop_Par_PlotMailbox_M1",
+    "Prop_Par_PlotMailbox_M2"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Slot"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_Par_PlotMailbox_00",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_Par_PlotMailbox_01",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_Par_PlotMailbox.glb": {
+   "bytes": 17596,
+   "sha256": "d68bd3e9a63a2c098279d48d0f549d7009980c7ed770bf55d0f96258699218c9"
+  },
+  "Prop_Par_PlotMailbox.blend": {
+   "bytes": 490272,
+   "sha256": "8053a5ff253b431d56bd1cb43985e48a7257d1cb85fb993a59f705787d562be4"
+  },
+  "Prop_Par_PlotMailbox_LOD1.glb": {
+   "bytes": 9172,
+   "sha256": "146f1e53616104afba3de3363b4aea295ac1e46cf87de68ea9cbd26d9b663245"
+  },
+  "Prop_Par_PlotMailbox.sockets.json": {
+   "bytes": 673,
+   "sha256": "318ba9edc442640a0ea0afe13a896fd21b9e0753ff042d5268e6db2e608769fe"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 120,
+  "ratio": 0.526,
+  "dimensions": [
+   0.28,
+   0.48,
+   1.235
+  ]
+ },
+ "sockets_sidecar": "Prop_Par_PlotMailbox.sockets.json",
+ "ok": true
+}

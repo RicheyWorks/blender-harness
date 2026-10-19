@@ -1,0 +1,115 @@
+[
+ [
+  "mesh node Prop_Gal_LivingFrame_Faded",
+  true,
+  ""
+ ],
+ [
+  "Prop_Gal_LivingFrame_Faded tris 364",
+  true,
+  364
+ ],
+ [
+  "Prop_Gal_LivingFrame_Faded parent None",
+  true,
+  null
+ ],
+ [
+  "mesh node Prop_Gal_LivingFrame_Faded_Canvas",
+  true,
+  ""
+ ],
+ [
+  "Prop_Gal_LivingFrame_Faded_Canvas tris 120",
+  true,
+  120
+ ],
+ [
+  "Prop_Gal_LivingFrame_Faded_Canvas parent Prop_Gal_LivingFrame_Faded",
+  true,
+  "Prop_Gal_LivingFrame_Faded"
+ ],
+ [
+  "collision UCX_Prop_Gal_LivingFrame_Faded_00 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_Gal_LivingFrame_Faded_00 tris 12, no material, parent Prop_Gal_LivingFrame_Faded",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Canvas under Prop_Gal_LivingFrame_Faded",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Light under Prop_Gal_LivingFrame_Faded",
+  true,
+  ""
+ ],
+ [
+  "sockets sidecar present",
+  true,
+  ""
+ ],
+ [
+  "sidecar = glb sockets in UE space",
+  true,
+  ""
+ ],
+ [
+  "native socket rotation == sidecar (pre-rotated empties)",
+  true,
+  []
+ ],
+ [
+  "render bounds = predicted (1 mm)",
+  true,
+  [
+   [
+    -1.0,
+    0.0,
+    -0.04
+   ],
+   [
+    1.0,
+    1.5,
+    0.06
+   ]
+  ]
+ ],
+ [
+  "LOD1 glb present",
+  true,
+  ""
+ ],
+ [
+  "LOD1 tris 196",
+  true,
+  196
+ ],
+ [
+  "LOD1 has no sockets/collision",
+  true,
+  ""
+ ],
+ [
+  "build_report ok",
+  true,
+  {
+   "triangles": true,
+   "bounds": true,
+   "objects": true,
+   "collision_tris": true,
+   "lod1_triangles": true,
+   "sidecar_sockets": true
+  }
+ ],
+ [
+  "report sha256 = files",
+  true,
+  ""
+ ]
+]

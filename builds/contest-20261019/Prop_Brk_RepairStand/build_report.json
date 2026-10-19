@@ -1,0 +1,96 @@
+{
+ "asset": "Prop_Brk_RepairStand",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "3969aa782af44bad4bec2f22cf3475cdaa288fcfc3e598e0ead9217f2a1f7fd8",
+ "lod0": {
+  "objects": {
+   "Prop_Brk_RepairStand": 272
+  },
+  "triangles": 272,
+  "bounds_min": [
+   -1.0,
+   -0.55,
+   0.0
+  ],
+  "bounds_max": [
+   1.0,
+   0.55,
+   1.23
+  ],
+  "dimensions": [
+   2.0,
+   1.1,
+   1.23
+  ],
+  "materials": {
+   "Prop_Brk_RepairStand": [
+    "Prop_Brk_RepairStand_M0",
+    "Prop_Brk_RepairStand_M1",
+    "Prop_Brk_RepairStand_M2"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Snap_Wing",
+  "SOCKET_Snap_Tail",
+  "SOCKET_Snap_Prop",
+  "SOCKET_Snap_Wheel",
+  "SOCKET_Snap_Engine",
+  "SOCKET_Snap_Cockpit"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_Brk_RepairStand_00",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_Brk_RepairStand_01",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_Brk_RepairStand_02",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_Brk_RepairStand_03",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_Brk_RepairStand.glb": {
+   "bytes": 23512,
+   "sha256": "087aaea1b92e39127e1e3c420c46cee3cdf3e7239707086d8d24ecb63ef1a9c6"
+  },
+  "Prop_Brk_RepairStand.blend": {
+   "bytes": 507612,
+   "sha256": "97bf14433db1e4f9b00a1a938c49db5b6cc79d3a47642bbc07f685024ca130fe"
+  },
+  "Prop_Brk_RepairStand_LOD1.glb": {
+   "bytes": 8300,
+   "sha256": "283b5ee80d18385832c89c51a157824b764b53cf5007701ea6f9f3cdbbb44358"
+  },
+  "Prop_Brk_RepairStand.sockets.json": {
+   "bytes": 2134,
+   "sha256": "7d9b06df5c3b64dfce9e7d900938cbf3786d63f78c47e670f388530f137725b6"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 120,
+  "ratio": 0.441,
+  "dimensions": [
+   2.0,
+   1.0,
+   1.21
+  ]
+ },
+ "sockets_sidecar": "Prop_Brk_RepairStand.sockets.json",
+ "ok": true
+}

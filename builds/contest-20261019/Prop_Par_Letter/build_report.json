@@ -1,0 +1,64 @@
+{
+ "asset": "Prop_Par_Letter",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "ee44aec1ff555b479ef38f0bb9b9c9130bb983add98e60ded1b662f0b3c5e869",
+ "lod0": {
+  "objects": {
+   "Prop_Par_Letter": 80
+  },
+  "triangles": 80,
+  "bounds_min": [
+   -0.1,
+   -0.06,
+   0.0
+  ],
+  "bounds_max": [
+   0.1,
+   0.06,
+   0.007
+  ],
+  "dimensions": [
+   0.2,
+   0.12,
+   0.007
+  ],
+  "materials": {
+   "Prop_Par_Letter": [
+    "Prop_Par_Letter_M0",
+    "Prop_Par_Letter_M1"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Carry"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_Par_Letter_00",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_Par_Letter.glb": {
+   "bytes": 7252,
+   "sha256": "376e3c6b9e37079e1958b8fbfa2be029b99056b25b25387a7a813dc1a943efd9"
+  },
+  "Prop_Par_Letter.blend": {
+   "bytes": 457336,
+   "sha256": "4c2c3be7e872df8996d3e70a489a25b6a66ab49618b9bcee8eeaec5f97f8aab4"
+  },
+  "Prop_Par_Letter.sockets.json": {
+   "bytes": 661,
+   "sha256": "446228afa8f785d54b6ccf0637a293a24a2459f799977148861f6afbe00cb273"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "sidecar_sockets": true
+ },
+ "sockets_sidecar": "Prop_Par_Letter.sockets.json",
+ "ok": true
+}
