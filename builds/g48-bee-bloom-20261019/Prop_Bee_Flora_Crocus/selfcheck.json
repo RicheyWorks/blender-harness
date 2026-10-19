@@ -1,0 +1,64 @@
+[
+ [
+  "mesh node Prop_Bee_Flora_Crocus",
+  true,
+  ""
+ ],
+ [
+  "Prop_Bee_Flora_Crocus tris 432",
+  true,
+  432
+ ],
+ [
+  "Prop_Bee_Flora_Crocus parent None",
+  true,
+  null
+ ],
+ [
+  "render bounds = predicted (1 mm)",
+  true,
+  [
+   [
+    -0.0841,
+    0.0,
+    -0.0828
+   ],
+   [
+    0.0841,
+    0.1139,
+    0.0828
+   ]
+  ]
+ ],
+ [
+  "LOD1 glb present",
+  true,
+  ""
+ ],
+ [
+  "LOD1 tris 204",
+  true,
+  204
+ ],
+ [
+  "LOD1 has no sockets/collision",
+  true,
+  ""
+ ],
+ [
+  "build_report ok",
+  true,
+  {
+   "triangles": true,
+   "bounds": true,
+   "objects": true,
+   "collision_tris": true,
+   "lod1_triangles": true
+  }
+ ],
+ [
+  "report sha256 = files",
+  true,
+  ""
+ ]
+]

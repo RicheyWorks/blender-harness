@@ -1,0 +1,66 @@
+{
+ "asset": "Prop_Bee_Flora_Bramble",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "1bc2e546d9f9a3b9146e38edf0f1cc63abba3a970256d80811f10b3329d513a8",
+ "lod0": {
+  "objects": {
+   "Prop_Bee_Flora_Bramble": 456
+  },
+  "triangles": 456,
+  "bounds_min": [
+   -0.1974,
+   -0.1757,
+   -0.0
+  ],
+  "bounds_max": [
+   0.1974,
+   0.1757,
+   0.3155
+  ],
+  "dimensions": [
+   0.3948,
+   0.3514,
+   0.3155
+  ],
+  "materials": {
+   "Prop_Bee_Flora_Bramble": [
+    "Prop_Bee_Flora_Bramble_M0",
+    "Prop_Bee_Flora_Bramble_M1",
+    "Prop_Bee_Flora_Bramble_M2"
+   ]
+  }
+ },
+ "sockets": [],
+ "collision": [],
+ "files": {
+  "Prop_Bee_Flora_Bramble.glb": {
+   "bytes": 25376,
+   "sha256": "35d1fb6df262552b2acbebc535fad0dbd274c06dcafe5943e83e0f00a5963379"
+  },
+  "Prop_Bee_Flora_Bramble.blend": {
+   "bytes": 487232,
+   "sha256": "7d68279b1abc0a78296c8cc710dae33f035545c2739f741705482acaf95edb96"
+  },
+  "Prop_Bee_Flora_Bramble_LOD1.glb": {
+   "bytes": 13840,
+   "sha256": "0a041c1478879af1c978b0e51f3a9499592c21f17ddf519ba5313174e7e0df58"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true
+ },
+ "lod1": {
+  "triangles": 192,
+  "ratio": 0.421,
+  "dimensions": [
+   0.3941,
+   0.3504,
+   0.3155
+  ]
+ },
+ "ok": true
+}

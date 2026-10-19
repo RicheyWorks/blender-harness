@@ -1,0 +1,64 @@
+[
+ [
+  "mesh node Prop_Bee_Flora_Bramble",
+  true,
+  ""
+ ],
+ [
+  "Prop_Bee_Flora_Bramble tris 456",
+  true,
+  456
+ ],
+ [
+  "Prop_Bee_Flora_Bramble parent None",
+  true,
+  null
+ ],
+ [
+  "render bounds = predicted (1 mm)",
+  true,
+  [
+   [
+    -0.1974,
+    -0.0,
+    -0.1757
+   ],
+   [
+    0.1974,
+    0.3155,
+    0.1757
+   ]
+  ]
+ ],
+ [
+  "LOD1 glb present",
+  true,
+  ""
+ ],
+ [
+  "LOD1 tris 192",
+  true,
+  192
+ ],
+ [
+  "LOD1 has no sockets/collision",
+  true,
+  ""
+ ],
+ [
+  "build_report ok",
+  true,
+  {
+   "triangles": true,
+   "bounds": true,
+   "objects": true,
+   "collision_tris": true,
+   "lod1_triangles": true
+  }
+ ],
+ [
+  "report sha256 = files",
+  true,
+  ""
+ ]
+]

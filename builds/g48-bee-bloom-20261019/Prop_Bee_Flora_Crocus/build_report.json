@@ -1,0 +1,66 @@
+{
+ "asset": "Prop_Bee_Flora_Crocus",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "be5be2e44cbc299780a99d50bcd0a5232a42fd4fb4161ccbd45dfe4429ab8e69",
+ "lod0": {
+  "objects": {
+   "Prop_Bee_Flora_Crocus": 432
+  },
+  "triangles": 432,
+  "bounds_min": [
+   -0.0841,
+   -0.0828,
+   0.0
+  ],
+  "bounds_max": [
+   0.0841,
+   0.0828,
+   0.1139
+  ],
+  "dimensions": [
+   0.1682,
+   0.1656,
+   0.1139
+  ],
+  "materials": {
+   "Prop_Bee_Flora_Crocus": [
+    "Prop_Bee_Flora_Crocus_M0",
+    "Prop_Bee_Flora_Crocus_M1",
+    "Prop_Bee_Flora_Crocus_M2"
+   ]
+  }
+ },
+ "sockets": [],
+ "collision": [],
+ "files": {
+  "Prop_Bee_Flora_Crocus.glb": {
+   "bytes": 24364,
+   "sha256": "cbbf8d7b64de822adaf4f12a7c750ecc0c7d1b640e22cb04156f388c44d5efd2"
+  },
+  "Prop_Bee_Flora_Crocus.blend": {
+   "bytes": 486600,
+   "sha256": "2e5d492ee2fc63c3da60cfbad7b41bb22f20631c61642f02873b6e885a017f94"
+  },
+  "Prop_Bee_Flora_Crocus_LOD1.glb": {
+   "bytes": 12680,
+   "sha256": "cc720c9e1ed4a58194e55b52ed5b569fc7a90eb588b5837d98e8ac7aad86943a"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true
+ },
+ "lod1": {
+  "triangles": 204,
+  "ratio": 0.472,
+  "dimensions": [
+   0.1649,
+   0.1639,
+   0.1138
+  ]
+ },
+ "ok": true
+}

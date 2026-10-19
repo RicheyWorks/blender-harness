@@ -1,0 +1,83 @@
+{
+ "asset": "Prop_Bee_Skep",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "a7884cfcd42b74c8b956a982e4dfe26c16f43f3ba8bb730c10fa0c7db3f16e0d",
+ "lod0": {
+  "objects": {
+   "Prop_Bee_Skep": 1108
+  },
+  "triangles": 1108,
+  "bounds_min": [
+   -0.25,
+   -0.25,
+   0.0
+  ],
+  "bounds_max": [
+   0.25,
+   0.25,
+   0.582
+  ],
+  "dimensions": [
+   0.5,
+   0.5,
+   0.582
+  ],
+  "materials": {
+   "Prop_Bee_Skep": [
+    "Prop_Bee_Skep_M0",
+    "Prop_Bee_Skep_M1",
+    "Prop_Bee_Skep_M2"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Entrance"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_Bee_Skep_00",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_Bee_Skep_01",
+   "triangles": 36
+  }
+ ],
+ "files": {
+  "Prop_Bee_Skep.glb": {
+   "bytes": 66388,
+   "sha256": "39513fbf6f611b6abecaa038d6736718516168cf445d406525d98a5d4cfff570"
+  },
+  "Prop_Bee_Skep.blend": {
+   "bytes": 524168,
+   "sha256": "dded57fe6f7814d7f2cfd935f5b4dffb873a88238061ceddc4b30bf13e5bde68"
+  },
+  "Prop_Bee_Skep_LOD1.glb": {
+   "bytes": 29792,
+   "sha256": "f8a8faa717aea5a379a4e6afb39c8cd10d413abef6e134893a39f57568e9b386"
+  },
+  "Prop_Bee_Skep.sockets.json": {
+   "bytes": 663,
+   "sha256": "cae5b6af0df10a0e74a528b907dd6e89e96ac4b5fcbd8b1f5491b242dc02b11c"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 508,
+  "ratio": 0.458,
+  "dimensions": [
+   0.5,
+   0.5,
+   0.582
+  ]
+ },
+ "sockets_sidecar": "Prop_Bee_Skep.sockets.json",
+ "ok": true
+}

@@ -1,0 +1,86 @@
+{
+ "asset": "Prop_Bee_FlowerBed",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "9c445e78f85dcb895970d89d676eb1911af9ec2014662d4cb52d7ae23965d9e7",
+ "lod0": {
+  "objects": {
+   "Prop_Bee_FlowerBed": 468
+  },
+  "triangles": 468,
+  "bounds_min": [
+   -1.0,
+   -0.5,
+   0.0
+  ],
+  "bounds_max": [
+   1.0,
+   0.5,
+   0.26
+  ],
+  "dimensions": [
+   2.0,
+   1.0,
+   0.26
+  ],
+  "materials": {
+   "Prop_Bee_FlowerBed": [
+    "Prop_Bee_FlowerBed_M0",
+    "Prop_Bee_FlowerBed_M1",
+    "Prop_Bee_FlowerBed_M2"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Plant_00",
+  "SOCKET_Plant_01",
+  "SOCKET_Plant_02",
+  "SOCKET_Plant_03",
+  "SOCKET_Plant_04",
+  "SOCKET_Plant_05",
+  "SOCKET_Plant_06",
+  "SOCKET_Plant_07"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_Bee_FlowerBed_00",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_Bee_FlowerBed.glb": {
+   "bytes": 30700,
+   "sha256": "c800994abaf56f15cf76ee5124688ccb504bb33736323d69a231cdfe1b08d5be"
+  },
+  "Prop_Bee_FlowerBed.blend": {
+   "bytes": 504808,
+   "sha256": "10c1bd4bb84d95dd91c20a9e6452e7b4952a1422c86578b4649a6ecdc34b7148"
+  },
+  "Prop_Bee_FlowerBed_LOD1.glb": {
+   "bytes": 16076,
+   "sha256": "e3163d062ed20f78a02f5af839d4135ad44ef4c292a8e8d1748910d5f0cb29bf"
+  },
+  "Prop_Bee_FlowerBed.sockets.json": {
+   "bytes": 2690,
+   "sha256": "c1ed042d5b624354bcde8592608d8ca1f7842a091dac6f5beb5037b774d9844a"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 236,
+  "ratio": 0.504,
+  "dimensions": [
+   2.0,
+   1.0,
+   0.26
+  ]
+ },
+ "sockets_sidecar": "Prop_Bee_FlowerBed.sockets.json",
+ "ok": true
+}

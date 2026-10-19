@@ -1,0 +1,64 @@
+[
+ [
+  "mesh node Prop_Bee_Flora_WillowCatkin",
+  true,
+  ""
+ ],
+ [
+  "Prop_Bee_Flora_WillowCatkin tris 240",
+  true,
+  240
+ ],
+ [
+  "Prop_Bee_Flora_WillowCatkin parent None",
+  true,
+  null
+ ],
+ [
+  "render bounds = predicted (1 mm)",
+  true,
+  [
+   [
+    -0.0915,
+    0.0,
+    -0.1025
+   ],
+   [
+    0.0915,
+    0.4094,
+    0.1025
+   ]
+  ]
+ ],
+ [
+  "LOD1 glb present",
+  true,
+  ""
+ ],
+ [
+  "LOD1 tris 108",
+  true,
+  108
+ ],
+ [
+  "LOD1 has no sockets/collision",
+  true,
+  ""
+ ],
+ [
+  "build_report ok",
+  true,
+  {
+   "triangles": true,
+   "bounds": true,
+   "objects": true,
+   "collision_tris": true,
+   "lod1_triangles": true
+  }
+ ],
+ [
+  "report sha256 = files",
+  true,
+  ""
+ ]
+]

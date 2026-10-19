@@ -1,0 +1,66 @@
+{
+ "asset": "Prop_Bee_Flora_WillowCatkin",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "fbd33de42e5989a8a486bfdb19ee40dbf52821fac7cae325f14a830a6849af39",
+ "lod0": {
+  "objects": {
+   "Prop_Bee_Flora_WillowCatkin": 240
+  },
+  "triangles": 240,
+  "bounds_min": [
+   -0.0915,
+   -0.1025,
+   0.0
+  ],
+  "bounds_max": [
+   0.0915,
+   0.1025,
+   0.4094
+  ],
+  "dimensions": [
+   0.183,
+   0.205,
+   0.4094
+  ],
+  "materials": {
+   "Prop_Bee_Flora_WillowCatkin": [
+    "Prop_Bee_Flora_WillowCatkin_M0",
+    "Prop_Bee_Flora_WillowCatkin_M1",
+    "Prop_Bee_Flora_WillowCatkin_M2"
+   ]
+  }
+ },
+ "sockets": [],
+ "collision": [],
+ "files": {
+  "Prop_Bee_Flora_WillowCatkin.glb": {
+   "bytes": 14596,
+   "sha256": "3f3d5e37966d6b1a5721481f174f49878216b5bbb9af405413f74fb1d3adfb90"
+  },
+  "Prop_Bee_Flora_WillowCatkin.blend": {
+   "bytes": 480084,
+   "sha256": "80fb4ccfa3d4aad6a287f3f79ce93e6d19622785a29f5a31fe0ceb9c9bedfbe7"
+  },
+  "Prop_Bee_Flora_WillowCatkin_LOD1.glb": {
+   "bytes": 8260,
+   "sha256": "d12a561eeb345fe6b9bee4565575cf6ac75a90b6273cd25b96623c5886b9eb2b"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true
+ },
+ "lod1": {
+  "triangles": 108,
+  "ratio": 0.45,
+  "dimensions": [
+   0.183,
+   0.2061,
+   0.4093
+  ]
+ },
+ "ok": true
+}
