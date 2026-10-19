@@ -1,3 +1,23 @@
 __pycache__/
 *.pyc
 *.tmp
+
+# Secrets stay on BLACKBEARD only, never on GitHub (Richey, 2026-10-19)
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.keystore
+*.jks
+id_rsa*
+id_ed25519*
+relay-webhook*.json
+*webhook*.json
+*credentials*.json
+*secret*.json
+*token*.json
+*.token
+signing/
+secrets/
