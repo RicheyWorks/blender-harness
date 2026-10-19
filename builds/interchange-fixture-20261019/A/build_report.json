@@ -1,0 +1,32 @@
+{
+ "asset": "Prop_PracticeCrate",
+ "triangles": 132,
+ "predicted_triangles": 132,
+ "dimensions": [
+  0.52,
+  0.52,
+  0.5
+ ],
+ "sockets": [
+  "SOCKET_Top"
+ ],
+ "files": [
+  "C:\\Users\\730ri\\projects\\bot-team\\staging\\interchange-fixture-20261019\\A\\Prop_PracticeCrate.blend",
+  "C:\\Users\\730ri\\projects\\bot-team\\staging\\interchange-fixture-20261019\\A\\Prop_PracticeCrate.glb"
+ ],
+ "match": true,
+ "status": "BUILT (staged, not READY)",
+ "collision": [
+  {
+   "name": "UCX_Prop_PracticeCrate",
+   "triangles": 12,
+   "dimensions": [
+    0.52,
+    0.52,
+    0.5
+   ]
+  }
+ ],
+ "variant": "A",
+ "recipe_sha256": "f6bdca0424b3c39b0cff3c6a5264a2b76608d93465a6a4d56e0acf954f000bc2"
+}

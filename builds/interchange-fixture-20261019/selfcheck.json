@@ -1,0 +1,90 @@
+{
+ "A": {
+  "sha256": "bec0d7e76e9536feb0a8ea461dce68827d37871c4c2406a4d74f6bd71baa2549",
+  "bytes": 10884,
+  "tris": 132,
+  "dims_gltf": [
+   0.52,
+   0.5,
+   0.52
+  ],
+  "checks": [
+   [
+    "render tris 132",
+    true
+   ],
+   [
+    "render bounds glTF [0.52, 0.5, 0.52] m",
+    true
+   ],
+   [
+    "pivot: min y(up) = 0",
+    true
+   ],
+   [
+    "UCX_Prop_PracticeCrate child of mesh node",
+    true
+   ],
+   [
+    "UCX 12 tris, no material",
+    true
+   ],
+   [
+    "UCX = render bounds",
+    true
+   ],
+   [
+    "SOCKET_Top child, glTF (0,0.5,0)",
+    true
+   ],
+   [
+    "materials M0 9A6B3F / M1 4A4D57",
+    true
+   ]
+  ]
+ },
+ "B": {
+  "sha256": "4e83515ecb6c49139db195354651fd6e23cebdf6150b2011778755ec8c41581f",
+  "bytes": 18576,
+  "tris": 264,
+  "dims_gltf": [
+   0.52,
+   0.5,
+   0.53
+  ],
+  "checks": [
+   [
+    "render tris 264",
+    true
+   ],
+   [
+    "render bounds glTF [0.52, 0.5, 0.53] m",
+    true
+   ],
+   [
+    "pivot: min y(up) = 0",
+    true
+   ],
+   [
+    "UCX_Prop_PracticeCrate child of mesh node",
+    true
+   ],
+   [
+    "UCX 12 tris, no material",
+    true
+   ],
+   [
+    "UCX = render bounds",
+    true
+   ],
+   [
+    "SOCKET_Top child, glTF (0,0.5,0)",
+    true
+   ],
+   [
+    "materials M0 9A6B3F / M1 4A4D57",
+    true
+   ]
+  ]
+ }
+}
