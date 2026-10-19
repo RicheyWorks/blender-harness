@@ -31,6 +31,11 @@
    "floor": 9
   },
   {
+   "name": "lockgate",
+   "module": "harness.test_lockgate",
+   "floor": 17
+  },
+  {
    "name": "walk",
    "module": "harness.walk",
    "floor": 14,
