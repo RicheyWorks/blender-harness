@@ -1,0 +1,74 @@
+[
+ [
+  "mesh node Prop_WZ_FishingFloat_Rest",
+  true,
+  ""
+ ],
+ [
+  "Prop_WZ_FishingFloat_Rest tris 228",
+  true,
+  228
+ ],
+ [
+  "Prop_WZ_FishingFloat_Rest parent None",
+  true,
+  null
+ ],
+ [
+  "collision USP_Prop_WZ_FishingFloat_Rest_00 present",
+  true,
+  ""
+ ],
+ [
+  "collision USP_Prop_WZ_FishingFloat_Rest_00 tris 48, no material, parent Prop_WZ_FishingFloat_Rest",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Line under Prop_WZ_FishingFloat_Rest",
+  true,
+  ""
+ ],
+ [
+  "sockets sidecar present",
+  true,
+  ""
+ ],
+ [
+  "sidecar = glb sockets in UE space",
+  true,
+  ""
+ ],
+ [
+  "render bounds = predicted (1 mm)",
+  true,
+  [
+   [
+    -0.04,
+    0.0,
+    -0.04
+   ],
+   [
+    0.04,
+    0.12,
+    0.04
+   ]
+  ]
+ ],
+ [
+  "build_report ok",
+  true,
+  {
+   "triangles": true,
+   "bounds": true,
+   "objects": true,
+   "collision_tris": true,
+   "sidecar_sockets": true
+  }
+ ],
+ [
+  "report sha256 = files",
+  true,
+  ""
+ ]
+]

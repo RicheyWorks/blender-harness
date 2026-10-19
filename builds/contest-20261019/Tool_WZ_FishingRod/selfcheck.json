@@ -1,0 +1,100 @@
+[
+ [
+  "mesh node Tool_WZ_FishingRod",
+  true,
+  ""
+ ],
+ [
+  "Tool_WZ_FishingRod tris 672",
+  true,
+  672
+ ],
+ [
+  "Tool_WZ_FishingRod parent None",
+  true,
+  null
+ ],
+ [
+  "collision UCX_Tool_WZ_FishingRod_00 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Tool_WZ_FishingRod_00 tris 28, no material, parent Tool_WZ_FishingRod",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Grip under Tool_WZ_FishingRod",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Tip under Tool_WZ_FishingRod",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Reel under Tool_WZ_FishingRod",
+  true,
+  ""
+ ],
+ [
+  "sockets sidecar present",
+  true,
+  ""
+ ],
+ [
+  "sidecar = glb sockets in UE space",
+  true,
+  ""
+ ],
+ [
+  "render bounds = predicted (1 mm)",
+  true,
+  [
+   [
+    -0.017,
+    0.0,
+    -0.017
+   ],
+   [
+    0.055,
+    1.8,
+    0.08
+   ]
+  ]
+ ],
+ [
+  "LOD1 glb present",
+  true,
+  ""
+ ],
+ [
+  "LOD1 tris 256",
+  true,
+  256
+ ],
+ [
+  "LOD1 has no sockets/collision",
+  true,
+  ""
+ ],
+ [
+  "build_report ok",
+  true,
+  {
+   "triangles": true,
+   "bounds": true,
+   "objects": true,
+   "collision_tris": true,
+   "lod1_triangles": true,
+   "sidecar_sockets": true
+  }
+ ],
+ [
+  "report sha256 = files",
+  true,
+  ""
+ ]
+]

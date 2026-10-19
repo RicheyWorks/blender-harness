@@ -1,0 +1,81 @@
+{
+ "asset": "Tool_WZ_FishingRod",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "4788b78017333f5400bd0b994b1f488432fc0b7f4efacff3bf7a3cdc9afbdcda",
+ "lod0": {
+  "objects": {
+   "Tool_WZ_FishingRod": 672
+  },
+  "triangles": 672,
+  "bounds_min": [
+   -0.017,
+   -0.08,
+   0.0
+  ],
+  "bounds_max": [
+   0.055,
+   0.017,
+   1.8
+  ],
+  "dimensions": [
+   0.072,
+   0.097,
+   1.8
+  ],
+  "materials": {
+   "Tool_WZ_FishingRod": [
+    "Tool_WZ_FishingRod_M0",
+    "Tool_WZ_FishingRod_M1",
+    "Tool_WZ_FishingRod_M2"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Grip",
+  "SOCKET_Tip",
+  "SOCKET_Reel"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Tool_WZ_FishingRod_00",
+   "triangles": 28
+  }
+ ],
+ "files": {
+  "Tool_WZ_FishingRod.glb": {
+   "bytes": 40368,
+   "sha256": "151945ce77a2c3e041dd1048646ebf016b5ab2e8dc74e2dc016fe7afb007ac12"
+  },
+  "Tool_WZ_FishingRod.blend": {
+   "bytes": 503980,
+   "sha256": "a9a084f9ea08bd573ae6ece9daa5c0c7bd7e8928b4893c1d785f24c5380f84fd"
+  },
+  "Tool_WZ_FishingRod_LOD1.glb": {
+   "bytes": 15472,
+   "sha256": "8078312cadecbda4c24772c71fb9c5da69e3430901b0469fe53f81822f8a3daf"
+  },
+  "Tool_WZ_FishingRod.sockets.json": {
+   "bytes": 707,
+   "sha256": "410f67ef14454ee6b3a4b4e41bafcae47b36ef16ac30585880d52ef74691017b"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 256,
+  "ratio": 0.381,
+  "dimensions": [
+   0.034,
+   0.097,
+   1.79
+  ]
+ },
+ "sockets_sidecar": "Tool_WZ_FishingRod.sockets.json",
+ "ok": true
+}

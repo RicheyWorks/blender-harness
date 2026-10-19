@@ -1,0 +1,80 @@
+{
+ "asset": "Prop_WZ_EggNest",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "1e48fc174bd9015350284c4b004d25f7e771cb747e2acb71aadf41c6e9f904ac",
+ "lod0": {
+  "objects": {
+   "Prop_WZ_EggNest": 1154
+  },
+  "triangles": 1154,
+  "bounds_min": [
+   -0.2601,
+   -0.2602,
+   0.0
+  ],
+  "bounds_max": [
+   0.2601,
+   0.2601,
+   0.1309
+  ],
+  "dimensions": [
+   0.5202,
+   0.5203,
+   0.1309
+  ],
+  "materials": {
+   "Prop_WZ_EggNest": [
+    "Prop_WZ_EggNest_M0",
+    "Prop_WZ_EggNest_M1",
+    "Prop_WZ_EggNest_M2"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Egg",
+  "SOCKET_Glow"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_WZ_EggNest_00",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_WZ_EggNest.glb": {
+   "bytes": 70536,
+   "sha256": "43c7315e64a760d0cd49d42149cee1096065e2387221c4862a04c36debbcee52"
+  },
+  "Prop_WZ_EggNest.blend": {
+   "bytes": 522616,
+   "sha256": "fcb893b9c8d0aaf24ed235cd35a95af92bfc4c5e3110eb1f7d8ab31b6528c317"
+  },
+  "Prop_WZ_EggNest_LOD1.glb": {
+   "bytes": 28648,
+   "sha256": "1e0cbac5f5c4d457f37e2dc674f250a28d4976ee0b5ff8a5d5e2106fda43c20d"
+  },
+  "Prop_WZ_EggNest.sockets.json": {
+   "bytes": 530,
+   "sha256": "8d7129fc2692cc913ff1bff46147f1054f773048a00138436f8429ed4f9dd00b"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 466,
+  "ratio": 0.404,
+  "dimensions": [
+   0.5113,
+   0.5203,
+   0.1292
+  ]
+ },
+ "sockets_sidecar": "Prop_WZ_EggNest.sockets.json",
+ "ok": true
+}

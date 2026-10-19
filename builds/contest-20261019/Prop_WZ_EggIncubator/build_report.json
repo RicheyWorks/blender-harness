@@ -1,0 +1,85 @@
+{
+ "asset": "Prop_WZ_EggIncubator",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "72ae2f8fec45016e96f05eef1a5795a547208eb244787ce85b93e8c5944715c2",
+ "lod0": {
+  "objects": {
+   "Prop_WZ_EggIncubator": 368,
+   "Prop_WZ_EggIncubator_Lamp": 72
+  },
+  "triangles": 440,
+  "bounds_min": [
+   -0.2616,
+   -0.2616,
+   0.0
+  ],
+  "bounds_max": [
+   0.2616,
+   0.2616,
+   0.8
+  ],
+  "dimensions": [
+   0.5232,
+   0.5232,
+   0.8
+  ],
+  "materials": {
+   "Prop_WZ_EggIncubator": [
+    "Prop_WZ_EggIncubator_M0",
+    "Prop_WZ_EggIncubator_M1",
+    "Prop_WZ_EggIncubator_M2"
+   ],
+   "Prop_WZ_EggIncubator_Lamp": [
+    "Prop_WZ_EggIncubator_M3",
+    "Prop_WZ_EggIncubator_M4"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Egg",
+  "SOCKET_Glow"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_WZ_EggIncubator_00",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_WZ_EggIncubator.glb": {
+   "bytes": 30612,
+   "sha256": "8a9822009ea0626916487efed1b67970c353cbd8e25f47787f696fbcd1af058f"
+  },
+  "Prop_WZ_EggIncubator.blend": {
+   "bytes": 545764,
+   "sha256": "d291c530f2cccae5a9b91de466cf42b2b773152744d13f32f10554f12d99c3a6"
+  },
+  "Prop_WZ_EggIncubator_LOD1.glb": {
+   "bytes": 13224,
+   "sha256": "252a831ffdf56aa7007d985895fe1b1c1039a5ff9797b3b7193fe68e971366ee"
+  },
+  "Prop_WZ_EggIncubator.sockets.json": {
+   "bytes": 551,
+   "sha256": "014a813c4832affe66fc81a5cd3c7b6e9512ffa942c9db6b9b8fa2ac502cec08"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 168,
+  "ratio": 0.382,
+  "dimensions": [
+   0.5232,
+   0.5232,
+   0.8
+  ]
+ },
+ "sockets_sidecar": "Prop_WZ_EggIncubator.sockets.json",
+ "ok": true
+}

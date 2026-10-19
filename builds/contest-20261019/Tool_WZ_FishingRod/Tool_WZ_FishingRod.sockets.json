@@ -1,0 +1,50 @@
+{
+ "asset": "Tool_WZ_FishingRod",
+ "units": "cm",
+ "space": "unreal",
+ "note": "UE +X forward, +Y right, +Z up, cm; location relative to parent node; rotation [pitch, yaw, roll] deg",
+ "sockets": [
+  {
+   "name": "SOCKET_Grip",
+   "parent": "Tool_WZ_FishingRod",
+   "location": [
+    0.0,
+    0.0,
+    17.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "name": "SOCKET_Reel",
+   "parent": "Tool_WZ_FishingRod",
+   "location": [
+    4.5,
+    0.0,
+    37.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "name": "SOCKET_Tip",
+   "parent": "Tool_WZ_FishingRod",
+   "location": [
+    0.0,
+    0.0,
+    180.0
+   ],
+   "rotation": [
+    90.0,
+    0.0,
+    0.0
+   ]
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "asset": "Prop_WZ_FishingFloat_Dip",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "d4a498bb2b00ec92d8d701322e408ee7f2752d124eca166789483088549f84a0",
+ "lod0": {
+  "objects": {
+   "Prop_WZ_FishingFloat_Dip": 228
+  },
+  "triangles": 228,
+  "bounds_min": [
+   -0.04,
+   -0.0626,
+   -0.0
+  ],
+  "bounds_max": [
+   0.04,
+   0.0171,
+   0.1075
+  ],
+  "dimensions": [
+   0.08,
+   0.0797,
+   0.1075
+  ],
+  "materials": {
+   "Prop_WZ_FishingFloat_Dip": [
+    "Prop_WZ_FishingFloat_Dip_M0",
+    "Prop_WZ_FishingFloat_Dip_M1",
+    "Prop_WZ_FishingFloat_Dip_M2"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Line"
+ ],
+ "collision": [
+  {
+   "name": "USP_Prop_WZ_FishingFloat_Dip_00",
+   "triangles": 48
+  }
+ ],
+ "files": {
+  "Prop_WZ_FishingFloat_Dip.glb": {
+   "bytes": 18076,
+   "sha256": "3cb57cdcb3c2c5990130dd3cab4db2568d303d624c41f438d5b5e06f4efb71df"
+  },
+  "Prop_WZ_FishingFloat_Dip.blend": {
+   "bytes": 487060,
+   "sha256": "a977f3fb62b2c6b78f080e0e36e6c3384ebefcb257ae80bab17eb5de188a7439"
+  },
+  "Prop_WZ_FishingFloat_Dip.sockets.json": {
+   "bytes": 385,
+   "sha256": "4a971a67b9d00e8f90f01ef2c88e40511c14e0e41b2e8e6c03809f175282df5c"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "sidecar_sockets": true
+ },
+ "sockets_sidecar": "Prop_WZ_FishingFloat_Dip.sockets.json",
+ "ok": true
+}
