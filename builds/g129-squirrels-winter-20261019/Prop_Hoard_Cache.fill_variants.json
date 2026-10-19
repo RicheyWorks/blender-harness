@@ -1,0 +1,20 @@
+{
+ "schema": "bb-fill-variants/1",
+ "gap": "G129 (pythagoras 50065, 6df61143 PatchForager / FORAGE01)",
+ "status": "NOT READY",
+ "base": "Prop_Hoard_Cache",
+ "why_meshes": "6df61143 reads no morph target or material param for the hoard, so the fill is three mesh variants with identical sockets",
+ "variants": {
+  "Prop_Hoard_Cache_Empty": 0.0,
+  "Prop_Hoard_Cache_Half": 0.5,
+  "Prop_Hoard_Cache_Full": 1.0
+ },
+ "live": "during the day show the variant nearest share_so_far = hoard / Report.best: Empty < 0.25 <= Half < 0.75 <= Full",
+ "outcome": {
+  "HOARDED (share >= 0.97)": "Prop_Hoard_Cache_Full",
+  "SHORT (0.70 <= share < 0.97)": "Prop_Hoard_Cache_Half",
+  "STARVED (share < 0.70)": "Prop_Hoard_Cache_Empty"
+ },
+ "sockets": "SOCKET_Mouth (drop-off), SOCKET_Perch (Pip sits up here), SOCKET_Fill (heap top; spawn a nut here per load)",
+ "swap": "same pivot, collision and socket names on all three: swap the static mesh, keep attachments"
+}

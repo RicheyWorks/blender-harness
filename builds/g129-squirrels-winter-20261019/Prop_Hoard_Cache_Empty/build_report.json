@@ -1,0 +1,80 @@
+{
+ "asset": "Prop_Hoard_Cache_Empty",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "66568fdc57060b12127a88d51bca490ee6cddce5c938be1bef7c256a4afe9f3b",
+ "lod0": {
+  "objects": {
+   "Prop_Hoard_Cache_Empty": 344
+  },
+  "triangles": 344,
+  "bounds_min": [
+   -0.1773,
+   -0.31,
+   0.0
+  ],
+  "bounds_max": [
+   0.1773,
+   0.3,
+   0.4522
+  ],
+  "dimensions": [
+   0.3546,
+   0.61,
+   0.4522
+  ],
+  "materials": {
+   "Prop_Hoard_Cache_Empty": [
+    "Prop_Hoard_Cache_Empty_M0",
+    "Prop_Hoard_Cache_Empty_M1"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Mouth",
+  "SOCKET_Perch",
+  "SOCKET_Fill"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_Hoard_Cache_Empty_00",
+   "triangles": 28
+  }
+ ],
+ "files": {
+  "Prop_Hoard_Cache_Empty.glb": {
+   "bytes": 22584,
+   "sha256": "4dbcff78af63f9e547a08202fe4bf7efda78515b9cfab14c297151b1e8663c6c"
+  },
+  "Prop_Hoard_Cache_Empty.blend": {
+   "bytes": 470000,
+   "sha256": "d51ceadd3cb53d15dbfbda2ea116426dc492e8505fd7aa7cbca880dd191cf924"
+  },
+  "Prop_Hoard_Cache_Empty_LOD1.glb": {
+   "bytes": 10400,
+   "sha256": "d62b8dec34f462251ea59e6cbf4948690bd2d9eadf56046dd4741663362a25b5"
+  },
+  "Prop_Hoard_Cache_Empty.sockets.json": {
+   "bytes": 1252,
+   "sha256": "31956631d50eedc1d58419579ce7138d68cdb38520293d2f3c658926659dbea1"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 160,
+  "ratio": 0.465,
+  "dimensions": [
+   0.34,
+   0.6,
+   0.4526
+  ]
+ },
+ "sockets_sidecar": "Prop_Hoard_Cache_Empty.sockets.json",
+ "ok": true
+}

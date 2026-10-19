@@ -1,0 +1,120 @@
+[
+ [
+  "mesh node Prop_Hoard_Cache_Half",
+  true,
+  ""
+ ],
+ [
+  "Prop_Hoard_Cache_Half tris 344",
+  true,
+  344
+ ],
+ [
+  "Prop_Hoard_Cache_Half parent None",
+  true,
+  null
+ ],
+ [
+  "mesh node Prop_Hoard_Cache_Half_Fill",
+  true,
+  ""
+ ],
+ [
+  "Prop_Hoard_Cache_Half_Fill tris 432",
+  true,
+  432
+ ],
+ [
+  "Prop_Hoard_Cache_Half_Fill parent Prop_Hoard_Cache_Half",
+  true,
+  "Prop_Hoard_Cache_Half"
+ ],
+ [
+  "collision UCX_Prop_Hoard_Cache_Half_00 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_Hoard_Cache_Half_00 tris 28, no material, parent Prop_Hoard_Cache_Half",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Mouth under Prop_Hoard_Cache_Half",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Perch under Prop_Hoard_Cache_Half",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Fill under Prop_Hoard_Cache_Half",
+  true,
+  ""
+ ],
+ [
+  "sockets sidecar present",
+  true,
+  ""
+ ],
+ [
+  "sidecar = glb sockets in UE space",
+  true,
+  ""
+ ],
+ [
+  "native socket rotation == sidecar (pre-rotated empties)",
+  true,
+  []
+ ],
+ [
+  "render bounds = predicted (1 mm)",
+  true,
+  [
+   [
+    -0.1773,
+    0.0,
+    -0.3
+   ],
+   [
+    0.1773,
+    0.4522,
+    0.31
+   ]
+  ]
+ ],
+ [
+  "LOD1 glb present",
+  true,
+  ""
+ ],
+ [
+  "LOD1 tris 318",
+  true,
+  318
+ ],
+ [
+  "LOD1 has no sockets/collision",
+  true,
+  ""
+ ],
+ [
+  "build_report ok",
+  true,
+  {
+   "triangles": true,
+   "bounds": true,
+   "objects": true,
+   "collision_tris": true,
+   "lod1_triangles": true,
+   "sidecar_sockets": true
+  }
+ ],
+ [
+  "report sha256 = files",
+  true,
+  ""
+ ]
+]

@@ -1,0 +1,226 @@
+{
+ "asset": "Mob_Red_Squirrel",
+ "status": "BUILT (staged, NOT READY)",
+ "schema": "blender-quadruped/v1",
+ "lod0": {
+  "triangles": 1000,
+  "bounds_min": [
+   -0.0477,
+   -0.1325,
+   0.0
+  ],
+  "bounds_max": [
+   0.0477,
+   0.1905,
+   0.2595
+  ],
+  "dimensions": [
+   0.0954,
+   0.323,
+   0.2595
+  ],
+  "bind": {
+   "auto_parts": [],
+   "rigid_parts": [
+    "Torso",
+    "Neck",
+    "Head",
+    "Snout",
+    "EarL",
+    "EyeL",
+    "EarR",
+    "EyeR",
+    "Tail",
+    "Tail1",
+    "Tail2",
+    "LegFL_Upper",
+    "LegFL_Lower",
+    "PawFL",
+    "LegFR_Upper",
+    "LegFR_Lower",
+    "PawFR",
+    "LegBL_Upper",
+    "LegBL_Lower",
+    "PawBL",
+    "LegBR_Upper",
+    "LegBR_Lower",
+    "PawBR"
+   ],
+   "method": "rigid per part (recipe bind_mode)",
+   "max_influences": 1,
+   "unweighted_vertices": 0,
+   "non_normalised_vertices": 0,
+   "vertices": 564
+  },
+  "clips": [
+   {
+    "name": "Idle",
+    "frames": 60,
+    "fps": 30,
+    "fcurves": 18
+   },
+   {
+    "name": "Run",
+    "frames": 18,
+    "fps": 30,
+    "fcurves": 42
+   },
+   {
+    "name": "Forage",
+    "frames": 60,
+    "fps": 30,
+    "fcurves": 39
+   }
+  ]
+ },
+ "lod1": {
+  "triangles": 620,
+  "bounds_min": [
+   -0.0477,
+   -0.1325,
+   0.0119
+  ],
+  "bounds_max": [
+   0.0477,
+   0.1905,
+   0.2595
+  ],
+  "dimensions": [
+   0.0954,
+   0.323,
+   0.2476
+  ],
+  "bind": {
+   "auto_parts": [],
+   "rigid_parts": [
+    "Torso",
+    "Neck",
+    "Head",
+    "EarL",
+    "EarR",
+    "Tail",
+    "Tail1",
+    "Tail2",
+    "LegFL_Upper",
+    "LegFL_Lower",
+    "LegFR_Upper",
+    "LegFR_Lower",
+    "LegBL_Upper",
+    "LegBL_Lower",
+    "LegBR_Upper",
+    "LegBR_Lower"
+   ],
+   "method": "rigid per part (recipe bind_mode)",
+   "max_influences": 1,
+   "unweighted_vertices": 0,
+   "non_normalised_vertices": 0,
+   "vertices": 348
+  },
+  "clips": []
+ },
+ "glb": {
+  "triangles": 1000,
+  "skins": 1,
+  "joints": [
+   17
+  ],
+  "joint_names": [
+   "Chest",
+   "Head",
+   "Hips",
+   "LegBL_Lower",
+   "LegBL_Upper",
+   "LegBR_Lower",
+   "LegBR_Upper",
+   "LegFL_Lower",
+   "LegFL_Upper",
+   "LegFR_Lower",
+   "LegFR_Upper",
+   "Neck",
+   "Root",
+   "Spine",
+   "Tail",
+   "Tail1",
+   "Tail2"
+  ],
+  "skinned_attrs": true,
+  "inverse_bind_matrices": true,
+  "animations": [
+   {
+    "name": "Forage",
+    "channels": 51,
+    "seconds": 2
+   },
+   {
+    "name": "Idle",
+    "channels": 51,
+    "seconds": 2
+   },
+   {
+    "name": "Run",
+    "channels": 51,
+    "seconds": 0.6
+   }
+  ],
+  "mesh_nodes": [
+   "Mob_Red_Squirrel"
+  ]
+ },
+ "glb_lod1": {
+  "triangles": 620,
+  "skins": 1,
+  "joints": [
+   17
+  ],
+  "joint_names": [
+   "Chest",
+   "Head",
+   "Hips",
+   "LegBL_Lower",
+   "LegBL_Upper",
+   "LegBR_Lower",
+   "LegBR_Upper",
+   "LegFL_Lower",
+   "LegFL_Upper",
+   "LegFR_Lower",
+   "LegFR_Upper",
+   "Neck",
+   "Root",
+   "Spine",
+   "Tail",
+   "Tail1",
+   "Tail2"
+  ],
+  "skinned_attrs": true,
+  "inverse_bind_matrices": true,
+  "animations": [],
+  "mesh_nodes": [
+   "Mob_Red_Squirrel"
+  ]
+ },
+ "files": {
+  "Mob_Red_Squirrel.glb": {
+   "bytes": 166652,
+   "sha256": "7fcbe2e67fa7bae80d0599500acc07f8678292c83d3f8b12adae6a8c4b74926e"
+  },
+  "Mob_Red_Squirrel_LOD1.glb": {
+   "bytes": 68560,
+   "sha256": "a8ea2b859da7a5f460a012f5842b18aac901fafdd6ecda5d3e95354bd4b2f242"
+  },
+  "Mob_Red_Squirrel.blend": {
+   "bytes": 755540,
+   "sha256": "e6f17a67943414004c04354a4e062920d51479f8116400efbea47f960d532083"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "lod1_triangles": true,
+  "bounds": true,
+  "skeleton": true,
+  "skinned": true,
+  "clips": true,
+  "lod1_no_clips": true,
+  "weights": true
+ },
+ "ok": true
+}

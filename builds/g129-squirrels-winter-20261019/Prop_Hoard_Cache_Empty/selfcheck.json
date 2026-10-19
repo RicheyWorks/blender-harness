@@ -1,0 +1,105 @@
+[
+ [
+  "mesh node Prop_Hoard_Cache_Empty",
+  true,
+  ""
+ ],
+ [
+  "Prop_Hoard_Cache_Empty tris 344",
+  true,
+  344
+ ],
+ [
+  "Prop_Hoard_Cache_Empty parent None",
+  true,
+  null
+ ],
+ [
+  "collision UCX_Prop_Hoard_Cache_Empty_00 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_Hoard_Cache_Empty_00 tris 28, no material, parent Prop_Hoard_Cache_Empty",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Mouth under Prop_Hoard_Cache_Empty",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Perch under Prop_Hoard_Cache_Empty",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Fill under Prop_Hoard_Cache_Empty",
+  true,
+  ""
+ ],
+ [
+  "sockets sidecar present",
+  true,
+  ""
+ ],
+ [
+  "sidecar = glb sockets in UE space",
+  true,
+  ""
+ ],
+ [
+  "native socket rotation == sidecar (pre-rotated empties)",
+  true,
+  []
+ ],
+ [
+  "render bounds = predicted (1 mm)",
+  true,
+  [
+   [
+    -0.1773,
+    0.0,
+    -0.3
+   ],
+   [
+    0.1773,
+    0.4522,
+    0.31
+   ]
+  ]
+ ],
+ [
+  "LOD1 glb present",
+  true,
+  ""
+ ],
+ [
+  "LOD1 tris 160",
+  true,
+  160
+ ],
+ [
+  "LOD1 has no sockets/collision",
+  true,
+  ""
+ ],
+ [
+  "build_report ok",
+  true,
+  {
+   "triangles": true,
+   "bounds": true,
+   "objects": true,
+   "collision_tris": true,
+   "lod1_triangles": true,
+   "sidecar_sockets": true
+  }
+ ],
+ [
+  "report sha256 = files",
+  true,
+  ""
+ ]
+]
