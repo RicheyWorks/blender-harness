@@ -1,0 +1,135 @@
+[
+ [
+  "mesh node Prop_YTM_LinenCupboard",
+  true,
+  ""
+ ],
+ [
+  "Prop_YTM_LinenCupboard tris 256",
+  true,
+  256
+ ],
+ [
+  "Prop_YTM_LinenCupboard parent None",
+  true,
+  null
+ ],
+ [
+  "collision UCX_Prop_YTM_LinenCupboard_00 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_YTM_LinenCupboard_00 tris 12, no material, parent Prop_YTM_LinenCupboard",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Linen_0 under Prop_YTM_LinenCupboard",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Linen_1 under Prop_YTM_LinenCupboard",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Linen_2 under Prop_YTM_LinenCupboard",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Linen_3 under Prop_YTM_LinenCupboard",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Linen_4 under Prop_YTM_LinenCupboard",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Linen_5 under Prop_YTM_LinenCupboard",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Linen_6 under Prop_YTM_LinenCupboard",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Linen_7 under Prop_YTM_LinenCupboard",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Brine under Prop_YTM_LinenCupboard",
+  true,
+  ""
+ ],
+ [
+  "sockets sidecar present",
+  true,
+  ""
+ ],
+ [
+  "sidecar = glb sockets in UE space",
+  true,
+  ""
+ ],
+ [
+  "native socket rotation == sidecar (pre-rotated empties)",
+  true,
+  []
+ ],
+ [
+  "render bounds = predicted (1 mm)",
+  true,
+  [
+   [
+    -0.54,
+    0.0,
+    -0.21
+   ],
+   [
+    0.54,
+    1.84,
+    0.24
+   ]
+  ]
+ ],
+ [
+  "LOD1 glb present",
+  true,
+  ""
+ ],
+ [
+  "LOD1 tris 108",
+  true,
+  108
+ ],
+ [
+  "LOD1 has no sockets/collision",
+  true,
+  ""
+ ],
+ [
+  "build_report ok",
+  true,
+  {
+   "triangles": true,
+   "bounds": true,
+   "objects": true,
+   "collision_tris": true,
+   "lod1_triangles": true,
+   "sidecar_sockets": true
+  }
+ ],
+ [
+  "report sha256 = files",
+  true,
+  ""
+ ]
+]

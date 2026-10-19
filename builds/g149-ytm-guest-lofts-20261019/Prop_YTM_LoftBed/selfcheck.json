@@ -1,0 +1,110 @@
+[
+ [
+  "mesh node Prop_YTM_LoftBed",
+  true,
+  ""
+ ],
+ [
+  "Prop_YTM_LoftBed tris 348",
+  true,
+  348
+ ],
+ [
+  "Prop_YTM_LoftBed parent None",
+  true,
+  null
+ ],
+ [
+  "collision UCX_Prop_YTM_LoftBed_00 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_YTM_LoftBed_00 tris 12, no material, parent Prop_YTM_LoftBed",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_YTM_LoftBed_01 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_YTM_LoftBed_01 tris 12, no material, parent Prop_YTM_LoftBed",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Sleep under Prop_YTM_LoftBed",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Bags under Prop_YTM_LoftBed",
+  true,
+  ""
+ ],
+ [
+  "sockets sidecar present",
+  true,
+  ""
+ ],
+ [
+  "sidecar = glb sockets in UE space",
+  true,
+  ""
+ ],
+ [
+  "native socket rotation == sidecar (pre-rotated empties)",
+  true,
+  []
+ ],
+ [
+  "render bounds = predicted (1 mm)",
+  true,
+  [
+   [
+    -0.52,
+    0.0,
+    -1.01
+   ],
+   [
+    0.52,
+    0.99,
+    1.0
+   ]
+  ]
+ ],
+ [
+  "LOD1 glb present",
+  true,
+  ""
+ ],
+ [
+  "LOD1 tris 180",
+  true,
+  180
+ ],
+ [
+  "LOD1 has no sockets/collision",
+  true,
+  ""
+ ],
+ [
+  "build_report ok",
+  true,
+  {
+   "triangles": true,
+   "bounds": true,
+   "objects": true,
+   "collision_tris": true,
+   "lod1_triangles": true,
+   "sidecar_sockets": true
+  }
+ ],
+ [
+  "report sha256 = files",
+  true,
+  ""
+ ]
+]

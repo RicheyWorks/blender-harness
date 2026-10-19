@@ -1,0 +1,87 @@
+{
+ "asset": "Prop_YTM_LinenCupboard",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "831f3d07e1b4444c03340825b76fb45aa7d6211b7a7d9e19b0d4e5477d59aea8",
+ "lod0": {
+  "objects": {
+   "Prop_YTM_LinenCupboard": 256
+  },
+  "triangles": 256,
+  "bounds_min": [
+   -0.54,
+   -0.24,
+   0.0
+  ],
+  "bounds_max": [
+   0.54,
+   0.21,
+   1.84
+  ],
+  "dimensions": [
+   1.08,
+   0.45,
+   1.84
+  ],
+  "materials": {
+   "Prop_YTM_LinenCupboard": [
+    "Prop_YTM_LinenCupboard_M0",
+    "Prop_YTM_LinenCupboard_M1",
+    "Prop_YTM_LinenCupboard_M2"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Linen_0",
+  "SOCKET_Linen_1",
+  "SOCKET_Linen_2",
+  "SOCKET_Linen_3",
+  "SOCKET_Linen_4",
+  "SOCKET_Linen_5",
+  "SOCKET_Linen_6",
+  "SOCKET_Linen_7",
+  "SOCKET_Brine"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_YTM_LinenCupboard_00",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_YTM_LinenCupboard.glb": {
+   "bytes": 18692,
+   "sha256": "4a24dec1075bb812832eaaafec8741d8fe75f0aea9b00297d3d081e117292cb5"
+  },
+  "Prop_YTM_LinenCupboard.blend": {
+   "bytes": 497484,
+   "sha256": "e0335375eb8c5451c53106b323858c9f7dcbdf9c56694b7c6293b7b86850c25e"
+  },
+  "Prop_YTM_LinenCupboard_LOD1.glb": {
+   "bytes": 7756,
+   "sha256": "b49615307db531ecba9477ce77bf05a7c6aff8c42cd5166e416b18a3d69a83de"
+  },
+  "Prop_YTM_LinenCupboard.sockets.json": {
+   "bytes": 2994,
+   "sha256": "b4f59c3809c095f9b2c7d2baa83d7621bae691a283be5924c6db94a1ddc1197a"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 108,
+  "ratio": 0.422,
+  "dimensions": [
+   1.04,
+   0.45,
+   1.84
+  ]
+ },
+ "sockets_sidecar": "Prop_YTM_LinenCupboard.sockets.json",
+ "ok": true
+}

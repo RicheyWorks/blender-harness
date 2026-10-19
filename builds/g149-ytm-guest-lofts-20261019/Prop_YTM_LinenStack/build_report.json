@@ -1,0 +1,65 @@
+{
+ "asset": "Prop_YTM_LinenStack",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "224dd53ecc3d0117af2635eed5e5c2e0de92359d42d3d9c645d9ef1449df65c0",
+ "lod0": {
+  "objects": {
+   "Prop_YTM_LinenStack": 212
+  },
+  "triangles": 212,
+  "bounds_min": [
+   -0.179,
+   -0.1446,
+   0.0
+  ],
+  "bounds_max": [
+   0.1836,
+   0.144,
+   0.144
+  ],
+  "dimensions": [
+   0.3626,
+   0.2886,
+   0.144
+  ],
+  "materials": {
+   "Prop_YTM_LinenStack": [
+    "Prop_YTM_LinenStack_M0",
+    "Prop_YTM_LinenStack_M1"
+   ]
+  }
+ },
+ "sockets": [],
+ "collision": [],
+ "files": {
+  "Prop_YTM_LinenStack.glb": {
+   "bytes": 14120,
+   "sha256": "9c3aa29cf87c2eca0cbb24c3c2ed323d23924f692754be38095ab6f05f57bf62"
+  },
+  "Prop_YTM_LinenStack.blend": {
+   "bytes": 457136,
+   "sha256": "010e8dadacf0232ac9d9d395e5776dc2d442e57db8f479a23455a119673f1ea1"
+  },
+  "Prop_YTM_LinenStack_LOD1.glb": {
+   "bytes": 6432,
+   "sha256": "c9e52188ef60880e37972dc2d295176cdf5d23aba7412bfed9c17de4103a691b"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true
+ },
+ "lod1": {
+  "triangles": 84,
+  "ratio": 0.396,
+  "dimensions": [
+   0.3626,
+   0.2886,
+   0.144
+  ]
+ },
+ "ok": true
+}

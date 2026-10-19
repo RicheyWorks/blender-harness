@@ -1,0 +1,950 @@
+[
+ [
+  "mesh node Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "Prop_YTM_StayCalendar tris 4484",
+  true,
+  4484
+ ],
+ [
+  "Prop_YTM_StayCalendar parent None",
+  true,
+  null
+ ],
+ [
+  "collision UCX_Prop_YTM_StayCalendar_00 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_YTM_StayCalendar_00 tris 12, no material, parent Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_04_0 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_05_0 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_06_0 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_07_0 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_08_0 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_09_0 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_10_0 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_11_0 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_12_0 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_13_0 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_14_0 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_15_0 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_16_0 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_17_0 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_18_0 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_19_0 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_20_0 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_21_0 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_04_1 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_05_1 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_06_1 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_07_1 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_08_1 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_09_1 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_10_1 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_11_1 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_12_1 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_13_1 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_14_1 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_15_1 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_16_1 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_17_1 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_18_1 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_19_1 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_20_1 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_21_1 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_04_2 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_05_2 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_06_2 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_07_2 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_08_2 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_09_2 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_10_2 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_11_2 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_12_2 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_13_2 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_14_2 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_15_2 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_16_2 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_17_2 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_18_2 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_19_2 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_20_2 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_21_2 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_04_3 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_05_3 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_06_3 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_07_3 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_08_3 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_09_3 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_10_3 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_11_3 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_12_3 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_13_3 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_14_3 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_15_3 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_16_3 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_17_3 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_18_3 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_19_3 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_20_3 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_21_3 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_04_4 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_05_4 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_06_4 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_07_4 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_08_4 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_09_4 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_10_4 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_11_4 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_12_4 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_13_4 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_14_4 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_15_4 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_16_4 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_17_4 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_18_4 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_19_4 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_20_4 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_21_4 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_04_5 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_05_5 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_06_5 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_07_5 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_08_5 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_09_5 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_10_5 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_11_5 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_12_5 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_13_5 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_14_5 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_15_5 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_16_5 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_17_5 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_18_5 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_19_5 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_20_5 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_21_5 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_04_6 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_05_6 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_06_6 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_07_6 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_08_6 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_09_6 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_10_6 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_11_6 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_12_6 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_13_6 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_14_6 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_15_6 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_16_6 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_17_6 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_18_6 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_19_6 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_20_6 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_21_6 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_04_7 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_05_7 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_06_7 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_07_7 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_08_7 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_09_7 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_10_7 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_11_7 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_12_7 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_13_7 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_14_7 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_15_7 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_16_7 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_17_7 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_18_7 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_19_7 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_20_7 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_21_7 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Family_0 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Family_1 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Family_2 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Family_3 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Family_4 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Family_5 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Family_6 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Family_7 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Day_04 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Day_05 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Day_06 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Day_07 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Day_08 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Day_09 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Day_10 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Day_11 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Day_12 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Day_13 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Day_14 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Day_15 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Day_16 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Day_17 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Day_18 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Day_19 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Day_20 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Day_21 under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Text under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Linen under Prop_YTM_StayCalendar",
+  true,
+  ""
+ ],
+ [
+  "sockets sidecar present",
+  true,
+  ""
+ ],
+ [
+  "sidecar = glb sockets in UE space",
+  true,
+  ""
+ ],
+ [
+  "native socket rotation == sidecar (pre-rotated empties)",
+  true,
+  []
+ ],
+ [
+  "render bounds = predicted (1 mm)",
+  true,
+  [
+   [
+    -0.715,
+    0.0,
+    -0.025
+   ],
+   [
+    0.715,
+    0.765,
+    0.025
+   ]
+  ]
+ ],
+ [
+  "LOD1 glb present",
+  true,
+  ""
+ ],
+ [
+  "LOD1 tris 1908",
+  true,
+  1908
+ ],
+ [
+  "LOD1 has no sockets/collision",
+  true,
+  ""
+ ],
+ [
+  "build_report ok",
+  true,
+  {
+   "triangles": true,
+   "bounds": true,
+   "objects": true,
+   "collision_tris": true,
+   "lod1_triangles": true,
+   "sidecar_sockets": true
+  }
+ ],
+ [
+  "report sha256 = files",
+  true,
+  ""
+ ]
+]

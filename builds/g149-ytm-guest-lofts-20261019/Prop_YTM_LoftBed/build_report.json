@@ -1,0 +1,84 @@
+{
+ "asset": "Prop_YTM_LoftBed",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "2eae1146143be67e79a65c1069ac66e1c049afb8331cd1cc0d79a56f19d2841a",
+ "lod0": {
+  "objects": {
+   "Prop_YTM_LoftBed": 348
+  },
+  "triangles": 348,
+  "bounds_min": [
+   -0.52,
+   -1.0,
+   0.0
+  ],
+  "bounds_max": [
+   0.52,
+   1.01,
+   0.99
+  ],
+  "dimensions": [
+   1.04,
+   2.01,
+   0.99
+  ],
+  "materials": {
+   "Prop_YTM_LoftBed": [
+    "Prop_YTM_LoftBed_M0",
+    "Prop_YTM_LoftBed_M1",
+    "Prop_YTM_LoftBed_M2"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Sleep",
+  "SOCKET_Bags"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_YTM_LoftBed_00",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_YTM_LoftBed_01",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_YTM_LoftBed.glb": {
+   "bytes": 24592,
+   "sha256": "11817c53ad53a7746e3ecbc78e45f26255efbbf1fc7d1d54361d3d3719006e4a"
+  },
+  "Prop_YTM_LoftBed.blend": {
+   "bytes": 496456,
+   "sha256": "b72f1149e2d8d27f1fe21acf556b889cea342fa402bbbdf1e93b12ccb4faa54e"
+  },
+  "Prop_YTM_LoftBed_LOD1.glb": {
+   "bytes": 12344,
+   "sha256": "912d5310f1e5e80626d7126f3bb41d4e31a4b0e3a30de44c5b25197d6d1d1b10"
+  },
+  "Prop_YTM_LoftBed.sockets.json": {
+   "bytes": 946,
+   "sha256": "c7433d7c3a466af0b247a49c2cefba083e0fbc89b865df9a2733e54ccf7d5fb9"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 180,
+  "ratio": 0.517,
+  "dimensions": [
+   1.0,
+   2.0,
+   0.95
+  ]
+ },
+ "sockets_sidecar": "Prop_YTM_LoftBed.sockets.json",
+ "ok": true
+}

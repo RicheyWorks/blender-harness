@@ -1,0 +1,3620 @@
+{
+ "asset": "Prop_YTM_StayCalendar",
+ "units": "cm",
+ "space": "unreal",
+ "note": "UE +X forward, +Y right, +Z up, cm; UE = 100 * (x_b, -y_b, z_b) = 100 * (gx, gz, gy) (UEB 48725); location relative to parent node; rotation [pitch, yaw, roll] deg: plain sockets [0, 0, 0] = mesh-aligned, attach sockets +X along barrel/shaft, +Z up; native empties pre-rotated to match",
+ "sockets": [
+  {
+   "name": "SOCKET_Day_04",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -40.5,
+    1.9,
+    63.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Day_05",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -34.5,
+    1.9,
+    63.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Day_06",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -28.5,
+    1.9,
+    63.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Day_07",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -22.5,
+    1.9,
+    63.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Day_08",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -16.5,
+    1.9,
+    63.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Day_09",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -10.5,
+    1.9,
+    63.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Day_10",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -4.5,
+    1.9,
+    63.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Day_11",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    1.5,
+    1.9,
+    63.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Day_12",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    7.5,
+    1.9,
+    63.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Day_13",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    13.5,
+    1.9,
+    63.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Day_14",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    19.5,
+    1.9,
+    63.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Day_15",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    25.5,
+    1.9,
+    63.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Day_16",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    31.5,
+    1.9,
+    63.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Day_17",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    37.5,
+    1.9,
+    63.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Day_18",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    43.5,
+    1.9,
+    63.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Day_19",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    49.5,
+    1.9,
+    63.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Day_20",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    55.5,
+    1.9,
+    63.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Day_21",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    61.5,
+    1.9,
+    63.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Family_0",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -57.5,
+    2.1,
+    53.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Family_1",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -57.5,
+    2.1,
+    47.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Family_2",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -57.5,
+    2.1,
+    40.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Family_3",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -57.5,
+    2.1,
+    34.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Family_4",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -57.5,
+    2.1,
+    27.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Family_5",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -57.5,
+    2.1,
+    21.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Family_6",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -57.5,
+    2.1,
+    14.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Family_7",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -57.5,
+    2.1,
+    8.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Linen",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    57.5,
+    2.1,
+    64.5
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_04_0",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -40.5,
+    1.5,
+    53.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_04_1",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -40.5,
+    1.5,
+    47.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_04_2",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -40.5,
+    1.5,
+    40.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_04_3",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -40.5,
+    1.5,
+    34.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_04_4",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -40.5,
+    1.5,
+    27.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_04_5",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -40.5,
+    1.5,
+    21.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_04_6",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -40.5,
+    1.5,
+    14.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_04_7",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -40.5,
+    1.5,
+    8.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_05_0",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -34.5,
+    1.5,
+    53.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_05_1",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -34.5,
+    1.5,
+    47.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_05_2",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -34.5,
+    1.5,
+    40.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_05_3",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -34.5,
+    1.5,
+    34.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_05_4",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -34.5,
+    1.5,
+    27.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_05_5",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -34.5,
+    1.5,
+    21.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_05_6",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -34.5,
+    1.5,
+    14.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_05_7",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -34.5,
+    1.5,
+    8.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_06_0",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -28.5,
+    1.5,
+    53.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_06_1",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -28.5,
+    1.5,
+    47.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_06_2",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -28.5,
+    1.5,
+    40.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_06_3",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -28.5,
+    1.5,
+    34.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_06_4",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -28.5,
+    1.5,
+    27.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_06_5",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -28.5,
+    1.5,
+    21.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_06_6",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -28.5,
+    1.5,
+    14.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_06_7",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -28.5,
+    1.5,
+    8.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_07_0",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -22.5,
+    1.5,
+    53.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_07_1",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -22.5,
+    1.5,
+    47.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_07_2",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -22.5,
+    1.5,
+    40.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_07_3",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -22.5,
+    1.5,
+    34.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_07_4",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -22.5,
+    1.5,
+    27.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_07_5",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -22.5,
+    1.5,
+    21.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_07_6",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -22.5,
+    1.5,
+    14.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_07_7",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -22.5,
+    1.5,
+    8.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_08_0",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -16.5,
+    1.5,
+    53.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_08_1",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -16.5,
+    1.5,
+    47.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_08_2",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -16.5,
+    1.5,
+    40.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_08_3",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -16.5,
+    1.5,
+    34.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_08_4",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -16.5,
+    1.5,
+    27.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_08_5",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -16.5,
+    1.5,
+    21.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_08_6",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -16.5,
+    1.5,
+    14.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_08_7",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -16.5,
+    1.5,
+    8.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_09_0",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -10.5,
+    1.5,
+    53.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_09_1",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -10.5,
+    1.5,
+    47.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_09_2",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -10.5,
+    1.5,
+    40.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_09_3",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -10.5,
+    1.5,
+    34.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_09_4",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -10.5,
+    1.5,
+    27.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_09_5",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -10.5,
+    1.5,
+    21.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_09_6",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -10.5,
+    1.5,
+    14.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_09_7",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -10.5,
+    1.5,
+    8.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_10_0",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -4.5,
+    1.5,
+    53.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_10_1",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -4.5,
+    1.5,
+    47.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_10_2",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -4.5,
+    1.5,
+    40.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_10_3",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -4.5,
+    1.5,
+    34.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_10_4",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -4.5,
+    1.5,
+    27.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_10_5",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -4.5,
+    1.5,
+    21.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_10_6",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -4.5,
+    1.5,
+    14.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_10_7",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    -4.5,
+    1.5,
+    8.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_11_0",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    1.5,
+    1.5,
+    53.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_11_1",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    1.5,
+    1.5,
+    47.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_11_2",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    1.5,
+    1.5,
+    40.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_11_3",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    1.5,
+    1.5,
+    34.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_11_4",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    1.5,
+    1.5,
+    27.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_11_5",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    1.5,
+    1.5,
+    21.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_11_6",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    1.5,
+    1.5,
+    14.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_11_7",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    1.5,
+    1.5,
+    8.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_12_0",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    7.5,
+    1.5,
+    53.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_12_1",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    7.5,
+    1.5,
+    47.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_12_2",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    7.5,
+    1.5,
+    40.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_12_3",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    7.5,
+    1.5,
+    34.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_12_4",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    7.5,
+    1.5,
+    27.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_12_5",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    7.5,
+    1.5,
+    21.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_12_6",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    7.5,
+    1.5,
+    14.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_12_7",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    7.5,
+    1.5,
+    8.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_13_0",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    13.5,
+    1.5,
+    53.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_13_1",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    13.5,
+    1.5,
+    47.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_13_2",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    13.5,
+    1.5,
+    40.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_13_3",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    13.5,
+    1.5,
+    34.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_13_4",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    13.5,
+    1.5,
+    27.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_13_5",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    13.5,
+    1.5,
+    21.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_13_6",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    13.5,
+    1.5,
+    14.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_13_7",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    13.5,
+    1.5,
+    8.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_14_0",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    19.5,
+    1.5,
+    53.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_14_1",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    19.5,
+    1.5,
+    47.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_14_2",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    19.5,
+    1.5,
+    40.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_14_3",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    19.5,
+    1.5,
+    34.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_14_4",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    19.5,
+    1.5,
+    27.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_14_5",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    19.5,
+    1.5,
+    21.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_14_6",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    19.5,
+    1.5,
+    14.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_14_7",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    19.5,
+    1.5,
+    8.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_15_0",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    25.5,
+    1.5,
+    53.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_15_1",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    25.5,
+    1.5,
+    47.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_15_2",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    25.5,
+    1.5,
+    40.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_15_3",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    25.5,
+    1.5,
+    34.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_15_4",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    25.5,
+    1.5,
+    27.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_15_5",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    25.5,
+    1.5,
+    21.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_15_6",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    25.5,
+    1.5,
+    14.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_15_7",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    25.5,
+    1.5,
+    8.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_16_0",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    31.5,
+    1.5,
+    53.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_16_1",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    31.5,
+    1.5,
+    47.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_16_2",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    31.5,
+    1.5,
+    40.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_16_3",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    31.5,
+    1.5,
+    34.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_16_4",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    31.5,
+    1.5,
+    27.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_16_5",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    31.5,
+    1.5,
+    21.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_16_6",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    31.5,
+    1.5,
+    14.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_16_7",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    31.5,
+    1.5,
+    8.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_17_0",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    37.5,
+    1.5,
+    53.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_17_1",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    37.5,
+    1.5,
+    47.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_17_2",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    37.5,
+    1.5,
+    40.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_17_3",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    37.5,
+    1.5,
+    34.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_17_4",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    37.5,
+    1.5,
+    27.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_17_5",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    37.5,
+    1.5,
+    21.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_17_6",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    37.5,
+    1.5,
+    14.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_17_7",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    37.5,
+    1.5,
+    8.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_18_0",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    43.5,
+    1.5,
+    53.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_18_1",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    43.5,
+    1.5,
+    47.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_18_2",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    43.5,
+    1.5,
+    40.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_18_3",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    43.5,
+    1.5,
+    34.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_18_4",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    43.5,
+    1.5,
+    27.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_18_5",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    43.5,
+    1.5,
+    21.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_18_6",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    43.5,
+    1.5,
+    14.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_18_7",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    43.5,
+    1.5,
+    8.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_19_0",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    49.5,
+    1.5,
+    53.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_19_1",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    49.5,
+    1.5,
+    47.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_19_2",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    49.5,
+    1.5,
+    40.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_19_3",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    49.5,
+    1.5,
+    34.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_19_4",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    49.5,
+    1.5,
+    27.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_19_5",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    49.5,
+    1.5,
+    21.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_19_6",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    49.5,
+    1.5,
+    14.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_19_7",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    49.5,
+    1.5,
+    8.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_20_0",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    55.5,
+    1.5,
+    53.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_20_1",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    55.5,
+    1.5,
+    47.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_20_2",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    55.5,
+    1.5,
+    40.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_20_3",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    55.5,
+    1.5,
+    34.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_20_4",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    55.5,
+    1.5,
+    27.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_20_5",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    55.5,
+    1.5,
+    21.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_20_6",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    55.5,
+    1.5,
+    14.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_20_7",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    55.5,
+    1.5,
+    8.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_21_0",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    61.5,
+    1.5,
+    53.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_21_1",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    61.5,
+    1.5,
+    47.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_21_2",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    61.5,
+    1.5,
+    40.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_21_3",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    61.5,
+    1.5,
+    34.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_21_4",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    61.5,
+    1.5,
+    27.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_21_5",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    61.5,
+    1.5,
+    21.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_21_6",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    61.5,
+    1.5,
+    14.75
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Peg_21_7",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    61.5,
+    1.5,
+    8.25
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Text",
+   "parent": "Prop_YTM_StayCalendar",
+   "location": [
+    0.0,
+    2.1,
+    64.5
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  }
+ ]
+}

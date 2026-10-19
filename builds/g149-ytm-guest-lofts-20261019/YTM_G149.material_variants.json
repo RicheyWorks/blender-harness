@@ -1,0 +1,144 @@
+{
+ "schema": "bb-material-variants/1",
+ "gap": "G149 (youtube-master 50211, PR #370 brew.lofts.GuestLofts)",
+ "status": "NOT READY",
+ "quilt": {
+  "asset": "Prop_YTM_LoftBed",
+  "slot": "slot 2 patchwork quilt",
+  "master": "M_YTM_Patchwork",
+  "params": {
+   "PatchA..PatchF": "vector, linear (6 patch colours)",
+   "PatchSize_cm": "scalar, default 16",
+   "PatchSeed": "scalar (shuffles which colour lands in which patch)",
+   "Seam": "vector, linear (stitch line colour)",
+   "SeamWidth_cm": "scalar, default 0.6"
+  },
+  "graph": "cell = floor(ObjectLocalPosition.xy / PatchSize); idx = floor(hash(cell + PatchSeed) * 6); BaseColor = lerp(Patch[idx], Seam, seamMask(frac(pos / PatchSize), SeamWidth / PatchSize)); object-space, so it needs no quilt UVs",
+  "instances": {
+   "MI_YTM_Quilt_1": {
+    "PatchSeed": 1,
+    "PatchSize_cm": 16,
+    "PatchA_srgb": "E0A33A",
+    "PatchB_srgb": "5E8A4E",
+    "PatchC_srgb": "3E6E9A",
+    "PatchD_srgb": "8A4E7A",
+    "PatchE_srgb": "E8D8B8",
+    "PatchF_srgb": "C2553A",
+    "Seam_srgb": "F4EBD8"
+   },
+   "MI_YTM_Quilt_2": {
+    "PatchSeed": 2,
+    "PatchSize_cm": 16,
+    "PatchA_srgb": "5E8A4E",
+    "PatchB_srgb": "3E6E9A",
+    "PatchC_srgb": "8A4E7A",
+    "PatchD_srgb": "E8D8B8",
+    "PatchE_srgb": "C2553A",
+    "PatchF_srgb": "E0A33A",
+    "Seam_srgb": "F4EBD8"
+   },
+   "MI_YTM_Quilt_3": {
+    "PatchSeed": 3,
+    "PatchSize_cm": 16,
+    "PatchA_srgb": "3E6E9A",
+    "PatchB_srgb": "8A4E7A",
+    "PatchC_srgb": "E8D8B8",
+    "PatchD_srgb": "C2553A",
+    "PatchE_srgb": "E0A33A",
+    "PatchF_srgb": "5E8A4E",
+    "Seam_srgb": "F4EBD8"
+   },
+   "MI_YTM_Quilt_4": {
+    "PatchSeed": 4,
+    "PatchSize_cm": 16,
+    "PatchA_srgb": "8A4E7A",
+    "PatchB_srgb": "E8D8B8",
+    "PatchC_srgb": "C2553A",
+    "PatchD_srgb": "E0A33A",
+    "PatchE_srgb": "5E8A4E",
+    "PatchF_srgb": "3E6E9A",
+    "Seam_srgb": "F4EBD8"
+   },
+   "MI_YTM_Quilt_5": {
+    "PatchSeed": 5,
+    "PatchSize_cm": 16,
+    "PatchA_srgb": "E8D8B8",
+    "PatchB_srgb": "C2553A",
+    "PatchC_srgb": "E0A33A",
+    "PatchD_srgb": "5E8A4E",
+    "PatchE_srgb": "3E6E9A",
+    "PatchF_srgb": "8A4E7A",
+    "Seam_srgb": "F4EBD8"
+   },
+   "MI_YTM_Quilt_6": {
+    "PatchSeed": 6,
+    "PatchSize_cm": 16,
+    "PatchA_srgb": "C2553A",
+    "PatchB_srgb": "E0A33A",
+    "PatchC_srgb": "5E8A4E",
+    "PatchD_srgb": "3E6E9A",
+    "PatchE_srgb": "8A4E7A",
+    "PatchF_srgb": "E8D8B8",
+    "Seam_srgb": "F4EBD8"
+   },
+   "MI_YTM_Quilt_7": {
+    "PatchSeed": 7,
+    "PatchSize_cm": 16,
+    "PatchA_srgb": "E0A33A",
+    "PatchB_srgb": "5E8A4E",
+    "PatchC_srgb": "3E6E9A",
+    "PatchD_srgb": "8A4E7A",
+    "PatchE_srgb": "E8D8B8",
+    "PatchF_srgb": "C2553A",
+    "Seam_srgb": "F4EBD8"
+   },
+   "MI_YTM_Quilt_8": {
+    "PatchSeed": 8,
+    "PatchSize_cm": 16,
+    "PatchA_srgb": "5E8A4E",
+    "PatchB_srgb": "3E6E9A",
+    "PatchC_srgb": "8A4E7A",
+    "PatchD_srgb": "E8D8B8",
+    "PatchE_srgb": "C2553A",
+    "PatchF_srgb": "E0A33A",
+    "Seam_srgb": "F4EBD8"
+   }
+  },
+  "note": "one quilt MI per loft, so each family's bed reads different"
+ },
+ "loft_pegs": {
+  "asset": "Prop_Census_Peg (G119)",
+  "slot": "peg head",
+  "instances": {
+   "MI_YTM_LoftPeg_1": {
+    "Colour_srgb": "C0392B"
+   },
+   "MI_YTM_LoftPeg_2": {
+    "Colour_srgb": "E67E22"
+   },
+   "MI_YTM_LoftPeg_3": {
+    "Colour_srgb": "F1C40F"
+   },
+   "MI_YTM_LoftPeg_4": {
+    "Colour_srgb": "27AE60"
+   },
+   "MI_YTM_LoftPeg_5": {
+    "Colour_srgb": "16A085"
+   },
+   "MI_YTM_LoftPeg_6": {
+    "Colour_srgb": "2980B9"
+   },
+   "MI_YTM_LoftPeg_7": {
+    "Colour_srgb": "8E44AD"
+   },
+   "MI_YTM_LoftPeg_8": {
+    "Colour_srgb": "ECF0F1"
+   }
+  },
+  "use": "a peg at SOCKET_Peg_<dd>_<f> means family f sleeps night dd in that loft; two same-colour pegs in one column = CLASH"
+ },
+ "linen": {
+  "asset": "Prop_YTM_LinenStack",
+  "rule": "Prop_YTM_LinenCupboard shows LOFTS - aired() stacks at SOCKET_Linen_0..; remove from the highest index; the calendar SOCKET_Linen counter shows aired()"
+ }
+}
