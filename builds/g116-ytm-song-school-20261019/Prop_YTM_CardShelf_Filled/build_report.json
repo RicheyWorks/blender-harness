@@ -1,0 +1,94 @@
+{
+ "asset": "Prop_YTM_CardShelf_Filled",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "308232fadf522b0b1556a6cdb71609e721f6b3e67f29d70867560435759cfe5e",
+ "lod0": {
+  "objects": {
+   "Prop_YTM_CardShelf_Filled": 876,
+   "Prop_YTM_CardShelf_Filled_Cards": 1024
+  },
+  "triangles": 1900,
+  "bounds_min": [
+   -0.6,
+   -0.16,
+   0.0
+  ],
+  "bounds_max": [
+   0.6,
+   0.16,
+   1.02
+  ],
+  "dimensions": [
+   1.2,
+   0.32,
+   1.02
+  ],
+  "materials": {
+   "Prop_YTM_CardShelf_Filled": [
+    "Prop_YTM_CardShelf_Filled_M0",
+    "Prop_YTM_CardShelf_Filled_M1",
+    "Prop_YTM_CardShelf_Filled_M2"
+   ],
+   "Prop_YTM_CardShelf_Filled_Cards": [
+    "Prop_YTM_CardShelf_Filled_M3",
+    "Prop_YTM_CardShelf_Filled_M4",
+    "Prop_YTM_CardShelf_Filled_M5"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Label_1",
+  "SOCKET_Label_2",
+  "SOCKET_Label_3",
+  "SOCKET_Label_4",
+  "SOCKET_Label_5",
+  "SOCKET_Deck"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_YTM_CardShelf_Filled_00",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_YTM_CardShelf_Filled_01",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_YTM_CardShelf_Filled.glb": {
+   "bytes": 106108,
+   "sha256": "f143022c232d24c010c551383a3611db00a4ff4015180971066e673f388b53cc"
+  },
+  "Prop_YTM_CardShelf_Filled.blend": {
+   "bytes": 628160,
+   "sha256": "26da9b2f7cfbdff75e268fc9a8ac6a0cb14b9c14334a86a51533283012ae45b1"
+  },
+  "Prop_YTM_CardShelf_Filled_LOD1.glb": {
+   "bytes": 47116,
+   "sha256": "7f3b4d55757bf458d4efdab1da1512669fbe552bf241473ba9310f84c05f0df6"
+  },
+  "Prop_YTM_CardShelf_Filled.sockets.json": {
+   "bytes": 2144,
+   "sha256": "97d18e2830097a9cfd0cc0a1aff2486f9e01574b0f92d76a4154a09778057b83"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 828,
+  "ratio": 0.436,
+  "dimensions": [
+   1.2,
+   0.32,
+   1.02
+  ]
+ },
+ "sockets_sidecar": "Prop_YTM_CardShelf_Filled.sockets.json",
+ "ok": true
+}

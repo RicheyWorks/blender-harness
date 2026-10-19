@@ -1,0 +1,88 @@
+{
+ "asset": "Prop_YTM_LessonCandles",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "ecc23cf077634464c66e38bef4956f4fd51e2eb1416eced87adc280f5cd27115",
+ "lod0": {
+  "objects": {
+   "Prop_YTM_LessonCandles": 1136
+  },
+  "triangles": 1136,
+  "bounds_min": [
+   -0.395,
+   -0.07,
+   0.0
+  ],
+  "bounds_max": [
+   0.395,
+   0.07,
+   0.2572
+  ],
+  "dimensions": [
+   0.79,
+   0.14,
+   0.2572
+  ],
+  "materials": {
+   "Prop_YTM_LessonCandles": [
+    "Prop_YTM_LessonCandles_M0",
+    "Prop_YTM_LessonCandles_M1",
+    "Prop_YTM_LessonCandles_M2"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Flame_0",
+  "SOCKET_Flame_1",
+  "SOCKET_Flame_2",
+  "SOCKET_Flame_3",
+  "SOCKET_Flame_4",
+  "SOCKET_Flame_5"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_YTM_LessonCandles_00",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_YTM_LessonCandles_01",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_YTM_LessonCandles.glb": {
+   "bytes": 63740,
+   "sha256": "214c4cbb252733e0b5319f0f767cf0b960ebd5e305062463c0edfcd0ad96a4c2"
+  },
+  "Prop_YTM_LessonCandles.blend": {
+   "bytes": 527604,
+   "sha256": "ddb7987801eb0477b9570bf2b5ffd7287b8896f2972615264e426e99348d7595"
+  },
+  "Prop_YTM_LessonCandles_LOD1.glb": {
+   "bytes": 25096,
+   "sha256": "b01b1da4b88c99832a8fb58f34c2241ad6b866277cab5cb47468fe62e08ef874"
+  },
+  "Prop_YTM_LessonCandles.sockets.json": {
+   "bytes": 2131,
+   "sha256": "2e336b0ac6f5d57d6d6f005a1a0b83fc4477db51ed25ca909c567cba55b80ac2"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 432,
+  "ratio": 0.38,
+  "dimensions": [
+   0.79,
+   0.14,
+   0.2572
+  ]
+ },
+ "sockets_sidecar": "Prop_YTM_LessonCandles.sockets.json",
+ "ok": true
+}

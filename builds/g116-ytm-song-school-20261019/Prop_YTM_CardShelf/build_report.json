@@ -1,0 +1,108 @@
+{
+ "asset": "Prop_YTM_CardShelf",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "1467391b7361f9d6d54e8fcc6509754c90354e22944fa4b71a15158ccc81c6fe",
+ "lod0": {
+  "objects": {
+   "Prop_YTM_CardShelf": 876
+  },
+  "triangles": 876,
+  "bounds_min": [
+   -0.6,
+   -0.16,
+   0.0
+  ],
+  "bounds_max": [
+   0.6,
+   0.16,
+   0.96
+  ],
+  "dimensions": [
+   1.2,
+   0.32,
+   0.96
+  ],
+  "materials": {
+   "Prop_YTM_CardShelf": [
+    "Prop_YTM_CardShelf_M0",
+    "Prop_YTM_CardShelf_M1",
+    "Prop_YTM_CardShelf_M2"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Box1_Card0",
+  "SOCKET_Box1_Card1",
+  "SOCKET_Box1_Card2",
+  "SOCKET_Box1_Card3",
+  "SOCKET_Box2_Card0",
+  "SOCKET_Box2_Card1",
+  "SOCKET_Box2_Card2",
+  "SOCKET_Box2_Card3",
+  "SOCKET_Box3_Card0",
+  "SOCKET_Box3_Card1",
+  "SOCKET_Box3_Card2",
+  "SOCKET_Box3_Card3",
+  "SOCKET_Box4_Card0",
+  "SOCKET_Box4_Card1",
+  "SOCKET_Box4_Card2",
+  "SOCKET_Box4_Card3",
+  "SOCKET_Box5_Card0",
+  "SOCKET_Box5_Card1",
+  "SOCKET_Box5_Card2",
+  "SOCKET_Box5_Card3",
+  "SOCKET_Label_1",
+  "SOCKET_Label_2",
+  "SOCKET_Label_3",
+  "SOCKET_Label_4",
+  "SOCKET_Label_5",
+  "SOCKET_Deck"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_YTM_CardShelf_00",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_YTM_CardShelf_01",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_YTM_CardShelf.glb": {
+   "bytes": 55732,
+   "sha256": "4a756ae9cdc2eb62d1976d8a0cdba25c95330e58d2c2aea690f3288c097702b0"
+  },
+  "Prop_YTM_CardShelf.blend": {
+   "bytes": 545984,
+   "sha256": "007b5dc3de7eac8d332a94cf3bc671edbc462b1305a9ffbbf3c144cf78166398"
+  },
+  "Prop_YTM_CardShelf_LOD1.glb": {
+   "bytes": 25896,
+   "sha256": "01068d026e028ab53c385f0d4c28d2d87e601e24550690ed719e07ffead3ec60"
+  },
+  "Prop_YTM_CardShelf.sockets.json": {
+   "bytes": 7869,
+   "sha256": "fe0342b489d94f4ff15ff6d1b0d9a0335f0227320c1b5cc884ab0af824ddaf52"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 444,
+  "ratio": 0.507,
+  "dimensions": [
+   1.2,
+   0.32,
+   0.96
+  ]
+ },
+ "sockets_sidecar": "Prop_YTM_CardShelf.sockets.json",
+ "ok": true
+}

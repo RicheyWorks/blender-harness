@@ -1,0 +1,79 @@
+{
+ "asset": "Prop_YTM_SongCard",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "edeff29d560c6b7b1d0789702f92051fe2170e8b2149fe92b6e3b8153273e89c",
+ "lod0": {
+  "objects": {
+   "Prop_YTM_SongCard": 64
+  },
+  "triangles": 64,
+  "bounds_min": [
+   -0.075,
+   -0.0032,
+   0.0
+  ],
+  "bounds_max": [
+   0.075,
+   0.0025,
+   0.148
+  ],
+  "dimensions": [
+   0.15,
+   0.0057,
+   0.148
+  ],
+  "materials": {
+   "Prop_YTM_SongCard": [
+    "Prop_YTM_SongCard_M0",
+    "Prop_YTM_SongCard_M1",
+    "Prop_YTM_SongCard_M2"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Grip"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_YTM_SongCard_00",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_YTM_SongCard.glb": {
+   "bytes": 7032,
+   "sha256": "2eb53c80f79f36d677f0490573326aefbdfe505c5c09acc79d70b0c07036ede8"
+  },
+  "Prop_YTM_SongCard.blend": {
+   "bytes": 480100,
+   "sha256": "d42c61fde11d6656401e00e2945f232e11e26e67ff5f77c4b19d4dcdb880eba5"
+  },
+  "Prop_YTM_SongCard_LOD1.glb": {
+   "bytes": 3004,
+   "sha256": "e6dca2cfdfca7cb63e2572a0a975ef49f11bb0c4bc08d2ebe2511b830218b68e"
+  },
+  "Prop_YTM_SongCard.sockets.json": {
+   "bytes": 671,
+   "sha256": "e96cbd1b1205e0163eaadaae4707227c39cbd7fc981e1ed22957944193f9d599"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 24,
+  "ratio": 0.375,
+  "dimensions": [
+   0.15,
+   0.005,
+   0.148
+  ]
+ },
+ "sockets_sidecar": "Prop_YTM_SongCard.sockets.json",
+ "ok": true
+}

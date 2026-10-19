@@ -1,0 +1,322 @@
+{
+ "packets": 39,
+ "passed": 39,
+ "ucx": 3542,
+ "shared_materials": 128,
+ "render_meshes": 1164,
+ "blender": "4.3.1",
+ "rows": [
+  {
+   "packet": "flagship_props_000",
+   "objects": 723,
+   "ucx": 347,
+   "materials": 25,
+   "render_tris": 9532,
+   "fails": []
+  },
+  {
+   "packet": "flagship_props_001",
+   "objects": 76,
+   "ucx": 0,
+   "materials": 24,
+   "render_tris": 9372,
+   "fails": []
+  },
+  {
+   "packet": "flagship_props_002",
+   "objects": 66,
+   "ucx": 20,
+   "materials": 26,
+   "render_tris": 6732,
+   "fails": []
+  },
+  {
+   "packet": "flagship_props_003",
+   "objects": 60,
+   "ucx": 41,
+   "materials": 14,
+   "render_tris": 3036,
+   "fails": []
+  },
+  {
+   "packet": "flagship_props_004",
+   "objects": 93,
+   "ucx": 74,
+   "materials": 14,
+   "render_tris": 3256,
+   "fails": []
+  },
+  {
+   "packet": "flagship_props_005",
+   "objects": 118,
+   "ucx": 100,
+   "materials": 14,
+   "render_tris": 4400,
+   "fails": []
+  },
+  {
+   "packet": "flagship_props_006",
+   "objects": 105,
+   "ucx": 88,
+   "materials": 14,
+   "render_tris": 3872,
+   "fails": []
+  },
+  {
+   "packet": "flagship_props_007",
+   "objects": 151,
+   "ucx": 126,
+   "materials": 13,
+   "render_tris": 5544,
+   "fails": []
+  },
+  {
+   "packet": "flagship_props_008",
+   "objects": 154,
+   "ucx": 131,
+   "materials": 10,
+   "render_tris": 8888,
+   "fails": []
+  },
+  {
+   "packet": "flagship_props_009",
+   "objects": 99,
+   "ucx": 88,
+   "materials": 10,
+   "render_tris": 9592,
+   "fails": []
+  },
+  {
+   "packet": "flagship_props_010",
+   "objects": 180,
+   "ucx": 160,
+   "materials": 13,
+   "render_tris": 9504,
+   "fails": []
+  },
+  {
+   "packet": "flagship_props_011",
+   "objects": 108,
+   "ucx": 91,
+   "materials": 14,
+   "render_tris": 4180,
+   "fails": []
+  },
+  {
+   "packet": "flagship_props_012",
+   "objects": 134,
+   "ucx": 111,
+   "materials": 14,
+   "render_tris": 4884,
+   "fails": []
+  },
+  {
+   "packet": "flagship_props_013",
+   "objects": 172,
+   "ucx": 148,
+   "materials": 12,
+   "render_tris": 6776,
+   "fails": []
+  },
+  {
+   "packet": "flagship_props_014",
+   "objects": 113,
+   "ucx": 96,
+   "materials": 14,
+   "render_tris": 4928,
+   "fails": []
+  },
+  {
+   "packet": "flagship_props_015",
+   "objects": 96,
+   "ucx": 79,
+   "materials": 14,
+   "render_tris": 3476,
+   "fails": []
+  },
+  {
+   "packet": "flagship_props_016",
+   "objects": 116,
+   "ucx": 99,
+   "materials": 14,
+   "render_tris": 4356,
+   "fails": []
+  },
+  {
+   "packet": "flagship_props_017",
+   "objects": 114,
+   "ucx": 97,
+   "materials": 14,
+   "render_tris": 4268,
+   "fails": []
+  },
+  {
+   "packet": "flagship_props_018",
+   "objects": 123,
+   "ucx": 106,
+   "materials": 14,
+   "render_tris": 6468,
+   "fails": []
+  },
+  {
+   "packet": "flagship_props_019",
+   "objects": 140,
+   "ucx": 123,
+   "materials": 14,
+   "render_tris": 7656,
+   "fails": []
+  },
+  {
+   "packet": "flagship_props_020",
+   "objects": 85,
+   "ucx": 68,
+   "materials": 14,
+   "render_tris": 2992,
+   "fails": []
+  },
+  {
+   "packet": "flagship_props_021",
+   "objects": 94,
+   "ucx": 77,
+   "materials": 14,
+   "render_tris": 3388,
+   "fails": []
+  },
+  {
+   "packet": "flagship_props_022",
+   "objects": 72,
+   "ucx": 55,
+   "materials": 14,
+   "render_tris": 2420,
+   "fails": []
+  },
+  {
+   "packet": "flagship_props_023",
+   "objects": 119,
+   "ucx": 102,
+   "materials": 14,
+   "render_tris": 4620,
+   "fails": []
+  },
+  {
+   "packet": "flagship_props_024",
+   "objects": 147,
+   "ucx": 130,
+   "materials": 14,
+   "render_tris": 5852,
+   "fails": []
+  },
+  {
+   "packet": "flagship_props_025",
+   "objects": 138,
+   "ucx": 121,
+   "materials": 14,
+   "render_tris": 5368,
+   "fails": []
+  },
+  {
+   "packet": "flagship_props_026",
+   "objects": 114,
+   "ucx": 97,
+   "materials": 14,
+   "render_tris": 4488,
+   "fails": []
+  },
+  {
+   "packet": "flagship_props_027",
+   "objects": 85,
+   "ucx": 68,
+   "materials": 14,
+   "render_tris": 2992,
+   "fails": []
+  },
+  {
+   "packet": "flagship_props_028",
+   "objects": 119,
+   "ucx": 102,
+   "materials": 14,
+   "render_tris": 4488,
+   "fails": []
+  },
+  {
+   "packet": "flagship_props_029",
+   "objects": 127,
+   "ucx": 110,
+   "materials": 14,
+   "render_tris": 4840,
+   "fails": []
+  },
+  {
+   "packet": "flagship_props_030",
+   "objects": 56,
+   "ucx": 39,
+   "materials": 30,
+   "render_tris": 8008,
+   "fails": []
+  },
+  {
+   "packet": "flagship_props_031",
+   "objects": 16,
+   "ucx": 0,
+   "materials": 27,
+   "render_tris": 9152,
+   "fails": []
+  },
+  {
+   "packet": "flagship_props_032",
+   "objects": 88,
+   "ucx": 65,
+   "materials": 28,
+   "render_tris": 8624,
+   "fails": []
+  },
+  {
+   "packet": "flagship_props_033",
+   "objects": 15,
+   "ucx": 0,
+   "materials": 24,
+   "render_tris": 9108,
+   "fails": []
+  },
+  {
+   "packet": "flagship_props_034",
+   "objects": 31,
+   "ucx": 14,
+   "materials": 22,
+   "render_tris": 9240,
+   "fails": []
+  },
+  {
+   "packet": "flagship_props_035",
+   "objects": 119,
+   "ucx": 102,
+   "materials": 3,
+   "render_tris": 4488,
+   "fails": []
+  },
+  {
+   "packet": "flagship_props_036",
+   "objects": 163,
+   "ucx": 143,
+   "materials": 8,
+   "render_tris": 6688,
+   "fails": []
+  },
+  {
+   "packet": "flagship_props_037",
+   "objects": 99,
+   "ucx": 70,
+   "materials": 21,
+   "render_tris": 9504,
+   "fails": []
+  },
+  {
+   "packet": "flagship_props_038",
+   "objects": 78,
+   "ucx": 54,
+   "materials": 23,
+   "render_tris": 5720,
+   "fails": []
+  }
+ ]
+}

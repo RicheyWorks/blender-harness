@@ -1,0 +1,230 @@
+[
+ [
+  "mesh node Prop_YTM_CardShelf",
+  true,
+  ""
+ ],
+ [
+  "Prop_YTM_CardShelf tris 876",
+  true,
+  876
+ ],
+ [
+  "Prop_YTM_CardShelf parent None",
+  true,
+  null
+ ],
+ [
+  "collision UCX_Prop_YTM_CardShelf_00 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_YTM_CardShelf_00 tris 12, no material, parent Prop_YTM_CardShelf",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_YTM_CardShelf_01 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_YTM_CardShelf_01 tris 12, no material, parent Prop_YTM_CardShelf",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Box1_Card0 under Prop_YTM_CardShelf",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Box1_Card1 under Prop_YTM_CardShelf",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Box1_Card2 under Prop_YTM_CardShelf",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Box1_Card3 under Prop_YTM_CardShelf",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Box2_Card0 under Prop_YTM_CardShelf",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Box2_Card1 under Prop_YTM_CardShelf",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Box2_Card2 under Prop_YTM_CardShelf",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Box2_Card3 under Prop_YTM_CardShelf",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Box3_Card0 under Prop_YTM_CardShelf",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Box3_Card1 under Prop_YTM_CardShelf",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Box3_Card2 under Prop_YTM_CardShelf",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Box3_Card3 under Prop_YTM_CardShelf",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Box4_Card0 under Prop_YTM_CardShelf",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Box4_Card1 under Prop_YTM_CardShelf",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Box4_Card2 under Prop_YTM_CardShelf",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Box4_Card3 under Prop_YTM_CardShelf",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Box5_Card0 under Prop_YTM_CardShelf",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Box5_Card1 under Prop_YTM_CardShelf",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Box5_Card2 under Prop_YTM_CardShelf",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Box5_Card3 under Prop_YTM_CardShelf",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Label_1 under Prop_YTM_CardShelf",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Label_2 under Prop_YTM_CardShelf",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Label_3 under Prop_YTM_CardShelf",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Label_4 under Prop_YTM_CardShelf",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Label_5 under Prop_YTM_CardShelf",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Deck under Prop_YTM_CardShelf",
+  true,
+  ""
+ ],
+ [
+  "sockets sidecar present",
+  true,
+  ""
+ ],
+ [
+  "sidecar = glb sockets in UE space",
+  true,
+  ""
+ ],
+ [
+  "native socket rotation == sidecar (pre-rotated empties)",
+  true,
+  []
+ ],
+ [
+  "render bounds = predicted (1 mm)",
+  true,
+  [
+   [
+    -0.6,
+    0.0,
+    -0.16
+   ],
+   [
+    0.6,
+    0.96,
+    0.16
+   ]
+  ]
+ ],
+ [
+  "LOD1 glb present",
+  true,
+  ""
+ ],
+ [
+  "LOD1 tris 444",
+  true,
+  444
+ ],
+ [
+  "LOD1 has no sockets/collision",
+  true,
+  ""
+ ],
+ [
+  "build_report ok",
+  true,
+  {
+   "triangles": true,
+   "bounds": true,
+   "objects": true,
+   "collision_tris": true,
+   "lod1_triangles": true,
+   "sidecar_sockets": true
+  }
+ ],
+ [
+  "report sha256 = files",
+  true,
+  ""
+ ]
+]

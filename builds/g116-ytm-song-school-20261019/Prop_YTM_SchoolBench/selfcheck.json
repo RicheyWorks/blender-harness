@@ -1,0 +1,130 @@
+[
+ [
+  "mesh node Prop_YTM_SchoolBench",
+  true,
+  ""
+ ],
+ [
+  "Prop_YTM_SchoolBench tris 196",
+  true,
+  196
+ ],
+ [
+  "Prop_YTM_SchoolBench parent None",
+  true,
+  null
+ ],
+ [
+  "collision UCX_Prop_YTM_SchoolBench_00 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_YTM_SchoolBench_00 tris 12, no material, parent Prop_YTM_SchoolBench",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_YTM_SchoolBench_01 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_YTM_SchoolBench_01 tris 12, no material, parent Prop_YTM_SchoolBench",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Seat_0 under Prop_YTM_SchoolBench",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Seat_1 under Prop_YTM_SchoolBench",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Seat_2 under Prop_YTM_SchoolBench",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Slate_0 under Prop_YTM_SchoolBench",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Slate_1 under Prop_YTM_SchoolBench",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Slate_2 under Prop_YTM_SchoolBench",
+  true,
+  ""
+ ],
+ [
+  "sockets sidecar present",
+  true,
+  ""
+ ],
+ [
+  "sidecar = glb sockets in UE space",
+  true,
+  ""
+ ],
+ [
+  "native socket rotation == sidecar (pre-rotated empties)",
+  true,
+  []
+ ],
+ [
+  "render bounds = predicted (1 mm)",
+  true,
+  [
+   [
+    -0.7,
+    0.0,
+    -0.31
+   ],
+   [
+    0.7,
+    0.6523,
+    0.345
+   ]
+  ]
+ ],
+ [
+  "LOD1 glb present",
+  true,
+  ""
+ ],
+ [
+  "LOD1 tris 120",
+  true,
+  120
+ ],
+ [
+  "LOD1 has no sockets/collision",
+  true,
+  ""
+ ],
+ [
+  "build_report ok",
+  true,
+  {
+   "triangles": true,
+   "bounds": true,
+   "objects": true,
+   "collision_tris": true,
+   "lod1_triangles": true,
+   "sidecar_sockets": true
+  }
+ ],
+ [
+  "report sha256 = files",
+  true,
+  ""
+ ]
+]
