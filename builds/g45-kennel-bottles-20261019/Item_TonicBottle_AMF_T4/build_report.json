@@ -1,0 +1,79 @@
+{
+ "asset": "Item_TonicBottle_AMF_T4",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "0de656f27cebdf8ed690f686ce0ec28b6143cf56e078241e56c1f6114dd73883",
+ "lod0": {
+  "objects": {
+   "Item_TonicBottle_AMF_T4": 776
+  },
+  "triangles": 776,
+  "bounds_min": [
+   -0.0565,
+   -0.0565,
+   0.0
+  ],
+  "bounds_max": [
+   0.0565,
+   0.0565,
+   0.219
+  ],
+  "dimensions": [
+   0.113,
+   0.113,
+   0.219
+  ],
+  "materials": {
+   "Item_TonicBottle_AMF_T4": [
+    "M_AMF_arkglass",
+    "M_AMF_wood",
+    "M_AMF_red"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Grip"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Item_TonicBottle_AMF_T4_00",
+   "triangles": 36
+  }
+ ],
+ "files": {
+  "Item_TonicBottle_AMF_T4.glb": {
+   "bytes": 45308,
+   "sha256": "132b10eea0660b0599d4a8d4e3bca1b38b3349c361b5fe15b889204ae60fb476"
+  },
+  "Item_TonicBottle_AMF_T4.blend": {
+   "bytes": 504780,
+   "sha256": "cb2769021dfb72d32050b4a54a53504f5274cc73e2719ca8f81363ff1f749a77"
+  },
+  "Item_TonicBottle_AMF_T4_LOD1.glb": {
+   "bytes": 20780,
+   "sha256": "f30ec941e2792ee3cd804b1f3c803ac498f7e5bd3d43b09ec15db8282e5ba1b2"
+  },
+  "Item_TonicBottle_AMF_T4.sockets.json": {
+   "bytes": 684,
+   "sha256": "b94a279879c12c89f6f7436fd3ceac29c0f8f8097a82996a4332fbf70b9d950a"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 343,
+  "ratio": 0.442,
+  "dimensions": [
+   0.113,
+   0.1074,
+   0.216
+  ]
+ },
+ "sockets_sidecar": "Item_TonicBottle_AMF_T4.sockets.json",
+ "ok": true
+}
