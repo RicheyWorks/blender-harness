@@ -1,0 +1,123 @@
+{
+ "asset": "Prop_Census_Board",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "5b3acb7b01f74f7efdcce8208a966e3a497a7f92d000348c55747c5c4e1406bc",
+ "lod0": {
+  "objects": {
+   "Prop_Census_Board": 1248
+  },
+  "triangles": 1248,
+  "bounds_min": [
+   -0.5,
+   -0.19,
+   0.0
+  ],
+  "bounds_max": [
+   0.5,
+   0.31,
+   1.5
+  ],
+  "dimensions": [
+   1.0,
+   0.5,
+   1.5
+  ],
+  "materials": {
+   "Prop_Census_Board": [
+    "Prop_Census_Board_M0",
+    "Prop_Census_Board_M1",
+    "Prop_Census_Board_M2"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Peg_00",
+  "SOCKET_Peg_01",
+  "SOCKET_Peg_02",
+  "SOCKET_Peg_03",
+  "SOCKET_Peg_04",
+  "SOCKET_Peg_05",
+  "SOCKET_Peg_06",
+  "SOCKET_Peg_07",
+  "SOCKET_Peg_08",
+  "SOCKET_Peg_09",
+  "SOCKET_Peg_10",
+  "SOCKET_Peg_11",
+  "SOCKET_Peg_12",
+  "SOCKET_Peg_13",
+  "SOCKET_Peg_14",
+  "SOCKET_Peg_15",
+  "SOCKET_Peg_16",
+  "SOCKET_Peg_17",
+  "SOCKET_Peg_18",
+  "SOCKET_Peg_19",
+  "SOCKET_Peg_20",
+  "SOCKET_Peg_21",
+  "SOCKET_Peg_22",
+  "SOCKET_Peg_23",
+  "SOCKET_Peg_24",
+  "SOCKET_Peg_25",
+  "SOCKET_Peg_26",
+  "SOCKET_Peg_27",
+  "SOCKET_Peg_28",
+  "SOCKET_Peg_29",
+  "SOCKET_Peg_30",
+  "SOCKET_Peg_31",
+  "SOCKET_Peg_32",
+  "SOCKET_Peg_33",
+  "SOCKET_Peg_34",
+  "SOCKET_Peg_35",
+  "SOCKET_Peg_36",
+  "SOCKET_Peg_37",
+  "SOCKET_Peg_38",
+  "SOCKET_Peg_39",
+  "SOCKET_Text"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_Census_Board_00",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_Census_Board_01",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_Census_Board.glb": {
+   "bytes": 71456,
+   "sha256": "6424067687dc3784a19a4f2693271f853073b8e3cc297dbb7d82ce9b9fdf0b18"
+  },
+  "Prop_Census_Board.blend": {
+   "bytes": 573776,
+   "sha256": "ecc739972499b4323f6df0f2f385d644cd2d6511c96b522d8bd8bffe556ff8f0"
+  },
+  "Prop_Census_Board_LOD1.glb": {
+   "bytes": 33764,
+   "sha256": "0849bf7d621cfb87f9a25a4d8503b28c3a067926ad6725a24dccb37d488585d2"
+  },
+  "Prop_Census_Board.sockets.json": {
+   "bytes": 12069,
+   "sha256": "32b066b74ddeb8ba506c9ea774f881351fb64ece0b161e3d47d701bba38d2e0b"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 576,
+  "ratio": 0.462,
+  "dimensions": [
+   1.0,
+   0.5,
+   1.5
+  ]
+ },
+ "sockets_sidecar": "Prop_Census_Board.sockets.json",
+ "ok": true
+}

@@ -1,0 +1,84 @@
+{
+ "asset": "Prop_Sky_Raft",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "8639f333f3f39768e4ac8939d5c5f42bff1ad744e4c8dfa186ae09459b5c9d01",
+ "lod0": {
+  "objects": {
+   "Prop_Sky_Raft": 676
+  },
+  "triangles": 676,
+  "bounds_min": [
+   -0.82,
+   -1.4849,
+   0.0
+  ],
+  "bounds_max": [
+   0.82,
+   1.4829,
+   2.8883
+  ],
+  "dimensions": [
+   1.64,
+   2.9678,
+   2.8883
+  ],
+  "materials": {
+   "Prop_Sky_Raft": [
+    "Prop_Sky_Raft_M0",
+    "Prop_Sky_Raft_M1",
+    "Prop_Sky_Raft_M2"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Mooring",
+  "SOCKET_Deck"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_Sky_Raft_00",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_Sky_Raft_01",
+   "triangles": 28
+  }
+ ],
+ "files": {
+  "Prop_Sky_Raft.glb": {
+   "bytes": 38472,
+   "sha256": "b379535d5da1d8a0ce64364ea48bf4152cbdd54fc5560af91477123ee7d4274a"
+  },
+  "Prop_Sky_Raft.blend": {
+   "bytes": 505020,
+   "sha256": "07cf1d102eee1d03e7eddf8c1876ac84d8d6acd2b61a93e321b6007064683189"
+  },
+  "Prop_Sky_Raft_LOD1.glb": {
+   "bytes": 20324,
+   "sha256": "55807ac60c06de4731e8eccf62d75a9dc1b6f8809b12731151d3c8474e95a6e7"
+  },
+  "Prop_Sky_Raft.sockets.json": {
+   "bytes": 939,
+   "sha256": "cdc21ffe6328f88ffa39b1de1d0868ebdff02284541c28517b387a30e1075193"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 348,
+  "ratio": 0.515,
+  "dimensions": [
+   1.64,
+   2.9678,
+   2.8822
+  ]
+ },
+ "sockets_sidecar": "Prop_Sky_Raft.sockets.json",
+ "ok": true
+}

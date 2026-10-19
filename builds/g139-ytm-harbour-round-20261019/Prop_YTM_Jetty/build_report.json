@@ -1,0 +1,110 @@
+{
+ "asset": "Prop_YTM_Jetty",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "7d078651294cb25ac456f42706368a9a9cbcb34377fbfde58bd35189eaafe3a0",
+ "lod0": {
+  "objects": {
+   "Prop_YTM_Jetty": 440,
+   "Prop_YTM_Jetty_Rope": 72
+  },
+  "triangles": 512,
+  "bounds_min": [
+   -0.85,
+   -1.5,
+   0.0
+  ],
+  "bounds_max": [
+   0.85,
+   1.5,
+   1.79
+  ],
+  "dimensions": [
+   1.7,
+   3.0,
+   1.79
+  ],
+  "materials": {
+   "Prop_YTM_Jetty": [
+    "Prop_YTM_Jetty_M0",
+    "Prop_YTM_Jetty_M1",
+    "Prop_YTM_Jetty_M2"
+   ],
+   "Prop_YTM_Jetty_Rope": [
+    "Prop_YTM_Jetty_M3"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_End_A",
+  "SOCKET_End_B",
+  "SOCKET_Mooring_L",
+  "SOCKET_Mooring_R"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_YTM_Jetty_00",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_YTM_Jetty_01",
+   "triangles": 28
+  },
+  {
+   "name": "UCX_Prop_YTM_Jetty_02",
+   "triangles": 28
+  },
+  {
+   "name": "UCX_Prop_YTM_Jetty_03",
+   "triangles": 28
+  },
+  {
+   "name": "UCX_Prop_YTM_Jetty_04",
+   "triangles": 28
+  },
+  {
+   "name": "UCX_Prop_YTM_Jetty_05",
+   "triangles": 28
+  },
+  {
+   "name": "UCX_Prop_YTM_Jetty_06",
+   "triangles": 28
+  }
+ ],
+ "files": {
+  "Prop_YTM_Jetty.glb": {
+   "bytes": 41136,
+   "sha256": "ae984be23a304a52662e6e4a3eab4f6063bbb9c41513804488a9445a0db88ab2"
+  },
+  "Prop_YTM_Jetty.blend": {
+   "bytes": 554076,
+   "sha256": "9127e7c97466e9a5b896da87b75a302735d8f787581d9204559271c4dc9391c2"
+  },
+  "Prop_YTM_Jetty_LOD1.glb": {
+   "bytes": 19260,
+   "sha256": "2a7883e5687d8f21f168d9c23f8db07f5c7127b627a76c025612ad8b7cd990b8"
+  },
+  "Prop_YTM_Jetty.sockets.json": {
+   "bytes": 1514,
+   "sha256": "0cc4c162bc950ff27387c6b762bc63b8581b999ac70eee908f835a0effdc942c"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 312,
+  "ratio": 0.609,
+  "dimensions": [
+   1.7,
+   3.0,
+   1.75
+  ]
+ },
+ "sockets_sidecar": "Prop_YTM_Jetty.sockets.json",
+ "ok": true
+}

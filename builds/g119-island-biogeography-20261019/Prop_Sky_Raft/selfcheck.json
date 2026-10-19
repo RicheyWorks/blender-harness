@@ -1,0 +1,110 @@
+[
+ [
+  "mesh node Prop_Sky_Raft",
+  true,
+  ""
+ ],
+ [
+  "Prop_Sky_Raft tris 676",
+  true,
+  676
+ ],
+ [
+  "Prop_Sky_Raft parent None",
+  true,
+  null
+ ],
+ [
+  "collision UCX_Prop_Sky_Raft_00 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_Sky_Raft_00 tris 12, no material, parent Prop_Sky_Raft",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_Sky_Raft_01 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_Sky_Raft_01 tris 28, no material, parent Prop_Sky_Raft",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Mooring under Prop_Sky_Raft",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Deck under Prop_Sky_Raft",
+  true,
+  ""
+ ],
+ [
+  "sockets sidecar present",
+  true,
+  ""
+ ],
+ [
+  "sidecar = glb sockets in UE space",
+  true,
+  ""
+ ],
+ [
+  "native socket rotation == sidecar (pre-rotated empties)",
+  true,
+  []
+ ],
+ [
+  "render bounds = predicted (1 mm)",
+  true,
+  [
+   [
+    -0.82,
+    0.0,
+    -1.4829
+   ],
+   [
+    0.82,
+    2.8883,
+    1.4849
+   ]
+  ]
+ ],
+ [
+  "LOD1 glb present",
+  true,
+  ""
+ ],
+ [
+  "LOD1 tris 348",
+  true,
+  348
+ ],
+ [
+  "LOD1 has no sockets/collision",
+  true,
+  ""
+ ],
+ [
+  "build_report ok",
+  true,
+  {
+   "triangles": true,
+   "bounds": true,
+   "objects": true,
+   "collision_tris": true,
+   "lod1_triangles": true,
+   "sidecar_sockets": true
+  }
+ ],
+ [
+  "report sha256 = files",
+  true,
+  ""
+ ]
+]

@@ -1,0 +1,305 @@
+[
+ [
+  "mesh node Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "Prop_Census_Board tris 1248",
+  true,
+  1248
+ ],
+ [
+  "Prop_Census_Board parent None",
+  true,
+  null
+ ],
+ [
+  "collision UCX_Prop_Census_Board_00 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_Census_Board_00 tris 12, no material, parent Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_Census_Board_01 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_Census_Board_01 tris 12, no material, parent Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_00 under Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_01 under Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_02 under Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_03 under Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_04 under Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_05 under Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_06 under Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_07 under Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_08 under Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_09 under Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_10 under Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_11 under Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_12 under Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_13 under Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_14 under Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_15 under Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_16 under Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_17 under Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_18 under Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_19 under Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_20 under Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_21 under Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_22 under Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_23 under Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_24 under Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_25 under Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_26 under Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_27 under Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_28 under Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_29 under Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_30 under Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_31 under Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_32 under Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_33 under Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_34 under Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_35 under Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_36 under Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_37 under Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_38 under Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_39 under Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Text under Prop_Census_Board",
+  true,
+  ""
+ ],
+ [
+  "sockets sidecar present",
+  true,
+  ""
+ ],
+ [
+  "sidecar = glb sockets in UE space",
+  true,
+  ""
+ ],
+ [
+  "native socket rotation == sidecar (pre-rotated empties)",
+  true,
+  []
+ ],
+ [
+  "render bounds = predicted (1 mm)",
+  true,
+  [
+   [
+    -0.5,
+    0.0,
+    -0.31
+   ],
+   [
+    0.5,
+    1.5,
+    0.19
+   ]
+  ]
+ ],
+ [
+  "LOD1 glb present",
+  true,
+  ""
+ ],
+ [
+  "LOD1 tris 576",
+  true,
+  576
+ ],
+ [
+  "LOD1 has no sockets/collision",
+  true,
+  ""
+ ],
+ [
+  "build_report ok",
+  true,
+  {
+   "triangles": true,
+   "bounds": true,
+   "objects": true,
+   "collision_tris": true,
+   "lod1_triangles": true,
+   "sidecar_sockets": true
+  }
+ ],
+ [
+  "report sha256 = files",
+  true,
+  ""
+ ]
+]

@@ -1,0 +1,85 @@
+[
+ [
+  "mesh node Prop_Census_Peg",
+  true,
+  ""
+ ],
+ [
+  "Prop_Census_Peg tris 64",
+  true,
+  64
+ ],
+ [
+  "Prop_Census_Peg parent None",
+  true,
+  null
+ ],
+ [
+  "socket SOCKET_Grip under Prop_Census_Peg",
+  true,
+  ""
+ ],
+ [
+  "sockets sidecar present",
+  true,
+  ""
+ ],
+ [
+  "sidecar = glb sockets in UE space",
+  true,
+  ""
+ ],
+ [
+  "native socket rotation == sidecar (pre-rotated empties)",
+  true,
+  []
+ ],
+ [
+  "render bounds = predicted (1 mm)",
+  true,
+  [
+   [
+    -0.017,
+    0.0,
+    -0.03
+   ],
+   [
+    0.017,
+    0.0323,
+    0.078
+   ]
+  ]
+ ],
+ [
+  "LOD1 glb present",
+  true,
+  ""
+ ],
+ [
+  "LOD1 tris 40",
+  true,
+  40
+ ],
+ [
+  "LOD1 has no sockets/collision",
+  true,
+  ""
+ ],
+ [
+  "build_report ok",
+  true,
+  {
+   "triangles": true,
+   "bounds": true,
+   "objects": true,
+   "collision_tris": true,
+   "lod1_triangles": true,
+   "sidecar_sockets": true
+  }
+ ],
+ [
+  "report sha256 = files",
+  true,
+  ""
+ ]
+]

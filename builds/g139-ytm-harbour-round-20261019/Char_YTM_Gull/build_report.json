@@ -1,0 +1,190 @@
+{
+ "asset": "Char_YTM_Gull",
+ "status": "BUILT (staged, NOT READY)",
+ "schema": "blender-bird/v1",
+ "lod0": {
+  "triangles": 384,
+  "bounds_min": [
+   -0.0732,
+   -0.3,
+   0.0
+  ],
+  "bounds_max": [
+   0.0732,
+   0.2997,
+   0.372
+  ],
+  "dimensions": [
+   0.1464,
+   0.5997,
+   0.372
+  ],
+  "bind": {
+   "auto_parts": [],
+   "rigid_parts": [
+    "Body",
+    "Neck",
+    "Head",
+    "Eye_L",
+    "Eye_R",
+    "Beak_Upper",
+    "Beak_Lower",
+    "Wing_L",
+    "WingTip_L",
+    "Wing_R",
+    "WingTip_R",
+    "Tail",
+    "Leg_L",
+    "Foot_L",
+    "Leg_R",
+    "Foot_R"
+   ],
+   "method": "rigid per part (recipe bind_mode)",
+   "max_influences": 1,
+   "unweighted_vertices": 0,
+   "non_normalised_vertices": 0,
+   "vertices": 236
+  },
+  "clips": [
+   {
+    "name": "Idle",
+    "frames": 120,
+    "fps": 30,
+    "fcurves": 12
+   },
+   {
+    "name": "Squawk",
+    "frames": 36,
+    "fps": 30,
+    "fcurves": 21
+   }
+  ]
+ },
+ "lod1": {
+  "triangles": 224,
+  "bounds_min": [
+   -0.0732,
+   -0.3,
+   0.0
+  ],
+  "bounds_max": [
+   0.0732,
+   0.2997,
+   0.3702
+  ],
+  "dimensions": [
+   0.1464,
+   0.5997,
+   0.3702
+  ],
+  "bind": {
+   "auto_parts": [],
+   "rigid_parts": [
+    "Body",
+    "Neck",
+    "Head",
+    "Beak_Upper",
+    "Beak_Lower",
+    "Wing_L",
+    "Wing_R",
+    "Tail",
+    "Leg_L",
+    "Foot_L",
+    "Leg_R",
+    "Foot_R"
+   ],
+   "method": "rigid per part (recipe bind_mode)",
+   "max_influences": 1,
+   "unweighted_vertices": 0,
+   "non_normalised_vertices": 0,
+   "vertices": 143
+  },
+  "clips": []
+ },
+ "glb": {
+  "triangles": 384,
+  "skins": 1,
+  "joints": [
+   10
+  ],
+  "joint_names": [
+   "Beak_Lower",
+   "Body",
+   "Head",
+   "Leg_L",
+   "Leg_R",
+   "Neck",
+   "Root",
+   "Tail",
+   "Wing_L",
+   "Wing_R"
+  ],
+  "skinned_attrs": true,
+  "inverse_bind_matrices": true,
+  "animations": [
+   {
+    "name": "Idle",
+    "channels": 30,
+    "seconds": 4
+   },
+   {
+    "name": "Squawk",
+    "channels": 30,
+    "seconds": 1.2
+   }
+  ],
+  "mesh_nodes": [
+   "Char_YTM_Gull"
+  ]
+ },
+ "glb_lod1": {
+  "triangles": 224,
+  "skins": 1,
+  "joints": [
+   10
+  ],
+  "joint_names": [
+   "Beak_Lower",
+   "Body",
+   "Head",
+   "Leg_L",
+   "Leg_R",
+   "Neck",
+   "Root",
+   "Tail",
+   "Wing_L",
+   "Wing_R"
+  ],
+  "skinned_attrs": true,
+  "inverse_bind_matrices": true,
+  "animations": [],
+  "mesh_nodes": [
+   "Char_YTM_Gull"
+  ]
+ },
+ "files": {
+  "Char_YTM_Gull.glb": {
+   "bytes": 69056,
+   "sha256": "98415125a3a772f856b0e294759a534e25ecfe318b1b83de5f2211ce06b73199"
+  },
+  "Char_YTM_Gull_LOD1.glb": {
+   "bytes": 27148,
+   "sha256": "0a0ef89ad95ce84679d445ef9961ebabb8c783fddbdc8e4ae35a908ea868cd51"
+  },
+  "Char_YTM_Gull.blend": {
+   "bytes": 658880,
+   "sha256": "1873f93efcbfa8bb34596d9a21bc5a65ecbb96fe82e859ae743d8da95f5ffb41"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "lod1_triangles": true,
+  "bounds": true,
+  "skeleton": true,
+  "skinned": true,
+  "clips": true,
+  "lod1_no_clips": true,
+  "weights": true
+ },
+ "ok": true
+}

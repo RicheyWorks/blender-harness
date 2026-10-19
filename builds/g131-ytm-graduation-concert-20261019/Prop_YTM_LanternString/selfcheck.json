@@ -1,0 +1,110 @@
+[
+ [
+  "mesh node Prop_YTM_LanternString",
+  true,
+  ""
+ ],
+ [
+  "Prop_YTM_LanternString tris 1264",
+  true,
+  1264
+ ],
+ [
+  "Prop_YTM_LanternString parent None",
+  true,
+  null
+ ],
+ [
+  "socket SOCKET_End_A under Prop_YTM_LanternString",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_End_B under Prop_YTM_LanternString",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Lamp_0 under Prop_YTM_LanternString",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Lamp_1 under Prop_YTM_LanternString",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Lamp_2 under Prop_YTM_LanternString",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Lamp_3 under Prop_YTM_LanternString",
+  true,
+  ""
+ ],
+ [
+  "sockets sidecar present",
+  true,
+  ""
+ ],
+ [
+  "sidecar = glb sockets in UE space",
+  true,
+  ""
+ ],
+ [
+  "native socket rotation == sidecar (pre-rotated empties)",
+  true,
+  []
+ ],
+ [
+  "render bounds = predicted (1 mm)",
+  true,
+  [
+   [
+    -0.7247,
+    0.0,
+    -0.085
+   ],
+   [
+    0.7247,
+    0.5025,
+    0.085
+   ]
+  ]
+ ],
+ [
+  "LOD1 glb present",
+  true,
+  ""
+ ],
+ [
+  "LOD1 tris 528",
+  true,
+  528
+ ],
+ [
+  "LOD1 has no sockets/collision",
+  true,
+  ""
+ ],
+ [
+  "build_report ok",
+  true,
+  {
+   "triangles": true,
+   "bounds": true,
+   "objects": true,
+   "collision_tris": true,
+   "lod1_triangles": true,
+   "sidecar_sockets": true
+  }
+ ],
+ [
+  "report sha256 = files",
+  true,
+  ""
+ ]
+]

@@ -1,0 +1,34 @@
+{
+ "schema": "bb-material-variants/1",
+ "gap": "G131 (youtube-master 50025, PR #348 brew.concert.GraduationConcert)",
+ "status": "NOT READY",
+ "lanterns": {
+  "asset": "Prop_YTM_LanternString",
+  "slot": "paper lantern glow (slot 2)",
+  "parent": "M_YTM_CandleFlame (G116 master, reused)",
+  "params": {
+   "LitCount": "scalar 0..4 lanterns lit (from -X)",
+   "CandleX0_cm": -54.0,
+   "CandlePitch_cm": 36.0,
+   "FlameColour": "vector, linear",
+   "EmissiveStrength": "scalar"
+  },
+  "graph": "k = floor((LocalPosition.X - CandleX0_cm) / CandlePitch_cm + 0.5); OpacityMask = (k < LitCount) ? 1 : 0; Emissive = FlameColour * EmissiveStrength * flicker(Time + k)",
+  "note": "same master and graph as the G116 lesson candles; paper is opaque, so OpacityMask switches the glow to the unlit paper colour instead of hiding it (static switch UnlitShowsBase=1)",
+  "instances": {
+   "MI_YTM_LanternString_Lit": {
+    "LitCount": 4,
+    "EmissiveStrength": 8,
+    "FlameColour_srgb": "F2B25C",
+    "UnlitShowsBase": 1
+   },
+   "MI_YTM_LanternString_Unlit": {
+    "LitCount": 0,
+    "EmissiveStrength": 0,
+    "FlameColour_srgb": "F2B25C",
+    "UnlitShowsBase": 1
+   }
+  },
+  "sockets": "SOCKET_Lamp_k: warm point light while k < LitCount; light them all when the choir closes"
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "asset": "Prop_YTM_LanternString",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "4c00076c28ce3e3cacc9daf9eed61f6555db391c12e6c3110e5087972b160d6a",
+ "lod0": {
+  "objects": {
+   "Prop_YTM_LanternString": 1264
+  },
+  "triangles": 1264,
+  "bounds_min": [
+   -0.7247,
+   -0.085,
+   0.0
+  ],
+  "bounds_max": [
+   0.7247,
+   0.085,
+   0.5025
+  ],
+  "dimensions": [
+   1.4494,
+   0.17,
+   0.5025
+  ],
+  "materials": {
+   "Prop_YTM_LanternString": [
+    "Prop_YTM_LanternString_M0",
+    "Prop_YTM_LanternString_M1",
+    "Prop_YTM_LanternString_M2"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_End_A",
+  "SOCKET_End_B",
+  "SOCKET_Lamp_0",
+  "SOCKET_Lamp_1",
+  "SOCKET_Lamp_2",
+  "SOCKET_Lamp_3"
+ ],
+ "collision": [],
+ "files": {
+  "Prop_YTM_LanternString.glb": {
+   "bytes": 68996,
+   "sha256": "737924d460a561a5bf24437650bc41a97672b0ead1ac3c29e57a822ed0977c11"
+  },
+  "Prop_YTM_LanternString.blend": {
+   "bytes": 524268,
+   "sha256": "169a26bf6dd7528da78773daf9eb9343201817c892a22154655288e25201a5da"
+  },
+  "Prop_YTM_LanternString_LOD1.glb": {
+   "bytes": 29496,
+   "sha256": "29e7fe882c549f3663ed201c952e4f15c4c3f1f80bf682257574902f3921f5af"
+  },
+  "Prop_YTM_LanternString.sockets.json": {
+   "bytes": 2129,
+   "sha256": "c491b824ab2acb3b909043fc8c2f59c5ad02cc3eeaf058f2e3d9aa02bf3f94ec"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 528,
+  "ratio": 0.418,
+  "dimensions": [
+   1.4494,
+   0.1472,
+   0.5025
+  ]
+ },
+ "sockets_sidecar": "Prop_YTM_LanternString.sockets.json",
+ "ok": true
+}

@@ -1,0 +1,285 @@
+[
+ [
+  "mesh node Prop_YTM_VoiceStaff",
+  true,
+  ""
+ ],
+ [
+  "Prop_YTM_VoiceStaff tris 1192",
+  true,
+  1192
+ ],
+ [
+  "Prop_YTM_VoiceStaff parent None",
+  true,
+  null
+ ],
+ [
+  "collision UCX_Prop_YTM_VoiceStaff_00 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_YTM_VoiceStaff_00 tris 12, no material, parent Prop_YTM_VoiceStaff",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_YTM_VoiceStaff_01 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_YTM_VoiceStaff_01 tris 12, no material, parent Prop_YTM_VoiceStaff",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_0_0 under Prop_YTM_VoiceStaff",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_0_1 under Prop_YTM_VoiceStaff",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_0_2 under Prop_YTM_VoiceStaff",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_0_3 under Prop_YTM_VoiceStaff",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_0_4 under Prop_YTM_VoiceStaff",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_0_5 under Prop_YTM_VoiceStaff",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_0_6 under Prop_YTM_VoiceStaff",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_0_7 under Prop_YTM_VoiceStaff",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_1_0 under Prop_YTM_VoiceStaff",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_1_1 under Prop_YTM_VoiceStaff",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_1_2 under Prop_YTM_VoiceStaff",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_1_3 under Prop_YTM_VoiceStaff",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_1_4 under Prop_YTM_VoiceStaff",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_1_5 under Prop_YTM_VoiceStaff",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_1_6 under Prop_YTM_VoiceStaff",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_1_7 under Prop_YTM_VoiceStaff",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_2_0 under Prop_YTM_VoiceStaff",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_2_1 under Prop_YTM_VoiceStaff",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_2_2 under Prop_YTM_VoiceStaff",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_2_3 under Prop_YTM_VoiceStaff",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_2_4 under Prop_YTM_VoiceStaff",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_2_5 under Prop_YTM_VoiceStaff",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_2_6 under Prop_YTM_VoiceStaff",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_2_7 under Prop_YTM_VoiceStaff",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_3_0 under Prop_YTM_VoiceStaff",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_3_1 under Prop_YTM_VoiceStaff",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_3_2 under Prop_YTM_VoiceStaff",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_3_3 under Prop_YTM_VoiceStaff",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_3_4 under Prop_YTM_VoiceStaff",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_3_5 under Prop_YTM_VoiceStaff",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_3_6 under Prop_YTM_VoiceStaff",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Peg_3_7 under Prop_YTM_VoiceStaff",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Row_0 under Prop_YTM_VoiceStaff",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Row_1 under Prop_YTM_VoiceStaff",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Row_2 under Prop_YTM_VoiceStaff",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Row_3 under Prop_YTM_VoiceStaff",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Clash under Prop_YTM_VoiceStaff",
+  true,
+  ""
+ ],
+ [
+  "sockets sidecar present",
+  true,
+  ""
+ ],
+ [
+  "sidecar = glb sockets in UE space",
+  true,
+  ""
+ ],
+ [
+  "native socket rotation == sidecar (pre-rotated empties)",
+  true,
+  []
+ ],
+ [
+  "render bounds = predicted (1 mm)",
+  true,
+  [
+   [
+    -0.6,
+    0.0,
+    -0.31
+   ],
+   [
+    0.6,
+    1.37,
+    0.19
+   ]
+  ]
+ ],
+ [
+  "LOD1 glb present",
+  true,
+  ""
+ ],
+ [
+  "LOD1 tris 504",
+  true,
+  504
+ ],
+ [
+  "LOD1 has no sockets/collision",
+  true,
+  ""
+ ],
+ [
+  "build_report ok",
+  true,
+  {
+   "triangles": true,
+   "bounds": true,
+   "objects": true,
+   "collision_tris": true,
+   "lod1_triangles": true,
+   "sidecar_sockets": true
+  }
+ ],
+ [
+  "report sha256 = files",
+  true,
+  ""
+ ]
+]

@@ -86,9 +86,9 @@
    ]
   },
   "standin": {
-   "at": 1792399673,
-   "of": 7,
-   "ok": 7,
+   "at": 1792414642,
+   "of": 9,
+   "ok": 9,
    "suites": [
     {
      "fails": [],
@@ -170,6 +170,19 @@
     },
     {
      "fails": [],
+     "floor": 17,
+     "got": 17,
+     "mark": "ok",
+     "name": "lockgate",
+     "rc": 0,
+     "tail": [
+      "PASS tail keeps the last n lines",
+      "17/17"
+     ],
+     "total": 17
+    },
+    {
+     "fails": [],
      "floor": 14,
      "got": 14,
      "mark": "ok",
@@ -180,6 +193,19 @@
       "14/14"
      ],
      "total": 14
+    },
+    {
+     "fails": [],
+     "floor": 30,
+     "got": 30,
+     "mark": "ok",
+     "name": "bip1_fixup",
+     "rc": 0,
+     "tail": [
+      "ok   tampered archive refused",
+      "30/30"
+     ],
+     "total": 30
     }
    ]
   }

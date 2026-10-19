@@ -1,0 +1,119 @@
+{
+ "asset": "Prop_YTM_VoiceStaff",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "7a5b38445730fc4ea87cbb00c6f4d776fe81150186cffca0c6b200d8a95d9e92",
+ "lod0": {
+  "objects": {
+   "Prop_YTM_VoiceStaff": 1192
+  },
+  "triangles": 1192,
+  "bounds_min": [
+   -0.6,
+   -0.19,
+   0.0
+  ],
+  "bounds_max": [
+   0.6,
+   0.31,
+   1.37
+  ],
+  "dimensions": [
+   1.2,
+   0.5,
+   1.37
+  ],
+  "materials": {
+   "Prop_YTM_VoiceStaff": [
+    "Prop_YTM_VoiceStaff_M0",
+    "Prop_YTM_VoiceStaff_M1",
+    "Prop_YTM_VoiceStaff_M2"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Peg_0_0",
+  "SOCKET_Peg_0_1",
+  "SOCKET_Peg_0_2",
+  "SOCKET_Peg_0_3",
+  "SOCKET_Peg_0_4",
+  "SOCKET_Peg_0_5",
+  "SOCKET_Peg_0_6",
+  "SOCKET_Peg_0_7",
+  "SOCKET_Peg_1_0",
+  "SOCKET_Peg_1_1",
+  "SOCKET_Peg_1_2",
+  "SOCKET_Peg_1_3",
+  "SOCKET_Peg_1_4",
+  "SOCKET_Peg_1_5",
+  "SOCKET_Peg_1_6",
+  "SOCKET_Peg_1_7",
+  "SOCKET_Peg_2_0",
+  "SOCKET_Peg_2_1",
+  "SOCKET_Peg_2_2",
+  "SOCKET_Peg_2_3",
+  "SOCKET_Peg_2_4",
+  "SOCKET_Peg_2_5",
+  "SOCKET_Peg_2_6",
+  "SOCKET_Peg_2_7",
+  "SOCKET_Peg_3_0",
+  "SOCKET_Peg_3_1",
+  "SOCKET_Peg_3_2",
+  "SOCKET_Peg_3_3",
+  "SOCKET_Peg_3_4",
+  "SOCKET_Peg_3_5",
+  "SOCKET_Peg_3_6",
+  "SOCKET_Peg_3_7",
+  "SOCKET_Row_0",
+  "SOCKET_Row_1",
+  "SOCKET_Row_2",
+  "SOCKET_Row_3",
+  "SOCKET_Clash"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_YTM_VoiceStaff_00",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_YTM_VoiceStaff_01",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_YTM_VoiceStaff.glb": {
+   "bytes": 69492,
+   "sha256": "d2fd865ae80b1d9968f0c0cd7e7eb91e200de4ecf81ecf74a573775ddce403d7"
+  },
+  "Prop_YTM_VoiceStaff.blend": {
+   "bytes": 567796,
+   "sha256": "528b16b5dd73c5d7db7c0d94955ae0588225858e868011b749baa8a1444d5711"
+  },
+  "Prop_YTM_VoiceStaff_LOD1.glb": {
+   "bytes": 29448,
+   "sha256": "bb34dfd115830dfdbc87f3c49ff30ed442b1b48191553c8c98fd7af7a6fcec6e"
+  },
+  "Prop_YTM_VoiceStaff.sockets.json": {
+   "bytes": 11022,
+   "sha256": "2a39689d9973070a8278a660644bb3d06abbfa5ebb44c6bce222d7ba4f903742"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 504,
+  "ratio": 0.423,
+  "dimensions": [
+   1.2,
+   0.5,
+   1.37
+  ]
+ },
+ "sockets_sidecar": "Prop_YTM_VoiceStaff.sockets.json",
+ "ok": true
+}

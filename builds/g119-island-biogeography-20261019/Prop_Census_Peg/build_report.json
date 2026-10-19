@@ -1,0 +1,73 @@
+{
+ "asset": "Prop_Census_Peg",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "bc624cc665df8e1be61fe5d366cb9579679f7afb1102f4418a3bdd0de9e05d15",
+ "lod0": {
+  "objects": {
+   "Prop_Census_Peg": 64
+  },
+  "triangles": 64,
+  "bounds_min": [
+   -0.017,
+   -0.078,
+   0.0
+  ],
+  "bounds_max": [
+   0.017,
+   0.03,
+   0.0323
+  ],
+  "dimensions": [
+   0.034,
+   0.108,
+   0.0323
+  ],
+  "materials": {
+   "Prop_Census_Peg": [
+    "Prop_Census_Peg_M0",
+    "Prop_Census_Peg_M1"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Grip"
+ ],
+ "collision": [],
+ "files": {
+  "Prop_Census_Peg.glb": {
+   "bytes": 5052,
+   "sha256": "ac645c4c1d79ecdac8313e5b30708b221236aaf265a433040d8ea7f2655eb8ef"
+  },
+  "Prop_Census_Peg.blend": {
+   "bytes": 452364,
+   "sha256": "f8affe39af61d68b9a2175670b6f13cf1b71a9b3e36e3d6a2ece2b2d985cd3f3"
+  },
+  "Prop_Census_Peg_LOD1.glb": {
+   "bytes": 3640,
+   "sha256": "fa27c752656d127db70aa4b405a0cadbd99908d17a840df03feef2bfd0212f38"
+  },
+  "Prop_Census_Peg.sockets.json": {
+   "bytes": 662,
+   "sha256": "de60bc243724d4e327b4a087962a041b8777971388cc8b98588c825db5ce47eb"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 40,
+  "ratio": 0.625,
+  "dimensions": [
+   0.034,
+   0.108,
+   0.0295
+  ]
+ },
+ "sockets_sidecar": "Prop_Census_Peg.sockets.json",
+ "ok": true
+}

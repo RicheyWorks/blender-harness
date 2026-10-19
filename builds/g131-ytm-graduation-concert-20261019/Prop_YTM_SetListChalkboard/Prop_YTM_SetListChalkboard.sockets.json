@@ -1,0 +1,302 @@
+{
+ "asset": "Prop_YTM_SetListChalkboard",
+ "units": "cm",
+ "space": "unreal",
+ "note": "UE +X forward, +Y right, +Z up, cm; UE = 100 * (x_b, -y_b, z_b) = 100 * (gx, gz, gy) (UEB 48725); location relative to parent node; rotation [pitch, yaw, roll] deg: plain sockets [0, 0, 0] = mesh-aligned, attach sockets +X along barrel/shaft, +Z up; native empties pre-rotated to match",
+ "sockets": [
+  {
+   "name": "SOCKET_Fifths",
+   "parent": "Prop_YTM_SetListChalkboard",
+   "location": [
+    -20.0,
+    0.695,
+    100.85
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Key_00",
+   "parent": "Prop_YTM_SetListChalkboard",
+   "location": [
+    -20.0,
+    0.695,
+    119.85
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Key_01",
+   "parent": "Prop_YTM_SetListChalkboard",
+   "location": [
+    -10.5,
+    0.695,
+    117.304
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Key_02",
+   "parent": "Prop_YTM_SetListChalkboard",
+   "location": [
+    -3.546,
+    0.695,
+    110.35
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Key_03",
+   "parent": "Prop_YTM_SetListChalkboard",
+   "location": [
+    -1.0,
+    0.695,
+    100.85
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Key_04",
+   "parent": "Prop_YTM_SetListChalkboard",
+   "location": [
+    -3.546,
+    0.695,
+    91.35
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Key_05",
+   "parent": "Prop_YTM_SetListChalkboard",
+   "location": [
+    -10.5,
+    0.695,
+    84.396
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Key_06",
+   "parent": "Prop_YTM_SetListChalkboard",
+   "location": [
+    -20.0,
+    0.695,
+    81.85
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Key_07",
+   "parent": "Prop_YTM_SetListChalkboard",
+   "location": [
+    -29.5,
+    0.695,
+    84.396
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Key_08",
+   "parent": "Prop_YTM_SetListChalkboard",
+   "location": [
+    -36.454,
+    0.695,
+    91.35
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Key_09",
+   "parent": "Prop_YTM_SetListChalkboard",
+   "location": [
+    -39.0,
+    0.695,
+    100.85
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Key_10",
+   "parent": "Prop_YTM_SetListChalkboard",
+   "location": [
+    -36.454,
+    0.695,
+    110.35
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Key_11",
+   "parent": "Prop_YTM_SetListChalkboard",
+   "location": [
+    -29.5,
+    0.695,
+    117.304
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Text",
+   "parent": "Prop_YTM_SetListChalkboard",
+   "location": [
+    20.0,
+    0.695,
+    102.85
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  }
+ ]
+}

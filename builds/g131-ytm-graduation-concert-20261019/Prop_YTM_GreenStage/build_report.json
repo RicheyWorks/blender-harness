@@ -1,0 +1,104 @@
+{
+ "asset": "Prop_YTM_GreenStage",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "4d3441dfa7f47b439408c5567c3b83d2d015ca8328098afbae21023e646ec1a3",
+ "lod0": {
+  "objects": {
+   "Prop_YTM_GreenStage": 308,
+   "Prop_YTM_GreenStage_Bunting": 228
+  },
+  "triangles": 536,
+  "bounds_min": [
+   -1.51,
+   -1.6,
+   0.0
+  ],
+  "bounds_max": [
+   1.51,
+   1.01,
+   2.64
+  ],
+  "dimensions": [
+   3.02,
+   2.61,
+   2.64
+  ],
+  "materials": {
+   "Prop_YTM_GreenStage": [
+    "Prop_YTM_GreenStage_M0",
+    "Prop_YTM_GreenStage_M1"
+   ],
+   "Prop_YTM_GreenStage_Bunting": [
+    "Prop_YTM_GreenStage_M2",
+    "Prop_YTM_GreenStage_M3",
+    "Prop_YTM_GreenStage_M4"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Solo",
+  "SOCKET_Choir_0",
+  "SOCKET_Choir_1",
+  "SOCKET_Choir_2",
+  "SOCKET_Choir_3",
+  "SOCKET_Choir_4",
+  "SOCKET_Board",
+  "SOCKET_String_L",
+  "SOCKET_String_R"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_YTM_GreenStage_00",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_YTM_GreenStage_01",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_YTM_GreenStage_02",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_YTM_GreenStage_03",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_YTM_GreenStage.glb": {
+   "bytes": 39852,
+   "sha256": "b1c0a33a7e2aab9829186b0c051e171a8a35205c5c0b337f1efdaf85229c54c8"
+  },
+  "Prop_YTM_GreenStage.blend": {
+   "bytes": 572448,
+   "sha256": "70c867ec361fa54d5526543083cad6d5a9869a030e65278db1ef52a20190b592"
+  },
+  "Prop_YTM_GreenStage_LOD1.glb": {
+   "bytes": 20688,
+   "sha256": "c82f03fd9fe2c2c5405c4d19d240bad795a5eff5feb1e7623ab0c35a3b4b299c"
+  },
+  "Prop_YTM_GreenStage.sockets.json": {
+   "bytes": 2983,
+   "sha256": "be6961b72c97ab145726987890ad985a719037752cbb9f133e63edf314349d73"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 300,
+  "ratio": 0.56,
+  "dimensions": [
+   3.0,
+   2.6,
+   2.6
+  ]
+ },
+ "sockets_sidecar": "Prop_YTM_GreenStage.sockets.json",
+ "ok": true
+}
