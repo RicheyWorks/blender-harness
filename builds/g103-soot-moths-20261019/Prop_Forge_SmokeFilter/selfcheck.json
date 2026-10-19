@@ -1,0 +1,110 @@
+[
+ [
+  "mesh node Prop_Forge_SmokeFilter",
+  true,
+  ""
+ ],
+ [
+  "Prop_Forge_SmokeFilter tris 646",
+  true,
+  646
+ ],
+ [
+  "Prop_Forge_SmokeFilter parent None",
+  true,
+  null
+ ],
+ [
+  "collision UCX_Prop_Forge_SmokeFilter_00 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_Forge_SmokeFilter_00 tris 12, no material, parent Prop_Forge_SmokeFilter",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_Forge_SmokeFilter_01 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_Forge_SmokeFilter_01 tris 12, no material, parent Prop_Forge_SmokeFilter",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Chimney under Prop_Forge_SmokeFilter",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Smoke under Prop_Forge_SmokeFilter",
+  true,
+  ""
+ ],
+ [
+  "sockets sidecar present",
+  true,
+  ""
+ ],
+ [
+  "sidecar = glb sockets in UE space",
+  true,
+  ""
+ ],
+ [
+  "native socket rotation == sidecar (pre-rotated empties)",
+  true,
+  []
+ ],
+ [
+  "render bounds = predicted (1 mm)",
+  true,
+  [
+   [
+    -0.55,
+    0.0,
+    -0.55
+   ],
+   [
+    0.55,
+    1.07,
+    0.55
+   ]
+  ]
+ ],
+ [
+  "LOD1 glb present",
+  true,
+  ""
+ ],
+ [
+  "LOD1 tris 314",
+  true,
+  314
+ ],
+ [
+  "LOD1 has no sockets/collision",
+  true,
+  ""
+ ],
+ [
+  "build_report ok",
+  true,
+  {
+   "triangles": true,
+   "bounds": true,
+   "objects": true,
+   "collision_tris": true,
+   "lod1_triangles": true,
+   "sidecar_sockets": true
+  }
+ ],
+ [
+  "report sha256 = files",
+  true,
+  ""
+ ]
+]

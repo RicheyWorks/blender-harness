@@ -1,0 +1,192 @@
+{
+ "asset": "Mob_Moth_Peppered",
+ "status": "BUILT (staged, NOT READY)",
+ "schema": "blender-insect/v1",
+ "lod0": {
+  "triangles": 332,
+  "bounds_min": [
+   -0.0225,
+   -0.0147,
+   0.0
+  ],
+  "bounds_max": [
+   0.0225,
+   0.0141,
+   0.0052
+  ],
+  "dimensions": [
+   0.045,
+   0.0288,
+   0.0052
+  ],
+  "bind": {
+   "auto_parts": [],
+   "rigid_parts": [
+    "Thorax",
+    "Abdomen",
+    "Head",
+    "Eye_L",
+    "Eye_R",
+    "Antenna_L",
+    "Antenna_R",
+    "WingF_L",
+    "WingF_R",
+    "WingH_L",
+    "WingH_R",
+    "Leg0_L",
+    "Leg0_R",
+    "Leg1_L",
+    "Leg1_R",
+    "Leg2_L",
+    "Leg2_R"
+   ],
+   "method": "rigid per part (recipe bind_mode)",
+   "max_influences": 1,
+   "unweighted_vertices": 0,
+   "non_normalised_vertices": 0,
+   "vertices": 200
+  },
+  "clips": [
+   {
+    "name": "Idle",
+    "frames": 90,
+    "fps": 30,
+    "fcurves": 9
+   },
+   {
+    "name": "Flutter",
+    "frames": 12,
+    "fps": 30,
+    "fcurves": 24
+   }
+  ]
+ },
+ "lod1": {
+  "triangles": 152,
+  "bounds_min": [
+   -0.0204,
+   -0.0147,
+   0.0
+  ],
+  "bounds_max": [
+   0.0204,
+   0.0137,
+   0.0051
+  ],
+  "dimensions": [
+   0.0408,
+   0.0284,
+   0.0051
+  ],
+  "bind": {
+   "auto_parts": [],
+   "rigid_parts": [
+    "Thorax",
+    "Abdomen",
+    "Head",
+    "Antenna_L",
+    "Antenna_R",
+    "WingF_L",
+    "WingF_R",
+    "WingH_L",
+    "WingH_R",
+    "Leg0_L",
+    "Leg0_R",
+    "Leg2_L",
+    "Leg2_R"
+   ],
+   "method": "rigid per part (recipe bind_mode)",
+   "max_influences": 1,
+   "unweighted_vertices": 0,
+   "non_normalised_vertices": 0,
+   "vertices": 102
+  },
+  "clips": []
+ },
+ "glb": {
+  "triangles": 332,
+  "skins": 1,
+  "joints": [
+   10
+  ],
+  "joint_names": [
+   "Abdomen",
+   "Antenna_L",
+   "Antenna_R",
+   "Head",
+   "Root",
+   "Thorax",
+   "WingF_L",
+   "WingF_R",
+   "WingH_L",
+   "WingH_R"
+  ],
+  "skinned_attrs": true,
+  "inverse_bind_matrices": true,
+  "animations": [
+   {
+    "name": "Flutter",
+    "channels": 30,
+    "seconds": 0.4
+   },
+   {
+    "name": "Idle",
+    "channels": 30,
+    "seconds": 3
+   }
+  ],
+  "mesh_nodes": [
+   "Mob_Moth_Peppered"
+  ]
+ },
+ "glb_lod1": {
+  "triangles": 152,
+  "skins": 1,
+  "joints": [
+   10
+  ],
+  "joint_names": [
+   "Abdomen",
+   "Antenna_L",
+   "Antenna_R",
+   "Head",
+   "Root",
+   "Thorax",
+   "WingF_L",
+   "WingF_R",
+   "WingH_L",
+   "WingH_R"
+  ],
+  "skinned_attrs": true,
+  "inverse_bind_matrices": true,
+  "animations": [],
+  "mesh_nodes": [
+   "Mob_Moth_Peppered"
+  ]
+ },
+ "files": {
+  "Mob_Moth_Peppered.glb": {
+   "bytes": 53964,
+   "sha256": "6c5f724f2fc952874f40256d70ae5dc16d78428a1f5cf72e742f0dcd406ee90e"
+  },
+  "Mob_Moth_Peppered_LOD1.glb": {
+   "bytes": 19252,
+   "sha256": "02c543faed31ca2f478198bc01d5ddc3fef84d8ad21c10576e6cb4d0e632c38e"
+  },
+  "Mob_Moth_Peppered.blend": {
+   "bytes": 551856,
+   "sha256": "a79ddb1147d31ae088c1ccd0b89770ca57f450ff540688beec3fb78daf2cbc8f"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "lod1_triangles": true,
+  "bounds": true,
+  "skeleton": true,
+  "skinned": true,
+  "clips": true,
+  "lod1_no_clips": true,
+  "weights": true
+ },
+ "ok": true
+}

@@ -1,0 +1,84 @@
+{
+ "asset": "Prop_Forge_SmokeFilter",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "c6ba7781dc2f4521a934dff14723fa9f249b81234f869606fe24a914549abeb3",
+ "lod0": {
+  "objects": {
+   "Prop_Forge_SmokeFilter": 646
+  },
+  "triangles": 646,
+  "bounds_min": [
+   -0.55,
+   -0.55,
+   0.0
+  ],
+  "bounds_max": [
+   0.55,
+   0.55,
+   1.07
+  ],
+  "dimensions": [
+   1.1,
+   1.1,
+   1.07
+  ],
+  "materials": {
+   "Prop_Forge_SmokeFilter": [
+    "Prop_Forge_SmokeFilter_M0",
+    "Prop_Forge_SmokeFilter_M1",
+    "Prop_Forge_SmokeFilter_M2"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Chimney",
+  "SOCKET_Smoke"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_Forge_SmokeFilter_00",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_Forge_SmokeFilter_01",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_Forge_SmokeFilter.glb": {
+   "bytes": 40496,
+   "sha256": "bd0538c07bb663c7c785bedb46b8359c5f009b0cb352c09ccd3526a196acda57"
+  },
+  "Prop_Forge_SmokeFilter.blend": {
+   "bytes": 506704,
+   "sha256": "da3e3384bcefd5a10c58a76c59d70d6b275b356c9babfc3fc2da0cf236db09e6"
+  },
+  "Prop_Forge_SmokeFilter_LOD1.glb": {
+   "bytes": 19928,
+   "sha256": "0b660efe94accef0e77a3c761537407384e1a24ada023befb4e8602664986774"
+  },
+  "Prop_Forge_SmokeFilter.sockets.json": {
+   "bytes": 963,
+   "sha256": "a7a56e1912e2f73c4e22242603e7ecbaa087f0021bf9194acb0407bf3f8412e5"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 314,
+  "ratio": 0.486,
+  "dimensions": [
+   1.1,
+   1.1,
+   1.07
+  ]
+ },
+ "sockets_sidecar": "Prop_Forge_SmokeFilter.sockets.json",
+ "ok": true
+}
