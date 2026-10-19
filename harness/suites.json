@@ -33,7 +33,7 @@
   {
    "name": "lockgate",
    "module": "harness.test_lockgate",
-   "floor": 17
+   "floor": 29
   },
   {
    "name": "walk",
