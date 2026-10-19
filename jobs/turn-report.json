@@ -1,0 +1,173 @@
+{
+ "stopped": null,
+ "ram_before": {
+  "free_gb": 1.82,
+  "editor_private_gb": 7.56
+ },
+ "ram_after": {
+  "free_gb": 0.97,
+  "editor_private_gb": 9.76
+ },
+ "steps": [
+  {
+   "ok": true,
+   "result": {
+    "free_gb": 1.82,
+    "editor_private_gb": 7.56
+   },
+   "step": "ram before",
+   "seconds": 0.9
+  },
+  {
+   "ok": true,
+   "result": {
+    "engine": "5.8.3-58210709+++UE5+Release-5.8",
+    "project": "../../../../../../Unreal/DaedalusRealm/DaedalusRealm.uproject",
+    "level": "/Game/Daedalus/DaedalusWorld.DaedalusWorld",
+    "actors": 9773,
+    "playing": false,
+    "bridge_port": 9877
+   },
+   "step": "bridge up",
+   "seconds": 0.2
+  },
+  {
+   "ok": false,
+   "error": "BridgeError(\"Unreal: AttributeError: 'World' object has no attribute 'get_streaming_levels'\")",
+   "step": "place isles + islands.json",
+   "seconds": 70.5
+  },
+  {
+   "ok": true,
+   "result": {
+    "free_gb": 0.97,
+    "editor_private_gb": 9.76
+   },
+   "step": "ram after",
+   "seconds": 0.7
+  },
+  {
+   "ok": true,
+   "result": {
+    "stdout": "",
+    "result": {
+     "path": "../../../../../../Unreal/DaedalusRealm/Saved/Daedalus\\ram-audit.json",
+     "total_mb": 121.5,
+     "assets": 14229,
+     "unknown": {
+      "format": 0,
+      "texture": 0,
+      "mesh": 0
+     },
+     "owners": [
+      {
+       "owner": "/Game/Daedalus/",
+       "mb": 92.9
+      },
+      {
+       "owner": "/Game/Prometheus/",
+       "mb": 9.3
+      },
+      {
+       "owner": "/Game/Codex/",
+       "mb": 5.0
+      },
+      {
+       "owner": "/Game/OddsReaper/",
+       "mb": 4.4
+      },
+      {
+       "owner": "/Game/Pythagoras/",
+       "mb": 4.3
+      },
+      {
+       "owner": "/Game/Buffffff/",
+       "mb": 3.1
+      },
+      {
+       "owner": "/Game/AMF/",
+       "mb": 1.6
+      },
+      {
+       "owner": "/Game/DaedalusAudio/",
+       "mb": 0.6
+      },
+      {
+       "owner": "/Game/DiskSaver/",
+       "mb": 0.4
+      }
+     ]
+    },
+    "unattended": false
+   },
+   "step": "ram audit (registry tags, nothing loaded)",
+   "seconds": 0.6
+  },
+  {
+   "ok": true,
+   "result": {
+    "passed": 9,
+    "total": 12,
+    "error": null,
+    "failed": [
+     "the flankers move to their flank points",
+     "Java's order holds against the local director",
+     "the retreating foe got further away"
+    ]
+   },
+   "step": "scenario tactics",
+   "seconds": 74.7
+  },
+  {
+   "ok": true,
+   "result": {
+    "passed": 3,
+    "total": 6,
+    "error": null,
+    "failed": [
+     "Java answered",
+     "Java's orders were applied (local director off)",
+     "nothing failed"
+    ]
+   },
+   "step": "scenario tactics_remote",
+   "seconds": 25.0
+  },
+  {
+   "ok": true,
+   "result": {
+    "passed": 4,
+    "total": 6,
+    "error": null,
+    "failed": [
+     "they wander",
+     "a shy one bolts from the hero"
+    ]
+   },
+   "step": "scenario wild",
+   "seconds": 15.3
+  },
+  {
+   "ok": true,
+   "result": {
+    "passed": 5,
+    "total": 6,
+    "error": null,
+    "failed": [
+     "the Lantern pair makes the Lantern Brew"
+    ]
+   },
+   "step": "scenario orrery",
+   "seconds": 12.7
+  },
+  {
+   "ok": true,
+   "result": {
+    "level_saved": true,
+    "dirty_packages_saved": true
+   },
+   "step": "save",
+   "seconds": 25.8
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "when": "2026-10-13T23:53:27",
+ "sha": "b9888c9e",
+ "build": false,
+ "laid": [
+  "cast: {'WORLD-ZERO': {'realm': 'WORLD-ZERO', 'roles': 6, 'made': 0, 'bound': 6, 'unbound': []}, 'GALLERY-CITY': {'realm': 'GALLERY-CITY', 'roles': 12, 'made': 0, 'bound': 12, 'unbound': []}, 'PARCELS': {'realm': 'PARCELS', 'roles': 12, 'made': 0, 'bound': 12, 'unbound': []}, 'BRICKS': {'realm': 'BRICKS', 'roles': 12, 'made': 0, 'bound': 12, 'unbound': []}, 'LABYRINTH': {'realm': 'LABYRINTH', 'roles': 12, 'made': 0, 'bound': 12, 'unbound': []}} ",
+  "portals: {'WORLD-ZERO': {'realm': 'WORLD-ZERO', 'made': 2, 'portals': 6}, 'GALLERY-CITY': {'realm': 'GALLERY-CITY', 'made': 0, 'portals': 3}, 'PARCELS': {'realm': 'PARCELS', 'made': 0, 'portals': 3}, 'BRICKS': {'realm': 'BRICKS', 'made': 0, 'portals': 3}, 'LABYRINTH': {'realm': 'LABYRINTH', 'made': 0, 'portals': 3}, 'OCEAN': {'realm': 'OCEAN', 'made': 0, 'at': ['BaseBerthAccess_Skiff_OCEAN', 'BaseBerthAccess_Submarine_OCEAN', 'BaseOceanArt_HarbourDock']}} ",
+  "districts GALLERY-CITY: None  False, False)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: create_new_streaming_level() takes at most 3 arguments (4 given)\n",
+  "districts PARCELS: None  False, False)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: create_new_streaming_level() takes at most 3 arguments (4 given)\n",
+  "districts BRICKS: None  False, False)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: create_new_streaming_level() takes at most 3 arguments (4 given)\n",
+  "districts LABYRINTH: None  False, False)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: create_new_streaming_level() takes at most 3 arguments (4 given)\n"
+ ],
+ "scenarios": {},
+ "total": "TOTAL ?",
+ "log_report": "errors=5 warnings=716",
+ "fails": [],
+ "interrupted": []
+}
