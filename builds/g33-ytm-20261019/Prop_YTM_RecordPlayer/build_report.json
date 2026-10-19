@@ -1,0 +1,86 @@
+{
+ "asset": "Prop_YTM_RecordPlayer",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "810cb479c3703923818d8abdc02f6a64a49dfd909937b0d984b575646b82c0aa",
+ "lod0": {
+  "objects": {
+   "Prop_YTM_RecordPlayer": 600
+  },
+  "triangles": 600,
+  "bounds_min": [
+   -0.18,
+   -0.18,
+   0.0
+  ],
+  "bounds_max": [
+   0.182,
+   0.18,
+   0.581
+  ],
+  "dimensions": [
+   0.362,
+   0.36,
+   0.581
+  ],
+  "materials": {
+   "Prop_YTM_RecordPlayer": [
+    "Prop_YTM_RecordPlayer_M0",
+    "Prop_YTM_RecordPlayer_M1",
+    "Prop_YTM_RecordPlayer_M2"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Hinge_Crank",
+  "SOCKET_Spin",
+  "SOCKET_Needle",
+  "SOCKET_Sound"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_YTM_RecordPlayer_00",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_YTM_RecordPlayer_01",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_YTM_RecordPlayer.glb": {
+   "bytes": 36444,
+   "sha256": "d21e2aa0a5c003be5d9df70e790e417ab87faf4d0d04321920a81cb67a93a05d"
+  },
+  "Prop_YTM_RecordPlayer.blend": {
+   "bytes": 506324,
+   "sha256": "e169f74a1732e3858cd7e18334e43be8dcb50192687e36ebdcf48382da33b901"
+  },
+  "Prop_YTM_RecordPlayer_LOD1.glb": {
+   "bytes": 15780,
+   "sha256": "ca48f69d26a474d492feaaa92b2a2e3a4bf431eaf03d96ad6164f2b103df0e60"
+  },
+  "Prop_YTM_RecordPlayer.sockets.json": {
+   "bytes": 2248,
+   "sha256": "2e471c8fb9d11816dc174fa9dae66e97b58db04f2437832ac155b95ebc427810"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 252,
+  "ratio": 0.42,
+  "dimensions": [
+   0.36,
+   0.36,
+   0.5766
+  ]
+ },
+ "sockets_sidecar": "Prop_YTM_RecordPlayer.sockets.json",
+ "ok": true
+}

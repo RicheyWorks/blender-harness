@@ -1,0 +1,170 @@
+[
+ [
+  "mesh node Prop_YTM_RecordPlayer_Whole",
+  true,
+  ""
+ ],
+ [
+  "Prop_YTM_RecordPlayer_Whole tris 600",
+  true,
+  600
+ ],
+ [
+  "Prop_YTM_RecordPlayer_Whole parent None",
+  true,
+  null
+ ],
+ [
+  "mesh node Prop_YTM_RecordPlayer_Whole_Crank",
+  true,
+  ""
+ ],
+ [
+  "Prop_YTM_RecordPlayer_Whole_Crank tris 108",
+  true,
+  108
+ ],
+ [
+  "Prop_YTM_RecordPlayer_Whole_Crank parent Prop_YTM_RecordPlayer_Whole",
+  true,
+  "Prop_YTM_RecordPlayer_Whole"
+ ],
+ [
+  "mesh node Prop_YTM_RecordPlayer_Whole_Record",
+  true,
+  ""
+ ],
+ [
+  "Prop_YTM_RecordPlayer_Whole_Record tris 472",
+  true,
+  472
+ ],
+ [
+  "Prop_YTM_RecordPlayer_Whole_Record parent Prop_YTM_RecordPlayer_Whole",
+  true,
+  "Prop_YTM_RecordPlayer_Whole"
+ ],
+ [
+  "collision UCX_Prop_YTM_RecordPlayer_Whole_00 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_YTM_RecordPlayer_Whole_00 tris 12, no material, parent Prop_YTM_RecordPlayer_Whole",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_YTM_RecordPlayer_Whole_01 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_YTM_RecordPlayer_Whole_01 tris 12, no material, parent Prop_YTM_RecordPlayer_Whole",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_YTM_RecordPlayer_Whole_02 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_YTM_RecordPlayer_Whole_02 tris 12, no material, parent Prop_YTM_RecordPlayer_Whole_Crank",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_YTM_RecordPlayer_Whole_03 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_YTM_RecordPlayer_Whole_03 tris 44, no material, parent Prop_YTM_RecordPlayer_Whole_Record",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Hinge_Crank under Prop_YTM_RecordPlayer_Whole",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Spin under Prop_YTM_RecordPlayer_Whole",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Needle under Prop_YTM_RecordPlayer_Whole",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Sound under Prop_YTM_RecordPlayer_Whole",
+  true,
+  ""
+ ],
+ [
+  "sockets sidecar present",
+  true,
+  ""
+ ],
+ [
+  "sidecar = glb sockets in UE space",
+  true,
+  ""
+ ],
+ [
+  "native socket rotation == sidecar (pre-rotated empties)",
+  true,
+  []
+ ],
+ [
+  "render bounds = predicted (1 mm)",
+  true,
+  [
+   [
+    -0.18,
+    0.0,
+    -0.18
+   ],
+   [
+    0.248,
+    0.581,
+    0.18
+   ]
+  ]
+ ],
+ [
+  "LOD1 glb present",
+  true,
+  ""
+ ],
+ [
+  "LOD1 tris 528",
+  true,
+  528
+ ],
+ [
+  "LOD1 has no sockets/collision",
+  true,
+  ""
+ ],
+ [
+  "build_report ok",
+  true,
+  {
+   "triangles": true,
+   "bounds": true,
+   "objects": true,
+   "collision_tris": true,
+   "lod1_triangles": true,
+   "sidecar_sockets": true
+  }
+ ],
+ [
+  "report sha256 = files",
+  true,
+  ""
+ ]
+]

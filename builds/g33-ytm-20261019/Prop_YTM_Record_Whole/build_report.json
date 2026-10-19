@@ -1,0 +1,79 @@
+{
+ "asset": "Prop_YTM_Record_Whole",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "209d9b524a147a80d5304d1c22b5c5d24a4ebe337bac08504760fcd8329189ca",
+ "lod0": {
+  "objects": {
+   "Prop_YTM_Record_Whole": 472
+  },
+  "triangles": 472,
+  "bounds_min": [
+   -0.127,
+   -0.127,
+   0.0
+  ],
+  "bounds_max": [
+   0.127,
+   0.127,
+   0.0036
+  ],
+  "dimensions": [
+   0.254,
+   0.254,
+   0.0036
+  ],
+  "materials": {
+   "Prop_YTM_Record_Whole": [
+    "Prop_YTM_Record_Whole_M0",
+    "Prop_YTM_Record_Whole_M1",
+    "Prop_YTM_Record_Whole_M2"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Spin"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_YTM_Record_Whole_00",
+   "triangles": 44
+  }
+ ],
+ "files": {
+  "Prop_YTM_Record_Whole.glb": {
+   "bytes": 29064,
+   "sha256": "07b77e1c04ce2acc51472699f8896abfd241f5d5fb79947ef60ffce48b7bc47b"
+  },
+  "Prop_YTM_Record_Whole.blend": {
+   "bytes": 495188,
+   "sha256": "07c1ac4ecc2e3e1969338ab0e7ee7abbc033d1f21c2f1c65f35536da5499200e"
+  },
+  "Prop_YTM_Record_Whole_LOD1.glb": {
+   "bytes": 14500,
+   "sha256": "14017b35e1ac5c242340a8c41a777b1e477c11c40d297f1a1b1edff061c9a785"
+  },
+  "Prop_YTM_Record_Whole.sockets.json": {
+   "bytes": 1032,
+   "sha256": "49b61a0d70727e65498bc1bb76f2aea87736268475092e28d128d3e9403f2206"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 232,
+  "ratio": 0.492,
+  "dimensions": [
+   0.254,
+   0.254,
+   0.0036
+  ]
+ },
+ "sockets_sidecar": "Prop_YTM_Record_Whole.sockets.json",
+ "ok": true
+}

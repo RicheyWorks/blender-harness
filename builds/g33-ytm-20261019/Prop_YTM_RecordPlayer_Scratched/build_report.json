@@ -1,0 +1,105 @@
+{
+ "asset": "Prop_YTM_RecordPlayer_Scratched",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "b8ae9a696ce531707c7e2a936007345563d7138ce45c106d95df2aa34452f934",
+ "lod0": {
+  "objects": {
+   "Prop_YTM_RecordPlayer_Scratched": 600,
+   "Prop_YTM_RecordPlayer_Scratched_Crank": 108,
+   "Prop_YTM_RecordPlayer_Scratched_Record": 520
+  },
+  "triangles": 1228,
+  "bounds_min": [
+   -0.18,
+   -0.18,
+   0.0
+  ],
+  "bounds_max": [
+   0.248,
+   0.18,
+   0.581
+  ],
+  "dimensions": [
+   0.428,
+   0.36,
+   0.581
+  ],
+  "materials": {
+   "Prop_YTM_RecordPlayer_Scratched": [
+    "Prop_YTM_RecordPlayer_Scratched_M0",
+    "Prop_YTM_RecordPlayer_Scratched_M1",
+    "Prop_YTM_RecordPlayer_Scratched_M2"
+   ],
+   "Prop_YTM_RecordPlayer_Scratched_Crank": [
+    "Prop_YTM_RecordPlayer_Scratched_M0",
+    "Prop_YTM_RecordPlayer_Scratched_M2"
+   ],
+   "Prop_YTM_RecordPlayer_Scratched_Record": [
+    "Prop_YTM_RecordPlayer_Scratched_M3",
+    "Prop_YTM_RecordPlayer_Scratched_M4",
+    "Prop_YTM_RecordPlayer_Scratched_M5"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Hinge_Crank",
+  "SOCKET_Spin",
+  "SOCKET_Needle",
+  "SOCKET_Sound"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_YTM_RecordPlayer_Scratched_00",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_YTM_RecordPlayer_Scratched_01",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_YTM_RecordPlayer_Scratched_02",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_YTM_RecordPlayer_Scratched_03",
+   "triangles": 44
+  }
+ ],
+ "files": {
+  "Prop_YTM_RecordPlayer_Scratched.glb": {
+   "bytes": 76160,
+   "sha256": "51054ffc9beaeb159694b149cf58f724620bd6ef89f6f17e1bde51a717dd6218"
+  },
+  "Prop_YTM_RecordPlayer_Scratched.blend": {
+   "bytes": 615360,
+   "sha256": "022978b7246f03f7d3514f5bb88fa71701653a513c54b35228f475c90359bea1"
+  },
+  "Prop_YTM_RecordPlayer_Scratched_LOD1.glb": {
+   "bytes": 35844,
+   "sha256": "f0aff900b40d2f9088c15b0dd9913586e98e2a8992009ff8e187e009e693f1af"
+  },
+  "Prop_YTM_RecordPlayer_Scratched.sockets.json": {
+   "bytes": 1585,
+   "sha256": "a9919add3ebd1078c7e4fba173e0adf569c15c4dbf446a646ca9ac27ed616228"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 564,
+  "ratio": 0.459,
+  "dimensions": [
+   0.428,
+   0.36,
+   0.5766
+  ]
+ },
+ "sockets_sidecar": "Prop_YTM_RecordPlayer_Scratched.sockets.json",
+ "ok": true
+}
