@@ -48,6 +48,11 @@
    "module": "harness.live",
    "floor": 20,
    "live": true
+  },
+  {
+   "name": "bip1_fixup",
+   "module": "harness.test_bip1_fixup",
+   "floor": 30
   }
  ]
 }

@@ -1,0 +1,6461 @@
+{
+ "schema": "bb-bip1-fixup-map/1",
+ "version": 1,
+ "radius_delta_e76": 8.0,
+ "rules": {
+  "max_pieces": 8,
+  "min_piece_m": 0.05,
+  "min_thickness_m": 0.02,
+  "weld_m": 0.0001,
+  "skip": [
+   {
+    "why": "physics_asset",
+    "match": "^Mob_",
+    "note": "creature / crew-mob body parts: use a physics asset, not UCX"
+   },
+   {
+    "why": "decor",
+    "match": "^Prop_(Herb|Bloom)_",
+    "note": "walk-through plants"
+   },
+   {
+    "why": "decor",
+    "match": "^Prop_Tree_.*_Top",
+    "note": "tree canopy: the trunk mesh blocks"
+   },
+   {
+    "why": "decor",
+    "max_extent_below_m": 0.3,
+    "note": "tiny decor"
+   }
+  ]
+ },
+ "source": {
+  "packets": 39,
+  "material_names": 1889,
+  "material_values": 190
+ },
+ "materials": [
+  {
+   "name": "M_BB_Black_01",
+   "hex": "1A1A1F",
+   "value": {
+    "base": [
+     0.0104,
+     0.0104,
+     0.01347,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 30,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Black_02",
+   "hex": "25113E",
+   "value": {
+    "base": [
+     0.01891,
+     0.00552,
+     0.04778,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 5,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Blossom_01",
+   "hex": "F29CC1",
+   "value": {
+    "base": [
+     0.89126,
+     0.33446,
+     0.53564,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 8,
+   "merged_values": 2,
+   "max_delta_e": 6.478
+  },
+  {
+   "name": "M_BB_Blossom_02",
+   "hex": "C47678",
+   "value": {
+    "base": [
+     0.55423,
+     0.18014,
+     0.18699,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 6,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Blossom_03",
+   "hex": "8D1A4F",
+   "value": {
+    "base": [
+     0.26736,
+     0.0104,
+     0.07806,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Blossom_04",
+   "hex": "C181C1",
+   "value": {
+    "base": [
+     0.53564,
+     0.21952,
+     0.53564,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Blossom_05",
+   "hex": "C25D79",
+   "value": {
+    "base": [
+     0.5418,
+     0.10871,
+     0.19046,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Blossom_06",
+   "hex": "E13EA1",
+   "value": {
+    "base": [
+     0.7519,
+     0.04778,
+     0.35865,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Blossom_07",
+   "hex": "E171D1",
+   "value": {
+    "base": [
+     0.7519,
+     0.16364,
+     0.63878,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Blossom_08",
+   "hex": "F12AA6",
+   "value": {
+    "base": [
+     0.88318,
+     0.0231,
+     0.38377,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Blue_01",
+   "hex": "3E60E1",
+   "value": {
+    "base": [
+     0.04778,
+     0.11658,
+     0.7519,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 2,
+   "merged_values": 2,
+   "max_delta_e": 7.706
+  },
+  {
+   "name": "M_BB_BrickBlue_01",
+   "hex": "5C6CA1",
+   "value": {
+    "base": [
+     0.10616,
+     0.15106,
+     0.35865,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 2,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_BrickBlue_02",
+   "hex": "6081C1",
+   "value": {
+    "base": [
+     0.11658,
+     0.21952,
+     0.53564,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_BrickBlue_03",
+   "hex": "6864A3",
+   "value": {
+    "base": [
+     0.13902,
+     0.12753,
+     0.36859,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_BrickBlue_04",
+   "hex": "8981BC",
+   "value": {
+    "base": [
+     0.25,
+     0.22,
+     0.5,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_BrickGreen_01",
+   "hex": "4A984A",
+   "value": {
+    "base": [
+     0.06772,
+     0.31576,
+     0.06772,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 20,
+   "merged_values": 2,
+   "max_delta_e": 7.226
+  },
+  {
+   "name": "M_BB_BrickGreen_02",
+   "hex": "4A6B37",
+   "value": {
+    "base": [
+     0.06772,
+     0.148,
+     0.03847,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 10,
+   "merged_values": 3,
+   "max_delta_e": 6.839
+  },
+  {
+   "name": "M_BB_BrickGreen_03",
+   "hex": "428239",
+   "value": {
+    "base": [
+     0.05459,
+     0.22331,
+     0.04145,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 7,
+   "merged_values": 5,
+   "max_delta_e": 7.21
+  },
+  {
+   "name": "M_BB_BrickGreen_04",
+   "hex": "6B8D2B",
+   "value": {
+    "base": [
+     0.148,
+     0.26736,
+     0.02422,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 7,
+   "merged_values": 2,
+   "max_delta_e": 6.86
+  },
+  {
+   "name": "M_BB_BrickGreen_05",
+   "hex": "77945B",
+   "value": {
+    "base": [
+     0.18355,
+     0.29765,
+     0.10363,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 7,
+   "merged_values": 4,
+   "max_delta_e": 7.708
+  },
+  {
+   "name": "M_BB_BrickGreen_06",
+   "hex": "8B973A",
+   "value": {
+    "base": [
+     0.25903,
+     0.31118,
+     0.04299,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 6,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_BrickGreen_07",
+   "hex": "66AB6B",
+   "value": {
+    "base": [
+     0.13321,
+     0.40983,
+     0.148,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 4,
+   "merged_values": 4,
+   "max_delta_e": 7.892
+  },
+  {
+   "name": "M_BB_BrickGreen_08",
+   "hex": "376B49",
+   "value": {
+    "base": [
+     0.03847,
+     0.148,
+     0.06575,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 2,
+   "merged_values": 2,
+   "max_delta_e": 7.497
+  },
+  {
+   "name": "M_BB_BrickGreen_09",
+   "hex": "0D6418",
+   "value": {
+    "base": [
+     0.00412,
+     0.12753,
+     0.00902,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_BrickGreen_10",
+   "hex": "286B37",
+   "value": {
+    "base": [
+     0.02095,
+     0.148,
+     0.03847,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_BrickGreen_11",
+   "hex": "446011",
+   "value": {
+    "base": [
+     0.05819,
+     0.11658,
+     0.00552,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_BrickGreen_12",
+   "hex": "4A7C37",
+   "value": {
+    "base": [
+     0.06772,
+     0.2011,
+     0.03847,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 5.004
+  },
+  {
+   "name": "M_BB_BrickGreen_13",
+   "hex": "6B9D4F",
+   "value": {
+    "base": [
+     0.148,
+     0.33922,
+     0.07806,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_BrickGreen_14",
+   "hex": "90B55C",
+   "value": {
+    "base": [
+     0.28012,
+     0.46474,
+     0.10616,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_BrickRed_01",
+   "hex": "8D2515",
+   "value": {
+    "base": [
+     0.26736,
+     0.01891,
+     0.00775,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_BrickRed_02",
+   "hex": "C12C1A",
+   "value": {
+    "base": [
+     0.53564,
+     0.02537,
+     0.0104,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_BrickRed_03",
+   "hex": "C13E2C",
+   "value": {
+    "base": [
+     0.53564,
+     0.04778,
+     0.02537,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_BrickRed_04",
+   "hex": "E14F4F",
+   "value": {
+    "base": [
+     0.7519,
+     0.07806,
+     0.07806,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_BrickWhite_01",
+   "hex": "D1FFE6",
+   "value": {
+    "base": [
+     0.63878,
+     1.0,
+     0.78931,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_BrickYellow_01",
+   "hex": "FFE10B",
+   "value": {
+    "base": [
+     1.0,
+     0.7519,
+     0.0033,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 2,
+   "merged_values": 2,
+   "max_delta_e": 3.947
+  },
+  {
+   "name": "M_BB_Cloth_01",
+   "hex": "F2E7CD",
+   "value": {
+    "base": [
+     0.89126,
+     0.79692,
+     0.61207,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 167,
+   "merged_values": 4,
+   "max_delta_e": 7.053
+  },
+  {
+   "name": "M_BB_Cloth_02",
+   "hex": "F0D1B1",
+   "value": {
+    "base": [
+     0.87514,
+     0.63878,
+     0.44232,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 9,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Cloth_03",
+   "hex": "F8F0C1",
+   "value": {
+    "base": [
+     0.9406,
+     0.87514,
+     0.53564,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 3,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Cloud_01",
+   "hex": "F4F6FB",
+   "value": {
+    "base": [
+     0.90755,
+     0.92399,
+     0.96581,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 129,
+   "merged_values": 2,
+   "max_delta_e": 2.711
+  },
+  {
+   "name": "M_BB_Cloud_02",
+   "hex": "FFD4E4",
+   "value": {
+    "base": [
+     1.0,
+     0.65922,
+     0.77423,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 3,
+   "merged_values": 3,
+   "max_delta_e": 4.434
+  },
+  {
+   "name": "M_BB_Coal_01",
+   "hex": "25384B",
+   "value": {
+    "base": [
+     0.01891,
+     0.03995,
+     0.06973,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 100,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Coal_02",
+   "hex": "313137",
+   "value": {
+    "base": [
+     0.03026,
+     0.03026,
+     0.03847,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 8,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Copper_01",
+   "hex": "C97137",
+   "value": {
+    "base": [
+     0.58597,
+     0.16364,
+     0.03847,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 10,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Copper_02",
+   "hex": "CA644D",
+   "value": {
+    "base": [
+     0.59244,
+     0.12753,
+     0.07383,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 6,
+   "merged_values": 2,
+   "max_delta_e": 6.502
+  },
+  {
+   "name": "M_BB_Copper_03",
+   "hex": "A15129",
+   "value": {
+    "base": [
+     0.35865,
+     0.08241,
+     0.02201,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 5,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Copper_04",
+   "hex": "D98534",
+   "value": {
+    "base": [
+     0.69408,
+     0.2349,
+     0.03423,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Crystal_01",
+   "hex": "A171E1",
+   "value": {
+    "base": [
+     0.35865,
+     0.16364,
+     0.7519,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 2,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Crystal_02",
+   "hex": "A171FF",
+   "value": {
+    "base": [
+     0.35865,
+     0.16364,
+     1.0,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Dark_01",
+   "hex": "494C56",
+   "value": {
+    "base": [
+     0.06575,
+     0.07176,
+     0.09388,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 51,
+   "merged_values": 3,
+   "max_delta_e": 6.975
+  },
+  {
+   "name": "M_BB_Dark_02",
+   "hex": "286B5A",
+   "value": {
+    "base": [
+     0.02095,
+     0.148,
+     0.10115,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 5,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Dirt_01",
+   "hex": "7B512E",
+   "value": {
+    "base": [
+     0.19752,
+     0.08241,
+     0.02776,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 89,
+   "merged_values": 3,
+   "max_delta_e": 6.293
+  },
+  {
+   "name": "M_BB_Dirt_02",
+   "hex": "8D5A37",
+   "value": {
+    "base": [
+     0.26736,
+     0.10115,
+     0.03847,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 6,
+   "merged_values": 1,
+   "max_delta_e": 7.545
+  },
+  {
+   "name": "M_BB_Dirt_03",
+   "hex": "5C6024",
+   "value": {
+    "base": [
+     0.10616,
+     0.11658,
+     0.01794,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Ghost_01",
+   "hex": "5C359F",
+   "value": {
+    "base": [
+     0.10616,
+     0.03561,
+     0.34886,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 97,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Ghost_02",
+   "hex": "15398D",
+   "value": {
+    "base": [
+     0.00775,
+     0.04145,
+     0.26736,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 6,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Ghost_03",
+   "hex": "8D2560",
+   "value": {
+    "base": [
+     0.26736,
+     0.01891,
+     0.11658,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 6,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Ghost_04",
+   "hex": "37255C",
+   "value": {
+    "base": [
+     0.03847,
+     0.01891,
+     0.10616,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 2,
+   "merged_values": 2,
+   "max_delta_e": 7.415
+  },
+  {
+   "name": "M_BB_Glass_01",
+   "hex": "C5F2FF",
+   "value": {
+    "base": [
+     0.56078,
+     0.8902,
+     1.0,
+     1.0
+    ],
+    "rough": 0.5,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_GlowCloth_01",
+   "hex": "FFF6C4",
+   "value": {
+    "base": [
+     1.0,
+     0.92,
+     0.55,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     1.0,
+     0.92,
+     0.55
+    ],
+    "emissive_strength": 1.5,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_GlowCrystal_01",
+   "hex": "A171FF",
+   "value": {
+    "base": [
+     0.35865,
+     0.16364,
+     1.0,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.3586,
+     0.1636,
+     1.0
+    ],
+    "emissive_strength": 2.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 2,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_GlowGlassStarmetal_01",
+   "hex": "59E1FF",
+   "value": {
+    "base": [
+     0.1,
+     0.75,
+     1.0,
+     0.9
+    ],
+    "rough": 0.05,
+    "metal": 0.0,
+    "emissive": [
+     0.06,
+     0.45,
+     0.6
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "BLEND",
+    "double": true
+   },
+   "uses": 73,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_GlowGold_01",
+   "hex": "FFB94C",
+   "value": {
+    "base": [
+     1.0,
+     0.48777,
+     0.07176,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     1.0,
+     0.4878,
+     0.0718
+    ],
+    "emissive_strength": 2.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 74,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_GlowOrange_01",
+   "hex": "FF8B3A",
+   "value": {
+    "base": [
+     1.0,
+     0.25903,
+     0.04299,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     1.0,
+     0.259,
+     0.043
+    ],
+    "emissive_strength": 2.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 81,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_GlowOrange_02",
+   "hex": "FF6A3A",
+   "value": {
+    "base": [
+     1.0,
+     0.14497,
+     0.04299,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     1.0,
+     0.145,
+     0.043
+    ],
+    "emissive_strength": 2.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 78,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_GlowOrange_03",
+   "hex": "F87911",
+   "value": {
+    "base": [
+     0.9406,
+     0.19046,
+     0.00552,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     1.0,
+     0.2025,
+     0.0059
+    ],
+    "emissive_strength": 1.8812,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_GlowPortal_01",
+   "hex": "D8B9FF",
+   "value": {
+    "base": [
+     0.68703,
+     0.48777,
+     1.0,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.687,
+     0.4878,
+     1.0
+    ],
+    "emissive_strength": 2.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_GlowSpawn_01",
+   "hex": "4EE4D1",
+   "value": {
+    "base": [
+     0.07593,
+     0.77423,
+     0.63878,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0981,
+     1.0,
+     0.8251
+    ],
+    "emissive_strength": 1.5485,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 153,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_GlowStarmetal_01",
+   "hex": "80E4FF",
+   "value": {
+    "base": [
+     0.21576,
+     0.77423,
+     1.0,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.2158,
+     0.7742,
+     1.0
+    ],
+    "emissive_strength": 2.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 10,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_GlowSteel_01",
+   "hex": "C1C1C1",
+   "value": {
+    "base": [
+     0.53564,
+     0.53564,
+     0.53564,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_strength": 1.0713,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 2,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Gold_01",
+   "hex": "F2C32C",
+   "value": {
+    "base": [
+     0.89126,
+     0.54799,
+     0.02537,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 118,
+   "merged_values": 4,
+   "max_delta_e": 7.201
+  },
+  {
+   "name": "M_BB_Gold_02",
+   "hex": "C9B13E",
+   "value": {
+    "base": [
+     0.58597,
+     0.44232,
+     0.04778,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Gold_03",
+   "hex": "D5A621",
+   "value": {
+    "base": [
+     0.66612,
+     0.38377,
+     0.01518,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Gold_04",
+   "hex": "F8A911",
+   "value": {
+    "base": [
+     0.9406,
+     0.39929,
+     0.00552,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Gold_05",
+   "hex": "FFBD1F",
+   "value": {
+    "base": [
+     1.0,
+     0.5114,
+     0.01347,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Grass_01",
+   "hex": "6BA53A",
+   "value": {
+    "base": [
+     0.148,
+     0.37868,
+     0.04299,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 36,
+   "merged_values": 5,
+   "max_delta_e": 7.535
+  },
+  {
+   "name": "M_BB_Grass_02",
+   "hex": "8DC13E",
+   "value": {
+    "base": [
+     0.26736,
+     0.53564,
+     0.04778,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 5,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Grass_03",
+   "hex": "309F00",
+   "value": {
+    "base": [
+     0.02899,
+     0.34886,
+     0.0,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Grass_04",
+   "hex": "649610",
+   "value": {
+    "base": [
+     0.12753,
+     0.30663,
+     0.00503,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Gravel_01",
+   "hex": "837C71",
+   "value": {
+    "base": [
+     0.22714,
+     0.2011,
+     0.16364,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 7,
+   "merged_values": 2,
+   "max_delta_e": 3.715
+  },
+  {
+   "name": "M_BB_Gravel_02",
+   "hex": "A1A991",
+   "value": {
+    "base": [
+     0.35865,
+     0.39929,
+     0.28445,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 3,
+   "merged_values": 3,
+   "max_delta_e": 6.725
+  },
+  {
+   "name": "M_BB_Gravel_03",
+   "hex": "6B8160",
+   "value": {
+    "base": [
+     0.148,
+     0.21952,
+     0.11658,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Grip_01",
+   "hex": "372513",
+   "value": {
+    "base": [
+     0.03847,
+     0.01891,
+     0.00658,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 100,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Grip_02",
+   "hex": "5A371C",
+   "value": {
+    "base": [
+     0.10115,
+     0.03847,
+     0.01188,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Grip_03",
+   "hex": "6B4937",
+   "value": {
+    "base": [
+     0.148,
+     0.06575,
+     0.03847,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Iron_01",
+   "hex": "AD906F",
+   "value": {
+    "base": [
+     0.42,
+     0.28,
+     0.16,
+     1.0
+    ],
+    "rough": 0.5,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 45,
+   "merged_values": 3,
+   "max_delta_e": 7.079
+  },
+  {
+   "name": "M_BB_Iron_02",
+   "hex": "CAB59D",
+   "value": {
+    "base": [
+     0.59244,
+     0.46474,
+     0.33922,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 4,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Leaf_01",
+   "hex": "288D11",
+   "value": {
+    "base": [
+     0.02095,
+     0.26736,
+     0.00552,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 9,
+   "merged_values": 3,
+   "max_delta_e": 6.654
+  },
+  {
+   "name": "M_BB_Log_01",
+   "hex": "A8606A",
+   "value": {
+    "base": [
+     0.39408,
+     0.11658,
+     0.14497,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 3,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Log_02",
+   "hex": "6B5A37",
+   "value": {
+    "base": [
+     0.148,
+     0.10115,
+     0.03847,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 2,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Orange_01",
+   "hex": "E9782A",
+   "value": {
+    "base": [
+     0.81224,
+     0.18699,
+     0.0231,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 96,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Orange_02",
+   "hex": "F87911",
+   "value": {
+    "base": [
+     0.9406,
+     0.19046,
+     0.00552,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 3,
+   "merged_values": 2,
+   "max_delta_e": 5.556
+  },
+  {
+   "name": "M_BB_Orange_03",
+   "hex": "DE8C00",
+   "value": {
+    "base": [
+     0.72992,
+     0.26317,
+     0.0,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Orange_04",
+   "hex": "FF6021",
+   "value": {
+    "base": [
+     1.0,
+     0.11658,
+     0.01518,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Paving_01",
+   "hex": "CECBC5",
+   "value": {
+    "base": [
+     0.62,
+     0.6,
+     0.56,
+     1.0
+    ],
+    "rough": 0.5,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 211,
+   "merged_values": 2,
+   "max_delta_e": 6.588
+  },
+  {
+   "name": "M_BB_Portal_01",
+   "hex": "8DA1D1",
+   "value": {
+    "base": [
+     0.26736,
+     0.35865,
+     0.63878,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Portal_02",
+   "hex": "F1BFFF",
+   "value": {
+    "base": [
+     0.88318,
+     0.52344,
+     1.0,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Purple_01",
+   "hex": "C13EA1",
+   "value": {
+    "base": [
+     0.53564,
+     0.04778,
+     0.35865,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Purple_02",
+   "hex": "D229AB",
+   "value": {
+    "base": [
+     0.64556,
+     0.02201,
+     0.40983,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Red_01",
+   "hex": "D92300",
+   "value": {
+    "base": [
+     0.69408,
+     0.01699,
+     0.0,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 11,
+   "merged_values": 2,
+   "max_delta_e": 4.19
+  },
+  {
+   "name": "M_BB_Red_02",
+   "hex": "FB4C00",
+   "value": {
+    "base": [
+     0.96581,
+     0.07176,
+     0.0,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Rope_01",
+   "hex": "C9A171",
+   "value": {
+    "base": [
+     0.58597,
+     0.35865,
+     0.16364,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 111,
+   "merged_values": 2,
+   "max_delta_e": 5.753
+  },
+  {
+   "name": "M_BB_Rope_02",
+   "hex": "E9B991",
+   "value": {
+    "base": [
+     0.81224,
+     0.48777,
+     0.28445,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 9,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Rope_03",
+   "hex": "9DB181",
+   "value": {
+    "base": [
+     0.33922,
+     0.44232,
+     0.21952,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Sand_01",
+   "hex": "F9DC78",
+   "value": {
+    "base": [
+     0.94902,
+     0.71373,
+     0.18824,
+     1.0
+    ],
+    "rough": 0.5,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 7,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Sand_02",
+   "hex": "D3CA88",
+   "value": {
+    "base": [
+     0.65237,
+     0.59244,
+     0.2468,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 2,
+   "merged_values": 2,
+   "max_delta_e": 3.34
+  },
+  {
+   "name": "M_BB_Sand_03",
+   "hex": "9DB171",
+   "value": {
+    "base": [
+     0.33922,
+     0.44232,
+     0.16364,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Sand_04",
+   "hex": "A9C160",
+   "value": {
+    "base": [
+     0.39929,
+     0.53564,
+     0.11658,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Sand_05",
+   "hex": "C9D960",
+   "value": {
+    "base": [
+     0.58597,
+     0.69408,
+     0.11658,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Slime_01",
+   "hex": "58DA3E",
+   "value": {
+    "base": [
+     0.09869,
+     0.70117,
+     0.04778,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 7,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Spawn_01",
+   "hex": "2B9F90",
+   "value": {
+    "base": [
+     0.02422,
+     0.34886,
+     0.28012,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 96,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Starmetal_01",
+   "hex": "80E4FF",
+   "value": {
+    "base": [
+     0.21576,
+     0.77423,
+     1.0,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 3,
+   "merged_values": 2,
+   "max_delta_e": 7.733
+  },
+  {
+   "name": "M_BB_Steel_01",
+   "hex": "C4C4CB",
+   "value": {
+    "base": [
+     0.55,
+     0.55,
+     0.6,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 6,
+   "merged_values": 3,
+   "max_delta_e": 7.009
+  },
+  {
+   "name": "M_BB_Steel_02",
+   "hex": "B9C1E1",
+   "value": {
+    "base": [
+     0.48777,
+     0.53564,
+     0.7519,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Stone_01",
+   "hex": "7E7C85",
+   "value": {
+    "base": [
+     0.20836,
+     0.2011,
+     0.2349,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 40,
+   "merged_values": 2,
+   "max_delta_e": 7.345
+  },
+  {
+   "name": "M_BB_Stone_02",
+   "hex": "6B8DB1",
+   "value": {
+    "base": [
+     0.148,
+     0.26736,
+     0.44232,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 5,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Stone_03",
+   "hex": "6A8D98",
+   "value": {
+    "base": [
+     0.14497,
+     0.26736,
+     0.31576,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Stone_04",
+   "hex": "717171",
+   "value": {
+    "base": [
+     0.16471,
+     0.16471,
+     0.16471,
+     1.0
+    ],
+    "rough": 0.5,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Stone_05",
+   "hex": "89737A",
+   "value": {
+    "base": [
+     0.25084,
+     0.17014,
+     0.19397,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Stone_06",
+   "hex": "8DA1B1",
+   "value": {
+    "base": [
+     0.26736,
+     0.35865,
+     0.44232,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Water_01",
+   "hex": "0B74E5",
+   "value": {
+    "base": [
+     0.0033,
+     0.17344,
+     0.78175,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Water_02",
+   "hex": "2E88E3",
+   "value": {
+    "base": [
+     0.02776,
+     0.2468,
+     0.76674,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 1,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Wood_01",
+   "hex": "A16837",
+   "value": {
+    "base": [
+     0.35865,
+     0.13902,
+     0.03847,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 108,
+   "merged_values": 3,
+   "max_delta_e": 6.799
+  },
+  {
+   "name": "M_BB_Wood_02",
+   "hex": "C98960",
+   "value": {
+    "base": [
+     0.58597,
+     0.25084,
+     0.11658,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 15,
+   "merged_values": 2,
+   "max_delta_e": 6.886
+  },
+  {
+   "name": "M_BB_Wood_03",
+   "hex": "A18160",
+   "value": {
+    "base": [
+     0.35865,
+     0.21952,
+     0.11658,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 10,
+   "merged_values": 4,
+   "max_delta_e": 7.365
+  },
+  {
+   "name": "M_BB_Wood_04",
+   "hex": "AA923E",
+   "value": {
+    "base": [
+     0.40454,
+     0.28882,
+     0.04778,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 9,
+   "merged_values": 2,
+   "max_delta_e": 4.002
+  },
+  {
+   "name": "M_BB_Wood_05",
+   "hex": "AF8F51",
+   "value": {
+    "base": [
+     0.43134,
+     0.27583,
+     0.08241,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 7,
+   "merged_values": 3,
+   "max_delta_e": 7.879
+  },
+  {
+   "name": "M_BB_Wood_06",
+   "hex": "B26E65",
+   "value": {
+    "base": [
+     0.44787,
+     0.15728,
+     0.13035,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 3,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  },
+  {
+   "name": "M_BB_Wood_07",
+   "hex": "C16563",
+   "value": {
+    "base": [
+     0.53564,
+     0.13035,
+     0.12474,
+     1.0
+    ],
+    "rough": 0.6,
+    "metal": 0.0,
+    "emissive": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_strength": 1.0,
+    "alpha": "OPAQUE",
+    "double": true
+   },
+   "uses": 3,
+   "merged_values": 1,
+   "max_delta_e": 0.0
+  }
+ ],
+ "map": [
+  {
+   "fingerprint": "{\"alpha\":\"BLEND\",\"base\":[0.1,0.75,1.0,0.9],\"double\":true,\"emissive\":[0.06,0.45,0.6],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.05}",
+   "to": "M_BB_GlowGlassStarmetal_01",
+   "source_names": [
+    "M_BB_Water"
+   ],
+   "uses": 73
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.0033,0.17344,0.78175,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Water_01",
+   "source_names": [
+    "Prop_Bloom_Cornflower_V24_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.00412,0.12753,0.00902,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_BrickGreen_09",
+   "source_names": [
+    "Prop_Bloom_BirdofParadise_V24_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.00775,0.04145,0.26736,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Ghost_02",
+   "source_names": [
+    "Mob_Crew_Captain_M1"
+   ],
+   "uses": 6
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.0104,0.0104,0.01347,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Black_01",
+   "source_names": [
+    "Mob_Forest_Crawler_K13_M2",
+    "Mob_Forest_Crawler_K18_M2",
+    "Mob_Forest_Crawler_K23_M2",
+    "Mob_Forest_Crawler_K28_M2",
+    "Mob_Forest_Crawler_K3_M2",
+    "Mob_Forest_Crawler_K8_M2",
+    "Mob_Forest_Grazer_K13_M2",
+    "Mob_Forest_Grazer_K18_M2",
+    "Mob_Forest_Grazer_K23_M2",
+    "Mob_Forest_Grazer_K28_M2",
+    "Mob_Forest_Grazer_K3_M2",
+    "Mob_Forest_Grazer_K8_M2",
+    "Mob_Forest_Hopper_K13_M2",
+    "Mob_Forest_Hopper_K18_M2",
+    "Mob_Forest_Hopper_K23_M2",
+    "Mob_Forest_Hopper_K28_M2",
+    "Mob_Forest_Hopper_K3_M2",
+    "Mob_Forest_Hopper_K8_M2"
+   ],
+   "uses": 30
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.01266,0.10363,0.03995,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_BrickGreen_08",
+   "source_names": [
+    "Prop_Bloom_Fireweed_V9_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.01891,0.00552,0.04778,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Black_02",
+   "source_names": [
+    "Prop_Anvil_Starmetal_M0",
+    "Prop_Chest_Starmetal_M0",
+    "Prop_OreNode_Starmetal_Large_M0",
+    "Prop_OreNode_Starmetal_Small_M0"
+   ],
+   "uses": 5
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.01891,0.03995,0.06973,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Coal_01",
+   "source_names": [
+    "Prop_BBIsle_Arch_00_M1",
+    "Prop_BBIsle_Arch_05_M1",
+    "Prop_BBIsle_Arch_10_M1",
+    "Prop_BBIsle_Arch_15_M1",
+    "Prop_BBIsle_Banner_03_M1",
+    "Prop_BBIsle_Banner_08_M1",
+    "Prop_BBIsle_Banner_13_M1",
+    "Prop_BBIsle_Banner_18_M1",
+    "Prop_BBIsle_Barrel_01_M1",
+    "Prop_BBIsle_Barrel_06_M1",
+    "Prop_BBIsle_Barrel_11_M1",
+    "Prop_BBIsle_Barrel_16_M1",
+    "Prop_BBIsle_Beehive_04_M1",
+    "Prop_BBIsle_Beehive_09_M1",
+    "Prop_BBIsle_Beehive_14_M1",
+    "Prop_BBIsle_Beehive_19_M1",
+    "Prop_BBIsle_Bell_02_M1",
+    "Prop_BBIsle_Bell_07_M1",
+    "Prop_BBIsle_Bell_12_M1",
+    "Prop_BBIsle_Bell_17_M1",
+    "Prop_BBIsle_Bench_00_M1",
+    "Prop_BBIsle_Bench_05_M1",
+    "Prop_BBIsle_Bench_10_M1",
+    "Prop_BBIsle_Bench_15_M1",
+    "Prop_BBIsle_Bridge_03_M1",
+    "Prop_BBIsle_Bridge_08_M1",
+    "Prop_BBIsle_Bridge_13_M1",
+    "Prop_BBIsle_Bridge_18_M1",
+    "Prop_BBIsle_Cart_01_M1",
+    "Prop_BBIsle_Cart_06_M1",
+    "Prop_BBIsle_Cart_11_M1",
+    "Prop_BBIsle_Cart_16_M1",
+    "Prop_BBIsle_Coop_04_M1",
+    "Prop_BBIsle_Coop_09_M1",
+    "Prop_BBIsle_Coop_14_M1",
+    "Prop_BBIsle_Coop_19_M1",
+    "Prop_BBIsle_Crate_02_M1",
+    "Prop_BBIsle_Crate_07_M1",
+    "Prop_BBIsle_Crate_12_M1",
+    "Prop_BBIsle_Crate_17_M1",
+    "Prop_BBIsle_Fence_00_M1",
+    "Prop_BBIsle_Fence_05_M1",
+    "Prop_BBIsle_Fence_10_M1",
+    "Prop_BBIsle_Fence_15_M1",
+    "Prop_BBIsle_Lamp_03_M1",
+    "Prop_BBIsle_Lamp_08_M1",
+    "Prop_BBIsle_Lamp_13_M1",
+    "Prop_BBIsle_Lamp_18_M1",
+    "Prop_BBIsle_Obelisk_01_M1",
+    "Prop_BBIsle_Obelisk_06_M1",
+    "Prop_BBIsle_Obelisk_11_M1",
+    "Prop_BBIsle_Obelisk_16_M1",
+    "Prop_BBIsle_Planter_04_M1",
+    "Prop_BBIsle_Planter_09_M1",
+    "Prop_BBIsle_Planter_14_M1",
+    "Prop_BBIsle_Planter_19_M1",
+    "Prop_BBIsle_Scarecrow_02_M1",
+    "Prop_BBIsle_Scarecrow_07_M1",
+    "Prop_BBIsle_Scarecrow_12_M1",
+    "Prop_BBIsle_Scarecrow_17_M1",
+    "Prop_BBIsle_Shelf_00_M1",
+    "Prop_BBIsle_Shelf_05_M1",
+    "Prop_BBIsle_Shelf_10_M1",
+    "Prop_BBIsle_Shelf_15_M1",
+    "Prop_BBIsle_Sign_03_M1",
+    "Prop_BBIsle_Sign_08_M1",
+    "Prop_BBIsle_Sign_13_M1",
+    "Prop_BBIsle_Sign_18_M1",
+    "Prop_BBIsle_Statue_01_M1",
+    "Prop_BBIsle_Statue_06_M1",
+    "Prop_BBIsle_Statue_11_M1",
+    "Prop_BBIsle_Statue_16_M1",
+    "Prop_BBIsle_Sundial_04_M1",
+    "Prop_BBIsle_Sundial_09_M1",
+    "Prop_BBIsle_Sundial_14_M1",
+    "Prop_BBIsle_Sundial_19_M1",
+    "Prop_BBIsle_Table_02_M1",
+    "Prop_BBIsle_Table_07_M1",
+    "Prop_BBIsle_Table_12_M1",
+    "Prop_BBIsle_Table_17_M1",
+    "Prop_BBIsle_Tent_00_M1",
+    "Prop_BBIsle_Tent_05_M1",
+    "Prop_BBIsle_Tent_10_M1",
+    "Prop_BBIsle_Tent_15_M1",
+    "Prop_BBIsle_Totem_03_M1",
+    "Prop_BBIsle_Totem_08_M1",
+    "Prop_BBIsle_Totem_13_M1",
+    "Prop_BBIsle_Totem_18_M1",
+    "Prop_BBIsle_Trough_01_M1",
+    "Prop_BBIsle_Trough_06_M1",
+    "Prop_BBIsle_Trough_11_M1",
+    "Prop_BBIsle_Trough_16_M1",
+    "Prop_BBIsle_Well_04_M1",
+    "Prop_BBIsle_Well_09_M1",
+    "Prop_BBIsle_Well_14_M1",
+    "Prop_BBIsle_Well_19_M1",
+    "Prop_BBIsle_Windmill_02_M1",
+    "Prop_BBIsle_Windmill_07_M1",
+    "Prop_BBIsle_Windmill_12_M1",
+    "Prop_BBIsle_Windmill_17_M1"
+   ],
+   "uses": 100
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.02095,0.148,0.03847,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_BrickGreen_10",
+   "source_names": [
+    "Prop_Tree_Spruce_Mature_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.02095,0.148,0.10115,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Dark_02",
+   "source_names": [
+    "Mob_Crew_Navigator_M1"
+   ],
+   "uses": 5
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.02095,0.15106,0.9406,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Blue_01",
+   "source_names": [
+    "Prop_Bloom_Cornflower_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.02095,0.26736,0.00552,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Leaf_01",
+   "source_names": [
+    "Prop_Bloom_BananaFlower_M0",
+    "Prop_Bloom_BirdofParadise_M0",
+    "Prop_Bloom_Orchid_M0",
+    "Prop_Herb_Watercress_M0",
+    "Prop_Tree_Kapok_Mature_M1"
+   ],
+   "uses": 5
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.02422,0.00902,0.08919,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Ghost_04",
+   "source_names": [
+    "Prop_Herb_Voidleaf_V9_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.02422,0.34886,0.28012,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Spawn_01",
+   "source_names": [
+    "Prop_BBIsle_Arch_02_M0",
+    "Prop_BBIsle_Arch_07_M0",
+    "Prop_BBIsle_Arch_12_M0",
+    "Prop_BBIsle_Arch_17_M0",
+    "Prop_BBIsle_Banner_00_M0",
+    "Prop_BBIsle_Banner_05_M0",
+    "Prop_BBIsle_Banner_10_M0",
+    "Prop_BBIsle_Banner_15_M0",
+    "Prop_BBIsle_Barrel_03_M0",
+    "Prop_BBIsle_Barrel_08_M0",
+    "Prop_BBIsle_Barrel_13_M0",
+    "Prop_BBIsle_Barrel_18_M0",
+    "Prop_BBIsle_Beehive_01_M0",
+    "Prop_BBIsle_Beehive_06_M0",
+    "Prop_BBIsle_Beehive_11_M0",
+    "Prop_BBIsle_Beehive_16_M0",
+    "Prop_BBIsle_Bench_02_M0",
+    "Prop_BBIsle_Bench_07_M0",
+    "Prop_BBIsle_Bench_12_M0",
+    "Prop_BBIsle_Bench_17_M0",
+    "Prop_BBIsle_Bridge_00_M0",
+    "Prop_BBIsle_Bridge_05_M0",
+    "Prop_BBIsle_Bridge_10_M0",
+    "Prop_BBIsle_Bridge_15_M0",
+    "Prop_BBIsle_Cart_03_M0",
+    "Prop_BBIsle_Cart_08_M0",
+    "Prop_BBIsle_Cart_13_M0",
+    "Prop_BBIsle_Cart_18_M0",
+    "Prop_BBIsle_Coop_01_M0",
+    "Prop_BBIsle_Coop_06_M0",
+    "Prop_BBIsle_Coop_11_M0",
+    "Prop_BBIsle_Coop_16_M0",
+    "Prop_BBIsle_Crate_04_M0",
+    "Prop_BBIsle_Crate_09_M0",
+    "Prop_BBIsle_Crate_14_M0",
+    "Prop_BBIsle_Crate_19_M0",
+    "Prop_BBIsle_Fence_02_M0",
+    "Prop_BBIsle_Fence_07_M0",
+    "Prop_BBIsle_Fence_12_M0",
+    "Prop_BBIsle_Fence_17_M0",
+    "Prop_BBIsle_Lamp_00_M0",
+    "Prop_BBIsle_Lamp_05_M0",
+    "Prop_BBIsle_Lamp_10_M0",
+    "Prop_BBIsle_Lamp_15_M0",
+    "Prop_BBIsle_Obelisk_03_M0",
+    "Prop_BBIsle_Obelisk_08_M0",
+    "Prop_BBIsle_Obelisk_13_M0",
+    "Prop_BBIsle_Obelisk_18_M0",
+    "Prop_BBIsle_Planter_01_M0",
+    "Prop_BBIsle_Planter_06_M0",
+    "Prop_BBIsle_Planter_11_M0",
+    "Prop_BBIsle_Planter_16_M0",
+    "Prop_BBIsle_Scarecrow_04_M0",
+    "Prop_BBIsle_Scarecrow_09_M0",
+    "Prop_BBIsle_Scarecrow_14_M0",
+    "Prop_BBIsle_Scarecrow_19_M0",
+    "Prop_BBIsle_Shelf_02_M0",
+    "Prop_BBIsle_Shelf_07_M0",
+    "Prop_BBIsle_Shelf_12_M0",
+    "Prop_BBIsle_Shelf_17_M0",
+    "Prop_BBIsle_Sign_00_M0",
+    "Prop_BBIsle_Sign_05_M0",
+    "Prop_BBIsle_Sign_10_M0",
+    "Prop_BBIsle_Sign_15_M0",
+    "Prop_BBIsle_Statue_03_M0",
+    "Prop_BBIsle_Statue_08_M0",
+    "Prop_BBIsle_Statue_13_M0",
+    "Prop_BBIsle_Statue_18_M0",
+    "Prop_BBIsle_Sundial_01_M0",
+    "Prop_BBIsle_Sundial_06_M0",
+    "Prop_BBIsle_Sundial_11_M0",
+    "Prop_BBIsle_Sundial_16_M0",
+    "Prop_BBIsle_Table_04_M0",
+    "Prop_BBIsle_Table_09_M0",
+    "Prop_BBIsle_Table_14_M0",
+    "Prop_BBIsle_Table_19_M0",
+    "Prop_BBIsle_Tent_02_M0",
+    "Prop_BBIsle_Tent_07_M0",
+    "Prop_BBIsle_Tent_12_M0",
+    "Prop_BBIsle_Tent_17_M0",
+    "Prop_BBIsle_Totem_00_M0",
+    "Prop_BBIsle_Totem_05_M0",
+    "Prop_BBIsle_Totem_10_M0",
+    "Prop_BBIsle_Totem_15_M0",
+    "Prop_BBIsle_Trough_03_M0",
+    "Prop_BBIsle_Trough_08_M0",
+    "Prop_BBIsle_Trough_13_M0",
+    "Prop_BBIsle_Trough_18_M0",
+    "Prop_BBIsle_Well_01_M0",
+    "Prop_BBIsle_Well_06_M0",
+    "Prop_BBIsle_Well_11_M0",
+    "Prop_BBIsle_Well_16_M0",
+    "Prop_BBIsle_Windmill_04_M0",
+    "Prop_BBIsle_Windmill_09_M0",
+    "Prop_BBIsle_Windmill_14_M0",
+    "Prop_BBIsle_Windmill_19_M0"
+   ],
+   "uses": 96
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.02776,0.2468,0.76674,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Water_02",
+   "source_names": [
+    "Prop_Bloom_Cornflower_V9_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.02899,0.34886,0.0,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Grass_03",
+   "source_names": [
+    "Prop_Bloom_BirdofParadise_V4_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.03026,0.03026,0.03847,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Coal_02",
+   "source_names": [
+    "Mob_Crew_Engineer_M2",
+    "Prop_Anvil_M1",
+    "Prop_CookingPot_Lit_M0",
+    "Prop_OreNode_Coal_Large_M1",
+    "Prop_OreNode_Coal_Small_M1"
+   ],
+   "uses": 8
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.03703,0.32038,0.02201,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Leaf_01",
+   "source_names": [
+    "Prop_Bloom_BirdofParadise_V9_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.03847,0.01891,0.00658,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Grip_01",
+   "source_names": [
+    "Prop_BBIsle_Arch_01_M1",
+    "Prop_BBIsle_Arch_06_M1",
+    "Prop_BBIsle_Arch_11_M1",
+    "Prop_BBIsle_Arch_16_M1",
+    "Prop_BBIsle_Banner_04_M1",
+    "Prop_BBIsle_Banner_09_M1",
+    "Prop_BBIsle_Banner_14_M1",
+    "Prop_BBIsle_Banner_19_M1",
+    "Prop_BBIsle_Barrel_02_M1",
+    "Prop_BBIsle_Barrel_07_M1",
+    "Prop_BBIsle_Barrel_12_M1",
+    "Prop_BBIsle_Barrel_17_M1",
+    "Prop_BBIsle_Beehive_00_M1",
+    "Prop_BBIsle_Beehive_05_M1",
+    "Prop_BBIsle_Beehive_10_M1",
+    "Prop_BBIsle_Beehive_15_M1",
+    "Prop_BBIsle_Bell_03_M1",
+    "Prop_BBIsle_Bell_08_M1",
+    "Prop_BBIsle_Bell_13_M1",
+    "Prop_BBIsle_Bell_18_M1",
+    "Prop_BBIsle_Bench_01_M1",
+    "Prop_BBIsle_Bench_06_M1",
+    "Prop_BBIsle_Bench_11_M1",
+    "Prop_BBIsle_Bench_16_M1",
+    "Prop_BBIsle_Bridge_04_M1",
+    "Prop_BBIsle_Bridge_09_M1",
+    "Prop_BBIsle_Bridge_14_M1",
+    "Prop_BBIsle_Bridge_19_M1",
+    "Prop_BBIsle_Cart_02_M1",
+    "Prop_BBIsle_Cart_07_M1",
+    "Prop_BBIsle_Cart_12_M1",
+    "Prop_BBIsle_Cart_17_M1",
+    "Prop_BBIsle_Coop_00_M1",
+    "Prop_BBIsle_Coop_05_M1",
+    "Prop_BBIsle_Coop_10_M1",
+    "Prop_BBIsle_Coop_15_M1",
+    "Prop_BBIsle_Crate_03_M1",
+    "Prop_BBIsle_Crate_08_M1",
+    "Prop_BBIsle_Crate_13_M1",
+    "Prop_BBIsle_Crate_18_M1",
+    "Prop_BBIsle_Fence_01_M1",
+    "Prop_BBIsle_Fence_06_M1",
+    "Prop_BBIsle_Fence_11_M1",
+    "Prop_BBIsle_Fence_16_M1",
+    "Prop_BBIsle_Lamp_04_M1",
+    "Prop_BBIsle_Lamp_09_M1",
+    "Prop_BBIsle_Lamp_14_M1",
+    "Prop_BBIsle_Lamp_19_M1",
+    "Prop_BBIsle_Obelisk_02_M1",
+    "Prop_BBIsle_Obelisk_07_M1",
+    "Prop_BBIsle_Obelisk_12_M1",
+    "Prop_BBIsle_Obelisk_17_M1",
+    "Prop_BBIsle_Planter_00_M1",
+    "Prop_BBIsle_Planter_05_M1",
+    "Prop_BBIsle_Planter_10_M1",
+    "Prop_BBIsle_Planter_15_M1",
+    "Prop_BBIsle_Scarecrow_03_M1",
+    "Prop_BBIsle_Scarecrow_08_M1",
+    "Prop_BBIsle_Scarecrow_13_M1",
+    "Prop_BBIsle_Scarecrow_18_M1",
+    "Prop_BBIsle_Shelf_01_M1",
+    "Prop_BBIsle_Shelf_06_M1",
+    "Prop_BBIsle_Shelf_11_M1",
+    "Prop_BBIsle_Shelf_16_M1",
+    "Prop_BBIsle_Sign_04_M1",
+    "Prop_BBIsle_Sign_09_M1",
+    "Prop_BBIsle_Sign_14_M1",
+    "Prop_BBIsle_Sign_19_M1",
+    "Prop_BBIsle_Statue_02_M1",
+    "Prop_BBIsle_Statue_07_M1",
+    "Prop_BBIsle_Statue_12_M1",
+    "Prop_BBIsle_Statue_17_M1",
+    "Prop_BBIsle_Sundial_00_M1",
+    "Prop_BBIsle_Sundial_05_M1",
+    "Prop_BBIsle_Sundial_10_M1",
+    "Prop_BBIsle_Sundial_15_M1",
+    "Prop_BBIsle_Table_03_M1",
+    "Prop_BBIsle_Table_08_M1",
+    "Prop_BBIsle_Table_13_M1",
+    "Prop_BBIsle_Table_18_M1",
+    "Prop_BBIsle_Tent_01_M1",
+    "Prop_BBIsle_Tent_06_M1",
+    "Prop_BBIsle_Tent_11_M1",
+    "Prop_BBIsle_Tent_16_M1",
+    "Prop_BBIsle_Totem_04_M1",
+    "Prop_BBIsle_Totem_09_M1",
+    "Prop_BBIsle_Totem_14_M1",
+    "Prop_BBIsle_Totem_19_M1",
+    "Prop_BBIsle_Trough_02_M1",
+    "Prop_BBIsle_Trough_07_M1",
+    "Prop_BBIsle_Trough_12_M1",
+    "Prop_BBIsle_Trough_17_M1",
+    "Prop_BBIsle_Well_00_M1",
+    "Prop_BBIsle_Well_05_M1",
+    "Prop_BBIsle_Well_10_M1",
+    "Prop_BBIsle_Well_15_M1",
+    "Prop_BBIsle_Windmill_03_M1",
+    "Prop_BBIsle_Windmill_08_M1",
+    "Prop_BBIsle_Windmill_13_M1",
+    "Prop_BBIsle_Windmill_18_M1"
+   ],
+   "uses": 100
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.03847,0.01891,0.10616,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Ghost_04",
+   "source_names": [
+    "Prop_Herb_Voidleaf_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.03847,0.148,0.06575,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_BrickGreen_08",
+   "source_names": [
+    "Prop_Tree_Cedar_Mature_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.03847,0.19752,0.01891,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_BrickGreen_03",
+   "source_names": [
+    "Prop_Herb_Nettle_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.03847,0.19752,0.03847,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_BrickGreen_03",
+   "source_names": [
+    "Prop_Tree_Pine_Mature_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.04145,0.20471,0.02537,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_BrickGreen_03",
+   "source_names": [
+    "Prop_Bloom_Bluebell_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.04145,0.33922,0.02537,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Leaf_01",
+   "source_names": [
+    "Prop_Herb_Basil_M0",
+    "Prop_Herb_Clover_M0",
+    "Prop_Herb_WildGarlic_M0"
+   ],
+   "uses": 3
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.04778,0.11658,0.7519,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Blue_01",
+   "source_names": [
+    "Prop_Bloom_Bluebell_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.05459,0.22331,0.04145,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_BrickGreen_03",
+   "source_names": [
+    "Prop_Bloom_GhostOrchid_V9_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.05819,0.11658,0.00552,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_BrickGreen_11",
+   "source_names": [
+    "Prop_Bloom_Fireweed_V24_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.06575,0.06575,0.06575,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Dark_01",
+   "source_names": [
+    "Mob_Crew_Smith_M1",
+    "Prop_Chest_Iron_M1",
+    "Prop_Tree_Ironwood_Mature_M0"
+   ],
+   "uses": 8
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.06575,0.07176,0.09388,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Dark_01",
+   "source_names": [
+    "Prop_Anvil_M0",
+    "Veh_Ark_M1"
+   ],
+   "uses": 5
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.06575,0.07593,0.10616,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Dark_01",
+   "source_names": [
+    "Prop_Chest_Ark_Locker_M0",
+    "Prop_Island_Boulder_K11V0_M1",
+    "Prop_Island_Boulder_K11V1_M1",
+    "Prop_Island_Boulder_K11V2_M1",
+    "Prop_Island_Boulder_K11V3_M1",
+    "Prop_Island_Boulder_K11V4_M1",
+    "Prop_Island_Boulder_K16V0_M1",
+    "Prop_Island_Boulder_K16V1_M1",
+    "Prop_Island_Boulder_K16V2_M1",
+    "Prop_Island_Boulder_K16V3_M1",
+    "Prop_Island_Boulder_K16V4_M1",
+    "Prop_Island_Boulder_K1V0_M1",
+    "Prop_Island_Boulder_K1V1_M1",
+    "Prop_Island_Boulder_K1V2_M1",
+    "Prop_Island_Boulder_K1V3_M1",
+    "Prop_Island_Boulder_K1V4_M1",
+    "Prop_Island_Boulder_K21V0_M1",
+    "Prop_Island_Boulder_K21V1_M1",
+    "Prop_Island_Boulder_K21V2_M1",
+    "Prop_Island_Boulder_K21V3_M1",
+    "Prop_Island_Boulder_K21V4_M1",
+    "Prop_Island_Boulder_K26V0_M1",
+    "Prop_Island_Boulder_K26V1_M1",
+    "Prop_Island_Boulder_K26V2_M1",
+    "Prop_Island_Boulder_K26V3_M1",
+    "Prop_Island_Boulder_K26V4_M1",
+    "Prop_Island_Boulder_K6V0_M1",
+    "Prop_Island_Boulder_K6V1_M1",
+    "Prop_Island_Boulder_K6V2_M1",
+    "Prop_Island_Boulder_K6V3_M1",
+    "Prop_Island_Boulder_K6V4_M1",
+    "Prop_OreNode_Crystal_Large_M0",
+    "Prop_OreNode_Crystal_Small_M0",
+    "Prop_OreNode_Gold_Large_M0",
+    "Prop_OreNode_Gold_Small_M0",
+    "Prop_OreNode_Heartstone_Large_M0",
+    "Prop_OreNode_Heartstone_Small_M0"
+   ],
+   "uses": 38
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.06575,0.37868,0.07593,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_BrickGreen_01",
+   "source_names": [
+    "Prop_Herb_Aloe_M1",
+    "Prop_Herb_Bogmyrtle_M1",
+    "Prop_Herb_Ginger_M1",
+    "Prop_Herb_Mint_M1",
+    "Prop_Herb_Sage_M1",
+    "Prop_Herb_Thyme_M1",
+    "Prop_Tree_Coconut_Mature_M1",
+    "Prop_Tree_Oak_Mature_M1"
+   ],
+   "uses": 8
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.06772,0.148,0.02422,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_BrickGreen_02",
+   "source_names": [
+    "Prop_Tree_Cypress_Mature_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.06772,0.148,0.03847,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_BrickGreen_02",
+   "source_names": [
+    "Prop_Bloom_Rafflesia_M0",
+    "Prop_Herb_Rosemary_M0",
+    "Prop_Tree_Ironwood_Mature_M1"
+   ],
+   "uses": 3
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.06772,0.2011,0.03847,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_BrickGreen_03",
+   "source_names": [
+    "Prop_Bloom_Fireweed_M0",
+    "Prop_Bloom_Foxglove_M0",
+    "Prop_Herb_Cinchona_M0"
+   ],
+   "uses": 3
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.06772,0.31576,0.06772,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_BrickGreen_01",
+   "source_names": [
+    "Mob_Crew_Botanist_M1",
+    "Prop_Bloom_Cornflower_M0",
+    "Prop_Bloom_Marigold_M0",
+    "Prop_Bloom_Poppy_M0",
+    "Prop_Herb_Sorrel_M0",
+    "Prop_Tree_Kelp_Mature_M1",
+    "Prop_Tree_Mangrove_Mature_M1",
+    "Prop_Tree_Palm_Mature_M1"
+   ],
+   "uses": 12
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.07593,0.77423,0.63878,1.0],\"double\":true,\"emissive\":[0.0981,1.0,0.8251],\"emissive_strength\":1.5485,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_GlowSpawn_01",
+   "source_names": [
+    "Prop_BBIsle_Arch_00_M2",
+    "Prop_BBIsle_Arch_03_M2",
+    "Prop_BBIsle_Arch_05_M2",
+    "Prop_BBIsle_Arch_08_M2",
+    "Prop_BBIsle_Arch_13_M2",
+    "Prop_BBIsle_Arch_15_M2",
+    "Prop_BBIsle_Banner_03_M2",
+    "Prop_BBIsle_Banner_08_M2",
+    "Prop_BBIsle_Banner_11_M2",
+    "Prop_BBIsle_Barrel_01_M2",
+    "Prop_BBIsle_Barrel_04_M2",
+    "Prop_BBIsle_Barrel_06_M2",
+    "Prop_BBIsle_Barrel_09_M2",
+    "Prop_BBIsle_Barrel_16_M2",
+    "Prop_BBIsle_Barrel_19_M2",
+    "Prop_BBIsle_Beehive_02_M2",
+    "Prop_BBIsle_Beehive_04_M2",
+    "Prop_BBIsle_Beehive_07_M2",
+    "Prop_BBIsle_Beehive_09_M2",
+    "Prop_BBIsle_Beehive_12_M2",
+    "Prop_BBIsle_Beehive_14_M2",
+    "Prop_BBIsle_Beehive_17_M2",
+    "Prop_BBIsle_Beehive_19_M2",
+    "Prop_BBIsle_Bell_00_M2",
+    "Prop_BBIsle_Bell_02_M2",
+    "Prop_BBIsle_Bell_05_M2",
+    "Prop_BBIsle_Bell_07_M2",
+    "Prop_BBIsle_Bell_10_M2",
+    "Prop_BBIsle_Bell_12_M2",
+    "Prop_BBIsle_Bell_15_M2",
+    "Prop_BBIsle_Bell_17_M2",
+    "Prop_BBIsle_Cart_01_M2",
+    "Prop_BBIsle_Cart_11_M2",
+    "Prop_BBIsle_Cart_16_M2",
+    "Prop_BBIsle_Cart_19_M2",
+    "Prop_BBIsle_Coop_02_M2",
+    "Prop_BBIsle_Coop_04_M2",
+    "Prop_BBIsle_Coop_07_M2",
+    "Prop_BBIsle_Coop_09_M2",
+    "Prop_BBIsle_Coop_12_M2",
+    "Prop_BBIsle_Coop_14_M2",
+    "Prop_BBIsle_Coop_17_M2",
+    "Prop_BBIsle_Coop_19_M2",
+    "Prop_BBIsle_Lamp_01_M2",
+    "Prop_BBIsle_Lamp_03_M2",
+    "Prop_BBIsle_Lamp_06_M2",
+    "Prop_BBIsle_Lamp_08_M2",
+    "Prop_BBIsle_Lamp_11_M2",
+    "Prop_BBIsle_Lamp_13_M2",
+    "Prop_BBIsle_Lamp_16_M2",
+    "Prop_BBIsle_Lamp_18_M2",
+    "Prop_BBIsle_Obelisk_01_M2",
+    "Prop_BBIsle_Obelisk_04_M2",
+    "Prop_BBIsle_Obelisk_06_M2",
+    "Prop_BBIsle_Obelisk_09_M2",
+    "Prop_BBIsle_Obelisk_11_M2",
+    "Prop_BBIsle_Obelisk_14_M2",
+    "Prop_BBIsle_Obelisk_16_M2",
+    "Prop_BBIsle_Obelisk_19_M2",
+    "Prop_BBIsle_Planter_02_M2",
+    "Prop_BBIsle_Planter_04_M2",
+    "Prop_BBIsle_Planter_07_M2",
+    "Prop_BBIsle_Planter_09_M2",
+    "Prop_BBIsle_Planter_12_M2",
+    "Prop_BBIsle_Planter_14_M2",
+    "Prop_BBIsle_Planter_17_M2",
+    "Prop_BBIsle_Planter_19_M2",
+    "Prop_BBIsle_Scarecrow_00_M2",
+    "Prop_BBIsle_Scarecrow_02_M2",
+    "Prop_BBIsle_Scarecrow_05_M2",
+    "Prop_BBIsle_Scarecrow_07_M2",
+    "Prop_BBIsle_Scarecrow_10_M2",
+    "Prop_BBIsle_Scarecrow_12_M2",
+    "Prop_BBIsle_Scarecrow_15_M2",
+    "Prop_BBIsle_Scarecrow_17_M2",
+    "Prop_BBIsle_Shelf_00_M2",
+    "Prop_BBIsle_Shelf_03_M2",
+    "Prop_BBIsle_Shelf_05_M2",
+    "Prop_BBIsle_Shelf_08_M2",
+    "Prop_BBIsle_Shelf_10_M2",
+    "Prop_BBIsle_Shelf_13_M2",
+    "Prop_BBIsle_Shelf_15_M2",
+    "Prop_BBIsle_Shelf_18_M2",
+    "Prop_BBIsle_Sign_01_M2",
+    "Prop_BBIsle_Sign_03_M2",
+    "Prop_BBIsle_Sign_06_M2",
+    "Prop_BBIsle_Sign_08_M2",
+    "Prop_BBIsle_Sign_11_M2",
+    "Prop_BBIsle_Sign_13_M2",
+    "Prop_BBIsle_Sign_16_M2",
+    "Prop_BBIsle_Sign_18_M2",
+    "Prop_BBIsle_Statue_01_M2",
+    "Prop_BBIsle_Statue_04_M2",
+    "Prop_BBIsle_Statue_06_M2",
+    "Prop_BBIsle_Statue_09_M2",
+    "Prop_BBIsle_Statue_11_M2",
+    "Prop_BBIsle_Statue_14_M2",
+    "Prop_BBIsle_Statue_16_M2",
+    "Prop_BBIsle_Statue_19_M2",
+    "Prop_BBIsle_Sundial_02_M2",
+    "Prop_BBIsle_Sundial_04_M2",
+    "Prop_BBIsle_Sundial_07_M2",
+    "Prop_BBIsle_Sundial_09_M2",
+    "Prop_BBIsle_Sundial_12_M2",
+    "Prop_BBIsle_Sundial_14_M2",
+    "Prop_BBIsle_Sundial_17_M2",
+    "Prop_BBIsle_Sundial_19_M2",
+    "Prop_BBIsle_Table_00_M2",
+    "Prop_BBIsle_Table_02_M2",
+    "Prop_BBIsle_Table_05_M2",
+    "Prop_BBIsle_Table_07_M2",
+    "Prop_BBIsle_Table_12_M2",
+    "Prop_BBIsle_Table_15_M2",
+    "Prop_BBIsle_Table_17_M2",
+    "Prop_BBIsle_Tent_00_M2",
+    "Prop_BBIsle_Tent_03_M2",
+    "Prop_BBIsle_Tent_05_M2",
+    "Prop_BBIsle_Tent_08_M2",
+    "Prop_BBIsle_Tent_10_M2",
+    "Prop_BBIsle_Tent_13_M2",
+    "Prop_BBIsle_Tent_15_M2",
+    "Prop_BBIsle_Tent_18_M2",
+    "Prop_BBIsle_Totem_01_M2",
+    "Prop_BBIsle_Totem_06_M2",
+    "Prop_BBIsle_Totem_08_M2",
+    "Prop_BBIsle_Totem_11_M2",
+    "Prop_BBIsle_Totem_13_M2",
+    "Prop_BBIsle_Totem_16_M2",
+    "Prop_BBIsle_Totem_18_M2",
+    "Prop_BBIsle_Trough_01_M2",
+    "Prop_BBIsle_Trough_04_M2",
+    "Prop_BBIsle_Trough_06_M2",
+    "Prop_BBIsle_Trough_09_M2",
+    "Prop_BBIsle_Trough_11_M2",
+    "Prop_BBIsle_Trough_14_M2",
+    "Prop_BBIsle_Trough_16_M2",
+    "Prop_BBIsle_Trough_19_M2",
+    "Prop_BBIsle_Well_02_M2",
+    "Prop_BBIsle_Well_04_M2",
+    "Prop_BBIsle_Well_07_M2",
+    "Prop_BBIsle_Well_09_M2",
+    "Prop_BBIsle_Well_12_M2",
+    "Prop_BBIsle_Well_14_M2",
+    "Prop_BBIsle_Well_17_M2",
+    "Prop_BBIsle_Well_19_M2",
+    "Prop_BBIsle_Windmill_00_M2",
+    "Prop_BBIsle_Windmill_02_M2",
+    "Prop_BBIsle_Windmill_05_M2",
+    "Prop_BBIsle_Windmill_07_M2",
+    "Prop_BBIsle_Windmill_10_M2",
+    "Prop_BBIsle_Windmill_12_M2",
+    "Prop_BBIsle_Windmill_15_M2",
+    "Prop_BBIsle_Windmill_17_M2"
+   ],
+   "uses": 153
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.09869,0.28445,0.02201,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Grass_01",
+   "source_names": [
+    "Prop_Bloom_Marigold_V4_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.09869,0.35865,0.04778,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Grass_01",
+   "source_names": [
+    "Prop_Herb_Dandelion_M0",
+    "Prop_Island_Boulder_K11V0_M2",
+    "Prop_Island_Boulder_K11V1_M2",
+    "Prop_Island_Boulder_K11V2_M2",
+    "Prop_Island_Boulder_K11V3_M2",
+    "Prop_Island_Boulder_K11V4_M2",
+    "Prop_Island_Boulder_K16V0_M2",
+    "Prop_Island_Boulder_K16V1_M2",
+    "Prop_Island_Boulder_K16V2_M2",
+    "Prop_Island_Boulder_K16V3_M2",
+    "Prop_Island_Boulder_K16V4_M2",
+    "Prop_Island_Boulder_K1V0_M2",
+    "Prop_Island_Boulder_K1V1_M2",
+    "Prop_Island_Boulder_K1V2_M2",
+    "Prop_Island_Boulder_K1V3_M2",
+    "Prop_Island_Boulder_K1V4_M2",
+    "Prop_Island_Boulder_K21V0_M2",
+    "Prop_Island_Boulder_K21V1_M2",
+    "Prop_Island_Boulder_K21V2_M2",
+    "Prop_Island_Boulder_K21V3_M2",
+    "Prop_Island_Boulder_K21V4_M2",
+    "Prop_Island_Boulder_K26V0_M2",
+    "Prop_Island_Boulder_K26V1_M2",
+    "Prop_Island_Boulder_K26V2_M2",
+    "Prop_Island_Boulder_K26V3_M2",
+    "Prop_Island_Boulder_K26V4_M2",
+    "Prop_Island_Boulder_K6V0_M2",
+    "Prop_Island_Boulder_K6V1_M2",
+    "Prop_Island_Boulder_K6V2_M2",
+    "Prop_Island_Boulder_K6V3_M2",
+    "Prop_Island_Boulder_K6V4_M2"
+   ],
+   "uses": 31
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.09869,0.45908,0.2011,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_BrickGreen_07",
+   "source_names": [
+    "Prop_Bloom_GhostOrchid_V24_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.09869,0.70117,0.04778,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Slime_01",
+   "source_names": [
+    "Mob_Crew_Kid_M2",
+    "Prop_Herb_Basil_M1",
+    "Prop_Tree_Bamboo_Mature_M1",
+    "Prop_Tree_Banana_Mature_M1"
+   ],
+   "uses": 7
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.10115,0.03847,0.01188,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Grip_02",
+   "source_names": [
+    "Prop_Tree_Spruce_Mature_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.10115,0.148,0.03847,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_BrickGreen_02",
+   "source_names": [
+    "Mob_Crew_Lookout_M1"
+   ],
+   "uses": 6
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.10115,0.21952,0.04778,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_BrickGreen_12",
+   "source_names": [
+    "Prop_Herb_Valerian_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.10616,0.03561,0.34886,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Ghost_01",
+   "source_names": [
+    "Prop_BBIsle_Arch_04_M0",
+    "Prop_BBIsle_Arch_09_M0",
+    "Prop_BBIsle_Arch_14_M0",
+    "Prop_BBIsle_Arch_19_M0",
+    "Prop_BBIsle_Banner_02_M0",
+    "Prop_BBIsle_Banner_07_M0",
+    "Prop_BBIsle_Banner_12_M0",
+    "Prop_BBIsle_Banner_17_M0",
+    "Prop_BBIsle_Barrel_00_M0",
+    "Prop_BBIsle_Barrel_05_M0",
+    "Prop_BBIsle_Barrel_10_M0",
+    "Prop_BBIsle_Barrel_15_M0",
+    "Prop_BBIsle_Beehive_03_M0",
+    "Prop_BBIsle_Beehive_08_M0",
+    "Prop_BBIsle_Beehive_13_M0",
+    "Prop_BBIsle_Beehive_18_M0",
+    "Prop_BBIsle_Bench_04_M0",
+    "Prop_BBIsle_Bench_09_M0",
+    "Prop_BBIsle_Bench_14_M0",
+    "Prop_BBIsle_Bench_19_M0",
+    "Prop_BBIsle_Bridge_02_M0",
+    "Prop_BBIsle_Bridge_07_M0",
+    "Prop_BBIsle_Bridge_12_M0",
+    "Prop_BBIsle_Bridge_17_M0",
+    "Prop_BBIsle_Cart_00_M0",
+    "Prop_BBIsle_Cart_05_M0",
+    "Prop_BBIsle_Cart_10_M0",
+    "Prop_BBIsle_Cart_15_M0",
+    "Prop_BBIsle_Coop_03_M0",
+    "Prop_BBIsle_Coop_08_M0",
+    "Prop_BBIsle_Coop_13_M0",
+    "Prop_BBIsle_Coop_18_M0",
+    "Prop_BBIsle_Crate_01_M0",
+    "Prop_BBIsle_Crate_06_M0",
+    "Prop_BBIsle_Crate_11_M0",
+    "Prop_BBIsle_Crate_16_M0",
+    "Prop_BBIsle_Fence_04_M0",
+    "Prop_BBIsle_Fence_09_M0",
+    "Prop_BBIsle_Fence_14_M0",
+    "Prop_BBIsle_Fence_19_M0",
+    "Prop_BBIsle_Lamp_02_M0",
+    "Prop_BBIsle_Lamp_07_M0",
+    "Prop_BBIsle_Lamp_12_M0",
+    "Prop_BBIsle_Lamp_17_M0",
+    "Prop_BBIsle_Obelisk_00_M0",
+    "Prop_BBIsle_Obelisk_05_M0",
+    "Prop_BBIsle_Obelisk_10_M0",
+    "Prop_BBIsle_Obelisk_15_M0",
+    "Prop_BBIsle_Planter_03_M0",
+    "Prop_BBIsle_Planter_08_M0",
+    "Prop_BBIsle_Planter_13_M0",
+    "Prop_BBIsle_Planter_18_M0",
+    "Prop_BBIsle_Scarecrow_01_M0",
+    "Prop_BBIsle_Scarecrow_06_M0",
+    "Prop_BBIsle_Scarecrow_11_M0",
+    "Prop_BBIsle_Scarecrow_16_M0",
+    "Prop_BBIsle_Shelf_04_M0",
+    "Prop_BBIsle_Shelf_09_M0",
+    "Prop_BBIsle_Shelf_14_M0",
+    "Prop_BBIsle_Shelf_19_M0",
+    "Prop_BBIsle_Sign_02_M0",
+    "Prop_BBIsle_Sign_07_M0",
+    "Prop_BBIsle_Sign_12_M0",
+    "Prop_BBIsle_Sign_17_M0",
+    "Prop_BBIsle_Statue_00_M0",
+    "Prop_BBIsle_Statue_05_M0",
+    "Prop_BBIsle_Statue_10_M0",
+    "Prop_BBIsle_Statue_15_M0",
+    "Prop_BBIsle_Sundial_03_M0",
+    "Prop_BBIsle_Sundial_08_M0",
+    "Prop_BBIsle_Sundial_13_M0",
+    "Prop_BBIsle_Sundial_18_M0",
+    "Prop_BBIsle_Table_01_M0",
+    "Prop_BBIsle_Table_06_M0",
+    "Prop_BBIsle_Table_11_M0",
+    "Prop_BBIsle_Table_16_M0",
+    "Prop_BBIsle_Tent_04_M0",
+    "Prop_BBIsle_Tent_09_M0",
+    "Prop_BBIsle_Tent_14_M0",
+    "Prop_BBIsle_Tent_19_M0",
+    "Prop_BBIsle_Totem_02_M0",
+    "Prop_BBIsle_Totem_07_M0",
+    "Prop_BBIsle_Totem_12_M0",
+    "Prop_BBIsle_Totem_17_M0",
+    "Prop_BBIsle_Trough_00_M0",
+    "Prop_BBIsle_Trough_05_M0",
+    "Prop_BBIsle_Trough_10_M0",
+    "Prop_BBIsle_Trough_15_M0",
+    "Prop_BBIsle_Well_03_M0",
+    "Prop_BBIsle_Well_08_M0",
+    "Prop_BBIsle_Well_13_M0",
+    "Prop_BBIsle_Well_18_M0",
+    "Prop_BBIsle_Windmill_01_M0",
+    "Prop_BBIsle_Windmill_06_M0",
+    "Prop_BBIsle_Windmill_11_M0",
+    "Prop_BBIsle_Windmill_16_M0",
+    "Veh_ArkPart_DockClamp_Crystal_M0"
+   ],
+   "uses": 97
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.10616,0.11658,0.01794,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Dirt_03",
+   "source_names": [
+    "Prop_Bloom_Fireweed_V4_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.10616,0.15106,0.35865,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_BrickBlue_01",
+   "source_names": [
+    "Prop_Herb_Moonpetal_M0",
+    "Prop_Tree_Moonbark_Mature_M1"
+   ],
+   "uses": 2
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.11658,0.21952,0.53564,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_BrickBlue_02",
+   "source_names": [
+    "Prop_Bloom_SeaHolly_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.12199,0.43681,0.17344,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_BrickGreen_07",
+   "source_names": [
+    "Prop_Bloom_Cornflower_V9_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.12753,0.30663,0.00503,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Grass_04",
+   "source_names": [
+    "Prop_Herb_Cinchona_V9_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.13321,0.40983,0.148,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_BrickGreen_07",
+   "source_names": [
+    "Prop_Bloom_Cornflower_V24_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.13902,0.12753,0.36859,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_BrickBlue_03",
+   "source_names": [
+    "Prop_Herb_Moonpetal_V9_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.13902,0.39929,0.03561,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Grass_01",
+   "source_names": [
+    "Prop_Bloom_DesertMarigold_V9_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.14497,0.26736,0.31576,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Stone_03",
+   "source_names": [
+    "Prop_Herb_Edelwort_V9_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.14497,0.43681,0.15415,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_BrickGreen_07",
+   "source_names": [
+    "Prop_Bloom_DesertMarigold_V24_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.148,0.06575,0.01891,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Dirt_01",
+   "source_names": [
+    "Prop_Bloom_BananaFlower_M2",
+    "Prop_Bloom_BirdofParadise_M2",
+    "Prop_Bloom_BirdofParadise_V24_M2",
+    "Prop_Bloom_BirdofParadise_V4_M2",
+    "Prop_Bloom_BirdofParadise_V9_M2",
+    "Prop_Bloom_Bluebell_M2",
+    "Prop_Bloom_Cornflower_M2",
+    "Prop_Bloom_Cornflower_V24_M2",
+    "Prop_Bloom_Cornflower_V9_M2",
+    "Prop_Bloom_DesertMarigold_M2",
+    "Prop_Bloom_DesertMarigold_V24_M2",
+    "Prop_Bloom_DesertMarigold_V4_M2",
+    "Prop_Bloom_DesertMarigold_V9_M2",
+    "Prop_Bloom_Fireweed_M2",
+    "Prop_Bloom_Fireweed_V24_M2",
+    "Prop_Bloom_Fireweed_V4_M2",
+    "Prop_Bloom_Fireweed_V9_M2",
+    "Prop_Bloom_Foxglove_M2",
+    "Prop_Bloom_GhostOrchid_M2",
+    "Prop_Bloom_GhostOrchid_V24_M2",
+    "Prop_Bloom_GhostOrchid_V4_M2",
+    "Prop_Bloom_GhostOrchid_V9_M2",
+    "Prop_Bloom_Marigold_M2",
+    "Prop_Bloom_Marigold_V24_M2",
+    "Prop_Bloom_Marigold_V4_M2",
+    "Prop_Bloom_Marigold_V9_M2",
+    "Prop_Bloom_Orchid_M2",
+    "Prop_Bloom_Poppy_M2",
+    "Prop_Bloom_Rafflesia_M2",
+    "Prop_Bloom_SeaHolly_M2",
+    "Prop_Chest_Large_Wood_M1",
+    "Prop_Herb_Aloe_M0",
+    "Prop_Herb_Angelica_M2",
+    "Prop_Herb_ArcticThyme_M2",
+    "Prop_Herb_Basil_M2",
+    "Prop_Herb_Bogmyrtle_M0",
+    "Prop_Herb_Chamomile_M2",
+    "Prop_Herb_Cinchona_M2",
+    "Prop_Herb_Cinchona_V9_M2",
+    "Prop_Herb_Clover_M2",
+    "Prop_Herb_Dandelion_M2",
+    "Prop_Herb_DesertSage_M2",
+    "Prop_Herb_Edelwort_M2",
+    "Prop_Herb_Edelwort_V9_M2",
+    "Prop_Herb_Ginger_M0",
+    "Prop_Herb_Lavender_M2",
+    "Prop_Herb_Lemongrass_M2",
+    "Prop_Herb_Lemongrass_V9_M2",
+    "Prop_Herb_Lichen_M0",
+    "Prop_Herb_Marshmallow_M2",
+    "Prop_Herb_Mint_M0",
+    "Prop_Herb_Moonpetal_M2",
+    "Prop_Herb_Moonpetal_V9_M2",
+    "Prop_Herb_Nettle_M2",
+    "Prop_Herb_Rosemary_M2",
+    "Prop_Herb_Sage_M0",
+    "Prop_Herb_Saltbush_M2",
+    "Prop_Herb_SeaSalt_M0",
+    "Prop_Herb_Sorrel_M2",
+    "Prop_Herb_Stardust_M0",
+    "Prop_Herb_Thyme_M0",
+    "Prop_Herb_Valerian_M2",
+    "Prop_Herb_Voidleaf_M2",
+    "Prop_Herb_Voidleaf_V9_M2",
+    "Prop_Herb_Watercress_M2",
+    "Prop_Herb_WildGarlic_M2",
+    "Prop_Herb_Wormwood_M2",
+    "Prop_Herb_Yarrow_M2",
+    "Prop_Tree_Banana_Mature_M2",
+    "Prop_Tree_Cedar_Mature_M0",
+    "Prop_Tree_Coconut_Mature_M2",
+    "Prop_Tree_Larch_Mature_M0",
+    "Prop_Tree_Palm_Mature_M2",
+    "Prop_Tree_Pine_Mature_M0",
+    "Veh_ArkPart_DockClamp_Copper_M1"
+   ],
+   "uses": 76
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.148,0.06575,0.03847,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Grip_03",
+   "source_names": [
+    "Prop_Tree_Cherry_Mature_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.148,0.10115,0.03847,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Log_02",
+   "source_names": [
+    "Prop_Tree_Cypress_Mature_M0",
+    "Prop_Tree_Mangrove_Mature_M0"
+   ],
+   "uses": 2
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.148,0.21952,0.11658,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Gravel_03",
+   "source_names": [
+    "Prop_Herb_ArcticThyme_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.148,0.26736,0.02422,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_BrickGreen_04",
+   "source_names": [
+    "Prop_Herb_Yarrow_M0",
+    "Prop_Tree_Baobab_Mature_M1",
+    "Prop_Tree_Joshua_Mature_M1",
+    "Prop_Tree_Kelp_Mature_M0",
+    "Prop_Tree_Kelp_Mature_M2"
+   ],
+   "uses": 6
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.148,0.26736,0.10115,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_BrickGreen_05",
+   "source_names": [
+    "Prop_Bloom_GhostOrchid_M0",
+    "Prop_Herb_Lavender_M0"
+   ],
+   "uses": 2
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.148,0.26736,0.44232,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Stone_02",
+   "source_names": [
+    "Mob_Crew_Deckhand_M1"
+   ],
+   "uses": 5
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.148,0.33922,0.07806,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_BrickGreen_13",
+   "source_names": [
+    "Prop_Herb_Marshmallow_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.148,0.37868,0.04299,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Grass_01",
+   "source_names": [
+    "Prop_Bloom_Marigold_V24_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.15106,0.35865,0.04778,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Grass_01",
+   "source_names": [
+    "Prop_Herb_Angelica_M0",
+    "Prop_Herb_Chamomile_M0"
+   ],
+   "uses": 2
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.15415,0.22331,0.01699,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_BrickGreen_04",
+   "source_names": [
+    "Prop_Bloom_Marigold_V9_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.16364,0.16364,0.16364,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Stone_01",
+   "source_names": [
+    "Prop_Chest_Iron_M0",
+    "Prop_Chest_Large_Wood_M2"
+   ],
+   "uses": 4
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.16471,0.16471,0.16471,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.5}",
+   "to": "M_BB_Stone_04",
+   "source_names": [
+    "BUF_Dark"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.18355,0.29765,0.10363,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_BrickGreen_05",
+   "source_names": [
+    "Prop_Bloom_DesertMarigold_V4_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.19752,0.08241,0.02776,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Dirt_01",
+   "source_names": [
+    "Prop_Chest_Large_M1",
+    "Prop_Tree_Maple_Mature_M0",
+    "Prop_Tree_Oak_Mature_M0"
+   ],
+   "uses": 4
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.20836,0.2011,0.2349,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Stone_01",
+   "source_names": [
+    "Prop_Island_Boulder_K11V0_M0",
+    "Prop_Island_Boulder_K11V1_M0",
+    "Prop_Island_Boulder_K11V2_M0",
+    "Prop_Island_Boulder_K11V3_M0",
+    "Prop_Island_Boulder_K11V4_M0",
+    "Prop_Island_Boulder_K16V0_M0",
+    "Prop_Island_Boulder_K16V1_M0",
+    "Prop_Island_Boulder_K16V2_M0",
+    "Prop_Island_Boulder_K16V3_M0",
+    "Prop_Island_Boulder_K16V4_M0",
+    "Prop_Island_Boulder_K1V0_M0",
+    "Prop_Island_Boulder_K1V1_M0",
+    "Prop_Island_Boulder_K1V2_M0",
+    "Prop_Island_Boulder_K1V3_M0",
+    "Prop_Island_Boulder_K1V4_M0",
+    "Prop_Island_Boulder_K21V0_M0",
+    "Prop_Island_Boulder_K21V1_M0",
+    "Prop_Island_Boulder_K21V2_M0",
+    "Prop_Island_Boulder_K21V3_M0",
+    "Prop_Island_Boulder_K21V4_M0",
+    "Prop_Island_Boulder_K26V0_M0",
+    "Prop_Island_Boulder_K26V1_M0",
+    "Prop_Island_Boulder_K26V2_M0",
+    "Prop_Island_Boulder_K26V3_M0",
+    "Prop_Island_Boulder_K26V4_M0",
+    "Prop_Island_Boulder_K6V0_M0",
+    "Prop_Island_Boulder_K6V1_M0",
+    "Prop_Island_Boulder_K6V2_M0",
+    "Prop_Island_Boulder_K6V3_M0",
+    "Prop_Island_Boulder_K6V4_M0",
+    "Prop_OreNode_Coal_Large_M0",
+    "Prop_OreNode_Coal_Small_M0",
+    "Prop_OreNode_Copper_Large_M0",
+    "Prop_OreNode_Copper_Small_M0",
+    "Prop_OreNode_Iron_Large_M0",
+    "Prop_OreNode_Iron_Small_M0"
+   ],
+   "uses": 36
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.20836,0.28445,0.0869,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_BrickGreen_05",
+   "source_names": [
+    "Mob_Forest_Crawler_K8_M0"
+   ],
+   "uses": 3
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.20836,0.85917,1.0,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Starmetal_01",
+   "source_names": [
+    "Prop_Herb_Voidleaf_V9_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.21576,0.77423,1.0,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Starmetal_01",
+   "source_names": [
+    "Prop_Chest_Starmetal_M1"
+   ],
+   "uses": 2
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.21576,0.77423,1.0,1.0],\"double\":true,\"emissive\":[0.2158,0.7742,1.0],\"emissive_strength\":2.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_GlowStarmetal_01",
+   "source_names": [
+    "Prop_Anvil_Starmetal_M1",
+    "Prop_Chest_Ark_Locker_M2",
+    "Prop_Herb_Stardust_M1",
+    "Prop_Herb_Voidleaf_M1",
+    "Prop_OreNode_Starmetal_Large_M1",
+    "Prop_OreNode_Starmetal_Small_M1",
+    "Veh_Ark_M2"
+   ],
+   "uses": 10
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.22714,0.2011,0.16364,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Gravel_01",
+   "source_names": [
+    "Mob_Forest_Grazer_K3_M0"
+   ],
+   "uses": 6
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.25,0.22,0.5,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_BrickBlue_04",
+   "source_names": [
+    "Bld_Orr_Water_Mill_roof"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.25084,0.17014,0.19397,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Stone_05",
+   "source_names": [
+    "Prop_Bloom_GhostOrchid_V4_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.25903,0.31118,0.04299,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_BrickGreen_06",
+   "source_names": [
+    "Mob_Forest_Grazer_K13_M0"
+   ],
+   "uses": 6
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.26736,0.0104,0.07806,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Blossom_03",
+   "source_names": [
+    "Prop_Bloom_BananaFlower_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.26736,0.01891,0.00775,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_BrickRed_01",
+   "source_names": [
+    "Bld_Mill_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.26736,0.01891,0.11658,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Ghost_03",
+   "source_names": [
+    "Mob_Crew_Merchant_M1"
+   ],
+   "uses": 6
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.26736,0.10115,0.01891,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Wood_01",
+   "source_names": [
+    "Bld_Mill_M2",
+    "Mob_Crew_Smith_M2",
+    "Prop_BBIsle_Arch_03_M0",
+    "Prop_BBIsle_Arch_08_M0",
+    "Prop_BBIsle_Arch_13_M0",
+    "Prop_BBIsle_Arch_18_M0",
+    "Prop_BBIsle_Banner_01_M0",
+    "Prop_BBIsle_Banner_06_M0",
+    "Prop_BBIsle_Banner_11_M0",
+    "Prop_BBIsle_Banner_16_M0",
+    "Prop_BBIsle_Barrel_04_M0",
+    "Prop_BBIsle_Barrel_09_M0",
+    "Prop_BBIsle_Barrel_14_M0",
+    "Prop_BBIsle_Barrel_19_M0",
+    "Prop_BBIsle_Beehive_02_M0",
+    "Prop_BBIsle_Beehive_07_M0",
+    "Prop_BBIsle_Beehive_12_M0",
+    "Prop_BBIsle_Beehive_17_M0",
+    "Prop_BBIsle_Bench_03_M0",
+    "Prop_BBIsle_Bench_08_M0",
+    "Prop_BBIsle_Bench_13_M0",
+    "Prop_BBIsle_Bench_18_M0",
+    "Prop_BBIsle_Bridge_01_M0",
+    "Prop_BBIsle_Bridge_06_M0",
+    "Prop_BBIsle_Bridge_11_M0",
+    "Prop_BBIsle_Bridge_16_M0",
+    "Prop_BBIsle_Cart_04_M0",
+    "Prop_BBIsle_Cart_09_M0",
+    "Prop_BBIsle_Cart_14_M0",
+    "Prop_BBIsle_Cart_19_M0",
+    "Prop_BBIsle_Coop_02_M0",
+    "Prop_BBIsle_Coop_07_M0",
+    "Prop_BBIsle_Coop_12_M0",
+    "Prop_BBIsle_Coop_17_M0",
+    "Prop_BBIsle_Crate_00_M0",
+    "Prop_BBIsle_Crate_05_M0",
+    "Prop_BBIsle_Crate_10_M0",
+    "Prop_BBIsle_Crate_15_M0",
+    "Prop_BBIsle_Fence_03_M0",
+    "Prop_BBIsle_Fence_08_M0",
+    "Prop_BBIsle_Fence_13_M0",
+    "Prop_BBIsle_Fence_18_M0",
+    "Prop_BBIsle_Lamp_01_M0",
+    "Prop_BBIsle_Lamp_06_M0",
+    "Prop_BBIsle_Lamp_11_M0",
+    "Prop_BBIsle_Lamp_16_M0",
+    "Prop_BBIsle_Obelisk_04_M0",
+    "Prop_BBIsle_Obelisk_09_M0",
+    "Prop_BBIsle_Obelisk_14_M0",
+    "Prop_BBIsle_Obelisk_19_M0",
+    "Prop_BBIsle_Planter_02_M0",
+    "Prop_BBIsle_Planter_07_M0",
+    "Prop_BBIsle_Planter_12_M0",
+    "Prop_BBIsle_Planter_17_M0",
+    "Prop_BBIsle_Scarecrow_00_M0",
+    "Prop_BBIsle_Scarecrow_05_M0",
+    "Prop_BBIsle_Scarecrow_10_M0",
+    "Prop_BBIsle_Scarecrow_15_M0",
+    "Prop_BBIsle_Shelf_03_M0",
+    "Prop_BBIsle_Shelf_08_M0",
+    "Prop_BBIsle_Shelf_13_M0",
+    "Prop_BBIsle_Shelf_18_M0",
+    "Prop_BBIsle_Sign_01_M0",
+    "Prop_BBIsle_Sign_06_M0",
+    "Prop_BBIsle_Sign_11_M0",
+    "Prop_BBIsle_Sign_16_M0",
+    "Prop_BBIsle_Statue_04_M0",
+    "Prop_BBIsle_Statue_09_M0",
+    "Prop_BBIsle_Statue_14_M0",
+    "Prop_BBIsle_Statue_19_M0",
+    "Prop_BBIsle_Sundial_02_M0",
+    "Prop_BBIsle_Sundial_07_M0",
+    "Prop_BBIsle_Sundial_12_M0",
+    "Prop_BBIsle_Sundial_17_M0",
+    "Prop_BBIsle_Table_00_M0",
+    "Prop_BBIsle_Table_05_M0",
+    "Prop_BBIsle_Table_10_M0",
+    "Prop_BBIsle_Table_15_M0",
+    "Prop_BBIsle_Tent_03_M0",
+    "Prop_BBIsle_Tent_08_M0",
+    "Prop_BBIsle_Tent_13_M0",
+    "Prop_BBIsle_Tent_18_M0",
+    "Prop_BBIsle_Totem_01_M0",
+    "Prop_BBIsle_Totem_06_M0",
+    "Prop_BBIsle_Totem_11_M0",
+    "Prop_BBIsle_Totem_16_M0",
+    "Prop_BBIsle_Trough_04_M0",
+    "Prop_BBIsle_Trough_09_M0",
+    "Prop_BBIsle_Trough_14_M0",
+    "Prop_BBIsle_Trough_19_M0",
+    "Prop_BBIsle_Well_02_M0",
+    "Prop_BBIsle_Well_07_M0",
+    "Prop_BBIsle_Well_12_M0",
+    "Prop_BBIsle_Well_17_M0",
+    "Prop_BBIsle_Windmill_00_M0",
+    "Prop_BBIsle_Windmill_05_M0",
+    "Prop_BBIsle_Windmill_10_M0",
+    "Prop_BBIsle_Windmill_15_M0",
+    "Prop_Chest_Gold_M0",
+    "Prop_Chest_Large_Wood_M0"
+   ],
+   "uses": 105
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.26736,0.10115,0.03847,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Dirt_01",
+   "source_names": [
+    "Mob_Crew_Engineer_M0",
+    "Mob_Crew_Merchant_M0",
+    "Mob_Crew_Shipwright_M0"
+   ],
+   "uses": 9
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.26736,0.19752,0.10115,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Wood_03",
+   "source_names": [
+    "Prop_Tree_Joshua_Mature_M0",
+    "Prop_Tree_Kapok_Mature_M0",
+    "Veh_Ark_M0"
+   ],
+   "uses": 3
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.26736,0.2349,0.19046,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Gravel_01",
+   "source_names": [
+    "Veh_ArkPart_DockClamp_Bone_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.26736,0.33922,0.21952,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Gravel_02",
+   "source_names": [
+    "Prop_Herb_Edelwort_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.26736,0.35865,0.11658,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_BrickGreen_05",
+   "source_names": [
+    "Prop_Bloom_DesertMarigold_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.26736,0.35865,0.44232,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Stone_06",
+   "source_names": [
+    "Prop_Bloom_SeaHolly_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.26736,0.35865,0.63878,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Portal_01",
+   "source_names": [
+    "Prop_Herb_Rosemary_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.26736,0.53564,0.04778,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Grass_02",
+   "source_names": [
+    "Prop_Herb_Lemongrass_M0",
+    "Prop_Herb_Nettle_M1",
+    "Prop_Tree_Bamboo_Mature_M0",
+    "Prop_Tree_Banana_Mature_M0",
+    "Prop_Tree_Birch_Mature_M1"
+   ],
+   "uses": 5
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.27158,0.12753,0.06381,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Dirt_02",
+   "source_names": [
+    "Mob_Forest_Grazer_K28_M0"
+   ],
+   "uses": 6
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.28012,0.46474,0.10616,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_BrickGreen_14",
+   "source_names": [
+    "Prop_Herb_Lemongrass_V9_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.32973,0.148,0.04615,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Wood_01",
+   "source_names": [
+    "Prop_Chest_Large_M0"
+   ],
+   "uses": 2
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.33922,0.44232,0.16364,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Sand_03",
+   "source_names": [
+    "Prop_Herb_Lichen_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.33922,0.44232,0.21952,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Rope_03",
+   "source_names": [
+    "Prop_Herb_Wormwood_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.33922,0.44232,0.35865,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Gravel_02",
+   "source_names": [
+    "Prop_Herb_DesertSage_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.35865,0.08241,0.02201,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Copper_03",
+   "source_names": [
+    "Mob_Crew_Shipwright_M1"
+   ],
+   "uses": 5
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.35865,0.13902,0.03847,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Wood_01",
+   "source_names": [
+    "Prop_Tree_Palm_Mature_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.35865,0.16364,0.7519,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Crystal_01",
+   "source_names": [
+    "Prop_Herb_DesertSage_M1",
+    "Prop_Herb_Lavender_M1"
+   ],
+   "uses": 2
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.35865,0.16364,1.0,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Crystal_02",
+   "source_names": [
+    "Veh_ArkPart_DockClamp_Crystal_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.35865,0.16364,1.0,1.0],\"double\":true,\"emissive\":[0.3586,0.1636,1.0],\"emissive_strength\":2.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_GlowCrystal_01",
+   "source_names": [
+    "Prop_OreNode_Crystal_Large_M1",
+    "Prop_OreNode_Crystal_Small_M1"
+   ],
+   "uses": 2
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.35865,0.21952,0.07806,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Wood_05",
+   "source_names": [
+    "Prop_Tree_Coconut_Mature_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.35865,0.21952,0.11658,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Wood_03",
+   "source_names": [
+    "Prop_Tree_Baobab_Mature_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.35865,0.25492,0.07176,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Wood_05",
+   "source_names": [
+    "Mob_Forest_Crawler_K18_M0"
+   ],
+   "uses": 3
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.35865,0.39929,0.28445,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Gravel_02",
+   "source_names": [
+    "Prop_Herb_Saltbush_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.39408,0.11658,0.14497,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Log_01",
+   "source_names": [
+    "Mob_Forest_Crawler_K23_M0"
+   ],
+   "uses": 3
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.39408,0.20836,0.12199,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Wood_03",
+   "source_names": [
+    "Mob_Forest_Hopper_K23_M0"
+   ],
+   "uses": 3
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.39929,0.53564,0.11658,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Sand_04",
+   "source_names": [
+    "Prop_CookingPot_Lit_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.40454,0.28882,0.04778,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Wood_04",
+   "source_names": [
+    "Mob_Forest_Grazer_K23_M0"
+   ],
+   "uses": 6
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.40983,0.30663,0.04145,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Wood_04",
+   "source_names": [
+    "Mob_Forest_Hopper_K13_M0"
+   ],
+   "uses": 3
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.42,0.28,0.16,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.5}",
+   "to": "M_BB_Iron_01",
+   "source_names": [
+    "M_BB_WaterWood"
+   ],
+   "uses": 24
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.43134,0.27583,0.08241,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Wood_05",
+   "source_names": [
+    "Mob_Forest_Hopper_K3_M0"
+   ],
+   "uses": 3
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.44787,0.15728,0.13035,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Wood_06",
+   "source_names": [
+    "Mob_Forest_Crawler_K13_M0"
+   ],
+   "uses": 3
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.45,0.3,0.18,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.5}",
+   "to": "M_BB_Iron_01",
+   "source_names": [
+    "M_BB_Pier"
+   ],
+   "uses": 14
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.48195,0.26317,0.14497,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Wood_03",
+   "source_names": [
+    "Mob_Forest_Hopper_K28_M0"
+   ],
+   "uses": 3
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.48777,0.53564,0.7519,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Steel_02",
+   "source_names": [
+    "Prop_Tree_Moonbark_Mature_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.49362,0.10363,0.06973,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Copper_02",
+   "source_names": [
+    "Mob_Forest_Hopper_K8_M0"
+   ],
+   "uses": 3
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.53564,0.02537,0.0104,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_BrickRed_02",
+   "source_names": [
+    "Prop_Bloom_Rafflesia_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.53564,0.04778,0.02537,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_BrickRed_03",
+   "source_names": [
+    "Prop_Herb_Sorrel_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.53564,0.04778,0.35865,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Purple_01",
+   "source_names": [
+    "Prop_Bloom_Foxglove_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.53564,0.13035,0.12474,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Wood_07",
+   "source_names": [
+    "Mob_Forest_Crawler_K3_M0"
+   ],
+   "uses": 3
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.53564,0.21952,0.53564,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Blossom_04",
+   "source_names": [
+    "Prop_Herb_ArcticThyme_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.53564,0.53564,0.53564,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Steel_01",
+   "source_names": [
+    "Mob_Crew_Lookout_M2"
+   ],
+   "uses": 4
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.53564,0.53564,0.53564,1.0],\"double\":true,\"emissive\":[1.0,1.0,1.0],\"emissive_strength\":1.0713,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_GlowSteel_01",
+   "source_names": [
+    "Prop_Chest_Starmetal_M2"
+   ],
+   "uses": 2
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.54118,0.35294,0.19608,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.5}",
+   "to": "M_BB_Iron_01",
+   "source_names": [
+    "BUF_D_#8A5A32",
+    "BUF_D_#8A5A32.001",
+    "BUF_D_#8A5A32.002",
+    "BUF_D_#8A5A32.003",
+    "BUF_D_#8A5A32.004",
+    "BUF_D_#8A5A32.005",
+    "BUF_Wood"
+   ],
+   "uses": 7
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.5418,0.10871,0.19046,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Blossom_05",
+   "source_names": [
+    "Prop_Bloom_Fireweed_V24_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.5418,0.20471,0.07383,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Wood_02",
+   "source_names": [
+    "Mob_Forest_Grazer_K18_M0"
+   ],
+   "uses": 6
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.54902,0.54902,0.58039,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.5}",
+   "to": "M_BB_Paving_01",
+   "source_names": [
+    "BUF_Stone"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.55,0.55,0.6,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Steel_01",
+   "source_names": [
+    "stone"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.55423,0.18014,0.18699,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Blossom_02",
+   "source_names": [
+    "Mob_Forest_Grazer_K8_M0"
+   ],
+   "uses": 6
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.56078,0.8902,1.0,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.5}",
+   "to": "M_BB_Glass_01",
+   "source_names": [
+    "BUF_CleanWater"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.58597,0.16364,0.03847,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Copper_01",
+   "source_names": [
+    "Mob_Crew_Engineer_M1",
+    "Prop_Chest_Ark_Locker_M1",
+    "Prop_OreNode_Copper_Large_M1",
+    "Prop_OreNode_Copper_Small_M1",
+    "Veh_ArkPart_DockClamp_Copper_M0"
+   ],
+   "uses": 10
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.58597,0.25084,0.11658,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Wood_02",
+   "source_names": [
+    "Mob_Crew_Lookout_M0",
+    "Mob_Crew_Navigator_M0",
+    "Mob_Crew_Smith_M0"
+   ],
+   "uses": 9
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.58597,0.35865,0.16364,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Rope_01",
+   "source_names": [
+    "Mob_Crew_Navigator_M2",
+    "Mob_Crew_Shipwright_M2",
+    "Prop_BBIsle_Arch_03_M1",
+    "Prop_BBIsle_Arch_08_M1",
+    "Prop_BBIsle_Arch_13_M1",
+    "Prop_BBIsle_Arch_18_M1",
+    "Prop_BBIsle_Banner_01_M1",
+    "Prop_BBIsle_Banner_06_M1",
+    "Prop_BBIsle_Banner_11_M1",
+    "Prop_BBIsle_Banner_16_M1",
+    "Prop_BBIsle_Barrel_04_M1",
+    "Prop_BBIsle_Barrel_09_M1",
+    "Prop_BBIsle_Barrel_14_M1",
+    "Prop_BBIsle_Barrel_19_M1",
+    "Prop_BBIsle_Beehive_02_M1",
+    "Prop_BBIsle_Beehive_07_M1",
+    "Prop_BBIsle_Beehive_12_M1",
+    "Prop_BBIsle_Beehive_17_M1",
+    "Prop_BBIsle_Bell_00_M1",
+    "Prop_BBIsle_Bell_05_M1",
+    "Prop_BBIsle_Bell_10_M1",
+    "Prop_BBIsle_Bell_15_M1",
+    "Prop_BBIsle_Bench_03_M1",
+    "Prop_BBIsle_Bench_08_M1",
+    "Prop_BBIsle_Bench_13_M1",
+    "Prop_BBIsle_Bench_18_M1",
+    "Prop_BBIsle_Bridge_01_M1",
+    "Prop_BBIsle_Bridge_06_M1",
+    "Prop_BBIsle_Bridge_11_M1",
+    "Prop_BBIsle_Bridge_16_M1",
+    "Prop_BBIsle_Cart_04_M1",
+    "Prop_BBIsle_Cart_09_M1",
+    "Prop_BBIsle_Cart_14_M1",
+    "Prop_BBIsle_Cart_19_M1",
+    "Prop_BBIsle_Coop_02_M1",
+    "Prop_BBIsle_Coop_07_M1",
+    "Prop_BBIsle_Coop_12_M1",
+    "Prop_BBIsle_Coop_17_M1",
+    "Prop_BBIsle_Crate_00_M1",
+    "Prop_BBIsle_Crate_05_M1",
+    "Prop_BBIsle_Crate_10_M1",
+    "Prop_BBIsle_Crate_15_M1",
+    "Prop_BBIsle_Fence_03_M1",
+    "Prop_BBIsle_Fence_08_M1",
+    "Prop_BBIsle_Fence_13_M1",
+    "Prop_BBIsle_Fence_18_M1",
+    "Prop_BBIsle_Lamp_01_M1",
+    "Prop_BBIsle_Lamp_06_M1",
+    "Prop_BBIsle_Lamp_11_M1",
+    "Prop_BBIsle_Lamp_16_M1",
+    "Prop_BBIsle_Obelisk_04_M1",
+    "Prop_BBIsle_Obelisk_09_M1",
+    "Prop_BBIsle_Obelisk_14_M1",
+    "Prop_BBIsle_Obelisk_19_M1",
+    "Prop_BBIsle_Planter_02_M1",
+    "Prop_BBIsle_Planter_07_M1",
+    "Prop_BBIsle_Planter_12_M1",
+    "Prop_BBIsle_Planter_17_M1",
+    "Prop_BBIsle_Scarecrow_00_M1",
+    "Prop_BBIsle_Scarecrow_05_M1",
+    "Prop_BBIsle_Scarecrow_10_M1",
+    "Prop_BBIsle_Scarecrow_15_M1",
+    "Prop_BBIsle_Shelf_03_M1",
+    "Prop_BBIsle_Shelf_08_M1",
+    "Prop_BBIsle_Shelf_13_M1",
+    "Prop_BBIsle_Shelf_18_M1",
+    "Prop_BBIsle_Sign_01_M1",
+    "Prop_BBIsle_Sign_06_M1",
+    "Prop_BBIsle_Sign_11_M1",
+    "Prop_BBIsle_Sign_16_M1",
+    "Prop_BBIsle_Statue_04_M1",
+    "Prop_BBIsle_Statue_09_M1",
+    "Prop_BBIsle_Statue_14_M1",
+    "Prop_BBIsle_Statue_19_M1",
+    "Prop_BBIsle_Sundial_02_M1",
+    "Prop_BBIsle_Sundial_07_M1",
+    "Prop_BBIsle_Sundial_12_M1",
+    "Prop_BBIsle_Sundial_17_M1",
+    "Prop_BBIsle_Table_00_M1",
+    "Prop_BBIsle_Table_05_M1",
+    "Prop_BBIsle_Table_10_M1",
+    "Prop_BBIsle_Table_15_M1",
+    "Prop_BBIsle_Tent_03_M1",
+    "Prop_BBIsle_Tent_08_M1",
+    "Prop_BBIsle_Tent_13_M1",
+    "Prop_BBIsle_Tent_18_M1",
+    "Prop_BBIsle_Totem_01_M1",
+    "Prop_BBIsle_Totem_06_M1",
+    "Prop_BBIsle_Totem_11_M1",
+    "Prop_BBIsle_Totem_16_M1",
+    "Prop_BBIsle_Trough_04_M1",
+    "Prop_BBIsle_Trough_09_M1",
+    "Prop_BBIsle_Trough_14_M1",
+    "Prop_BBIsle_Trough_19_M1",
+    "Prop_BBIsle_Well_02_M1",
+    "Prop_BBIsle_Well_07_M1",
+    "Prop_BBIsle_Well_12_M1",
+    "Prop_BBIsle_Well_17_M1",
+    "Prop_BBIsle_Windmill_00_M1",
+    "Prop_BBIsle_Windmill_05_M1",
+    "Prop_BBIsle_Windmill_10_M1",
+    "Prop_BBIsle_Windmill_15_M1"
+   ],
+   "uses": 108
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.58597,0.44232,0.04778,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Gold_02",
+   "source_names": [
+    "Prop_Tree_Larch_Mature_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.58597,0.53564,0.21952,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Sand_02",
+   "source_names": [
+    "Prop_Herb_Wormwood_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.58597,0.69408,0.11658,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Sand_05",
+   "source_names": [
+    "Prop_Herb_Lemongrass_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.59244,0.12753,0.07383,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Copper_02",
+   "source_names": [
+    "Mob_Forest_Hopper_K18_M0"
+   ],
+   "uses": 3
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.59244,0.46474,0.33922,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Iron_02",
+   "source_names": [
+    "Prop_Chest_Iron_M2",
+    "Prop_OreNode_Iron_Large_M1",
+    "Prop_OreNode_Iron_Small_M1"
+   ],
+   "uses": 4
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.59244,0.66612,0.7519,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Steel_01",
+   "source_names": [
+    "Prop_Anvil_M2"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.62,0.6,0.56,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.5}",
+   "to": "M_BB_Paving_01",
+   "source_names": [
+    "M_BB_Stone"
+   ],
+   "uses": 210
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.63878,1.0,0.78931,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_BrickWhite_01",
+   "source_names": [
+    "Prop_Bloom_GhostOrchid_V9_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.64556,0.02201,0.40983,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Purple_02",
+   "source_names": [
+    "Prop_Bloom_Fireweed_V4_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.65237,0.59244,0.2468,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Sand_02",
+   "source_names": [
+    "Prop_Herb_Lemongrass_V9_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.66612,0.38377,0.01518,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Gold_03",
+   "source_names": [
+    "Prop_Bloom_Marigold_V4_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.68703,0.48777,1.0,1.0],\"double\":true,\"emissive\":[0.687,0.4878,1.0],\"emissive_strength\":2.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_GlowPortal_01",
+   "source_names": [
+    "Prop_Herb_Moonpetal_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.69408,0.01699,0.0,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Red_01",
+   "source_names": [
+    "Mob_Crew_Cook_M2",
+    "Mob_Crew_Medic_M2",
+    "Prop_Herb_Cinchona_M1",
+    "Prop_Tree_Oak_Mature_M2"
+   ],
+   "uses": 10
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.69408,0.2349,0.03423,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Copper_04",
+   "source_names": [
+    "Prop_Bloom_Marigold_V24_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.70117,0.38377,0.18014,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Rope_01",
+   "source_names": [
+    "Mob_Forest_Crawler_K28_M0"
+   ],
+   "uses": 3
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.72992,0.26317,0.0,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Orange_03",
+   "source_names": [
+    "Prop_Bloom_BirdofParadise_V9_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.7519,0.01699,0.00552,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Red_01",
+   "source_names": [
+    "Prop_Bloom_Poppy_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.7519,0.04778,0.35865,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Blossom_06",
+   "source_names": [
+    "Prop_Bloom_Fireweed_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.7519,0.07806,0.07806,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_BrickRed_04",
+   "source_names": [
+    "Veh_ArkPart_DockClamp_Coral_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.7519,0.16364,0.63878,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Blossom_07",
+   "source_names": [
+    "Prop_Bloom_Orchid_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.77423,0.54799,0.01794,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Gold_01",
+   "source_names": [
+    "Prop_Bloom_DesertMarigold_V4_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.78175,0.72992,0.63204,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Cloth_01",
+   "source_names": [
+    "Mob_Crew_Deckhand_M2",
+    "Mob_Forest_Crawler_K13_M1",
+    "Mob_Forest_Crawler_K18_M1",
+    "Mob_Forest_Crawler_K23_M1",
+    "Mob_Forest_Crawler_K28_M1",
+    "Mob_Forest_Crawler_K3_M1",
+    "Mob_Forest_Crawler_K8_M1",
+    "Mob_Forest_Grazer_K13_M1",
+    "Mob_Forest_Grazer_K18_M1",
+    "Mob_Forest_Grazer_K23_M1",
+    "Mob_Forest_Grazer_K28_M1",
+    "Mob_Forest_Grazer_K3_M1",
+    "Mob_Forest_Grazer_K8_M1",
+    "Mob_Forest_Hopper_K13_M1",
+    "Mob_Forest_Hopper_K18_M1",
+    "Mob_Forest_Hopper_K23_M1",
+    "Mob_Forest_Hopper_K28_M1",
+    "Mob_Forest_Hopper_K3_M1",
+    "Mob_Forest_Hopper_K8_M1",
+    "Prop_BBIsle_Arch_02_M1",
+    "Prop_BBIsle_Arch_07_M1",
+    "Prop_BBIsle_Arch_12_M1",
+    "Prop_BBIsle_Arch_17_M1",
+    "Prop_BBIsle_Banner_00_M1",
+    "Prop_BBIsle_Banner_05_M1",
+    "Prop_BBIsle_Banner_10_M1",
+    "Prop_BBIsle_Banner_15_M1",
+    "Prop_BBIsle_Barrel_03_M1",
+    "Prop_BBIsle_Barrel_08_M1",
+    "Prop_BBIsle_Barrel_13_M1",
+    "Prop_BBIsle_Barrel_18_M1",
+    "Prop_BBIsle_Beehive_01_M1",
+    "Prop_BBIsle_Beehive_06_M1",
+    "Prop_BBIsle_Beehive_11_M1",
+    "Prop_BBIsle_Beehive_16_M1",
+    "Prop_BBIsle_Bell_04_M1",
+    "Prop_BBIsle_Bell_09_M1",
+    "Prop_BBIsle_Bell_14_M1",
+    "Prop_BBIsle_Bell_19_M1",
+    "Prop_BBIsle_Bench_02_M1",
+    "Prop_BBIsle_Bench_07_M1",
+    "Prop_BBIsle_Bench_12_M1",
+    "Prop_BBIsle_Bench_17_M1",
+    "Prop_BBIsle_Bridge_00_M1",
+    "Prop_BBIsle_Bridge_05_M1",
+    "Prop_BBIsle_Bridge_10_M1",
+    "Prop_BBIsle_Bridge_15_M1",
+    "Prop_BBIsle_Cart_03_M1",
+    "Prop_BBIsle_Cart_08_M1",
+    "Prop_BBIsle_Cart_13_M1",
+    "Prop_BBIsle_Cart_18_M1",
+    "Prop_BBIsle_Coop_01_M1",
+    "Prop_BBIsle_Coop_06_M1",
+    "Prop_BBIsle_Coop_11_M1",
+    "Prop_BBIsle_Coop_16_M1",
+    "Prop_BBIsle_Crate_04_M1",
+    "Prop_BBIsle_Crate_09_M1",
+    "Prop_BBIsle_Crate_14_M1",
+    "Prop_BBIsle_Crate_19_M1",
+    "Prop_BBIsle_Fence_02_M1",
+    "Prop_BBIsle_Fence_07_M1",
+    "Prop_BBIsle_Fence_12_M1",
+    "Prop_BBIsle_Fence_17_M1",
+    "Prop_BBIsle_Lamp_00_M1",
+    "Prop_BBIsle_Lamp_05_M1",
+    "Prop_BBIsle_Lamp_10_M1",
+    "Prop_BBIsle_Lamp_15_M1",
+    "Prop_BBIsle_Obelisk_03_M1",
+    "Prop_BBIsle_Obelisk_08_M1",
+    "Prop_BBIsle_Obelisk_13_M1",
+    "Prop_BBIsle_Obelisk_18_M1",
+    "Prop_BBIsle_Planter_01_M1",
+    "Prop_BBIsle_Planter_06_M1",
+    "Prop_BBIsle_Planter_11_M1",
+    "Prop_BBIsle_Planter_16_M1",
+    "Prop_BBIsle_Scarecrow_04_M1",
+    "Prop_BBIsle_Scarecrow_09_M1",
+    "Prop_BBIsle_Scarecrow_14_M1",
+    "Prop_BBIsle_Scarecrow_19_M1",
+    "Prop_BBIsle_Shelf_02_M1",
+    "Prop_BBIsle_Shelf_07_M1",
+    "Prop_BBIsle_Shelf_12_M1",
+    "Prop_BBIsle_Shelf_17_M1",
+    "Prop_BBIsle_Sign_00_M1",
+    "Prop_BBIsle_Sign_05_M1",
+    "Prop_BBIsle_Sign_10_M1",
+    "Prop_BBIsle_Sign_15_M1",
+    "Prop_BBIsle_Statue_03_M1",
+    "Prop_BBIsle_Statue_08_M1",
+    "Prop_BBIsle_Statue_13_M1",
+    "Prop_BBIsle_Statue_18_M1",
+    "Prop_BBIsle_Sundial_01_M1",
+    "Prop_BBIsle_Sundial_06_M1",
+    "Prop_BBIsle_Sundial_11_M1",
+    "Prop_BBIsle_Sundial_16_M1",
+    "Prop_BBIsle_Table_04_M1",
+    "Prop_BBIsle_Table_09_M1",
+    "Prop_BBIsle_Table_14_M1",
+    "Prop_BBIsle_Table_19_M1",
+    "Prop_BBIsle_Tent_02_M1",
+    "Prop_BBIsle_Tent_07_M1",
+    "Prop_BBIsle_Tent_12_M1",
+    "Prop_BBIsle_Tent_17_M1",
+    "Prop_BBIsle_Totem_00_M1",
+    "Prop_BBIsle_Totem_05_M1",
+    "Prop_BBIsle_Totem_10_M1",
+    "Prop_BBIsle_Totem_15_M1",
+    "Prop_BBIsle_Trough_03_M1",
+    "Prop_BBIsle_Trough_08_M1",
+    "Prop_BBIsle_Trough_13_M1",
+    "Prop_BBIsle_Trough_18_M1",
+    "Prop_BBIsle_Well_01_M1",
+    "Prop_BBIsle_Well_06_M1",
+    "Prop_BBIsle_Well_11_M1",
+    "Prop_BBIsle_Well_16_M1",
+    "Prop_BBIsle_Windmill_04_M1",
+    "Prop_BBIsle_Windmill_09_M1",
+    "Prop_BBIsle_Windmill_14_M1",
+    "Prop_BBIsle_Windmill_19_M1",
+    "Prop_Herb_Saltbush_M1",
+    "Veh_ArkPart_DockClamp_Bone_M0"
+   ],
+   "uses": 160
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.81224,0.18699,0.0231,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Orange_01",
+   "source_names": [
+    "Prop_BBIsle_Arch_00_M0",
+    "Prop_BBIsle_Arch_05_M0",
+    "Prop_BBIsle_Arch_10_M0",
+    "Prop_BBIsle_Arch_15_M0",
+    "Prop_BBIsle_Banner_03_M0",
+    "Prop_BBIsle_Banner_08_M0",
+    "Prop_BBIsle_Banner_13_M0",
+    "Prop_BBIsle_Banner_18_M0",
+    "Prop_BBIsle_Barrel_01_M0",
+    "Prop_BBIsle_Barrel_06_M0",
+    "Prop_BBIsle_Barrel_11_M0",
+    "Prop_BBIsle_Barrel_16_M0",
+    "Prop_BBIsle_Beehive_04_M0",
+    "Prop_BBIsle_Beehive_09_M0",
+    "Prop_BBIsle_Beehive_14_M0",
+    "Prop_BBIsle_Beehive_19_M0",
+    "Prop_BBIsle_Bench_00_M0",
+    "Prop_BBIsle_Bench_05_M0",
+    "Prop_BBIsle_Bench_10_M0",
+    "Prop_BBIsle_Bench_15_M0",
+    "Prop_BBIsle_Bridge_03_M0",
+    "Prop_BBIsle_Bridge_08_M0",
+    "Prop_BBIsle_Bridge_13_M0",
+    "Prop_BBIsle_Bridge_18_M0",
+    "Prop_BBIsle_Cart_01_M0",
+    "Prop_BBIsle_Cart_06_M0",
+    "Prop_BBIsle_Cart_11_M0",
+    "Prop_BBIsle_Cart_16_M0",
+    "Prop_BBIsle_Coop_04_M0",
+    "Prop_BBIsle_Coop_09_M0",
+    "Prop_BBIsle_Coop_14_M0",
+    "Prop_BBIsle_Coop_19_M0",
+    "Prop_BBIsle_Crate_02_M0",
+    "Prop_BBIsle_Crate_07_M0",
+    "Prop_BBIsle_Crate_12_M0",
+    "Prop_BBIsle_Crate_17_M0",
+    "Prop_BBIsle_Fence_00_M0",
+    "Prop_BBIsle_Fence_05_M0",
+    "Prop_BBIsle_Fence_10_M0",
+    "Prop_BBIsle_Fence_15_M0",
+    "Prop_BBIsle_Lamp_03_M0",
+    "Prop_BBIsle_Lamp_08_M0",
+    "Prop_BBIsle_Lamp_13_M0",
+    "Prop_BBIsle_Lamp_18_M0",
+    "Prop_BBIsle_Obelisk_01_M0",
+    "Prop_BBIsle_Obelisk_06_M0",
+    "Prop_BBIsle_Obelisk_11_M0",
+    "Prop_BBIsle_Obelisk_16_M0",
+    "Prop_BBIsle_Planter_04_M0",
+    "Prop_BBIsle_Planter_09_M0",
+    "Prop_BBIsle_Planter_14_M0",
+    "Prop_BBIsle_Planter_19_M0",
+    "Prop_BBIsle_Scarecrow_02_M0",
+    "Prop_BBIsle_Scarecrow_07_M0",
+    "Prop_BBIsle_Scarecrow_12_M0",
+    "Prop_BBIsle_Scarecrow_17_M0",
+    "Prop_BBIsle_Shelf_00_M0",
+    "Prop_BBIsle_Shelf_05_M0",
+    "Prop_BBIsle_Shelf_10_M0",
+    "Prop_BBIsle_Shelf_15_M0",
+    "Prop_BBIsle_Sign_03_M0",
+    "Prop_BBIsle_Sign_08_M0",
+    "Prop_BBIsle_Sign_13_M0",
+    "Prop_BBIsle_Sign_18_M0",
+    "Prop_BBIsle_Statue_01_M0",
+    "Prop_BBIsle_Statue_06_M0",
+    "Prop_BBIsle_Statue_11_M0",
+    "Prop_BBIsle_Statue_16_M0",
+    "Prop_BBIsle_Sundial_04_M0",
+    "Prop_BBIsle_Sundial_09_M0",
+    "Prop_BBIsle_Sundial_14_M0",
+    "Prop_BBIsle_Sundial_19_M0",
+    "Prop_BBIsle_Table_02_M0",
+    "Prop_BBIsle_Table_07_M0",
+    "Prop_BBIsle_Table_12_M0",
+    "Prop_BBIsle_Table_17_M0",
+    "Prop_BBIsle_Tent_00_M0",
+    "Prop_BBIsle_Tent_05_M0",
+    "Prop_BBIsle_Tent_10_M0",
+    "Prop_BBIsle_Tent_15_M0",
+    "Prop_BBIsle_Totem_03_M0",
+    "Prop_BBIsle_Totem_08_M0",
+    "Prop_BBIsle_Totem_13_M0",
+    "Prop_BBIsle_Totem_18_M0",
+    "Prop_BBIsle_Trough_01_M0",
+    "Prop_BBIsle_Trough_06_M0",
+    "Prop_BBIsle_Trough_11_M0",
+    "Prop_BBIsle_Trough_16_M0",
+    "Prop_BBIsle_Well_04_M0",
+    "Prop_BBIsle_Well_09_M0",
+    "Prop_BBIsle_Well_14_M0",
+    "Prop_BBIsle_Well_19_M0",
+    "Prop_BBIsle_Windmill_02_M0",
+    "Prop_BBIsle_Windmill_07_M0",
+    "Prop_BBIsle_Windmill_12_M0",
+    "Prop_BBIsle_Windmill_17_M0"
+   ],
+   "uses": 96
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.81224,0.48777,0.28445,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Rope_02",
+   "source_names": [
+    "Mob_Crew_Botanist_M0",
+    "Mob_Crew_Captain_M0",
+    "Mob_Crew_Deckhand_M0"
+   ],
+   "uses": 9
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.87514,0.63878,0.44232,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Cloth_02",
+   "source_names": [
+    "Mob_Crew_Cook_M0",
+    "Mob_Crew_Kid_M0",
+    "Mob_Crew_Medic_M0"
+   ],
+   "uses": 9
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.88318,0.0231,0.38377,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Blossom_08",
+   "source_names": [
+    "Prop_Bloom_Fireweed_V9_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.88318,0.52344,1.0,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Portal_02",
+   "source_names": [
+    "Prop_Herb_Moonpetal_V9_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.89126,0.33446,0.53564,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Blossom_01",
+   "source_names": [
+    "Mob_Crew_Kid_M1",
+    "Prop_Tree_Kapok_Mature_M2",
+    "Veh_ArkPart_DockClamp_Coral_M1"
+   ],
+   "uses": 7
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.89126,0.39929,0.58597,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Blossom_01",
+   "source_names": [
+    "Prop_Tree_Cherry_Mature_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.89126,0.54799,0.02537,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Gold_01",
+   "source_names": [
+    "Mob_Crew_Captain_M2",
+    "Mob_Crew_Merchant_M2",
+    "Prop_BBIsle_Arch_01_M0",
+    "Prop_BBIsle_Arch_06_M0",
+    "Prop_BBIsle_Arch_11_M0",
+    "Prop_BBIsle_Arch_16_M0",
+    "Prop_BBIsle_Banner_04_M0",
+    "Prop_BBIsle_Banner_09_M0",
+    "Prop_BBIsle_Banner_14_M0",
+    "Prop_BBIsle_Banner_19_M0",
+    "Prop_BBIsle_Barrel_02_M0",
+    "Prop_BBIsle_Barrel_07_M0",
+    "Prop_BBIsle_Barrel_12_M0",
+    "Prop_BBIsle_Barrel_17_M0",
+    "Prop_BBIsle_Beehive_00_M0",
+    "Prop_BBIsle_Beehive_05_M0",
+    "Prop_BBIsle_Beehive_10_M0",
+    "Prop_BBIsle_Beehive_15_M0",
+    "Prop_BBIsle_Bench_01_M0",
+    "Prop_BBIsle_Bench_06_M0",
+    "Prop_BBIsle_Bench_11_M0",
+    "Prop_BBIsle_Bench_16_M0",
+    "Prop_BBIsle_Bridge_04_M0",
+    "Prop_BBIsle_Bridge_09_M0",
+    "Prop_BBIsle_Bridge_14_M0",
+    "Prop_BBIsle_Bridge_19_M0",
+    "Prop_BBIsle_Cart_02_M0",
+    "Prop_BBIsle_Cart_07_M0",
+    "Prop_BBIsle_Cart_12_M0",
+    "Prop_BBIsle_Cart_17_M0",
+    "Prop_BBIsle_Coop_00_M0",
+    "Prop_BBIsle_Coop_05_M0",
+    "Prop_BBIsle_Coop_10_M0",
+    "Prop_BBIsle_Coop_15_M0",
+    "Prop_BBIsle_Crate_03_M0",
+    "Prop_BBIsle_Crate_08_M0",
+    "Prop_BBIsle_Crate_13_M0",
+    "Prop_BBIsle_Crate_18_M0",
+    "Prop_BBIsle_Fence_01_M0",
+    "Prop_BBIsle_Fence_06_M0",
+    "Prop_BBIsle_Fence_11_M0",
+    "Prop_BBIsle_Fence_16_M0",
+    "Prop_BBIsle_Lamp_04_M0",
+    "Prop_BBIsle_Lamp_09_M0",
+    "Prop_BBIsle_Lamp_14_M0",
+    "Prop_BBIsle_Lamp_19_M0",
+    "Prop_BBIsle_Obelisk_02_M0",
+    "Prop_BBIsle_Obelisk_07_M0",
+    "Prop_BBIsle_Obelisk_12_M0",
+    "Prop_BBIsle_Obelisk_17_M0",
+    "Prop_BBIsle_Planter_00_M0",
+    "Prop_BBIsle_Planter_05_M0",
+    "Prop_BBIsle_Planter_10_M0",
+    "Prop_BBIsle_Planter_15_M0",
+    "Prop_BBIsle_Scarecrow_03_M0",
+    "Prop_BBIsle_Scarecrow_08_M0",
+    "Prop_BBIsle_Scarecrow_13_M0",
+    "Prop_BBIsle_Scarecrow_18_M0",
+    "Prop_BBIsle_Shelf_01_M0",
+    "Prop_BBIsle_Shelf_06_M0",
+    "Prop_BBIsle_Shelf_11_M0",
+    "Prop_BBIsle_Shelf_16_M0",
+    "Prop_BBIsle_Sign_04_M0",
+    "Prop_BBIsle_Sign_09_M0",
+    "Prop_BBIsle_Sign_14_M0",
+    "Prop_BBIsle_Sign_19_M0",
+    "Prop_BBIsle_Statue_02_M0",
+    "Prop_BBIsle_Statue_07_M0",
+    "Prop_BBIsle_Statue_12_M0",
+    "Prop_BBIsle_Statue_17_M0",
+    "Prop_BBIsle_Sundial_00_M0",
+    "Prop_BBIsle_Sundial_05_M0",
+    "Prop_BBIsle_Sundial_10_M0",
+    "Prop_BBIsle_Sundial_15_M0",
+    "Prop_BBIsle_Table_03_M0",
+    "Prop_BBIsle_Table_08_M0",
+    "Prop_BBIsle_Table_13_M0",
+    "Prop_BBIsle_Table_18_M0",
+    "Prop_BBIsle_Tent_01_M0",
+    "Prop_BBIsle_Tent_06_M0",
+    "Prop_BBIsle_Tent_11_M0",
+    "Prop_BBIsle_Tent_16_M0",
+    "Prop_BBIsle_Totem_04_M0",
+    "Prop_BBIsle_Totem_09_M0",
+    "Prop_BBIsle_Totem_14_M0",
+    "Prop_BBIsle_Totem_19_M0",
+    "Prop_BBIsle_Trough_02_M0",
+    "Prop_BBIsle_Trough_07_M0",
+    "Prop_BBIsle_Trough_12_M0",
+    "Prop_BBIsle_Trough_17_M0",
+    "Prop_BBIsle_Well_00_M0",
+    "Prop_BBIsle_Well_05_M0",
+    "Prop_BBIsle_Well_10_M0",
+    "Prop_BBIsle_Well_15_M0",
+    "Prop_BBIsle_Windmill_03_M0",
+    "Prop_BBIsle_Windmill_08_M0",
+    "Prop_BBIsle_Windmill_13_M0",
+    "Prop_BBIsle_Windmill_18_M0",
+    "Prop_Chest_Gold_M1",
+    "Prop_Chest_Large_M2",
+    "Prop_OreNode_Gold_Large_M1",
+    "Prop_OreNode_Gold_Small_M1",
+    "Prop_Tree_Baobab_Mature_M2",
+    "Prop_Tree_Birch_Mature_M2",
+    "Prop_Tree_Cherry_Mature_M2",
+    "Prop_Tree_Ironwood_Mature_M2",
+    "Prop_Tree_Mangrove_Mature_M2",
+    "Prop_Tree_Maple_Mature_M2"
+   ],
+   "uses": 115
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.89126,0.79692,0.61207,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Cloth_01",
+   "source_names": [
+    "Bld_Mill_M0",
+    "Mob_Crew_Botanist_M2"
+   ],
+   "uses": 5
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.89126,0.89938,0.89938,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Cloud_01",
+   "source_names": [
+    "Prop_Tree_Birch_Mature_M0"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.90755,0.63878,0.7519,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Cloud_02",
+   "source_names": [
+    "Prop_Herb_Valerian_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.90755,0.92399,0.96581,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Cloud_01",
+   "source_names": [
+    "Mob_Crew_Cook_M1",
+    "Mob_Crew_Medic_M1",
+    "Prop_BBIsle_Arch_04_M1",
+    "Prop_BBIsle_Arch_09_M1",
+    "Prop_BBIsle_Arch_14_M1",
+    "Prop_BBIsle_Arch_19_M1",
+    "Prop_BBIsle_Banner_02_M1",
+    "Prop_BBIsle_Banner_07_M1",
+    "Prop_BBIsle_Banner_12_M1",
+    "Prop_BBIsle_Banner_17_M1",
+    "Prop_BBIsle_Barrel_00_M1",
+    "Prop_BBIsle_Barrel_05_M1",
+    "Prop_BBIsle_Barrel_10_M1",
+    "Prop_BBIsle_Barrel_15_M1",
+    "Prop_BBIsle_Beehive_03_M1",
+    "Prop_BBIsle_Beehive_08_M1",
+    "Prop_BBIsle_Beehive_13_M1",
+    "Prop_BBIsle_Beehive_18_M1",
+    "Prop_BBIsle_Bell_01_M1",
+    "Prop_BBIsle_Bell_06_M1",
+    "Prop_BBIsle_Bell_11_M1",
+    "Prop_BBIsle_Bell_16_M1",
+    "Prop_BBIsle_Bench_04_M1",
+    "Prop_BBIsle_Bench_09_M1",
+    "Prop_BBIsle_Bench_14_M1",
+    "Prop_BBIsle_Bench_19_M1",
+    "Prop_BBIsle_Bridge_02_M1",
+    "Prop_BBIsle_Bridge_07_M1",
+    "Prop_BBIsle_Bridge_12_M1",
+    "Prop_BBIsle_Bridge_17_M1",
+    "Prop_BBIsle_Cart_00_M1",
+    "Prop_BBIsle_Cart_05_M1",
+    "Prop_BBIsle_Cart_10_M1",
+    "Prop_BBIsle_Cart_15_M1",
+    "Prop_BBIsle_Coop_03_M1",
+    "Prop_BBIsle_Coop_08_M1",
+    "Prop_BBIsle_Coop_13_M1",
+    "Prop_BBIsle_Coop_18_M1",
+    "Prop_BBIsle_Crate_01_M1",
+    "Prop_BBIsle_Crate_06_M1",
+    "Prop_BBIsle_Crate_11_M1",
+    "Prop_BBIsle_Crate_16_M1",
+    "Prop_BBIsle_Fence_04_M1",
+    "Prop_BBIsle_Fence_09_M1",
+    "Prop_BBIsle_Fence_14_M1",
+    "Prop_BBIsle_Fence_19_M1",
+    "Prop_BBIsle_Lamp_02_M1",
+    "Prop_BBIsle_Lamp_07_M1",
+    "Prop_BBIsle_Lamp_12_M1",
+    "Prop_BBIsle_Lamp_17_M1",
+    "Prop_BBIsle_Obelisk_00_M1",
+    "Prop_BBIsle_Obelisk_05_M1",
+    "Prop_BBIsle_Obelisk_10_M1",
+    "Prop_BBIsle_Obelisk_15_M1",
+    "Prop_BBIsle_Planter_03_M1",
+    "Prop_BBIsle_Planter_08_M1",
+    "Prop_BBIsle_Planter_13_M1",
+    "Prop_BBIsle_Planter_18_M1",
+    "Prop_BBIsle_Scarecrow_01_M1",
+    "Prop_BBIsle_Scarecrow_06_M1",
+    "Prop_BBIsle_Scarecrow_11_M1",
+    "Prop_BBIsle_Scarecrow_16_M1",
+    "Prop_BBIsle_Shelf_04_M1",
+    "Prop_BBIsle_Shelf_09_M1",
+    "Prop_BBIsle_Shelf_14_M1",
+    "Prop_BBIsle_Shelf_19_M1",
+    "Prop_BBIsle_Sign_02_M1",
+    "Prop_BBIsle_Sign_07_M1",
+    "Prop_BBIsle_Sign_12_M1",
+    "Prop_BBIsle_Sign_17_M1",
+    "Prop_BBIsle_Statue_00_M1",
+    "Prop_BBIsle_Statue_05_M1",
+    "Prop_BBIsle_Statue_10_M1",
+    "Prop_BBIsle_Statue_15_M1",
+    "Prop_BBIsle_Sundial_03_M1",
+    "Prop_BBIsle_Sundial_08_M1",
+    "Prop_BBIsle_Sundial_13_M1",
+    "Prop_BBIsle_Sundial_18_M1",
+    "Prop_BBIsle_Table_01_M1",
+    "Prop_BBIsle_Table_06_M1",
+    "Prop_BBIsle_Table_11_M1",
+    "Prop_BBIsle_Table_16_M1",
+    "Prop_BBIsle_Tent_04_M1",
+    "Prop_BBIsle_Tent_09_M1",
+    "Prop_BBIsle_Tent_14_M1",
+    "Prop_BBIsle_Tent_19_M1",
+    "Prop_BBIsle_Totem_02_M1",
+    "Prop_BBIsle_Totem_07_M1",
+    "Prop_BBIsle_Totem_12_M1",
+    "Prop_BBIsle_Totem_17_M1",
+    "Prop_BBIsle_Trough_00_M1",
+    "Prop_BBIsle_Trough_05_M1",
+    "Prop_BBIsle_Trough_10_M1",
+    "Prop_BBIsle_Trough_15_M1",
+    "Prop_BBIsle_Well_03_M1",
+    "Prop_BBIsle_Well_08_M1",
+    "Prop_BBIsle_Well_13_M1",
+    "Prop_BBIsle_Well_18_M1",
+    "Prop_BBIsle_Windmill_01_M1",
+    "Prop_BBIsle_Windmill_06_M1",
+    "Prop_BBIsle_Windmill_11_M1",
+    "Prop_BBIsle_Windmill_16_M1",
+    "Prop_Bloom_GhostOrchid_M1",
+    "Prop_Herb_Aloe_M2",
+    "Prop_Herb_Angelica_M1",
+    "Prop_Herb_Bogmyrtle_M2",
+    "Prop_Herb_Clover_M1",
+    "Prop_Herb_Edelwort_M1",
+    "Prop_Herb_Ginger_M2",
+    "Prop_Herb_Lichen_M2",
+    "Prop_Herb_Mint_M2",
+    "Prop_Herb_Sage_M2",
+    "Prop_Herb_SeaSalt_M1",
+    "Prop_Herb_SeaSalt_M2",
+    "Prop_Herb_Stardust_M2",
+    "Prop_Herb_Thyme_M2",
+    "Prop_Herb_Watercress_M1",
+    "Prop_Herb_WildGarlic_M1",
+    "Prop_Herb_Yarrow_M1"
+   ],
+   "uses": 128
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.91575,0.61869,0.02537,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Gold_01",
+   "source_names": [
+    "Prop_Bloom_DesertMarigold_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.92399,0.15728,0.00775,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Orange_02",
+   "source_names": [
+    "Prop_Bloom_BirdofParadise_V4_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.9406,0.19046,0.00552,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Orange_02",
+   "source_names": [
+    "Prop_Bloom_BirdofParadise_M1",
+    "Prop_Tree_Maple_Mature_M1"
+   ],
+   "uses": 2
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.9406,0.19046,0.00552,1.0],\"double\":true,\"emissive\":[1.0,0.2025,0.0059],\"emissive_strength\":1.8812,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_GlowOrange_03",
+   "source_names": [
+    "Prop_CookingPot_Lit_M2"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.9406,0.39929,0.00552,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Gold_04",
+   "source_names": [
+    "Prop_Bloom_Marigold_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.9406,0.69408,0.00552,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_BrickYellow_01",
+   "source_names": [
+    "Prop_Herb_Dandelion_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.9406,0.69408,0.81224,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Cloud_02",
+   "source_names": [
+    "Prop_Herb_Marshmallow_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.9406,0.87514,0.53564,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Cloth_03",
+   "source_names": [
+    "Prop_Chest_Gold_M2",
+    "Prop_Herb_Chamomile_M1"
+   ],
+   "uses": 3
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.94896,0.88318,0.7083,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Cloth_01",
+   "source_names": [
+    "Prop_Bloom_GhostOrchid_V24_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.94896,0.93228,0.74453,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Cloth_01",
+   "source_names": [
+    "Prop_Herb_Edelwort_V9_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.94902,0.71373,0.18824,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.5}",
+   "to": "M_BB_Sand_01",
+   "source_names": [
+    "BUF_BuffGold",
+    "BUF_BuffGold.001",
+    "BUF_BuffGold.002",
+    "BUF_BuffGold.003",
+    "BUF_BuffGold.004",
+    "BUF_BuffGold.005",
+    "BUF_BuffGold.006"
+   ],
+   "uses": 7
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.96581,0.07176,0.0,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Red_02",
+   "source_names": [
+    "Prop_Herb_Cinchona_V9_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[0.9743,0.5114,0.02422,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Gold_01",
+   "source_names": [
+    "Prop_Bloom_Marigold_V9_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[1.0,0.11658,0.01518,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Orange_04",
+   "source_names": [
+    "Prop_Bloom_BirdofParadise_V24_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[1.0,0.14497,0.04299,1.0],\"double\":true,\"emissive\":[1.0,0.145,0.043],\"emissive_strength\":2.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_GlowOrange_02",
+   "source_names": [
+    "Prop_BBIsle_Arch_06_M2",
+    "Prop_BBIsle_Arch_16_M2",
+    "Prop_BBIsle_Banner_04_M2",
+    "Prop_BBIsle_Banner_09_M2",
+    "Prop_BBIsle_Banner_14_M2",
+    "Prop_BBIsle_Banner_19_M2",
+    "Prop_BBIsle_Barrel_12_M2",
+    "Prop_BBIsle_Barrel_17_M2",
+    "Prop_BBIsle_Beehive_00_M2",
+    "Prop_BBIsle_Beehive_05_M2",
+    "Prop_BBIsle_Beehive_10_M2",
+    "Prop_BBIsle_Beehive_15_M2",
+    "Prop_BBIsle_Bell_03_M2",
+    "Prop_BBIsle_Bell_08_M2",
+    "Prop_BBIsle_Bell_13_M2",
+    "Prop_BBIsle_Bell_18_M2",
+    "Prop_BBIsle_Cart_02_M2",
+    "Prop_BBIsle_Cart_12_M2",
+    "Prop_BBIsle_Coop_00_M2",
+    "Prop_BBIsle_Coop_05_M2",
+    "Prop_BBIsle_Coop_10_M2",
+    "Prop_BBIsle_Coop_15_M2",
+    "Prop_BBIsle_Lamp_04_M2",
+    "Prop_BBIsle_Lamp_09_M2",
+    "Prop_BBIsle_Lamp_14_M2",
+    "Prop_BBIsle_Lamp_19_M2",
+    "Prop_BBIsle_Obelisk_02_M2",
+    "Prop_BBIsle_Obelisk_07_M2",
+    "Prop_BBIsle_Obelisk_12_M2",
+    "Prop_BBIsle_Obelisk_17_M2",
+    "Prop_BBIsle_Planter_00_M2",
+    "Prop_BBIsle_Planter_05_M2",
+    "Prop_BBIsle_Planter_10_M2",
+    "Prop_BBIsle_Planter_15_M2",
+    "Prop_BBIsle_Scarecrow_03_M2",
+    "Prop_BBIsle_Scarecrow_08_M2",
+    "Prop_BBIsle_Scarecrow_13_M2",
+    "Prop_BBIsle_Scarecrow_18_M2",
+    "Prop_BBIsle_Shelf_01_M2",
+    "Prop_BBIsle_Shelf_06_M2",
+    "Prop_BBIsle_Shelf_11_M2",
+    "Prop_BBIsle_Shelf_16_M2",
+    "Prop_BBIsle_Sign_04_M2",
+    "Prop_BBIsle_Sign_09_M2",
+    "Prop_BBIsle_Sign_14_M2",
+    "Prop_BBIsle_Sign_19_M2",
+    "Prop_BBIsle_Statue_02_M2",
+    "Prop_BBIsle_Statue_07_M2",
+    "Prop_BBIsle_Statue_12_M2",
+    "Prop_BBIsle_Statue_17_M2",
+    "Prop_BBIsle_Sundial_00_M2",
+    "Prop_BBIsle_Sundial_05_M2",
+    "Prop_BBIsle_Sundial_10_M2",
+    "Prop_BBIsle_Sundial_15_M2",
+    "Prop_BBIsle_Table_03_M2",
+    "Prop_BBIsle_Table_08_M2",
+    "Prop_BBIsle_Table_13_M2",
+    "Prop_BBIsle_Table_18_M2",
+    "Prop_BBIsle_Tent_01_M2",
+    "Prop_BBIsle_Tent_06_M2",
+    "Prop_BBIsle_Tent_11_M2",
+    "Prop_BBIsle_Tent_16_M2",
+    "Prop_BBIsle_Totem_04_M2",
+    "Prop_BBIsle_Totem_09_M2",
+    "Prop_BBIsle_Totem_14_M2",
+    "Prop_BBIsle_Totem_19_M2",
+    "Prop_BBIsle_Trough_02_M2",
+    "Prop_BBIsle_Trough_07_M2",
+    "Prop_BBIsle_Trough_12_M2",
+    "Prop_BBIsle_Trough_17_M2",
+    "Prop_BBIsle_Well_00_M2",
+    "Prop_BBIsle_Well_05_M2",
+    "Prop_BBIsle_Well_10_M2",
+    "Prop_BBIsle_Well_15_M2",
+    "Prop_BBIsle_Windmill_03_M2",
+    "Prop_BBIsle_Windmill_08_M2",
+    "Prop_BBIsle_Windmill_13_M2",
+    "Prop_BBIsle_Windmill_18_M2"
+   ],
+   "uses": 78
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[1.0,0.25903,0.04299,1.0],\"double\":true,\"emissive\":[1.0,0.259,0.043],\"emissive_strength\":2.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_GlowOrange_01",
+   "source_names": [
+    "Prop_BBIsle_Arch_04_M2",
+    "Prop_BBIsle_Arch_09_M2",
+    "Prop_BBIsle_Arch_14_M2",
+    "Prop_BBIsle_Arch_19_M2",
+    "Prop_BBIsle_Banner_02_M2",
+    "Prop_BBIsle_Banner_07_M2",
+    "Prop_BBIsle_Banner_12_M2",
+    "Prop_BBIsle_Barrel_00_M2",
+    "Prop_BBIsle_Barrel_10_M2",
+    "Prop_BBIsle_Barrel_15_M2",
+    "Prop_BBIsle_Beehive_03_M2",
+    "Prop_BBIsle_Beehive_08_M2",
+    "Prop_BBIsle_Beehive_13_M2",
+    "Prop_BBIsle_Beehive_18_M2",
+    "Prop_BBIsle_Bell_01_M2",
+    "Prop_BBIsle_Bell_06_M2",
+    "Prop_BBIsle_Bell_11_M2",
+    "Prop_BBIsle_Bell_16_M2",
+    "Prop_BBIsle_Cart_05_M2",
+    "Prop_BBIsle_Coop_03_M2",
+    "Prop_BBIsle_Coop_08_M2",
+    "Prop_BBIsle_Coop_13_M2",
+    "Prop_BBIsle_Coop_18_M2",
+    "Prop_BBIsle_Lamp_02_M2",
+    "Prop_BBIsle_Lamp_07_M2",
+    "Prop_BBIsle_Lamp_12_M2",
+    "Prop_BBIsle_Lamp_17_M2",
+    "Prop_BBIsle_Obelisk_00_M2",
+    "Prop_BBIsle_Obelisk_05_M2",
+    "Prop_BBIsle_Obelisk_10_M2",
+    "Prop_BBIsle_Obelisk_15_M2",
+    "Prop_BBIsle_Planter_03_M2",
+    "Prop_BBIsle_Planter_08_M2",
+    "Prop_BBIsle_Planter_13_M2",
+    "Prop_BBIsle_Planter_18_M2",
+    "Prop_BBIsle_Scarecrow_01_M2",
+    "Prop_BBIsle_Scarecrow_06_M2",
+    "Prop_BBIsle_Scarecrow_11_M2",
+    "Prop_BBIsle_Scarecrow_16_M2",
+    "Prop_BBIsle_Shelf_04_M2",
+    "Prop_BBIsle_Shelf_09_M2",
+    "Prop_BBIsle_Shelf_14_M2",
+    "Prop_BBIsle_Shelf_19_M2",
+    "Prop_BBIsle_Sign_02_M2",
+    "Prop_BBIsle_Sign_07_M2",
+    "Prop_BBIsle_Sign_12_M2",
+    "Prop_BBIsle_Sign_17_M2",
+    "Prop_BBIsle_Statue_00_M2",
+    "Prop_BBIsle_Statue_05_M2",
+    "Prop_BBIsle_Statue_10_M2",
+    "Prop_BBIsle_Statue_15_M2",
+    "Prop_BBIsle_Sundial_03_M2",
+    "Prop_BBIsle_Sundial_08_M2",
+    "Prop_BBIsle_Sundial_13_M2",
+    "Prop_BBIsle_Sundial_18_M2",
+    "Prop_BBIsle_Table_01_M2",
+    "Prop_BBIsle_Table_06_M2",
+    "Prop_BBIsle_Table_11_M2",
+    "Prop_BBIsle_Table_16_M2",
+    "Prop_BBIsle_Tent_04_M2",
+    "Prop_BBIsle_Tent_09_M2",
+    "Prop_BBIsle_Tent_14_M2",
+    "Prop_BBIsle_Tent_19_M2",
+    "Prop_BBIsle_Totem_02_M2",
+    "Prop_BBIsle_Totem_07_M2",
+    "Prop_BBIsle_Totem_12_M2",
+    "Prop_BBIsle_Totem_17_M2",
+    "Prop_BBIsle_Trough_00_M2",
+    "Prop_BBIsle_Trough_05_M2",
+    "Prop_BBIsle_Trough_10_M2",
+    "Prop_BBIsle_Trough_15_M2",
+    "Prop_BBIsle_Well_03_M2",
+    "Prop_BBIsle_Well_08_M2",
+    "Prop_BBIsle_Well_13_M2",
+    "Prop_BBIsle_Well_18_M2",
+    "Prop_BBIsle_Windmill_01_M2",
+    "Prop_BBIsle_Windmill_06_M2",
+    "Prop_BBIsle_Windmill_11_M2",
+    "Prop_BBIsle_Windmill_16_M2",
+    "Prop_OreNode_Heartstone_Large_M1",
+    "Prop_OreNode_Heartstone_Small_M1"
+   ],
+   "uses": 81
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[1.0,0.48777,0.07176,1.0],\"double\":true,\"emissive\":[1.0,0.4878,0.0718],\"emissive_strength\":2.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_GlowGold_01",
+   "source_names": [
+    "Prop_BBIsle_Arch_02_M2",
+    "Prop_BBIsle_Arch_17_M2",
+    "Prop_BBIsle_Banner_15_M2",
+    "Prop_BBIsle_Barrel_03_M2",
+    "Prop_BBIsle_Barrel_08_M2",
+    "Prop_BBIsle_Barrel_13_M2",
+    "Prop_BBIsle_Beehive_01_M2",
+    "Prop_BBIsle_Beehive_06_M2",
+    "Prop_BBIsle_Beehive_11_M2",
+    "Prop_BBIsle_Beehive_16_M2",
+    "Prop_BBIsle_Bell_04_M2",
+    "Prop_BBIsle_Bell_09_M2",
+    "Prop_BBIsle_Bell_14_M2",
+    "Prop_BBIsle_Bell_19_M2",
+    "Prop_BBIsle_Cart_18_M2",
+    "Prop_BBIsle_Coop_01_M2",
+    "Prop_BBIsle_Coop_06_M2",
+    "Prop_BBIsle_Coop_11_M2",
+    "Prop_BBIsle_Coop_16_M2",
+    "Prop_BBIsle_Lamp_00_M2",
+    "Prop_BBIsle_Lamp_05_M2",
+    "Prop_BBIsle_Lamp_10_M2",
+    "Prop_BBIsle_Lamp_15_M2",
+    "Prop_BBIsle_Obelisk_03_M2",
+    "Prop_BBIsle_Obelisk_08_M2",
+    "Prop_BBIsle_Obelisk_13_M2",
+    "Prop_BBIsle_Obelisk_18_M2",
+    "Prop_BBIsle_Planter_01_M2",
+    "Prop_BBIsle_Planter_06_M2",
+    "Prop_BBIsle_Planter_11_M2",
+    "Prop_BBIsle_Planter_16_M2",
+    "Prop_BBIsle_Scarecrow_04_M2",
+    "Prop_BBIsle_Scarecrow_09_M2",
+    "Prop_BBIsle_Scarecrow_14_M2",
+    "Prop_BBIsle_Scarecrow_19_M2",
+    "Prop_BBIsle_Shelf_02_M2",
+    "Prop_BBIsle_Shelf_07_M2",
+    "Prop_BBIsle_Shelf_12_M2",
+    "Prop_BBIsle_Shelf_17_M2",
+    "Prop_BBIsle_Sign_00_M2",
+    "Prop_BBIsle_Sign_05_M2",
+    "Prop_BBIsle_Sign_10_M2",
+    "Prop_BBIsle_Sign_15_M2",
+    "Prop_BBIsle_Statue_03_M2",
+    "Prop_BBIsle_Statue_08_M2",
+    "Prop_BBIsle_Statue_13_M2",
+    "Prop_BBIsle_Statue_18_M2",
+    "Prop_BBIsle_Sundial_01_M2",
+    "Prop_BBIsle_Sundial_06_M2",
+    "Prop_BBIsle_Sundial_11_M2",
+    "Prop_BBIsle_Sundial_16_M2",
+    "Prop_BBIsle_Table_04_M2",
+    "Prop_BBIsle_Table_09_M2",
+    "Prop_BBIsle_Table_14_M2",
+    "Prop_BBIsle_Tent_02_M2",
+    "Prop_BBIsle_Tent_07_M2",
+    "Prop_BBIsle_Tent_12_M2",
+    "Prop_BBIsle_Tent_17_M2",
+    "Prop_BBIsle_Totem_00_M2",
+    "Prop_BBIsle_Totem_05_M2",
+    "Prop_BBIsle_Totem_10_M2",
+    "Prop_BBIsle_Totem_15_M2",
+    "Prop_BBIsle_Trough_03_M2",
+    "Prop_BBIsle_Trough_08_M2",
+    "Prop_BBIsle_Trough_13_M2",
+    "Prop_BBIsle_Trough_18_M2",
+    "Prop_BBIsle_Well_01_M2",
+    "Prop_BBIsle_Well_06_M2",
+    "Prop_BBIsle_Well_11_M2",
+    "Prop_BBIsle_Well_16_M2",
+    "Prop_BBIsle_Windmill_04_M2",
+    "Prop_BBIsle_Windmill_09_M2",
+    "Prop_BBIsle_Windmill_14_M2",
+    "Prop_BBIsle_Windmill_19_M2"
+   ],
+   "uses": 74
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[1.0,0.5114,0.01347,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Gold_05",
+   "source_names": [
+    "Prop_Bloom_DesertMarigold_V9_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[1.0,0.65922,0.77423,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_Cloud_02",
+   "source_names": [
+    "Prop_Bloom_GhostOrchid_V4_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[1.0,0.7519,0.0033,1.0],\"double\":true,\"emissive\":[0.0,0.0,0.0],\"emissive_strength\":1.0,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_BrickYellow_01",
+   "source_names": [
+    "Prop_Bloom_DesertMarigold_V24_M1"
+   ],
+   "uses": 1
+  },
+  {
+   "fingerprint": "{\"alpha\":\"OPAQUE\",\"base\":[1.0,0.92,0.55,1.0],\"double\":true,\"emissive\":[1.0,0.92,0.55],\"emissive_strength\":1.5,\"metal\":0.0,\"rough\":0.6}",
+   "to": "M_BB_GlowCloth_01",
+   "source_names": [
+    "starglass"
+   ],
+   "uses": 1
+  }
+ ]
+}
