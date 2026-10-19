@@ -1,0 +1,78 @@
+{
+ "asset": "Prop_Valley_ExclosureFence_EndPost",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "1e469bf11f1671865c7abd6e4355532b7ec4dc44513bf9e7ba63e741f7bda5b4",
+ "lod0": {
+  "objects": {
+   "Prop_Valley_ExclosureFence_EndPost": 88
+  },
+  "triangles": 88,
+  "bounds_min": [
+   -0.89,
+   -0.0724,
+   0.0
+  ],
+  "bounds_max": [
+   0.0724,
+   0.0724,
+   2.0
+  ],
+  "dimensions": [
+   0.9624,
+   0.1448,
+   2.0
+  ],
+  "materials": {
+   "Prop_Valley_ExclosureFence_EndPost": [
+    "Prop_Valley_ExclosureFence_EndPost_M0",
+    "Prop_Valley_ExclosureFence_EndPost_M2"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_End_A"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_Valley_ExclosureFence_EndPost_00",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_Valley_ExclosureFence_EndPost.glb": {
+   "bytes": 7632,
+   "sha256": "e3da7a6a65aa80db163331e1be14ae590549ebfc1dbc2d82729f77e704a40073"
+  },
+  "Prop_Valley_ExclosureFence_EndPost.blend": {
+   "bytes": 457548,
+   "sha256": "4d5282070b35895338f9b51782b7c8611e92dda62c1f2d6c5e8cf92117815f0d"
+  },
+  "Prop_Valley_ExclosureFence_EndPost_LOD1.glb": {
+   "bytes": 4064,
+   "sha256": "7b3a839b94958264ab4717c43c9cff2a696dddb25edf8ec7b768b83ef4c6e2ea"
+  },
+  "Prop_Valley_ExclosureFence_EndPost.sockets.json": {
+   "bytes": 699,
+   "sha256": "b3582f2e09b17d001d3148f592a0f9f71e41c7cbd45281fbbabcd572df3ace29"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 40,
+  "ratio": 0.455,
+  "dimensions": [
+   0.959,
+   0.1312,
+   1.95
+  ]
+ },
+ "sockets_sidecar": "Prop_Valley_ExclosureFence_EndPost.sockets.json",
+ "ok": true
+}

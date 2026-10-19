@@ -1,0 +1,155 @@
+[
+ [
+  "mesh node Prop_YTM_Stall_Rope",
+  true,
+  ""
+ ],
+ [
+  "Prop_YTM_Stall_Rope tris 240",
+  true,
+  240
+ ],
+ [
+  "Prop_YTM_Stall_Rope parent None",
+  true,
+  null
+ ],
+ [
+  "mesh node Prop_YTM_Stall_Rope_Goods",
+  true,
+  ""
+ ],
+ [
+  "Prop_YTM_Stall_Rope_Goods tris 1940",
+  true,
+  1940
+ ],
+ [
+  "Prop_YTM_Stall_Rope_Goods parent Prop_YTM_Stall_Rope",
+  true,
+  "Prop_YTM_Stall_Rope"
+ ],
+ [
+  "collision UCX_Prop_YTM_Stall_Rope_00 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_YTM_Stall_Rope_00 tris 12, no material, parent Prop_YTM_Stall_Rope",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_YTM_Stall_Rope_01 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_YTM_Stall_Rope_01 tris 12, no material, parent Prop_YTM_Stall_Rope",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_YTM_Stall_Rope_02 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_YTM_Stall_Rope_02 tris 12, no material, parent Prop_YTM_Stall_Rope",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_YTM_Stall_Rope_03 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_YTM_Stall_Rope_03 tris 12, no material, parent Prop_YTM_Stall_Rope",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_YTM_Stall_Rope_04 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_YTM_Stall_Rope_04 tris 12, no material, parent Prop_YTM_Stall_Rope",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Sign under Prop_YTM_Stall_Rope",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Goods under Prop_YTM_Stall_Rope",
+  true,
+  ""
+ ],
+ [
+  "sockets sidecar present",
+  true,
+  ""
+ ],
+ [
+  "sidecar = glb sockets in UE space",
+  true,
+  ""
+ ],
+ [
+  "native socket rotation == sidecar (pre-rotated empties)",
+  true,
+  []
+ ],
+ [
+  "render bounds = predicted (1 mm)",
+  true,
+  [
+   [
+    -0.9,
+    0.0,
+    -0.5687
+   ],
+   [
+    0.9,
+    2.2402,
+    0.63
+   ]
+  ]
+ ],
+ [
+  "LOD1 glb present",
+  true,
+  ""
+ ],
+ [
+  "LOD1 tris 804",
+  true,
+  804
+ ],
+ [
+  "LOD1 has no sockets/collision",
+  true,
+  ""
+ ],
+ [
+  "build_report ok",
+  true,
+  {
+   "triangles": true,
+   "bounds": true,
+   "objects": true,
+   "collision_tris": true,
+   "lod1_triangles": true,
+   "sidecar_sockets": true
+  }
+ ],
+ [
+  "report sha256 = files",
+  true,
+  ""
+ ]
+]

@@ -1,0 +1,107 @@
+{
+ "asset": "Prop_YTM_Stall_Eggs",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "83eb5c761a9fdc306b113f554a949d72108f476b1345350e9e861a2f6ac0cdc5",
+ "lod0": {
+  "objects": {
+   "Prop_YTM_Stall_Eggs": 240,
+   "Prop_YTM_Stall_Eggs_Goods": 1154,
+   "Prop_YTM_Stall_Eggs_Groats": 248
+  },
+  "triangles": 1642,
+  "bounds_min": [
+   -0.9,
+   -0.63,
+   0.0
+  ],
+  "bounds_max": [
+   0.9,
+   0.5687,
+   2.2402
+  ],
+  "dimensions": [
+   1.8,
+   1.1987,
+   2.2402
+  ],
+  "materials": {
+   "Prop_YTM_Stall_Eggs": [
+    "Prop_YTM_Stall_Eggs_M0",
+    "Prop_YTM_Stall_Eggs_M1",
+    "Prop_YTM_Stall_Eggs_M2"
+   ],
+   "Prop_YTM_Stall_Eggs_Goods": [
+    "Prop_YTM_Stall_Eggs_M3",
+    "Prop_YTM_Stall_Eggs_M4",
+    "Prop_YTM_Stall_Eggs_M5"
+   ],
+   "Prop_YTM_Stall_Eggs_Groats": [
+    "Prop_YTM_Stall_Eggs_M6",
+    "Prop_YTM_Stall_Eggs_M7"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Sign",
+  "SOCKET_Goods"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_YTM_Stall_Eggs_00",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_YTM_Stall_Eggs_01",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_YTM_Stall_Eggs_02",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_YTM_Stall_Eggs_03",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_YTM_Stall_Eggs_04",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_YTM_Stall_Eggs.glb": {
+   "bytes": 105512,
+   "sha256": "26066afa4466a7cc0ad8906414e225bfcaf7b4dab589e396d905f071735a140b"
+  },
+  "Prop_YTM_Stall_Eggs.blend": {
+   "bytes": 681192,
+   "sha256": "80a2d2f0e4138a943eaa89e3d48244aeae60528bef817781e9c0fd53fef066a9"
+  },
+  "Prop_YTM_Stall_Eggs_LOD1.glb": {
+   "bytes": 46884,
+   "sha256": "30f10e8c340103f67b5150f24c1742e22a6602a081112450ded942fdc8df085b"
+  },
+  "Prop_YTM_Stall_Eggs.sockets.json": {
+   "bytes": 954,
+   "sha256": "3fd641b7b604bdf5510498a334a69d3b7fef8ed8bc621a9cfd03a5acd6fc93c5"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 730,
+  "ratio": 0.445,
+  "dimensions": [
+   1.8,
+   1.1998,
+   2.2412
+  ]
+ },
+ "sockets_sidecar": "Prop_YTM_Stall_Eggs.sockets.json",
+ "ok": true
+}

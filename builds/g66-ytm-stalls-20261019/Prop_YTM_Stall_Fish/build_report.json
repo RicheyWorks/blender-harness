@@ -1,0 +1,102 @@
+{
+ "asset": "Prop_YTM_Stall_Fish",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "977400f0e23f62a7c2072f5295b5951453620d7a5ba35ad0fa9385f2a5571866",
+ "lod0": {
+  "objects": {
+   "Prop_YTM_Stall_Fish": 240,
+   "Prop_YTM_Stall_Fish_Goods": 766
+  },
+  "triangles": 1006,
+  "bounds_min": [
+   -0.9,
+   -0.63,
+   0.0
+  ],
+  "bounds_max": [
+   0.9,
+   0.5687,
+   2.2402
+  ],
+  "dimensions": [
+   1.8,
+   1.1987,
+   2.2402
+  ],
+  "materials": {
+   "Prop_YTM_Stall_Fish": [
+    "Prop_YTM_Stall_Fish_M0",
+    "Prop_YTM_Stall_Fish_M1",
+    "Prop_YTM_Stall_Fish_M2"
+   ],
+   "Prop_YTM_Stall_Fish_Goods": [
+    "Prop_YTM_Stall_Fish_M3",
+    "Prop_YTM_Stall_Fish_M4",
+    "Prop_YTM_Stall_Fish_M5"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Sign",
+  "SOCKET_Goods"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_YTM_Stall_Fish_00",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_YTM_Stall_Fish_01",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_YTM_Stall_Fish_02",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_YTM_Stall_Fish_03",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_YTM_Stall_Fish_04",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_YTM_Stall_Fish.glb": {
+   "bytes": 66036,
+   "sha256": "5bf854847c854f0c7a1b508aeb06332b12bca030f32c2c3e281496af0d988982"
+  },
+  "Prop_YTM_Stall_Fish.blend": {
+   "bytes": 606192,
+   "sha256": "c33c4982e9de67655aa180c7503568c9d68b7327a59c8396f7307e596714d9c9"
+  },
+  "Prop_YTM_Stall_Fish_LOD1.glb": {
+   "bytes": 34148,
+   "sha256": "780cfaa72ee59864dd0cf3d8930a140af8ae37daf2cc29ee7021d50b3e12797f"
+  },
+  "Prop_YTM_Stall_Fish.sockets.json": {
+   "bytes": 954,
+   "sha256": "7d2bbb8a3aec5dd6d0e210d5625277c7fe8bf633fd437e18aec93094718b8c04"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 545,
+  "ratio": 0.542,
+  "dimensions": [
+   1.8,
+   1.1998,
+   2.2412
+  ]
+ },
+ "sockets_sidecar": "Prop_YTM_Stall_Fish.sockets.json",
+ "ok": true
+}

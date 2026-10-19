@@ -1,0 +1,102 @@
+{
+ "asset": "Prop_YTM_Stall_Rope",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "e25e5f230b3fa50fe2e1f7fe97f81129f267c0cc6ec175cf21086d1c99f9f237",
+ "lod0": {
+  "objects": {
+   "Prop_YTM_Stall_Rope": 240,
+   "Prop_YTM_Stall_Rope_Goods": 1940
+  },
+  "triangles": 2180,
+  "bounds_min": [
+   -0.9,
+   -0.63,
+   0.0
+  ],
+  "bounds_max": [
+   0.9,
+   0.5687,
+   2.2402
+  ],
+  "dimensions": [
+   1.8,
+   1.1987,
+   2.2402
+  ],
+  "materials": {
+   "Prop_YTM_Stall_Rope": [
+    "Prop_YTM_Stall_Rope_M0",
+    "Prop_YTM_Stall_Rope_M1",
+    "Prop_YTM_Stall_Rope_M2"
+   ],
+   "Prop_YTM_Stall_Rope_Goods": [
+    "Prop_YTM_Stall_Rope_M3",
+    "Prop_YTM_Stall_Rope_M4",
+    "Prop_YTM_Stall_Rope_M5"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Sign",
+  "SOCKET_Goods"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_YTM_Stall_Rope_00",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_YTM_Stall_Rope_01",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_YTM_Stall_Rope_02",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_YTM_Stall_Rope_03",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_YTM_Stall_Rope_04",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_YTM_Stall_Rope.glb": {
+   "bytes": 129552,
+   "sha256": "10b1c279c64ca5c347a41fae2a44113ee4b86c5d37f8d897db12813ea3e6ed5a"
+  },
+  "Prop_YTM_Stall_Rope.blend": {
+   "bytes": 649188,
+   "sha256": "24e6df195b78f3d18b6f949b4c273126c4cc0d8a49b2f8fa9ba19d3917a24020"
+  },
+  "Prop_YTM_Stall_Rope_LOD1.glb": {
+   "bytes": 48668,
+   "sha256": "28c47aa2627fa5099f29ed9638603758158ed4257feef8d15244222f45ed597a"
+  },
+  "Prop_YTM_Stall_Rope.sockets.json": {
+   "bytes": 954,
+   "sha256": "273d88a77fd9010da496ba094309f5f3ecbb420babb3244fea2b53f97926a211"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 804,
+  "ratio": 0.369,
+  "dimensions": [
+   1.8,
+   1.1998,
+   2.2412
+  ]
+ },
+ "sockets_sidecar": "Prop_YTM_Stall_Rope.sockets.json",
+ "ok": true
+}

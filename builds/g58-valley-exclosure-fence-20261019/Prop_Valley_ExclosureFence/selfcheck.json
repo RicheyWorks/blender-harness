@@ -1,0 +1,100 @@
+[
+ [
+  "mesh node Prop_Valley_ExclosureFence",
+  true,
+  ""
+ ],
+ [
+  "Prop_Valley_ExclosureFence tris 304",
+  true,
+  304
+ ],
+ [
+  "Prop_Valley_ExclosureFence parent None",
+  true,
+  null
+ ],
+ [
+  "collision UCX_Prop_Valley_ExclosureFence_00 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_Valley_ExclosureFence_00 tris 12, no material, parent Prop_Valley_ExclosureFence",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_End_A under Prop_Valley_ExclosureFence",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_End_B under Prop_Valley_ExclosureFence",
+  true,
+  ""
+ ],
+ [
+  "sockets sidecar present",
+  true,
+  ""
+ ],
+ [
+  "sidecar = glb sockets in UE space",
+  true,
+  ""
+ ],
+ [
+  "native socket rotation == sidecar (pre-rotated empties)",
+  true,
+  []
+ ],
+ [
+  "render bounds = predicted (1 mm)",
+  true,
+  [
+   [
+    -1.563,
+    0.0,
+    -0.063
+   ],
+   [
+    1.5,
+    1.95,
+    0.071
+   ]
+  ]
+ ],
+ [
+  "LOD1 glb present",
+  true,
+  ""
+ ],
+ [
+  "LOD1 tris 128",
+  true,
+  128
+ ],
+ [
+  "LOD1 has no sockets/collision",
+  true,
+  ""
+ ],
+ [
+  "build_report ok",
+  true,
+  {
+   "triangles": true,
+   "bounds": true,
+   "objects": true,
+   "collision_tris": true,
+   "lod1_triangles": true,
+   "sidecar_sockets": true
+  }
+ ],
+ [
+  "report sha256 = files",
+  true,
+  ""
+ ]
+]

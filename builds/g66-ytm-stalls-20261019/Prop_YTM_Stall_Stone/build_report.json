@@ -1,0 +1,102 @@
+{
+ "asset": "Prop_YTM_Stall_Stone",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "ba699f5bcbbc0fd12cd4bc7d0858cdaf7c5de0b78c322506724dd82ea75f0251",
+ "lod0": {
+  "objects": {
+   "Prop_YTM_Stall_Stone": 240,
+   "Prop_YTM_Stall_Stone_Goods": 596
+  },
+  "triangles": 836,
+  "bounds_min": [
+   -0.9,
+   -0.63,
+   0.0
+  ],
+  "bounds_max": [
+   0.9,
+   0.5687,
+   2.2402
+  ],
+  "dimensions": [
+   1.8,
+   1.1987,
+   2.2402
+  ],
+  "materials": {
+   "Prop_YTM_Stall_Stone": [
+    "Prop_YTM_Stall_Stone_M0",
+    "Prop_YTM_Stall_Stone_M1",
+    "Prop_YTM_Stall_Stone_M2"
+   ],
+   "Prop_YTM_Stall_Stone_Goods": [
+    "Prop_YTM_Stall_Stone_M3",
+    "Prop_YTM_Stall_Stone_M4",
+    "Prop_YTM_Stall_Stone_M5"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Sign",
+  "SOCKET_Goods"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_YTM_Stall_Stone_00",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_YTM_Stall_Stone_01",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_YTM_Stall_Stone_02",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_YTM_Stall_Stone_03",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_YTM_Stall_Stone_04",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_YTM_Stall_Stone.glb": {
+   "bytes": 59544,
+   "sha256": "432ec5b0b7830784700efad75e66a44eda5a2dacdf8e99a7710f41a238c0ced8"
+  },
+  "Prop_YTM_Stall_Stone.blend": {
+   "bytes": 601740,
+   "sha256": "749cdc955bcb9720fd59005cd7203e272159b009d816af722a9234812e81571d"
+  },
+  "Prop_YTM_Stall_Stone_LOD1.glb": {
+   "bytes": 21432,
+   "sha256": "178abe2ea317a2bb2f4615f6e226685daff1bae7fd1eca341e6dd177ddf23f0e"
+  },
+  "Prop_YTM_Stall_Stone.sockets.json": {
+   "bytes": 957,
+   "sha256": "efe65b7ab392b66442af0e0d02dce27b3bd03a8c551a65583527544e06f422a0"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 300,
+  "ratio": 0.359,
+  "dimensions": [
+   1.8,
+   1.1998,
+   2.2412
+  ]
+ },
+ "sockets_sidecar": "Prop_YTM_Stall_Stone.sockets.json",
+ "ok": true
+}
