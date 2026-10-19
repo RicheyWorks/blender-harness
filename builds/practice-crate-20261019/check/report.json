@@ -1,0 +1,35 @@
+{
+  "schema": "combat-slice/v1-report",
+  "slice": "ueb-practice-crate-20261019",
+  "dest": "/Game/Daedalus/Combat/ueb-practice-crate-20261019",
+  "imported": false,
+  "at": "2026-10-19T00:47:57",
+  "ok": true,
+  "assets": [
+    {
+      "name": "Prop_PracticeCrate",
+      "role": "weapon",
+      "path": "C:\\Users\\730ri\\projects\\bot-team\\staging\\practice-crate-20261019\\Prop_PracticeCrate.glb",
+      "checks": [
+        {
+          "check": "glb readable",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "check": "socket Top",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "check": "triangles <= 500",
+          "ok": true,
+          "detail": 132
+        }
+      ],
+      "ok": true,
+      "verdict": "PASS"
+    }
+  ],
+  "verdict": "PASS"
+}

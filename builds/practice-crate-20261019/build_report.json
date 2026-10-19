@@ -1,0 +1,19 @@
+{
+ "asset": "Prop_PracticeCrate",
+ "triangles": 132,
+ "predicted_triangles": 132,
+ "dimensions": [
+  0.52,
+  0.52,
+  0.5
+ ],
+ "sockets": [
+  "SOCKET_Top"
+ ],
+ "files": [
+  "C:\\Users\\730ri\\projects\\bot-team\\staging\\practice-crate-20261019\\Prop_PracticeCrate.blend",
+  "C:\\Users\\730ri\\projects\\bot-team\\staging\\practice-crate-20261019\\Prop_PracticeCrate.glb"
+ ],
+ "match": true,
+ "status": "BUILT (staged, not READY)"
+}
