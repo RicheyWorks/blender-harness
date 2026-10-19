@@ -1,0 +1,79 @@
+{
+ "asset": "Prop_Survey_Calipers_Jaw",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "b83b1dda8b8113f02716af29e395390f058b33e0aa33f632dc8ccb57609659b5",
+ "lod0": {
+  "objects": {
+   "Prop_Survey_Calipers_Jaw": 132
+  },
+  "triangles": 132,
+  "bounds_min": [
+   0.0,
+   -0.062,
+   0.0
+  ],
+  "bounds_max": [
+   0.038,
+   0.024,
+   0.011
+  ],
+  "dimensions": [
+   0.038,
+   0.086,
+   0.011
+  ],
+  "materials": {
+   "Prop_Survey_Calipers_Jaw": [
+    "Prop_Survey_Calipers_Jaw_M0",
+    "Prop_Survey_Calipers_Jaw_M1",
+    "Prop_Survey_Calipers_Jaw_M2"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Slide"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_Survey_Calipers_Jaw_00",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_Survey_Calipers_Jaw.glb": {
+   "bytes": 10492,
+   "sha256": "1d0abe84ad88611df283eda39bd69e00e87a3f1481608c06e7cf5f91e72ce239"
+  },
+  "Prop_Survey_Calipers_Jaw.blend": {
+   "bytes": 482256,
+   "sha256": "213410f92120b55b56beb23e60ba24f6720384aea8a2b5add93e4fe6730ce2f7"
+  },
+  "Prop_Survey_Calipers_Jaw_LOD1.glb": {
+   "bytes": 5528,
+   "sha256": "a076f63d000b8ee096d1d5edda993ac89f664bb9a5af8a95cea183f9857799f1"
+  },
+  "Prop_Survey_Calipers_Jaw.sockets.json": {
+   "bytes": 1102,
+   "sha256": "c8ee0114e2c8298f4c37e4ea682bd32114f0ab4a988587b875106bbc96a6a10d"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 68,
+  "ratio": 0.515,
+  "dimensions": [
+   0.038,
+   0.086,
+   0.0097
+  ]
+ },
+ "sockets_sidecar": "Prop_Survey_Calipers_Jaw.sockets.json",
+ "ok": true
+}

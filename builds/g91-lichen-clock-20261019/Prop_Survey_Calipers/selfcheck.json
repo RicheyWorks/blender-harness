@@ -1,0 +1,115 @@
+[
+ [
+  "mesh node Prop_Survey_Calipers",
+  true,
+  ""
+ ],
+ [
+  "Prop_Survey_Calipers tris 420",
+  true,
+  420
+ ],
+ [
+  "Prop_Survey_Calipers parent None",
+  true,
+  null
+ ],
+ [
+  "collision UCX_Prop_Survey_Calipers_00 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_Survey_Calipers_00 tris 12, no material, parent Prop_Survey_Calipers",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_Survey_Calipers_01 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_Survey_Calipers_01 tris 12, no material, parent Prop_Survey_Calipers",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Grip under Prop_Survey_Calipers",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Slide under Prop_Survey_Calipers",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_JawTip under Prop_Survey_Calipers",
+  true,
+  ""
+ ],
+ [
+  "sockets sidecar present",
+  true,
+  ""
+ ],
+ [
+  "sidecar = glb sockets in UE space",
+  true,
+  ""
+ ],
+ [
+  "native socket rotation == sidecar (pre-rotated empties)",
+  true,
+  []
+ ],
+ [
+  "render bounds = predicted (1 mm)",
+  true,
+  [
+   [
+    -0.1,
+    0.0,
+    -0.024
+   ],
+   [
+    0.1,
+    0.0038,
+    0.062
+   ]
+  ]
+ ],
+ [
+  "LOD1 glb present",
+  true,
+  ""
+ ],
+ [
+  "LOD1 tris 240",
+  true,
+  240
+ ],
+ [
+  "LOD1 has no sockets/collision",
+  true,
+  ""
+ ],
+ [
+  "build_report ok",
+  true,
+  {
+   "triangles": true,
+   "bounds": true,
+   "objects": true,
+   "collision_tris": true,
+   "lod1_triangles": true,
+   "sidecar_sockets": true
+  }
+ ],
+ [
+  "report sha256 = files",
+  true,
+  ""
+ ]
+]

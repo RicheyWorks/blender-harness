@@ -1,0 +1,95 @@
+[
+ [
+  "mesh node Prop_Survey_Calipers_Jaw",
+  true,
+  ""
+ ],
+ [
+  "Prop_Survey_Calipers_Jaw tris 132",
+  true,
+  132
+ ],
+ [
+  "Prop_Survey_Calipers_Jaw parent None",
+  true,
+  null
+ ],
+ [
+  "collision UCX_Prop_Survey_Calipers_Jaw_00 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_Survey_Calipers_Jaw_00 tris 12, no material, parent Prop_Survey_Calipers_Jaw",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Slide under Prop_Survey_Calipers_Jaw",
+  true,
+  ""
+ ],
+ [
+  "sockets sidecar present",
+  true,
+  ""
+ ],
+ [
+  "sidecar = glb sockets in UE space",
+  true,
+  ""
+ ],
+ [
+  "native socket rotation == sidecar (pre-rotated empties)",
+  true,
+  []
+ ],
+ [
+  "render bounds = predicted (1 mm)",
+  true,
+  [
+   [
+    0.0,
+    0.0,
+    -0.024
+   ],
+   [
+    0.038,
+    0.011,
+    0.062
+   ]
+  ]
+ ],
+ [
+  "LOD1 glb present",
+  true,
+  ""
+ ],
+ [
+  "LOD1 tris 68",
+  true,
+  68
+ ],
+ [
+  "LOD1 has no sockets/collision",
+  true,
+  ""
+ ],
+ [
+  "build_report ok",
+  true,
+  {
+   "triangles": true,
+   "bounds": true,
+   "objects": true,
+   "collision_tris": true,
+   "lod1_triangles": true,
+   "sidecar_sockets": true
+  }
+ ],
+ [
+  "report sha256 = files",
+  true,
+  ""
+ ]
+]
