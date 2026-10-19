@@ -1,0 +1,243 @@
+{
+ "asset": "Mob_Valley_Elk",
+ "status": "BUILT (staged, NOT READY)",
+ "schema": "blender-quadruped/v1",
+ "lod0": {
+  "triangles": 1084,
+  "bounds_min": [
+   -0.4608,
+   -1.28,
+   0.0
+  ],
+  "bounds_max": [
+   0.4608,
+   0.9237,
+   2.6795
+  ],
+  "dimensions": [
+   0.9216,
+   2.2037,
+   2.6795
+  ],
+  "bind": {
+   "auto_parts": [
+    "Torso",
+    "Neck",
+    "Head",
+    "Snout",
+    "AntlerL_Beam0",
+    "AntlerR_Beam0",
+    "Tail",
+    "LegFL_Upper",
+    "LegFL_Lower",
+    "HoofFL",
+    "LegFR_Upper",
+    "LegFR_Lower",
+    "HoofFR",
+    "LegBL_Upper",
+    "LegBL_Lower",
+    "HoofBL",
+    "LegBR_Upper",
+    "LegBR_Lower",
+    "HoofBR"
+   ],
+   "rigid_parts": [
+    "AntlerL_Beam1",
+    "AntlerL_Beam2",
+    "AntlerL_Tine0",
+    "AntlerL_Tine1",
+    "AntlerL_Tine2",
+    "AntlerL_Tine3",
+    "AntlerL_Tine4",
+    "AntlerL_Tine5",
+    "AntlerR_Beam1",
+    "AntlerR_Beam2",
+    "AntlerR_Tine0",
+    "AntlerR_Tine1",
+    "AntlerR_Tine2",
+    "AntlerR_Tine3",
+    "AntlerR_Tine4",
+    "AntlerR_Tine5"
+   ],
+   "method": "ARMATURE_AUTO bone heat",
+   "max_influences": 4,
+   "unweighted_vertices": 0,
+   "non_normalised_vertices": 0,
+   "vertices": 612
+  },
+  "clips": [
+   {
+    "name": "Idle",
+    "frames": 60,
+    "fps": 30,
+    "fcurves": 12
+   },
+   {
+    "name": "Walk",
+    "frames": 32,
+    "fps": 30,
+    "fcurves": 36
+   },
+   {
+    "name": "Run",
+    "frames": 18,
+    "fps": 30,
+    "fcurves": 36
+   }
+  ]
+ },
+ "lod1": {
+  "triangles": 640,
+  "bounds_min": [
+   -0.4608,
+   -1.28,
+   0.1152
+  ],
+  "bounds_max": [
+   0.4608,
+   0.926,
+   2.6282
+  ],
+  "dimensions": [
+   0.9216,
+   2.206,
+   2.513
+  ],
+  "bind": {
+   "auto_parts": [],
+   "rigid_parts": [
+    "Torso",
+    "Neck",
+    "Head",
+    "AntlerL_Beam0",
+    "AntlerL_Beam1",
+    "AntlerL_Beam2",
+    "AntlerL_Tine0",
+    "AntlerL_Tine2",
+    "AntlerL_Tine4",
+    "AntlerR_Beam0",
+    "AntlerR_Beam1",
+    "AntlerR_Beam2",
+    "AntlerR_Tine0",
+    "AntlerR_Tine2",
+    "AntlerR_Tine4",
+    "Tail",
+    "LegFL_Upper",
+    "LegFL_Lower",
+    "LegFR_Upper",
+    "LegFR_Lower",
+    "LegBL_Upper",
+    "LegBL_Lower",
+    "LegBR_Upper",
+    "LegBR_Lower"
+   ],
+   "method": "ARMATURE_AUTO bone heat",
+   "max_influences": 1,
+   "unweighted_vertices": 0,
+   "non_normalised_vertices": 0,
+   "vertices": 368
+  },
+  "clips": []
+ },
+ "glb": {
+  "triangles": 1084,
+  "skins": 1,
+  "joints": [
+   15
+  ],
+  "joint_names": [
+   "Chest",
+   "Head",
+   "Hips",
+   "LegBL_Lower",
+   "LegBL_Upper",
+   "LegBR_Lower",
+   "LegBR_Upper",
+   "LegFL_Lower",
+   "LegFL_Upper",
+   "LegFR_Lower",
+   "LegFR_Upper",
+   "Neck",
+   "Root",
+   "Spine",
+   "Tail"
+  ],
+  "skinned_attrs": true,
+  "inverse_bind_matrices": true,
+  "animations": [
+   {
+    "name": "Idle",
+    "channels": 45,
+    "seconds": 2
+   },
+   {
+    "name": "Run",
+    "channels": 45,
+    "seconds": 0.6
+   },
+   {
+    "name": "Walk",
+    "channels": 45,
+    "seconds": 1.0667
+   }
+  ],
+  "mesh_nodes": [
+   "Mob_Valley_Elk"
+  ]
+ },
+ "glb_lod1": {
+  "triangles": 640,
+  "skins": 1,
+  "joints": [
+   15
+  ],
+  "joint_names": [
+   "Chest",
+   "Head",
+   "Hips",
+   "LegBL_Lower",
+   "LegBL_Upper",
+   "LegBR_Lower",
+   "LegBR_Upper",
+   "LegFL_Lower",
+   "LegFL_Upper",
+   "LegFR_Lower",
+   "LegFR_Upper",
+   "Neck",
+   "Root",
+   "Spine",
+   "Tail"
+  ],
+  "skinned_attrs": true,
+  "inverse_bind_matrices": true,
+  "animations": [],
+  "mesh_nodes": [
+   "Mob_Valley_Elk"
+  ]
+ },
+ "files": {
+  "Mob_Valley_Elk.glb": {
+   "bytes": 158616,
+   "sha256": "3afc07433f6721dbd85890207f0f6a0c993b04ce6b91244a7421e98a46ccbf12"
+  },
+  "Mob_Valley_Elk_LOD1.glb": {
+   "bytes": 70480,
+   "sha256": "b9be2412d5fad406cb372bee0e89329d168d7fcf14b16c85abda535ce48ea673"
+  },
+  "Mob_Valley_Elk.blend": {
+   "bytes": 692172,
+   "sha256": "33fcac664d5f07e787d2e124d5e866deceaf9cc145e27ca94ec54d9917b18af6"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "lod1_triangles": true,
+  "bounds": true,
+  "skeleton": true,
+  "skinned": true,
+  "clips": true,
+  "lod1_no_clips": true,
+  "weights": true
+ },
+ "ok": true
+}
