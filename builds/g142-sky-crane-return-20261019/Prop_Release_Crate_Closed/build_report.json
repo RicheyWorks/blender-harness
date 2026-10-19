@@ -1,0 +1,108 @@
+{
+ "asset": "Prop_Release_Crate_Closed",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "9a954066e7721d78a8c12fecc31cc730667a53dde45f780fae0ebe072e8b3ed7",
+ "lod0": {
+  "objects": {
+   "Prop_Release_Crate_Closed": 472,
+   "Prop_Release_Crate_Closed_Door": 200
+  },
+  "triangles": 672,
+  "bounds_min": [
+   -0.468,
+   -0.65,
+   0.0
+  ],
+  "bounds_max": [
+   0.468,
+   0.65,
+   1.57
+  ],
+  "dimensions": [
+   0.936,
+   1.3,
+   1.57
+  ],
+  "materials": {
+   "Prop_Release_Crate_Closed": [
+    "Prop_Release_Crate_Closed_M0",
+    "Prop_Release_Crate_Closed_M1",
+    "Prop_Release_Crate_Closed_M2"
+   ],
+   "Prop_Release_Crate_Closed_Door": [
+    "Prop_Release_Crate_Closed_M0",
+    "Prop_Release_Crate_Closed_M1",
+    "Prop_Release_Crate_Closed_M2"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Crane",
+  "SOCKET_Release",
+  "SOCKET_Carry_L",
+  "SOCKET_Carry_R"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_Release_Crate_Closed_00",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_Release_Crate_Closed_01",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_Release_Crate_Closed_02",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_Release_Crate_Closed_03",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_Release_Crate_Closed_04",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_Release_Crate_Closed_05",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_Release_Crate_Closed.glb": {
+   "bytes": 47804,
+   "sha256": "c6178c60e78cf36cc1a0694a7f8aa3061912d7461a6d6eacd681b699f89a3768"
+  },
+  "Prop_Release_Crate_Closed.blend": {
+   "bytes": 531848,
+   "sha256": "409843324ceb22ba4d33ee98f8348b7798b0aad23b8968f35d259f77b1c7050e"
+  },
+  "Prop_Release_Crate_Closed_LOD1.glb": {
+   "bytes": 23452,
+   "sha256": "c9cc3399f616f23bb58405f446693d4aa20e330b6c5f8a93e7d4dd88ce69bd7f"
+  },
+  "Prop_Release_Crate_Closed.sockets.json": {
+   "bytes": 1560,
+   "sha256": "45116a73323926c65a63c51dfdac1b919925ad9888e0b31b8edb4edbdb82f442"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 348,
+  "ratio": 0.518,
+  "dimensions": [
+   0.936,
+   1.3,
+   1.54
+  ]
+ },
+ "sockets_sidecar": "Prop_Release_Crate_Closed.sockets.json",
+ "ok": true
+}

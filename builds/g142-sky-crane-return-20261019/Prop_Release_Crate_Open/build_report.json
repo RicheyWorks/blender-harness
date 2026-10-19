@@ -1,0 +1,108 @@
+{
+ "asset": "Prop_Release_Crate_Open",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "8606832455046a3b9e19ec2b2683cf2f1d3599a55a6f516f7072f3b791ba9939",
+ "lod0": {
+  "objects": {
+   "Prop_Release_Crate_Open": 472,
+   "Prop_Release_Crate_Open_Door": 200
+  },
+  "triangles": 672,
+  "bounds_min": [
+   -0.6417,
+   -1.1826,
+   0.0
+  ],
+  "bounds_max": [
+   0.468,
+   0.65,
+   1.57
+  ],
+  "dimensions": [
+   1.1097,
+   1.8326,
+   1.57
+  ],
+  "materials": {
+   "Prop_Release_Crate_Open": [
+    "Prop_Release_Crate_Open_M0",
+    "Prop_Release_Crate_Open_M1",
+    "Prop_Release_Crate_Open_M2"
+   ],
+   "Prop_Release_Crate_Open_Door": [
+    "Prop_Release_Crate_Open_M0",
+    "Prop_Release_Crate_Open_M1",
+    "Prop_Release_Crate_Open_M2"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Crane",
+  "SOCKET_Release",
+  "SOCKET_Carry_L",
+  "SOCKET_Carry_R"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_Release_Crate_Open_00",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_Release_Crate_Open_01",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_Release_Crate_Open_02",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_Release_Crate_Open_03",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_Release_Crate_Open_04",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_Release_Crate_Open_05",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_Release_Crate_Open.glb": {
+   "bytes": 48000,
+   "sha256": "ead54fdfc16c01512eb0c567184355885217c689c64f0782453e0c3108129b53"
+  },
+  "Prop_Release_Crate_Open.blend": {
+   "bytes": 531848,
+   "sha256": "5eb2e04fbf6d529704e9055225a76500df6861d175ed0ddc6778f3227db28e4f"
+  },
+  "Prop_Release_Crate_Open_LOD1.glb": {
+   "bytes": 23452,
+   "sha256": "35d73c12226a87c14ae524024fd4578d0d182f9fa073ba2f90af367444c03cb8"
+  },
+  "Prop_Release_Crate_Open.sockets.json": {
+   "bytes": 1550,
+   "sha256": "965911a06d397fcd61e05294f64459604b5813f3c3d59637a925666e3d7bd518"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 348,
+  "ratio": 0.518,
+  "dimensions": [
+   1.1092,
+   1.8326,
+   1.54
+  ]
+ },
+ "sockets_sidecar": "Prop_Release_Crate_Open.sockets.json",
+ "ok": true
+}

@@ -1,0 +1,71 @@
+{
+ "asset": "Prop_Release_Crate_Door",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "7730b657ed5459194b6fcd47e618c43d3553b3fa9f639eb9fa8762b2617b448e",
+ "lod0": {
+  "objects": {
+   "Prop_Release_Crate_Door": 200
+  },
+  "triangles": 200,
+  "bounds_min": [
+   0.0,
+   -0.0504,
+   0.13
+  ],
+  "bounds_max": [
+   0.72,
+   0.0175,
+   1.45
+  ],
+  "dimensions": [
+   0.72,
+   0.0679,
+   1.32
+  ],
+  "materials": {
+   "Prop_Release_Crate_Door": [
+    "Prop_Release_Crate_Door_M0",
+    "Prop_Release_Crate_Door_M1",
+    "Prop_Release_Crate_Door_M2"
+   ]
+  }
+ },
+ "sockets": [],
+ "collision": [
+  {
+   "name": "UCX_Prop_Release_Crate_Door_00",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_Release_Crate_Door.glb": {
+   "bytes": 14544,
+   "sha256": "217869cc5eebeed09f58e527e6b61a59f999f9bed13b5403fe9e69bd6fb2d1d3"
+  },
+  "Prop_Release_Crate_Door.blend": {
+   "bytes": 483836,
+   "sha256": "5c7c6a8832a30ce20268f45e99387e800eafc585c08b2ecad33a89debcbc5ff6"
+  },
+  "Prop_Release_Crate_Door_LOD1.glb": {
+   "bytes": 7264,
+   "sha256": "7e642367e2a58e9a8444c606ff47f8a4d3ad0812f126406a83a08e82678cd007"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true
+ },
+ "lod1": {
+  "triangles": 84,
+  "ratio": 0.42,
+  "dimensions": [
+   0.72,
+   0.0695,
+   1.32
+  ]
+ },
+ "ok": true
+}

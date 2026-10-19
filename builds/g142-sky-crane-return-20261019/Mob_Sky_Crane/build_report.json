@@ -1,0 +1,295 @@
+{
+ "asset": "Mob_Sky_Crane",
+ "status": "BUILT (staged, NOT READY)",
+ "schema": "blender-bird/v1",
+ "lod0": {
+  "triangles": 384,
+  "bounds_min": [
+   -0.122,
+   -0.4835,
+   0.0
+  ],
+  "bounds_max": [
+   0.122,
+   0.48,
+   1.182
+  ],
+  "dimensions": [
+   0.244,
+   0.9635,
+   1.182
+  ],
+  "bind": {
+   "auto_parts": [],
+   "rigid_parts": [
+    "Body",
+    "Neck",
+    "Head",
+    "Eye_L",
+    "Eye_R",
+    "Beak_Upper",
+    "Beak_Lower",
+    "Wing_L",
+    "WingTip_L",
+    "Wing_R",
+    "WingTip_R",
+    "Tail",
+    "Leg_L",
+    "Foot_L",
+    "Leg_R",
+    "Foot_R"
+   ],
+   "method": "rigid per part (recipe bind_mode)",
+   "max_influences": 1,
+   "unweighted_vertices": 0,
+   "non_normalised_vertices": 0,
+   "vertices": 236
+  },
+  "clips": [
+   {
+    "name": "Idle",
+    "frames": 120,
+    "fps": 30,
+    "fcurves": 12
+   },
+   {
+    "name": "Walk",
+    "frames": 40,
+    "fps": 30,
+    "fcurves": 18
+   },
+   {
+    "name": "Fly",
+    "frames": 24,
+    "fps": 30,
+    "fcurves": 24
+   },
+   {
+    "name": "Dance",
+    "frames": 48,
+    "fps": 30,
+    "fcurves": 24
+   }
+  ],
+  "sockets": [
+   {
+    "name": "SOCKET_LegBand",
+    "bone": "Leg_L",
+    "location_m": [
+     0.06,
+     0.033,
+     0.1704
+    ],
+    "offset_from_bone_head_m": [
+     0.0,
+     -0.007,
+     -0.3696
+    ],
+    "offset_bone_local_m": [
+     0.0,
+     0.3696,
+     -0.007
+    ],
+    "offset_from_bone_head_ue_cm": [
+     0.0,
+     0.7,
+     -36.96
+    ],
+    "location_ue_cm": [
+     6.0,
+     -3.3,
+     17.04
+    ],
+    "rotation": [
+     0,
+     0,
+     0
+    ]
+   }
+  ]
+ },
+ "lod1": {
+  "triangles": 224,
+  "bounds_min": [
+   -0.122,
+   -0.4835,
+   0.0
+  ],
+  "bounds_max": [
+   0.122,
+   0.3895,
+   1.1799
+  ],
+  "dimensions": [
+   0.244,
+   0.873,
+   1.1799
+  ],
+  "bind": {
+   "auto_parts": [],
+   "rigid_parts": [
+    "Body",
+    "Neck",
+    "Head",
+    "Beak_Upper",
+    "Beak_Lower",
+    "Wing_L",
+    "Wing_R",
+    "Tail",
+    "Leg_L",
+    "Foot_L",
+    "Leg_R",
+    "Foot_R"
+   ],
+   "method": "rigid per part (recipe bind_mode)",
+   "max_influences": 1,
+   "unweighted_vertices": 0,
+   "non_normalised_vertices": 0,
+   "vertices": 143
+  },
+  "clips": [],
+  "sockets": [
+   {
+    "name": "SOCKET_LegBand",
+    "bone": "Leg_L",
+    "location_m": [
+     0.06,
+     0.033,
+     0.1704
+    ],
+    "offset_from_bone_head_m": [
+     0.0,
+     -0.007,
+     -0.3696
+    ],
+    "offset_bone_local_m": [
+     0.0,
+     0.3696,
+     -0.007
+    ],
+    "offset_from_bone_head_ue_cm": [
+     0.0,
+     0.7,
+     -36.96
+    ],
+    "location_ue_cm": [
+     6.0,
+     -3.3,
+     17.04
+    ],
+    "rotation": [
+     0,
+     0,
+     0
+    ]
+   }
+  ]
+ },
+ "glb": {
+  "triangles": 384,
+  "skins": 1,
+  "joints": [
+   10
+  ],
+  "joint_names": [
+   "Beak_Lower",
+   "Body",
+   "Head",
+   "Leg_L",
+   "Leg_R",
+   "Neck",
+   "Root",
+   "Tail",
+   "Wing_L",
+   "Wing_R"
+  ],
+  "skinned_attrs": true,
+  "inverse_bind_matrices": true,
+  "animations": [
+   {
+    "name": "Dance",
+    "channels": 30,
+    "seconds": 1.6
+   },
+   {
+    "name": "Fly",
+    "channels": 30,
+    "seconds": 0.8
+   },
+   {
+    "name": "Idle",
+    "channels": 30,
+    "seconds": 4
+   },
+   {
+    "name": "Walk",
+    "channels": 30,
+    "seconds": 1.3333
+   }
+  ],
+  "mesh_nodes": [
+   "Mob_Sky_Crane"
+  ],
+  "socket_nodes": [
+   "SOCKET_LegBand"
+  ]
+ },
+ "glb_lod1": {
+  "triangles": 224,
+  "skins": 1,
+  "joints": [
+   10
+  ],
+  "joint_names": [
+   "Beak_Lower",
+   "Body",
+   "Head",
+   "Leg_L",
+   "Leg_R",
+   "Neck",
+   "Root",
+   "Tail",
+   "Wing_L",
+   "Wing_R"
+  ],
+  "skinned_attrs": true,
+  "inverse_bind_matrices": true,
+  "animations": [],
+  "mesh_nodes": [
+   "Mob_Sky_Crane"
+  ],
+  "socket_nodes": [
+   "SOCKET_LegBand"
+  ]
+ },
+ "files": {
+  "Mob_Sky_Crane.glb": {
+   "bytes": 91172,
+   "sha256": "3ef574b34ff6352334cdf0585d7c56c0c18e302a4a310f7d92efa6b8fe9b7ab4"
+  },
+  "Mob_Sky_Crane_LOD1.glb": {
+   "bytes": 27300,
+   "sha256": "2960d78b820bbcbfde364ae9e834dd8ac7a5192118a298fecd814cd36bdbe37f"
+  },
+  "Mob_Sky_Crane.blend": {
+   "bytes": 752808,
+   "sha256": "1b7df9598c08c575f40ae1486fc921b85abc1f57712c19d59a6673b18499756a"
+  },
+  "Mob_Sky_Crane.sockets.json": {
+   "bytes": 889,
+   "sha256": "d437621088e05e0b441ab72a31ee9987ba734cbb7e88690ffbe8deea66e84578"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "lod1_triangles": true,
+  "bounds": true,
+  "skeleton": true,
+  "skinned": true,
+  "clips": true,
+  "lod1_no_clips": true,
+  "weights": true,
+  "sockets_on_joints": true
+ },
+ "ok": true
+}

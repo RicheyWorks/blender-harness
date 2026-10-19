@@ -1,0 +1,134 @@
+{
+ "asset": "Prop_Release_Crate",
+ "units": "cm",
+ "space": "unreal",
+ "note": "UE +X forward, +Y right, +Z up, cm; UE = 100 * (x_b, -y_b, z_b) = 100 * (gx, gz, gy) (UEB 48725); location relative to parent node; rotation [pitch, yaw, roll] deg: plain sockets [0, 0, 0] = mesh-aligned, attach sockets +X along barrel/shaft, +Z up; native empties pre-rotated to match",
+ "sockets": [
+  {
+   "name": "SOCKET_Carry_L",
+   "parent": "Prop_Release_Crate",
+   "location": [
+    -45.0,
+    0.0,
+    95.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Carry_R",
+   "parent": "Prop_Release_Crate",
+   "location": [
+    45.0,
+    0.0,
+    95.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Crane",
+   "parent": "Prop_Release_Crate",
+   "location": [
+    0.0,
+    -5.0,
+    12.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Door",
+   "parent": "Prop_Release_Crate",
+   "location": [
+    -37.0,
+    50.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Release",
+   "parent": "Prop_Release_Crate",
+   "location": [
+    0.0,
+    130.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  }
+ ],
+ "hinges": [
+  {
+   "socket": "SOCKET_Door",
+   "mover": "Prop_Release_Crate_Door",
+   "pivot_m": [
+    -0.37,
+    -0.5,
+    0.0
+   ],
+   "open_blender_euler_deg": [
+    0,
+    0,
+    -110
+   ],
+   "open_ue_rotator": [
+    0.0,
+    110.0,
+    0.0
+   ]
+  }
+ ]
+}
