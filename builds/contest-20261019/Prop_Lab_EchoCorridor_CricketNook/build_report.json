@@ -66,20 +66,20 @@
  ],
  "files": {
   "Prop_Lab_EchoCorridor_CricketNook.glb": {
-   "bytes": 51496,
-   "sha256": "38170608455c3be81e93ec9ae79a1a6a798edb80f8fa6bb49c12305a08f2633e"
+   "bytes": 51612,
+   "sha256": "dafd697025c17ffb70bac62cc3bb81a7e70d6238a1bb8f134f5c710ad7044716"
   },
   "Prop_Lab_EchoCorridor_CricketNook.blend": {
    "bytes": 531872,
-   "sha256": "0a9962498482b2685c21e4d4e7b4cf0b42ad3ca6cdcc518a2c903bdc89304bb1"
+   "sha256": "330791aa33bbad5a42acef6ab3a95c1f244c0d99b06740c56cb5c86e0bff76b1"
   },
   "Prop_Lab_EchoCorridor_CricketNook_LOD1.glb": {
    "bytes": 19796,
    "sha256": "187b472e236f5a138dcef90b670cb5dacfac38ef729a48414c0df9f0b10b5010"
   },
   "Prop_Lab_EchoCorridor_CricketNook.sockets.json": {
-   "bytes": 658,
-   "sha256": "bca9205a124f704efb279e7546c0b4042e4ce2b3d6447fc1cba8a95a53ab52c7"
+   "bytes": 1003,
+   "sha256": "d3550cb68cd414761ef82b0a3ebe9be0ad0b2d2e443c581cbd352411bf9ffd72"
   }
  },
  "match": {
@@ -100,6 +100,5 @@
   ]
  },
  "sockets_sidecar": "Prop_Lab_EchoCorridor_CricketNook.sockets.json",
- "ok": true,
- "sockets_sidecar_mapping": "UE = 100 * (x_b, -y_b, z_b) (re-issued 2026-10-19, UEB 48725)"
+ "ok": true
 }

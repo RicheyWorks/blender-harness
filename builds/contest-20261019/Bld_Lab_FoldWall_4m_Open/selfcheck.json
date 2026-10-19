@@ -165,6 +165,11 @@
   ""
  ],
  [
+  "native socket rotation == sidecar (pre-rotated empties)",
+  true,
+  []
+ ],
+ [
   "render bounds = predicted (1 mm)",
   true,
   [

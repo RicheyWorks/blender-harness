@@ -2,7 +2,7 @@
  "asset": "Prop_Lab_EchoBell_S15",
  "units": "cm",
  "space": "unreal",
- "note": "UE +X forward, +Y right, +Z up, cm; UE = 100 * (x_b, -y_b, z_b) = 100 * (gx, gz, gy) (UEB 48725); location relative to parent node; rotation [pitch, yaw, roll] deg",
+ "note": "UE +X forward, +Y right, +Z up, cm; UE = 100 * (x_b, -y_b, z_b) = 100 * (gx, gz, gy) (UEB 48725); location relative to parent node; rotation [pitch, yaw, roll] deg: plain sockets [0, 0, 0] = mesh-aligned, attach sockets +X along barrel/shaft, +Z up; native empties pre-rotated to match",
  "sockets": [
   {
    "name": "SOCKET_Bell",
@@ -13,10 +13,17 @@
     50.0
    ],
    "rotation": [
-    90.0,
+    0.0,
     0.0,
     0.0
-   ]
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
   },
   {
    "name": "SOCKET_Sound",
@@ -28,9 +35,16 @@
    ],
    "rotation": [
     0.0,
-    90.0,
+    0.0,
     0.0
-   ]
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
   },
   {
    "name": "SOCKET_Strike",
@@ -42,9 +56,16 @@
    ],
    "rotation": [
     0.0,
-    -90.0,
+    0.0,
     0.0
-   ]
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
   }
  ]
 }

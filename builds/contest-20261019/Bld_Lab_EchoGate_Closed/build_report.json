@@ -1,7 +1,7 @@
 {
  "asset": "Bld_Lab_EchoGate_Closed",
  "status": "BUILT (staged, NOT READY)",
- "recipe_sha256": "579afe151bcb3a04067f13b75c9851a1dda65faa4554ee5cb2f85aff6f8d2a96",
+ "recipe_sha256": "06ce398d6336243b420a737f307e001e1e3924d793a24a633111aaaad8be8955",
  "lod0": {
   "objects": {
    "Bld_Lab_EchoGate_Closed": 528,
@@ -69,20 +69,20 @@
  ],
  "files": {
   "Bld_Lab_EchoGate_Closed.glb": {
-   "bytes": 65428,
-   "sha256": "39dbe9629515793a42279ffcb30fada1313458f89ffd322475ab79f1a2742969"
+   "bytes": 65540,
+   "sha256": "33863841564301574a6e9d3d352c67300f123c006bedb86b8c9ada5808c6d901"
   },
   "Bld_Lab_EchoGate_Closed.blend": {
    "bytes": 540816,
-   "sha256": "6dc34163c1240f5e38850594af3e2b0e73ce81263ae7b70028763ec94cef31cb"
+   "sha256": "bed53c063becde3a12882069ccc9f74ab58d59d0144380d4437e0cfdc1f68b8a"
   },
   "Bld_Lab_EchoGate_Closed_LOD1.glb": {
    "bytes": 25780,
    "sha256": "e67cd912d42414d094a47c33917e99170b38d5cc45683f694ac4d7b4bbab9211"
   },
   "Bld_Lab_EchoGate_Closed.sockets.json": {
-   "bytes": 632,
-   "sha256": "97bc82e1a98478fce6cf282aa7f2d9ee93ee7e3baa91d70bfba95318a3809dce"
+   "bytes": 976,
+   "sha256": "b1fec1963b3d67d068d0c20d387dfd6ef9a739a1fd8d952ea0bffb2f91824e9a"
   }
  },
  "match": {
@@ -103,6 +103,5 @@
   ]
  },
  "sockets_sidecar": "Bld_Lab_EchoGate_Closed.sockets.json",
- "ok": true,
- "sockets_sidecar_mapping": "UE = 100 * (x_b, -y_b, z_b) (re-issued 2026-10-19, UEB 48725)"
+ "ok": true
 }

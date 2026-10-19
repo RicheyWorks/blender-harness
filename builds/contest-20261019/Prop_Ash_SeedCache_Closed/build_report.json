@@ -1,0 +1,88 @@
+{
+ "asset": "Prop_Ash_SeedCache_Closed",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "ceca241d0d6c4cfe5c1f1ab67bca5d2e885fd1e7f43b76310a9aa34e0bc2133e",
+ "lod0": {
+  "objects": {
+   "Prop_Ash_SeedCache_Closed": 484,
+   "Prop_Ash_SeedCache_Closed_Lid": 176
+  },
+  "triangles": 660,
+  "bounds_min": [
+   -0.41,
+   -0.295,
+   0.0
+  ],
+  "bounds_max": [
+   0.41,
+   0.295,
+   0.61
+  ],
+  "dimensions": [
+   0.82,
+   0.59,
+   0.61
+  ],
+  "materials": {
+   "Prop_Ash_SeedCache_Closed": [
+    "Prop_Ash_SeedCache_Closed_M0",
+    "Prop_Ash_SeedCache_Closed_M1",
+    "Prop_Ash_SeedCache_Closed_M2"
+   ],
+   "Prop_Ash_SeedCache_Closed_Lid": [
+    "Prop_Ash_SeedCache_Closed_M0",
+    "Prop_Ash_SeedCache_Closed_M1"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Seeds"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_Ash_SeedCache_Closed_00",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_Ash_SeedCache_Closed_01",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_Ash_SeedCache_Closed.glb": {
+   "bytes": 45168,
+   "sha256": "8da0c2010dafee9085f169429fd37d30358cc30807d5b3e257209bacf3ae2bf7"
+  },
+  "Prop_Ash_SeedCache_Closed.blend": {
+   "bytes": 511492,
+   "sha256": "b6c947ed5f9d2951c455e1ed28f8a32399f46fc960bf7f008e5c2cf064fd50b8"
+  },
+  "Prop_Ash_SeedCache_Closed_LOD1.glb": {
+   "bytes": 23224,
+   "sha256": "822aafd41c256574c97f3538383ccce48a2df94a81b683d757178b0fab81af73"
+  },
+  "Prop_Ash_SeedCache_Closed.sockets.json": {
+   "bytes": 682,
+   "sha256": "c7ec53be192ebbec4b50f8741fabd7f4de4d6b1d56bc5248068e60cd598141e0"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 352,
+  "ratio": 0.533,
+  "dimensions": [
+   0.82,
+   0.57,
+   0.58
+  ]
+ },
+ "sockets_sidecar": "Prop_Ash_SeedCache_Closed.sockets.json",
+ "ok": true
+}

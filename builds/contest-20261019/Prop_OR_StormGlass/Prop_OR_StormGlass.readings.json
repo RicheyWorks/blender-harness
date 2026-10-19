@@ -1,0 +1,49 @@
+{
+ "asset": "Prop_OR_StormGlass",
+ "node": "Prop_OR_StormGlass_Needle",
+ "enum": "com.daedalus.world.odds.weather.StormGlass.Reading (da7775e0)",
+ "rest": "FALLING",
+ "axis": "dial normal = Blender -Y = UE +Y",
+ "note": "angle about Blender +Y from straight up; + = needle tip toward Blender/UE +X (the viewer's right). ue_tip_dir is in UE space for the needle node at rest = (0,0,1); ue_rotation_pyr assumes UE +pitch tilts +X up (so the tip goes to +X with pitch -45): verify against ue_tip_dir.",
+ "positions": {
+  "HIGH": {
+   "blender_rot_y_deg": 45.0,
+   "ue_tip_dir": [
+    0.7071,
+    0.0,
+    0.7071
+   ],
+   "ue_rotation_pyr": [
+    -45.0,
+    0.0,
+    0.0
+   ]
+  },
+  "FALLING": {
+   "blender_rot_y_deg": 0.0,
+   "ue_tip_dir": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "ue_rotation_pyr": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "LOW": {
+   "blender_rot_y_deg": -45.0,
+   "ue_tip_dir": [
+    -0.7071,
+    0.0,
+    0.7071
+   ],
+   "ue_rotation_pyr": [
+    45.0,
+    0.0,
+    0.0
+   ]
+  }
+ }
+}

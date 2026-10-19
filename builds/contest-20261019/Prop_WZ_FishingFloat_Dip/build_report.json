@@ -41,16 +41,16 @@
  ],
  "files": {
   "Prop_WZ_FishingFloat_Dip.glb": {
-   "bytes": 18076,
-   "sha256": "3cb57cdcb3c2c5990130dd3cab4db2568d303d624c41f438d5b5e06f4efb71df"
+   "bytes": 18132,
+   "sha256": "73d0621dedf3cadc79a05a1d86ad6526d3c2308ebc0e124ba78d97bc8f71fe6c"
   },
   "Prop_WZ_FishingFloat_Dip.blend": {
    "bytes": 487060,
-   "sha256": "a977f3fb62b2c6b78f080e0e36e6c3384ebefcb257ae80bab17eb5de188a7439"
+   "sha256": "53530d5af32f08ec444c0a8327a596c4e8583a0ab4ed5d420f96c24c3af011e9"
   },
   "Prop_WZ_FishingFloat_Dip.sockets.json": {
-   "bytes": 447,
-   "sha256": "9d88dbbe798e4822b5a407b41fd7ef0136c5a0e58a2d30e0661a3b8cd4b210e6"
+   "bytes": 680,
+   "sha256": "6410ed8ecc4abf6165002ecce5b5c1822c2b88f47d016573a64a12ff6bcb8a19"
   }
  },
  "match": {
@@ -61,6 +61,5 @@
   "sidecar_sockets": true
  },
  "sockets_sidecar": "Prop_WZ_FishingFloat_Dip.sockets.json",
- "ok": true,
- "sockets_sidecar_mapping": "UE = 100 * (x_b, -y_b, z_b) (re-issued 2026-10-19, UEB 48725)"
+ "ok": true
 }

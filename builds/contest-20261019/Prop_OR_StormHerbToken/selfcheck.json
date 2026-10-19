@@ -1,0 +1,48 @@
+[
+ [
+  "mesh node Prop_OR_StormHerbToken",
+  true,
+  ""
+ ],
+ [
+  "Prop_OR_StormHerbToken tris 124",
+  true,
+  124
+ ],
+ [
+  "Prop_OR_StormHerbToken parent None",
+  true,
+  null
+ ],
+ [
+  "render bounds = predicted (1 mm)",
+  true,
+  [
+   [
+    -0.018,
+    0.0,
+    -0.018
+   ],
+   [
+    0.018,
+    0.01,
+    0.018
+   ]
+  ]
+ ],
+ [
+  "build_report ok",
+  true,
+  {
+   "triangles": true,
+   "bounds": true,
+   "objects": true,
+   "collision_tris": true
+  }
+ ],
+ [
+  "report sha256 = files",
+  true,
+  ""
+ ]
+]

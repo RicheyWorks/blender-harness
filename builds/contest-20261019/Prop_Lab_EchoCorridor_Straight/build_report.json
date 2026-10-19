@@ -49,20 +49,20 @@
  ],
  "files": {
   "Prop_Lab_EchoCorridor_Straight.glb": {
-   "bytes": 31456,
-   "sha256": "1d749821f37fa7e039f43f12ffb8978aa0dd005f90147dd7d5e9e20eb34efc28"
+   "bytes": 31512,
+   "sha256": "6a8391c6450ccfde4179f37617d2c72ca7fb9820cb79ee0423249b30aa91014b"
   },
   "Prop_Lab_EchoCorridor_Straight.blend": {
    "bytes": 503284,
-   "sha256": "456fc6a1a54b42107a9a3b7ee13cc64763da649a8eb6c5e6001c03c16eb6adcd"
+   "sha256": "9b8447101199e2b99eeb06a102ddc691aac6db8d392d542ef17c76dd4a1787ce"
   },
   "Prop_Lab_EchoCorridor_Straight_LOD1.glb": {
    "bytes": 14648,
    "sha256": "98f70d3671ac04cc07acb0163be591a694f7789ae90d057458416d9cd045284a"
   },
   "Prop_Lab_EchoCorridor_Straight.sockets.json": {
-   "bytes": 462,
-   "sha256": "706d5037b7566a97330db9af574b2d73200902b3cfe499c5eb0e945b146fdffc"
+   "bytes": 695,
+   "sha256": "dc5d01ee1f1fafffc458ec3861c64203c8b330070ad84593f2a31d318b1790f4"
   }
  },
  "match": {
@@ -83,6 +83,5 @@
   ]
  },
  "sockets_sidecar": "Prop_Lab_EchoCorridor_Straight.sockets.json",
- "ok": true,
- "sockets_sidecar_mapping": "UE = 100 * (x_b, -y_b, z_b) (re-issued 2026-10-19, UEB 48725)"
+ "ok": true
 }

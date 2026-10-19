@@ -89,20 +89,20 @@
  ],
  "files": {
   "Bld_Lab_FoldWall_4m_Closed.glb": {
-   "bytes": 48732,
-   "sha256": "97058619a25c665071943ba96e66ae2f2f7e09215eec76c03ddcbc54defdaabd"
+   "bytes": 48848,
+   "sha256": "608e8cc3e6505a986bc7f4829eee95260c03e70219a39b9edd239e560723152c"
   },
   "Bld_Lab_FoldWall_4m_Closed.blend": {
    "bytes": 543652,
-   "sha256": "f1cdcda357741366d3f93f75dea772b760aa26075080c9c63f3afaabfeeaa28f"
+   "sha256": "b4519b807d5ba373c0cf7dc850f3233fbb726e000bf4b9d9239c1eb9c379b558"
   },
   "Bld_Lab_FoldWall_4m_Closed_LOD1.glb": {
    "bytes": 20880,
    "sha256": "7f982bd1aa8fa5ee1ae4aa8eb5d5df112693d43fac5ee68ebbd65f80f3e95c55"
   },
   "Bld_Lab_FoldWall_4m_Closed.sockets.json": {
-   "bytes": 639,
-   "sha256": "847a476107dd2b367c18f074b0df09e9115fca4c32b571a3623fb6c7b6a49317"
+   "bytes": 985,
+   "sha256": "b1ea9dd8a602dc01ee4dc94feb1718ee985fc337c9ad72569afbdea89e1dabd0"
   }
  },
  "match": {
@@ -123,6 +123,5 @@
   ]
  },
  "sockets_sidecar": "Bld_Lab_FoldWall_4m_Closed.sockets.json",
- "ok": true,
- "sockets_sidecar_mapping": "UE = 100 * (x_b, -y_b, z_b) (re-issued 2026-10-19, UEB 48725)"
+ "ok": true
 }

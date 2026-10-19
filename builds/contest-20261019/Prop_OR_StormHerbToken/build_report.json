@@ -1,0 +1,52 @@
+{
+ "asset": "Prop_OR_StormHerbToken",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "670e3c3d754c0b2fb2b19d0265cfc2bc7e3845aa551a41c91462f03a8c50f76b",
+ "lod0": {
+  "objects": {
+   "Prop_OR_StormHerbToken": 124
+  },
+  "triangles": 124,
+  "bounds_min": [
+   -0.018,
+   -0.018,
+   0.0
+  ],
+  "bounds_max": [
+   0.018,
+   0.018,
+   0.01
+  ],
+  "dimensions": [
+   0.036,
+   0.036,
+   0.01
+  ],
+  "materials": {
+   "Prop_OR_StormHerbToken": [
+    "Prop_OR_StormHerbToken_M0",
+    "Prop_OR_StormHerbToken_M1",
+    "Prop_OR_StormHerbToken_M2"
+   ]
+  }
+ },
+ "sockets": [],
+ "collision": [],
+ "files": {
+  "Prop_OR_StormHerbToken.glb": {
+   "bytes": 8680,
+   "sha256": "de1b9960dc54548c00195166b38b9162b78352948578f881455c261f50240999"
+  },
+  "Prop_OR_StormHerbToken.blend": {
+   "bytes": 476180,
+   "sha256": "8a4439293607630f17ee689d3d9a1448f36d8837a11199ed7b86a800f1f62a34"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true
+ },
+ "ok": true
+}

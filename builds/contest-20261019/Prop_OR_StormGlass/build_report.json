@@ -1,0 +1,84 @@
+{
+ "asset": "Prop_OR_StormGlass",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "88eb570879770f4d94c810aab9006599f307eb1d1057cf04d9ee5ec498f216b2",
+ "lod0": {
+  "objects": {
+   "Prop_OR_StormGlass": 300,
+   "Prop_OR_StormGlass_Needle": 40
+  },
+  "triangles": 340,
+  "bounds_min": [
+   -0.11,
+   -0.034,
+   0.0
+  ],
+  "bounds_max": [
+   0.11,
+   0.02,
+   0.4
+  ],
+  "dimensions": [
+   0.22,
+   0.054,
+   0.4
+  ],
+  "materials": {
+   "Prop_OR_StormGlass": [
+    "Prop_OR_StormGlass_M0",
+    "Prop_OR_StormGlass_M1",
+    "Prop_OR_StormGlass_M2"
+   ],
+   "Prop_OR_StormGlass_Needle": [
+    "Prop_OR_StormGlass_M0",
+    "Prop_OR_StormGlass_M3"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Needle"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_OR_StormGlass_00",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_OR_StormGlass.glb": {
+   "bytes": 22464,
+   "sha256": "10f8266edd30de946184a435b96c9ad41aedc4febcc5aa54d604cf4c6f345f78"
+  },
+  "Prop_OR_StormGlass.blend": {
+   "bytes": 516312,
+   "sha256": "9f4af84a7afedf42e574ad5c86a7bc96a6ba6737945984dd3d61907ef90a2782"
+  },
+  "Prop_OR_StormGlass_LOD1.glb": {
+   "bytes": 11648,
+   "sha256": "f48b48578dd0dfae69094f02170ca3a5339b1e9eb1c76313e0dcfb5909a3c9c9"
+  },
+  "Prop_OR_StormGlass.sockets.json": {
+   "bytes": 675,
+   "sha256": "82bd9d9a0c9bceafd5f20c046a7e7df670dbe0b9c3fc0b27e72df22706599388"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 168,
+  "ratio": 0.494,
+  "dimensions": [
+   0.22,
+   0.0525,
+   0.4
+  ]
+ },
+ "sockets_sidecar": "Prop_OR_StormGlass.sockets.json",
+ "ok": true
+}

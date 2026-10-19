@@ -1,0 +1,82 @@
+{
+ "asset": "Prop_WaterBucket",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "5890d042a4691b07d868cf0d85ae510032352f32a99fccb70dab32599590a3b2",
+ "lod0": {
+  "objects": {
+   "Prop_WaterBucket": 752,
+   "Prop_WaterBucket_Water": 60
+  },
+  "triangles": 812,
+  "bounds_min": [
+   -0.1867,
+   -0.1698,
+   0.0
+  ],
+  "bounds_max": [
+   0.1867,
+   0.1698,
+   0.5368
+  ],
+  "dimensions": [
+   0.3734,
+   0.3396,
+   0.5368
+  ],
+  "materials": {
+   "Prop_WaterBucket": [
+    "Prop_WaterBucket_M0",
+    "Prop_WaterBucket_M1"
+   ],
+   "Prop_WaterBucket_Water": [
+    "Prop_WaterBucket_M2"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Water"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_WaterBucket_00",
+   "triangles": 28
+  }
+ ],
+ "files": {
+  "Prop_WaterBucket.glb": {
+   "bytes": 42856,
+   "sha256": "a5ddb8e13ecc802677d6299aadc9c6e674ee97f8621b33242197fc1147a422a6"
+  },
+  "Prop_WaterBucket.blend": {
+   "bytes": 511232,
+   "sha256": "3484270e5621f5e5a605134760d066819bf16910dca6f99c422fe9535e476ccc"
+  },
+  "Prop_WaterBucket_LOD1.glb": {
+   "bytes": 17712,
+   "sha256": "122c51da65e82598db9ae1d58e2eb90ed9b2288a0c5a3796dfcce69808b65858"
+  },
+  "Prop_WaterBucket.sockets.json": {
+   "bytes": 669,
+   "sha256": "45bad9229038d52ad37752f92834f4b9828d782fdff00ec54d80e0623a079bde"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 296,
+  "ratio": 0.365,
+  "dimensions": [
+   0.3734,
+   0.33,
+   0.5368
+  ]
+ },
+ "sockets_sidecar": "Prop_WaterBucket.sockets.json",
+ "ok": true
+}

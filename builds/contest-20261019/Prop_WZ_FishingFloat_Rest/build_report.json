@@ -41,16 +41,16 @@
  ],
  "files": {
   "Prop_WZ_FishingFloat_Rest.glb": {
-   "bytes": 18020,
-   "sha256": "611a3ec1933911a9626da125baf172d2636148ca2dbca902b49be65235798a28"
+   "bytes": 18076,
+   "sha256": "4659463ee850d660660b019acd755cfaee3207273f5a274f2ca00cbb9dd2149c"
   },
   "Prop_WZ_FishingFloat_Rest.blend": {
    "bytes": 487060,
-   "sha256": "909c7e5eac2092a28d486219a00c04d88be8a9315464f1a11ce9438e463ccd43"
+   "sha256": "2b50105b871a4157b11d5ec74037ff813a479799795e79fdc3b41571d47128c7"
   },
   "Prop_WZ_FishingFloat_Rest.sockets.json": {
-   "bytes": 447,
-   "sha256": "a4993d978ad3f2b456790917d5a134faa4dce12cdd0f030e5ab043f3cd0f13e3"
+   "bytes": 680,
+   "sha256": "61cf527ad69f812369898b7157c7b89efe0d7657c65da63d2d3e6eb7d696cd95"
   }
  },
  "match": {
@@ -61,6 +61,5 @@
   "sidecar_sockets": true
  },
  "sockets_sidecar": "Prop_WZ_FishingFloat_Rest.sockets.json",
- "ok": true,
- "sockets_sidecar_mapping": "UE = 100 * (x_b, -y_b, z_b) (re-issued 2026-10-19, UEB 48725)"
+ "ok": true
 }

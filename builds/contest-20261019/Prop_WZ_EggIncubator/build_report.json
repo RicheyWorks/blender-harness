@@ -47,20 +47,20 @@
  ],
  "files": {
   "Prop_WZ_EggIncubator.glb": {
-   "bytes": 30612,
-   "sha256": "8a9822009ea0626916487efed1b67970c353cbd8e25f47787f696fbcd1af058f"
+   "bytes": 30724,
+   "sha256": "d12c1f51dd041de3feee9d567318b13c63e39182a9575017aadb99ca687858ae"
   },
   "Prop_WZ_EggIncubator.blend": {
    "bytes": 545764,
-   "sha256": "d291c530f2cccae5a9b91de466cf42b2b773152744d13f32f10554f12d99c3a6"
+   "sha256": "0a5462d889693f0e3cfb061547bee0e1f0c887cdd1aa4c49f579a1d25ac4f09f"
   },
   "Prop_WZ_EggIncubator_LOD1.glb": {
    "bytes": 13224,
    "sha256": "252a831ffdf56aa7007d985895fe1b1c1039a5ff9797b3b7193fe68e971366ee"
   },
   "Prop_WZ_EggIncubator.sockets.json": {
-   "bytes": 613,
-   "sha256": "421dc635fa273a9b496e0854dbf0e2610be57803db4fd3ff7cd487b81d0a3106"
+   "bytes": 958,
+   "sha256": "9d5166cd9a8eddf733579ed75d9e69b9a1c26172d5576e6334c52e17625183d3"
   }
  },
  "match": {
@@ -81,6 +81,5 @@
   ]
  },
  "sockets_sidecar": "Prop_WZ_EggIncubator.sockets.json",
- "ok": true,
- "sockets_sidecar_mapping": "UE = 100 * (x_b, -y_b, z_b) (re-issued 2026-10-19, UEB 48725)"
+ "ok": true
 }

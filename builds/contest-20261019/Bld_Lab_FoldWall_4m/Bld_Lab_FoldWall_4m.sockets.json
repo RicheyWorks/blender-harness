@@ -1,0 +1,212 @@
+{
+ "asset": "Bld_Lab_FoldWall_4m",
+ "units": "cm",
+ "space": "unreal",
+ "note": "UE +X forward, +Y right, +Z up, cm; UE = 100 * (x_b, -y_b, z_b) = 100 * (gx, gz, gy) (UEB 48725); location relative to parent node; rotation [pitch, yaw, roll] deg: plain sockets [0, 0, 0] = mesh-aligned, attach sockets +X along barrel/shaft, +Z up; native empties pre-rotated to match",
+ "sockets": [
+  {
+   "name": "SOCKET_Hinge_L",
+   "parent": "Bld_Lab_FoldWall_4m",
+   "location": [
+    -160.0,
+    0.0,
+    200.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Hinge_Panel0",
+   "parent": "Bld_Lab_FoldWall_4m",
+   "location": [
+    -160.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Hinge_Panel1",
+   "parent": "Bld_Lab_FoldWall_4m",
+   "location": [
+    -80.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Hinge_Panel2",
+   "parent": "Bld_Lab_FoldWall_4m",
+   "location": [
+    80.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Hinge_Panel3",
+   "parent": "Bld_Lab_FoldWall_4m",
+   "location": [
+    160.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Hinge_R",
+   "parent": "Bld_Lab_FoldWall_4m",
+   "location": [
+    160.0,
+    0.0,
+    200.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  }
+ ],
+ "hinges": [
+  {
+   "socket": "SOCKET_Hinge_Panel0",
+   "mover": "Bld_Lab_FoldWall_4m_Panel0",
+   "pivot_m": [
+    -1.6,
+    0,
+    0.0
+   ],
+   "open_blender_euler_deg": [
+    0,
+    0,
+    90
+   ],
+   "open_ue_rotator": [
+    0.0,
+    -90.0,
+    0.0
+   ]
+  },
+  {
+   "socket": "SOCKET_Hinge_Panel1",
+   "mover": "Bld_Lab_FoldWall_4m_Panel1",
+   "pivot_m": [
+    -0.8,
+    0,
+    0.0
+   ],
+   "open_blender_euler_deg": [
+    0,
+    0,
+    90
+   ],
+   "open_ue_rotator": [
+    0.0,
+    -90.0,
+    0.0
+   ]
+  },
+  {
+   "socket": "SOCKET_Hinge_Panel2",
+   "mover": "Bld_Lab_FoldWall_4m_Panel2",
+   "pivot_m": [
+    0.8,
+    0,
+    0.0
+   ],
+   "open_blender_euler_deg": [
+    0,
+    0,
+    -90
+   ],
+   "open_ue_rotator": [
+    0.0,
+    90.0,
+    0.0
+   ]
+  },
+  {
+   "socket": "SOCKET_Hinge_Panel3",
+   "mover": "Bld_Lab_FoldWall_4m_Panel3",
+   "pivot_m": [
+    1.6,
+    0,
+    0.0
+   ],
+   "open_blender_euler_deg": [
+    0,
+    0,
+    -90
+   ],
+   "open_ue_rotator": [
+    0.0,
+    90.0,
+    0.0
+   ]
+  }
+ ]
+}

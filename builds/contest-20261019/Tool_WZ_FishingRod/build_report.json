@@ -1,7 +1,7 @@
 {
  "asset": "Tool_WZ_FishingRod",
  "status": "BUILT (staged, NOT READY)",
- "recipe_sha256": "4788b78017333f5400bd0b994b1f488432fc0b7f4efacff3bf7a3cdc9afbdcda",
+ "recipe_sha256": "9859f6bd9b8fb72120fd1cd464b57dd2a419f635fb4a54ba775cd110e780ca0f",
  "lod0": {
   "objects": {
    "Tool_WZ_FishingRod": 672
@@ -43,20 +43,20 @@
  ],
  "files": {
   "Tool_WZ_FishingRod.glb": {
-   "bytes": 40368,
-   "sha256": "151945ce77a2c3e041dd1048646ebf016b5ab2e8dc74e2dc016fe7afb007ac12"
+   "bytes": 40536,
+   "sha256": "1c32c844a3e73e32c3f34696d915a1c0acfcdd543b0d9aaeba3aac74e06f6c7c"
   },
   "Tool_WZ_FishingRod.blend": {
    "bytes": 503980,
-   "sha256": "a9a084f9ea08bd573ae6ece9daa5c0c7bd7e8928b4893c1d785f24c5380f84fd"
+   "sha256": "a3c8e53025d0777c516a6b72eb2743eef59b285dccb1328bd876ea458ee48e9c"
   },
   "Tool_WZ_FishingRod_LOD1.glb": {
    "bytes": 15472,
    "sha256": "8078312cadecbda4c24772c71fb9c5da69e3430901b0469fe53f81822f8a3daf"
   },
   "Tool_WZ_FishingRod.sockets.json": {
-   "bytes": 771,
-   "sha256": "cc45138366c6f5b094be08a67ada3be4dc57776a15d3dbf3a924d20212f693c9"
+   "bytes": 1243,
+   "sha256": "40022a4c94a4ccfd034e9650a2ca5b637eb22d28ab7e76faf66f4b2661d24799"
   }
  },
  "match": {
@@ -77,6 +77,5 @@
   ]
  },
  "sockets_sidecar": "Tool_WZ_FishingRod.sockets.json",
- "ok": true,
- "sockets_sidecar_mapping": "UE = 100 * (x_b, -y_b, z_b) (re-issued 2026-10-19, UEB 48725)"
+ "ok": true
 }

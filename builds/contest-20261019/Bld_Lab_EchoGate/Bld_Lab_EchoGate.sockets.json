@@ -1,0 +1,132 @@
+{
+ "asset": "Bld_Lab_EchoGate",
+ "units": "cm",
+ "space": "unreal",
+ "note": "UE +X forward, +Y right, +Z up, cm; UE = 100 * (x_b, -y_b, z_b) = 100 * (gx, gz, gy) (UEB 48725); location relative to parent node; rotation [pitch, yaw, roll] deg: plain sockets [0, 0, 0] = mesh-aligned, attach sockets +X along barrel/shaft, +Z up; native empties pre-rotated to match",
+ "sockets": [
+  {
+   "name": "SOCKET_Bell_L",
+   "parent": "Bld_Lab_EchoGate",
+   "location": [
+    -125.0,
+    48.0,
+    287.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Bell_R",
+   "parent": "Bld_Lab_EchoGate",
+   "location": [
+    125.0,
+    48.0,
+    287.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Hinge_LeafL",
+   "parent": "Bld_Lab_EchoGate",
+   "location": [
+    -100.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  },
+  {
+   "name": "SOCKET_Hinge_LeafR",
+   "parent": "Bld_Lab_EchoGate",
+   "location": [
+    100.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kind": "plain",
+   "native_rotation_predicted": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "native_matches": true
+  }
+ ],
+ "hinges": [
+  {
+   "socket": "SOCKET_Hinge_LeafL",
+   "mover": "Bld_Lab_EchoGate_LeafL",
+   "pivot_m": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "open_blender_euler_deg": [
+    0,
+    0,
+    90.0
+   ],
+   "open_ue_rotator": [
+    0.0,
+    -90.0,
+    0.0
+   ]
+  },
+  {
+   "socket": "SOCKET_Hinge_LeafR",
+   "mover": "Bld_Lab_EchoGate_LeafR",
+   "pivot_m": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "open_blender_euler_deg": [
+    0,
+    0,
+    -90.0
+   ],
+   "open_ue_rotator": [
+    0.0,
+    90.0,
+    0.0
+   ]
+  }
+ ]
+}

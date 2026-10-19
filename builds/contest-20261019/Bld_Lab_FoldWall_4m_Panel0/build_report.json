@@ -1,0 +1,71 @@
+{
+ "asset": "Bld_Lab_FoldWall_4m_Panel0",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "d150d5486313cb30e4998e2c218f63ed9a340e0b1d74b33d7699f95d83da9ab2",
+ "lod0": {
+  "objects": {
+   "Bld_Lab_FoldWall_4m_Panel0": 100
+  },
+  "triangles": 100,
+  "bounds_min": [
+   0.01,
+   -0.21,
+   0.15
+  ],
+  "bounds_max": [
+   0.825,
+   0.15,
+   3.85
+  ],
+  "dimensions": [
+   0.815,
+   0.36,
+   3.7
+  ],
+  "materials": {
+   "Bld_Lab_FoldWall_4m_Panel0": [
+    "Bld_Lab_FoldWall_4m_Panel0_M0",
+    "Bld_Lab_FoldWall_4m_Panel0_M1",
+    "Bld_Lab_FoldWall_4m_Panel0_M2"
+   ]
+  }
+ },
+ "sockets": [],
+ "collision": [
+  {
+   "name": "UCX_Bld_Lab_FoldWall_4m_Panel0_00",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Bld_Lab_FoldWall_4m_Panel0.glb": {
+   "bytes": 9328,
+   "sha256": "078fab80db2dad6654bec5c6cdb7eab13839ed8190a0cca2187ece6968bb9050"
+  },
+  "Bld_Lab_FoldWall_4m_Panel0.blend": {
+   "bytes": 480008,
+   "sha256": "fdb2b9e4a44631965ccc45777d549a03d02703a461ce7c3ec7148496a06084d3"
+  },
+  "Bld_Lab_FoldWall_4m_Panel0_LOD1.glb": {
+   "bytes": 3720,
+   "sha256": "9943e64d0a0d990f5474b6e80a5e616ef6490476ebe86a081b6969b26824d319"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true
+ },
+ "lod1": {
+  "triangles": 44,
+  "ratio": 0.44,
+  "dimensions": [
+   0.78,
+   0.3,
+   3.7
+  ]
+ },
+ "ok": true
+}

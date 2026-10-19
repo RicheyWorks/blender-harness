@@ -21,3 +21,6 @@ relay-webhook*.json
 *.token
 signing/
 secrets/
+
+# Blender autosave backups
+*.blend1

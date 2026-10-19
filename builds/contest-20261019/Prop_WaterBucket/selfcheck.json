@@ -1,0 +1,110 @@
+[
+ [
+  "mesh node Prop_WaterBucket",
+  true,
+  ""
+ ],
+ [
+  "Prop_WaterBucket tris 752",
+  true,
+  752
+ ],
+ [
+  "Prop_WaterBucket parent None",
+  true,
+  null
+ ],
+ [
+  "mesh node Prop_WaterBucket_Water",
+  true,
+  ""
+ ],
+ [
+  "Prop_WaterBucket_Water tris 60",
+  true,
+  60
+ ],
+ [
+  "Prop_WaterBucket_Water parent Prop_WaterBucket",
+  true,
+  "Prop_WaterBucket"
+ ],
+ [
+  "collision UCX_Prop_WaterBucket_00 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_WaterBucket_00 tris 28, no material, parent Prop_WaterBucket",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Water under Prop_WaterBucket_Water",
+  true,
+  ""
+ ],
+ [
+  "sockets sidecar present",
+  true,
+  ""
+ ],
+ [
+  "sidecar = glb sockets in UE space",
+  true,
+  ""
+ ],
+ [
+  "native socket rotation == sidecar (pre-rotated empties)",
+  true,
+  []
+ ],
+ [
+  "render bounds = predicted (1 mm)",
+  true,
+  [
+   [
+    -0.1867,
+    0.0,
+    -0.1698
+   ],
+   [
+    0.1867,
+    0.5368,
+    0.1698
+   ]
+  ]
+ ],
+ [
+  "LOD1 glb present",
+  true,
+  ""
+ ],
+ [
+  "LOD1 tris 296",
+  true,
+  296
+ ],
+ [
+  "LOD1 has no sockets/collision",
+  true,
+  ""
+ ],
+ [
+  "build_report ok",
+  true,
+  {
+   "triangles": true,
+   "bounds": true,
+   "objects": true,
+   "collision_tris": true,
+   "lod1_triangles": true,
+   "sidecar_sockets": true
+  }
+ ],
+ [
+  "report sha256 = files",
+  true,
+  ""
+ ]
+]

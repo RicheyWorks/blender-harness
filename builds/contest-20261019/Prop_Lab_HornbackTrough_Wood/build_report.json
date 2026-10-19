@@ -44,20 +44,20 @@
  ],
  "files": {
   "Prop_Lab_HornbackTrough_Wood.glb": {
-   "bytes": 27872,
-   "sha256": "d01611073bb7b52096cfe56eddcef620d2d6aec997c6869e054a3e60aeaaa054"
+   "bytes": 27932,
+   "sha256": "2a537ab04e87fe4c902ff5d9141878c6c2e4c18cd0bb34705dab20addac0fe54"
   },
   "Prop_Lab_HornbackTrough_Wood.blend": {
    "bytes": 497380,
-   "sha256": "fbe4725459db8a008c231a6f4aa563dcf90712989fa46f4d8a100e137af0bf72"
+   "sha256": "7e457cc05c4da4ba0a1deb75220e1448b1af4c23b9a1eb0d1fe90e5c5575b799"
   },
   "Prop_Lab_HornbackTrough_Wood_LOD1.glb": {
    "bytes": 16904,
    "sha256": "5d988e07fbd8536e5866bebe83168d76e609a1de48e3412c6dd5cd0e81ba8908"
   },
   "Prop_Lab_HornbackTrough_Wood.sockets.json": {
-   "bytes": 459,
-   "sha256": "c8ccc962c9df707e5f7badde37abb32d1dc58d0d78fdcf03af8ee1aa2d980313"
+   "bytes": 693,
+   "sha256": "e170ee181f59d1076305e8ef6a4347c8653df83e4723be2881b715c1580d638a"
   }
  },
  "match": {
@@ -78,6 +78,5 @@
   ]
  },
  "sockets_sidecar": "Prop_Lab_HornbackTrough_Wood.sockets.json",
- "ok": true,
- "sockets_sidecar_mapping": "UE = 100 * (x_b, -y_b, z_b) (re-issued 2026-10-19, UEB 48725)"
+ "ok": true
 }

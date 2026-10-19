@@ -1,0 +1,70 @@
+{
+ "asset": "Prop_Ash_SeedCache_Lid",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "d78191404f88a82423da0a28c0cff3d9220e0c230011ca36a537e2a4041649bf",
+ "lod0": {
+  "objects": {
+   "Prop_Ash_SeedCache_Lid": 176
+  },
+  "triangles": 176,
+  "bounds_min": [
+   -0.41,
+   -0.57,
+   -0.005
+  ],
+  "bounds_max": [
+   0.41,
+   0.02,
+   0.11
+  ],
+  "dimensions": [
+   0.82,
+   0.59,
+   0.115
+  ],
+  "materials": {
+   "Prop_Ash_SeedCache_Lid": [
+    "Prop_Ash_SeedCache_Lid_M0",
+    "Prop_Ash_SeedCache_Lid_M1"
+   ]
+  }
+ },
+ "sockets": [],
+ "collision": [
+  {
+   "name": "UCX_Prop_Ash_SeedCache_Lid_00",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_Ash_SeedCache_Lid.glb": {
+   "bytes": 13564,
+   "sha256": "c1b55faf6e73e1c2101db6ca63278b74185ca2c673bf09a9f23f4031065d31cb"
+  },
+  "Prop_Ash_SeedCache_Lid.blend": {
+   "bytes": 460128,
+   "sha256": "7d8e5423dba22088e8aab9b697a45e5ccfc529abd8be0d2e34c269037a5f5f4b"
+  },
+  "Prop_Ash_SeedCache_Lid_LOD1.glb": {
+   "bytes": 6696,
+   "sha256": "fd0c3610e165757b6a3eb0bf8ab12f07e20eb6134556c7f135a8d4552a98fae6"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true
+ },
+ "lod1": {
+  "triangles": 88,
+  "ratio": 0.5,
+  "dimensions": [
+   0.82,
+   0.59,
+   0.09
+  ]
+ },
+ "ok": true
+}

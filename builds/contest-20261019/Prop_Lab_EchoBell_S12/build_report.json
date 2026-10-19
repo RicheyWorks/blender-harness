@@ -43,20 +43,20 @@
  ],
  "files": {
   "Prop_Lab_EchoBell_S12.glb": {
-   "bytes": 47972,
-   "sha256": "4c827dad754d8597fb7b6125e7452f97c0f8f95fe4ea21e41560a3f55a0b7185"
+   "bytes": 48144,
+   "sha256": "fa2741475f75a54b2284f986bbd50d600356ab17b504ab8f28658dcfd015a4e7"
   },
   "Prop_Lab_EchoBell_S12.blend": {
    "bytes": 508424,
-   "sha256": "7d4db33c1d3e7b9ebc57a888f4274f1fbf04d9d58463d7e9a7e6a1ea8f6a6c9e"
+   "sha256": "7876b1b9d5dc899c368ce0c23302ccd1100baf5dfe651fca392b6caaba1ad9db"
   },
   "Prop_Lab_EchoBell_S12_LOD1.glb": {
    "bytes": 22084,
    "sha256": "2fd7067403d8f8130a0fce90c492dceb9407995ca6ebafba818f1066f7fcbcc2"
   },
   "Prop_Lab_EchoBell_S12.sockets.json": {
-   "bytes": 793,
-   "sha256": "e3965031e889cda3f3e387fd3ccbfed45d235162375dd55d83be7a41cff363f8"
+   "bytes": 1250,
+   "sha256": "946c4b474d9aeae2f36e1855ecde98b48c1a8ef8fc97852997db24998994a9c0"
   }
  },
  "match": {
@@ -77,6 +77,5 @@
   ]
  },
  "sockets_sidecar": "Prop_Lab_EchoBell_S12.sockets.json",
- "ok": true,
- "sockets_sidecar_mapping": "UE = 100 * (x_b, -y_b, z_b) (re-issued 2026-10-19, UEB 48725)"
+ "ok": true
 }

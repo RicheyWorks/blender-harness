@@ -1,0 +1,71 @@
+{
+ "asset": "Bld_Lab_EchoGate_LeafL",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "2c2695cdc2e517e0231995a5e36a422d10f6454da2515d2fcd6ba9c73032ad69",
+ "lod0": {
+  "objects": {
+   "Bld_Lab_EchoGate_LeafL": 220
+  },
+  "triangles": 220,
+  "bounds_min": [
+   0.01,
+   -0.1,
+   0.025
+  ],
+  "bounds_max": [
+   0.99,
+   0.1,
+   3.375
+  ],
+  "dimensions": [
+   0.98,
+   0.2,
+   3.35
+  ],
+  "materials": {
+   "Bld_Lab_EchoGate_LeafL": [
+    "Bld_Lab_EchoGate_LeafL_M0",
+    "Bld_Lab_EchoGate_LeafL_M1",
+    "Bld_Lab_EchoGate_LeafL_M2"
+   ]
+  }
+ },
+ "sockets": [],
+ "collision": [
+  {
+   "name": "UCX_Bld_Lab_EchoGate_LeafL_00",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Bld_Lab_EchoGate_LeafL.glb": {
+   "bytes": 16364,
+   "sha256": "5f126e01c4b8e3c40529dcc1ebdd86b46e6ff2e87c609c1a58aa6900a0bc164e"
+  },
+  "Bld_Lab_EchoGate_LeafL.blend": {
+   "bytes": 484592,
+   "sha256": "e755408200832c0935969c0fb4b4e4edce7a6531ed68566f217cae70be59a35c"
+  },
+  "Bld_Lab_EchoGate_LeafL_LOD1.glb": {
+   "bytes": 8496,
+   "sha256": "14d3f6a8972399cde228506d8447fa1c33c7d557bfa9bc0996a09ff4d4589022"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true
+ },
+ "lod1": {
+  "triangles": 108,
+  "ratio": 0.491,
+  "dimensions": [
+   0.98,
+   0.2,
+   3.35
+  ]
+ },
+ "ok": true
+}

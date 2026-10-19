@@ -42,20 +42,20 @@
  ],
  "files": {
   "Prop_WZ_EggNest.glb": {
-   "bytes": 70536,
-   "sha256": "43c7315e64a760d0cd49d42149cee1096065e2387221c4862a04c36debbcee52"
+   "bytes": 70652,
+   "sha256": "a31b11757df55f218ff9dfe46042174048b7f45b08dcd279a951f1050c50cb8c"
   },
   "Prop_WZ_EggNest.blend": {
    "bytes": 522616,
-   "sha256": "fcb893b9c8d0aaf24ed235cd35a95af92bfc4c5e3110eb1f7d8ab31b6528c317"
+   "sha256": "8e9ce3a6b757c77377f49920a5dc3afea5f3c6616a535cf1e8f2aba4f3628bbe"
   },
   "Prop_WZ_EggNest_LOD1.glb": {
    "bytes": 28648,
    "sha256": "1e0cbac5f5c4d457f37e2dc674f250a28d4976ee0b5ff8a5d5e2106fda43c20d"
   },
   "Prop_WZ_EggNest.sockets.json": {
-   "bytes": 592,
-   "sha256": "e414fb9775b6fe22cf6dd672c497ad2dd67bbcf842f216b7cf2c077d583a03a9"
+   "bytes": 937,
+   "sha256": "78b91aba7180d747cbd37d2b7966ab774f4d4f576a5c55659453ca74f343d0a1"
   }
  },
  "match": {
@@ -76,6 +76,5 @@
   ]
  },
  "sockets_sidecar": "Prop_WZ_EggNest.sockets.json",
- "ok": true,
- "sockets_sidecar_mapping": "UE = 100 * (x_b, -y_b, z_b) (re-issued 2026-10-19, UEB 48725)"
+ "ok": true
 }

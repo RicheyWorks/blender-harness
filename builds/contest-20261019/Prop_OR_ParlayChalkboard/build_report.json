@@ -1,0 +1,79 @@
+{
+ "asset": "Prop_OR_ParlayChalkboard",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "ae7f655ab881508ee82055818e29459ba6d6c5e9893afc136a7ff087fec74f3c",
+ "lod0": {
+  "objects": {
+   "Prop_OR_ParlayChalkboard": 320
+  },
+  "triangles": 320,
+  "bounds_min": [
+   -0.6,
+   -0.075,
+   0.0
+  ],
+  "bounds_max": [
+   0.6,
+   0.03,
+   0.8
+  ],
+  "dimensions": [
+   1.2,
+   0.105,
+   0.8
+  ],
+  "materials": {
+   "Prop_OR_ParlayChalkboard": [
+    "Prop_OR_ParlayChalkboard_M0",
+    "Prop_OR_ParlayChalkboard_M1",
+    "Prop_OR_ParlayChalkboard_M2"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Text"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_OR_ParlayChalkboard_00",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_OR_ParlayChalkboard.glb": {
+   "bytes": 22632,
+   "sha256": "88db0e3604b0cbf16ba01cedde656c95102242dd5d1f32cea2295ca947f73abb"
+  },
+  "Prop_OR_ParlayChalkboard.blend": {
+   "bytes": 490084,
+   "sha256": "47f870a2d1b6da9de55b06177571a18635d887992a9079005668b50971451e7b"
+  },
+  "Prop_OR_ParlayChalkboard_LOD1.glb": {
+   "bytes": 13508,
+   "sha256": "96276d8d1c41573f9c12edabc6fbb97057e61660cc1c9f9d8c06543875ca9bbe"
+  },
+  "Prop_OR_ParlayChalkboard.sockets.json": {
+   "bytes": 679,
+   "sha256": "f61b83164cafcd608002bf7b93a35827c3cb7f74eca0d0cc76cb68d3acf50778"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 200,
+  "ratio": 0.625,
+  "dimensions": [
+   1.2,
+   0.105,
+   0.8
+  ]
+ },
+ "sockets_sidecar": "Prop_OR_ParlayChalkboard.sockets.json",
+ "ok": true
+}
