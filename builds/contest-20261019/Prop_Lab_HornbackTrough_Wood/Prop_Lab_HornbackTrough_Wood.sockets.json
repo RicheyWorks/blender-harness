@@ -1,0 +1,22 @@
+{
+ "asset": "Prop_Lab_HornbackTrough_Wood",
+ "units": "cm",
+ "space": "unreal",
+ "note": "UE +X forward, +Y right, +Z up, cm; location relative to parent node; rotation [pitch, yaw, roll] deg",
+ "sockets": [
+  {
+   "name": "SOCKET_Water",
+   "parent": "Prop_Lab_HornbackTrough_Wood_Water",
+   "location": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    90.0,
+    0.0,
+    0.0
+   ]
+  }
+ ]
+}

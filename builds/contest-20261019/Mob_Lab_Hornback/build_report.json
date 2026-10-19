@@ -1,0 +1,221 @@
+{
+ "asset": "Mob_Lab_Hornback",
+ "status": "BUILT (staged, NOT READY)",
+ "schema": "blender-quadruped/v1",
+ "lod0": {
+  "triangles": 956,
+  "bounds_min": [
+   -0.3068,
+   -0.8,
+   0.0
+  ],
+  "bounds_max": [
+   0.3068,
+   0.7614,
+   1.2842
+  ],
+  "dimensions": [
+   0.6136,
+   1.5614,
+   1.2842
+  ],
+  "bind": {
+   "auto_parts": [
+    "Torso",
+    "Neck",
+    "Head",
+    "Snout",
+    "Plate0",
+    "Plate1",
+    "Plate2",
+    "Plate3",
+    "Tail",
+    "LegFL_Upper",
+    "LegFL_Lower",
+    "HoofFL",
+    "LegFR_Upper",
+    "LegFR_Lower",
+    "HoofFR",
+    "LegBL_Upper",
+    "LegBL_Lower",
+    "HoofBL",
+    "LegBR_Upper",
+    "LegBR_Lower",
+    "HoofBR"
+   ],
+   "rigid_parts": [
+    "HornL",
+    "HornR"
+   ],
+   "method": "ARMATURE_AUTO bone heat",
+   "max_influences": 4,
+   "unweighted_vertices": 0,
+   "non_normalised_vertices": 0,
+   "vertices": 524
+  },
+  "clips": [
+   {
+    "name": "Idle",
+    "frames": 60,
+    "fps": 30,
+    "fcurves": 12
+   },
+   {
+    "name": "Walk",
+    "frames": 32,
+    "fps": 30,
+    "fcurves": 36
+   },
+   {
+    "name": "Run",
+    "frames": 18,
+    "fps": 30,
+    "fcurves": 36
+   }
+  ]
+ },
+ "lod1": {
+  "triangles": 520,
+  "bounds_min": [
+   -0.3068,
+   -0.8,
+   0.072
+  ],
+  "bounds_max": [
+   0.3068,
+   0.7625,
+   1.2842
+  ],
+  "dimensions": [
+   0.6136,
+   1.5625,
+   1.2122
+  ],
+  "bind": {
+   "auto_parts": [],
+   "rigid_parts": [
+    "Torso",
+    "Neck",
+    "Head",
+    "HornL",
+    "HornR",
+    "Tail",
+    "LegFL_Upper",
+    "LegFL_Lower",
+    "LegFR_Upper",
+    "LegFR_Lower",
+    "LegBL_Upper",
+    "LegBL_Lower",
+    "LegBR_Upper",
+    "LegBR_Lower"
+   ],
+   "method": "ARMATURE_AUTO bone heat",
+   "max_influences": 1,
+   "unweighted_vertices": 0,
+   "non_normalised_vertices": 0,
+   "vertices": 288
+  },
+  "clips": []
+ },
+ "glb": {
+  "triangles": 956,
+  "skins": 1,
+  "joints": [
+   15
+  ],
+  "joint_names": [
+   "Chest",
+   "Head",
+   "Hips",
+   "LegBL_Lower",
+   "LegBL_Upper",
+   "LegBR_Lower",
+   "LegBR_Upper",
+   "LegFL_Lower",
+   "LegFL_Upper",
+   "LegFR_Lower",
+   "LegFR_Upper",
+   "Neck",
+   "Root",
+   "Spine",
+   "Tail"
+  ],
+  "skinned_attrs": true,
+  "inverse_bind_matrices": true,
+  "animations": [
+   {
+    "name": "Idle",
+    "channels": 45,
+    "seconds": 2
+   },
+   {
+    "name": "Run",
+    "channels": 45,
+    "seconds": 0.6
+   },
+   {
+    "name": "Walk",
+    "channels": 45,
+    "seconds": 1.0667
+   }
+  ],
+  "mesh_nodes": [
+   "Mob_Lab_Hornback"
+  ]
+ },
+ "glb_lod1": {
+  "triangles": 520,
+  "skins": 1,
+  "joints": [
+   15
+  ],
+  "joint_names": [
+   "Chest",
+   "Head",
+   "Hips",
+   "LegBL_Lower",
+   "LegBL_Upper",
+   "LegBR_Lower",
+   "LegBR_Upper",
+   "LegFL_Lower",
+   "LegFL_Upper",
+   "LegFR_Lower",
+   "LegFR_Upper",
+   "Neck",
+   "Root",
+   "Spine",
+   "Tail"
+  ],
+  "skinned_attrs": true,
+  "inverse_bind_matrices": true,
+  "animations": [],
+  "mesh_nodes": [
+   "Mob_Lab_Hornback"
+  ]
+ },
+ "files": {
+  "Mob_Lab_Hornback.glb": {
+   "bytes": 150568,
+   "sha256": "8a687f1896185a7071a95c1919019580bea0532347e70f97eb6efadecd515283"
+  },
+  "Mob_Lab_Hornback_LOD1.glb": {
+   "bytes": 59324,
+   "sha256": "f0a8edba8c94abeaf488629abe5b2f4e67f24b79237fcf059028d8b7f80440e1"
+  },
+  "Mob_Lab_Hornback.blend": {
+   "bytes": 686280,
+   "sha256": "9899201020aa63797989e45a4fca5ee12e7abb37fede1e588270ae4119bba362"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "lod1_triangles": true,
+  "bounds": true,
+  "skeleton": true,
+  "skinned": true,
+  "clips": true,
+  "lod1_no_clips": true,
+  "weights": true
+ },
+ "ok": true
+}

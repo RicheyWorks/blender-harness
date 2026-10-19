@@ -1,0 +1,82 @@
+{
+ "asset": "Prop_Lab_HornbackTrough_Wood",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "d0c45d2b68c26f5780f13257e15538df781cca990caf1bfa921d9022b6afe8e9",
+ "lod0": {
+  "objects": {
+   "Prop_Lab_HornbackTrough_Wood": 396,
+   "Prop_Lab_HornbackTrough_Wood_Water": 12
+  },
+  "triangles": 408,
+  "bounds_min": [
+   -0.6,
+   -0.3,
+   0.0
+  ],
+  "bounds_max": [
+   0.6,
+   0.3,
+   0.41
+  ],
+  "dimensions": [
+   1.2,
+   0.6,
+   0.41
+  ],
+  "materials": {
+   "Prop_Lab_HornbackTrough_Wood": [
+    "Prop_Lab_HornbackTrough_Wood_M0",
+    "Prop_Lab_HornbackTrough_Wood_M1"
+   ],
+   "Prop_Lab_HornbackTrough_Wood_Water": [
+    "Prop_Lab_HornbackTrough_Wood_M2"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Water"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_Lab_HornbackTrough_Wood_00",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_Lab_HornbackTrough_Wood.glb": {
+   "bytes": 27872,
+   "sha256": "d01611073bb7b52096cfe56eddcef620d2d6aec997c6869e054a3e60aeaaa054"
+  },
+  "Prop_Lab_HornbackTrough_Wood.blend": {
+   "bytes": 497380,
+   "sha256": "fbe4725459db8a008c231a6f4aa563dcf90712989fa46f4d8a100e137af0bf72"
+  },
+  "Prop_Lab_HornbackTrough_Wood_LOD1.glb": {
+   "bytes": 16904,
+   "sha256": "5d988e07fbd8536e5866bebe83168d76e609a1de48e3412c6dd5cd0e81ba8908"
+  },
+  "Prop_Lab_HornbackTrough_Wood.sockets.json": {
+   "bytes": 397,
+   "sha256": "95c1e3171e1dfda740c97360e24bf17b40506b2f6ebf35ea01d3f944cc82fa3e"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 256,
+  "ratio": 0.627,
+  "dimensions": [
+   1.2,
+   0.6,
+   0.4
+  ]
+ },
+ "sockets_sidecar": "Prop_Lab_HornbackTrough_Wood.sockets.json",
+ "ok": true
+}
