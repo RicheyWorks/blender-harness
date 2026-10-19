@@ -101,8 +101,8 @@
    "sha256": "7f982bd1aa8fa5ee1ae4aa8eb5d5df112693d43fac5ee68ebbd65f80f3e95c55"
   },
   "Bld_Lab_FoldWall_4m_Closed.sockets.json": {
-   "bytes": 575,
-   "sha256": "7de4c3b1b9ac55193c442b4168be5b4cef6b0ccc7638a1e8ed73f565931ef4d5"
+   "bytes": 639,
+   "sha256": "847a476107dd2b367c18f074b0df09e9115fca4c32b571a3623fb6c7b6a49317"
   }
  },
  "match": {
@@ -123,5 +123,6 @@
   ]
  },
  "sockets_sidecar": "Bld_Lab_FoldWall_4m_Closed.sockets.json",
- "ok": true
+ "ok": true,
+ "sockets_sidecar_mapping": "UE = 100 * (x_b, -y_b, z_b) (re-issued 2026-10-19, UEB 48725)"
 }

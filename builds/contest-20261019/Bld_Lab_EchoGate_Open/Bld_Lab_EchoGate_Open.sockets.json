@@ -2,14 +2,14 @@
  "asset": "Bld_Lab_EchoGate_Open",
  "units": "cm",
  "space": "unreal",
- "note": "UE +X forward, +Y right, +Z up, cm; location relative to parent node; rotation [pitch, yaw, roll] deg",
+ "note": "UE +X forward, +Y right, +Z up, cm; UE = 100 * (x_b, -y_b, z_b) = 100 * (gx, gz, gy) (UEB 48725); location relative to parent node; rotation [pitch, yaw, roll] deg",
  "sockets": [
   {
    "name": "SOCKET_Bell_L",
    "parent": "Bld_Lab_EchoGate_Open",
    "location": [
+    -125.0,
     48.0,
-    125.0,
     284.0
    ],
    "rotation": [
@@ -22,8 +22,8 @@
    "name": "SOCKET_Bell_R",
    "parent": "Bld_Lab_EchoGate_Open",
    "location": [
+    125.0,
     48.0,
-    -125.0,
     284.0
    ],
    "rotation": [

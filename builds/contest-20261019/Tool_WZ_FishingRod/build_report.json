@@ -55,8 +55,8 @@
    "sha256": "8078312cadecbda4c24772c71fb9c5da69e3430901b0469fe53f81822f8a3daf"
   },
   "Tool_WZ_FishingRod.sockets.json": {
-   "bytes": 707,
-   "sha256": "410f67ef14454ee6b3a4b4e41bafcae47b36ef16ac30585880d52ef74691017b"
+   "bytes": 771,
+   "sha256": "cc45138366c6f5b094be08a67ada3be4dc57776a15d3dbf3a924d20212f693c9"
   }
  },
  "match": {
@@ -77,5 +77,6 @@
   ]
  },
  "sockets_sidecar": "Tool_WZ_FishingRod.sockets.json",
- "ok": true
+ "ok": true,
+ "sockets_sidecar_mapping": "UE = 100 * (x_b, -y_b, z_b) (re-issued 2026-10-19, UEB 48725)"
 }

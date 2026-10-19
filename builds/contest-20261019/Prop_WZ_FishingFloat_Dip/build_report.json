@@ -49,8 +49,8 @@
    "sha256": "a977f3fb62b2c6b78f080e0e36e6c3384ebefcb257ae80bab17eb5de188a7439"
   },
   "Prop_WZ_FishingFloat_Dip.sockets.json": {
-   "bytes": 385,
-   "sha256": "4a971a67b9d00e8f90f01ef2c88e40511c14e0e41b2e8e6c03809f175282df5c"
+   "bytes": 447,
+   "sha256": "9d88dbbe798e4822b5a407b41fd7ef0136c5a0e58a2d30e0661a3b8cd4b210e6"
   }
  },
  "match": {
@@ -61,5 +61,6 @@
   "sidecar_sockets": true
  },
  "sockets_sidecar": "Prop_WZ_FishingFloat_Dip.sockets.json",
- "ok": true
+ "ok": true,
+ "sockets_sidecar_mapping": "UE = 100 * (x_b, -y_b, z_b) (re-issued 2026-10-19, UEB 48725)"
 }

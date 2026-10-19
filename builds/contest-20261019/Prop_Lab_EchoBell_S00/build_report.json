@@ -55,8 +55,8 @@
    "sha256": "4886a5700b54bae3a6a1faa12697030e09473f50809791fba8dbb49f25b1872b"
   },
   "Prop_Lab_EchoBell_S00.sockets.json": {
-   "bytes": 730,
-   "sha256": "88b8efb1e663eeed4919847f2f24d5088d75d95f9fc149ba94d4cdf3d8d58dc1"
+   "bytes": 793,
+   "sha256": "0aca6e50787411720898fb35913ee55bc1e60d3603548a67786e1a6f58911804"
   }
  },
  "match": {
@@ -77,5 +77,6 @@
   ]
  },
  "sockets_sidecar": "Prop_Lab_EchoBell_S00.sockets.json",
- "ok": true
+ "ok": true,
+ "sockets_sidecar_mapping": "UE = 100 * (x_b, -y_b, z_b) (re-issued 2026-10-19, UEB 48725)"
 }

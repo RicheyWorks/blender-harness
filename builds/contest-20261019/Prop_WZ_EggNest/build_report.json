@@ -54,8 +54,8 @@
    "sha256": "1e0cbac5f5c4d457f37e2dc674f250a28d4976ee0b5ff8a5d5e2106fda43c20d"
   },
   "Prop_WZ_EggNest.sockets.json": {
-   "bytes": 530,
-   "sha256": "8d7129fc2692cc913ff1bff46147f1054f773048a00138436f8429ed4f9dd00b"
+   "bytes": 592,
+   "sha256": "e414fb9775b6fe22cf6dd672c497ad2dd67bbcf842f216b7cf2c077d583a03a9"
   }
  },
  "match": {
@@ -76,5 +76,6 @@
   ]
  },
  "sockets_sidecar": "Prop_WZ_EggNest.sockets.json",
- "ok": true
+ "ok": true,
+ "sockets_sidecar_mapping": "UE = 100 * (x_b, -y_b, z_b) (re-issued 2026-10-19, UEB 48725)"
 }

@@ -81,8 +81,8 @@
    "sha256": "e67cd912d42414d094a47c33917e99170b38d5cc45683f694ac4d7b4bbab9211"
   },
   "Bld_Lab_EchoGate_Closed.sockets.json": {
-   "bytes": 570,
-   "sha256": "d14d9aaea72ba91c5f86f0c0313221d129e97e3a3544f0853dfa57fe22c50ddc"
+   "bytes": 632,
+   "sha256": "97bc82e1a98478fce6cf282aa7f2d9ee93ee7e3baa91d70bfba95318a3809dce"
   }
  },
  "match": {
@@ -103,5 +103,6 @@
   ]
  },
  "sockets_sidecar": "Bld_Lab_EchoGate_Closed.sockets.json",
- "ok": true
+ "ok": true,
+ "sockets_sidecar_mapping": "UE = 100 * (x_b, -y_b, z_b) (re-issued 2026-10-19, UEB 48725)"
 }

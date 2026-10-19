@@ -65,8 +65,8 @@
    "sha256": "778fae2fec9c1c6234e3ece29ec3144e9b3ad9cc7d48cbdd96a92af1b0c9eb1a"
   },
   "Prop_Lab_EchoCorridor_DeadEnd.sockets.json": {
-   "bytes": 397,
-   "sha256": "74fc68ac50cdeb8c5bd3be0df2939b680c3d47ecdb6312cbb934078c60bc675b"
+   "bytes": 460,
+   "sha256": "89b25c961eb4fb4b299eb3870c6e5ac4348f5dd02be07cbc5ac6343631f580ed"
   }
  },
  "match": {
@@ -87,5 +87,6 @@
   ]
  },
  "sockets_sidecar": "Prop_Lab_EchoCorridor_DeadEnd.sockets.json",
- "ok": true
+ "ok": true,
+ "sockets_sidecar_mapping": "UE = 100 * (x_b, -y_b, z_b) (re-issued 2026-10-19, UEB 48725)"
 }
