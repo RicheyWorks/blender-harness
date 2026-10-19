@@ -1,0 +1,127 @@
+{
+ "asset": "Bld_Lab_FoldWall_4m_Closed",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "a14349133433e4284047d0680221416fad2ba86b86ac5d09e4a2c60cdb8dfd8a",
+ "lod0": {
+  "objects": {
+   "Bld_Lab_FoldWall_4m_Closed": 220,
+   "Bld_Lab_FoldWall_4m_Closed_Panel0": 100,
+   "Bld_Lab_FoldWall_4m_Closed_Panel1": 100,
+   "Bld_Lab_FoldWall_4m_Closed_Panel2": 100,
+   "Bld_Lab_FoldWall_4m_Closed_Panel3": 100
+  },
+  "triangles": 620,
+  "bounds_min": [
+   -2.0,
+   -0.3,
+   0.0
+  ],
+  "bounds_max": [
+   2.0,
+   0.3,
+   4.0
+  ],
+  "dimensions": [
+   4.0,
+   0.6,
+   4.0
+  ],
+  "materials": {
+   "Bld_Lab_FoldWall_4m_Closed": [
+    "Bld_Lab_FoldWall_4m_Closed_M0",
+    "Bld_Lab_FoldWall_4m_Closed_M1"
+   ],
+   "Bld_Lab_FoldWall_4m_Closed_Panel0": [
+    "Bld_Lab_FoldWall_4m_Closed_M0",
+    "Bld_Lab_FoldWall_4m_Closed_M1",
+    "Bld_Lab_FoldWall_4m_Closed_M2"
+   ],
+   "Bld_Lab_FoldWall_4m_Closed_Panel1": [
+    "Bld_Lab_FoldWall_4m_Closed_M0",
+    "Bld_Lab_FoldWall_4m_Closed_M1",
+    "Bld_Lab_FoldWall_4m_Closed_M2"
+   ],
+   "Bld_Lab_FoldWall_4m_Closed_Panel2": [
+    "Bld_Lab_FoldWall_4m_Closed_M0",
+    "Bld_Lab_FoldWall_4m_Closed_M1",
+    "Bld_Lab_FoldWall_4m_Closed_M2"
+   ],
+   "Bld_Lab_FoldWall_4m_Closed_Panel3": [
+    "Bld_Lab_FoldWall_4m_Closed_M0",
+    "Bld_Lab_FoldWall_4m_Closed_M1",
+    "Bld_Lab_FoldWall_4m_Closed_M2"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Hinge_L",
+  "SOCKET_Hinge_R"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Bld_Lab_FoldWall_4m_Closed_00",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Bld_Lab_FoldWall_4m_Closed_01",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Bld_Lab_FoldWall_4m_Closed_02",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Bld_Lab_FoldWall_4m_Closed_03",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Bld_Lab_FoldWall_4m_Closed_04",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Bld_Lab_FoldWall_4m_Closed_05",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Bld_Lab_FoldWall_4m_Closed_06",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Bld_Lab_FoldWall_4m_Closed.glb": {
+   "bytes": 48732,
+   "sha256": "97058619a25c665071943ba96e66ae2f2f7e09215eec76c03ddcbc54defdaabd"
+  },
+  "Bld_Lab_FoldWall_4m_Closed.blend": {
+   "bytes": 543652,
+   "sha256": "f1cdcda357741366d3f93f75dea772b760aa26075080c9c63f3afaabfeeaa28f"
+  },
+  "Bld_Lab_FoldWall_4m_Closed_LOD1.glb": {
+   "bytes": 20880,
+   "sha256": "7f982bd1aa8fa5ee1ae4aa8eb5d5df112693d43fac5ee68ebbd65f80f3e95c55"
+  },
+  "Bld_Lab_FoldWall_4m_Closed.sockets.json": {
+   "bytes": 575,
+   "sha256": "7de4c3b1b9ac55193c442b4168be5b4cef6b0ccc7638a1e8ed73f565931ef4d5"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 308,
+  "ratio": 0.497,
+  "dimensions": [
+   4.0,
+   0.6,
+   3.85
+  ]
+ },
+ "sockets_sidecar": "Bld_Lab_FoldWall_4m_Closed.sockets.json",
+ "ok": true
+}
