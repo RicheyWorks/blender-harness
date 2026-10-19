@@ -1,0 +1,62 @@
+{
+ "schema": "bb-material-variants/1",
+ "gap": "G155 (youtube-master 50345, PR #380 brew.apprentice.Apprenticeships)",
+ "status": "NOT READY",
+ "lanterns": {
+  "asset": "Prop_YTM_LanternBoard",
+  "slot": "paper lantern glow (slot 4, object Prop_YTM_LanternBoard_Lanterns)",
+  "reuse": "G131 MI_YTM_LanternString_Lit / _Unlit unchanged",
+  "params": {
+   "LitCount": "scalar 0..4 lanterns lit (from -X)",
+   "CandleX0_cm": -54.0,
+   "CandlePitch_cm": 36.0,
+   "FlameColour": "vector, linear",
+   "EmissiveStrength": "scalar"
+  },
+  "instances": {
+   "MI_YTM_LanternString_Lit": {
+    "LitCount": 4,
+    "EmissiveStrength": 8,
+    "FlameColour_srgb": "F2B25C",
+    "UnlitShowsBase": 1
+   },
+   "MI_YTM_LanternString_Unlit": {
+    "LitCount": 0,
+    "EmissiveStrength": 0,
+    "FlameColour_srgb": "F2B25C",
+    "UnlitShowsBase": 1
+   }
+  },
+  "sockets": "SOCKET_Lamp_k: warm point light while k < LitCount; Lit on lantern night (announce()), Unlit while pinning"
+ },
+ "ribbons": {
+  "asset": "Prop_YTM_RibbonPin",
+  "slot": "ribbon (slot 1)",
+  "parent": "the G116 card-tab material (PupilColour vector, one MI per colour)",
+  "instances": {
+   "MI_YTM_RibbonPin_0": {
+    "PupilColour_srgb": "C98A3A",
+    "rank": 0
+   },
+   "MI_YTM_RibbonPin_1": {
+    "PupilColour_srgb": "6E7F99",
+    "rank": 1
+   },
+   "MI_YTM_RibbonPin_2": {
+    "PupilColour_srgb": "E3C25A",
+    "rank": 2
+   },
+   "MI_YTM_RibbonPin_3": {
+    "PupilColour_srgb": "3F8A8C",
+    "rank": 3
+   }
+  },
+  "rule": "the pin in SOCKET_Pin_k carries MI_YTM_RibbonPin_<r>, r = rank (0-based) of the paired master in child k's list; colours are the G66 trader cloths (Rope, Stone, Eggs, Fish)"
+ },
+ "hooks": {
+  "Hook_0": "mason",
+  "Hook_1": "keeper",
+  "Hook_2": "brine",
+  "Hook_3": "dov"
+ }
+}

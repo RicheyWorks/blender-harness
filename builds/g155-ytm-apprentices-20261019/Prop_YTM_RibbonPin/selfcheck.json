@@ -1,0 +1,64 @@
+[
+ [
+  "mesh node Prop_YTM_RibbonPin",
+  true,
+  ""
+ ],
+ [
+  "Prop_YTM_RibbonPin tris 356",
+  true,
+  356
+ ],
+ [
+  "Prop_YTM_RibbonPin parent None",
+  true,
+  null
+ ],
+ [
+  "render bounds = predicted (1 mm)",
+  true,
+  [
+   [
+    -0.0493,
+    -0.1214,
+    -0.03
+   ],
+   [
+    0.0493,
+    0.039,
+    0.019
+   ]
+  ]
+ ],
+ [
+  "LOD1 glb present",
+  true,
+  ""
+ ],
+ [
+  "LOD1 tris 140",
+  true,
+  140
+ ],
+ [
+  "LOD1 has no sockets/collision",
+  true,
+  ""
+ ],
+ [
+  "build_report ok",
+  true,
+  {
+   "triangles": true,
+   "bounds": true,
+   "objects": true,
+   "collision_tris": true,
+   "lod1_triangles": true
+  }
+ ],
+ [
+  "report sha256 = files",
+  true,
+  ""
+ ]
+]

@@ -1,0 +1,106 @@
+{
+ "asset": "Prop_YTM_LanternBoard",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "bd07ea7c32dc3409827db17352b277f25f6e481b944e0ca0461688b795b4c506",
+ "lod0": {
+  "objects": {
+   "Prop_YTM_LanternBoard": 528,
+   "Prop_YTM_LanternBoard_Lanterns": 1120
+  },
+  "triangles": 1648,
+  "bounds_min": [
+   -0.85,
+   -0.25,
+   0.0
+  ],
+  "bounds_max": [
+   0.85,
+   0.35,
+   2.34
+  ],
+  "dimensions": [
+   1.7,
+   0.6,
+   2.34
+  ],
+  "materials": {
+   "Prop_YTM_LanternBoard": [
+    "Prop_YTM_LanternBoard_M0",
+    "Prop_YTM_LanternBoard_M1",
+    "Prop_YTM_LanternBoard_M2"
+   ],
+   "Prop_YTM_LanternBoard_Lanterns": [
+    "Prop_YTM_LanternBoard_M0",
+    "Prop_YTM_LanternBoard_M3",
+    "Prop_YTM_LanternBoard_M4"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Pin_0",
+  "SOCKET_Pin_1",
+  "SOCKET_Pin_2",
+  "SOCKET_Pin_3",
+  "SOCKET_Hook_0",
+  "SOCKET_Hook_1",
+  "SOCKET_Hook_2",
+  "SOCKET_Hook_3",
+  "SOCKET_Lamp_0",
+  "SOCKET_Lamp_1",
+  "SOCKET_Lamp_2",
+  "SOCKET_Lamp_3",
+  "SOCKET_Text",
+  "SOCKET_Wick"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_YTM_LanternBoard_00",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_YTM_LanternBoard_01",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_YTM_LanternBoard_02",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_YTM_LanternBoard.glb": {
+   "bytes": 96216,
+   "sha256": "f474c4602f5bfdd72c42afef332d2dea9290afc9023913937b0f1233dae32ec6"
+  },
+  "Prop_YTM_LanternBoard.blend": {
+   "bytes": 611612,
+   "sha256": "a198a1b13c0dc60e17bafa9c2b717b993ac7c0325111223a0a02d5a9d1d90136"
+  },
+  "Prop_YTM_LanternBoard_LOD1.glb": {
+   "bytes": 41520,
+   "sha256": "cb962ccb3a7ab7c0222953d8781336ed1ac60e927a1195e1c07d21d914a9e67d"
+  },
+  "Prop_YTM_LanternBoard.sockets.json": {
+   "bytes": 4418,
+   "sha256": "71b541d6defdc03a3f10c04cff899013fef81be689502b802a7a1bdc42bbd010"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 708,
+  "ratio": 0.43,
+  "dimensions": [
+   1.7,
+   0.6,
+   2.3
+  ]
+ },
+ "sockets_sidecar": "Prop_YTM_LanternBoard.sockets.json",
+ "ok": true
+}
