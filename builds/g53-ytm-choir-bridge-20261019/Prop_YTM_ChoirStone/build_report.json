@@ -1,0 +1,84 @@
+{
+ "asset": "Prop_YTM_ChoirStone",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "46b2725f5027b06d3bc58063ca1926a0d534458c1ae6a95000d1b28b36184f9a",
+ "lod0": {
+  "objects": {
+   "Prop_YTM_ChoirStone": 416
+  },
+  "triangles": 416,
+  "bounds_min": [
+   -0.39,
+   -0.26,
+   0.0
+  ],
+  "bounds_max": [
+   0.39,
+   0.26,
+   0.99
+  ],
+  "dimensions": [
+   0.78,
+   0.52,
+   0.99
+  ],
+  "materials": {
+   "Prop_YTM_ChoirStone": [
+    "Prop_YTM_ChoirStone_M0",
+    "Prop_YTM_ChoirStone_M1",
+    "Prop_YTM_ChoirStone_M2"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Hum",
+  "SOCKET_Carve"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_YTM_ChoirStone_00",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_YTM_ChoirStone_01",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_YTM_ChoirStone.glb": {
+   "bytes": 28724,
+   "sha256": "fa164636ca0dc7178efd95bfc2fb6764704c43f3d17d4b7dbe7efebcc36ed4d1"
+  },
+  "Prop_YTM_ChoirStone.blend": {
+   "bytes": 499004,
+   "sha256": "2e472d1eb77a879687990d2804f7b16e694c3b30e165f6bbdaeab38efdb4f91d"
+  },
+  "Prop_YTM_ChoirStone_LOD1.glb": {
+   "bytes": 15764,
+   "sha256": "fd8db1932b07b19b8e3831da13c995b1c1feee78bd316aec221ba7e9aefef64e"
+  },
+  "Prop_YTM_ChoirStone.sockets.json": {
+   "bytes": 952,
+   "sha256": "180d49af5b1361bb0489cbaf72adef514ea3d2558573c7912d2cac81bb16bc71"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 240,
+  "ratio": 0.577,
+  "dimensions": [
+   0.78,
+   0.52,
+   0.99
+  ]
+ },
+ "sockets_sidecar": "Prop_YTM_ChoirStone.sockets.json",
+ "ok": true
+}

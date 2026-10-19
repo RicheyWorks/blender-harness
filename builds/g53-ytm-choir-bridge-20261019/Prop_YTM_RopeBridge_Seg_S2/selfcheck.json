@@ -1,0 +1,120 @@
+[
+ [
+  "mesh node Prop_YTM_RopeBridge_Seg_S2",
+  true,
+  ""
+ ],
+ [
+  "Prop_YTM_RopeBridge_Seg_S2 tris 900",
+  true,
+  900
+ ],
+ [
+  "Prop_YTM_RopeBridge_Seg_S2 parent None",
+  true,
+  null
+ ],
+ [
+  "collision UCX_Prop_YTM_RopeBridge_Seg_S2_00 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_YTM_RopeBridge_Seg_S2_00 tris 12, no material, parent Prop_YTM_RopeBridge_Seg_S2",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_YTM_RopeBridge_Seg_S2_01 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_YTM_RopeBridge_Seg_S2_01 tris 12, no material, parent Prop_YTM_RopeBridge_Seg_S2",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_YTM_RopeBridge_Seg_S2_02 present",
+  true,
+  ""
+ ],
+ [
+  "collision UCX_Prop_YTM_RopeBridge_Seg_S2_02 tris 12, no material, parent Prop_YTM_RopeBridge_Seg_S2",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Anchor_A under Prop_YTM_RopeBridge_Seg_S2",
+  true,
+  ""
+ ],
+ [
+  "socket SOCKET_Anchor_B under Prop_YTM_RopeBridge_Seg_S2",
+  true,
+  ""
+ ],
+ [
+  "sockets sidecar present",
+  true,
+  ""
+ ],
+ [
+  "sidecar = glb sockets in UE space",
+  true,
+  ""
+ ],
+ [
+  "native socket rotation == sidecar (pre-rotated empties)",
+  true,
+  []
+ ],
+ [
+  "render bounds = predicted (1 mm)",
+  true,
+  [
+   [
+    -1.0174,
+    0.0,
+    -0.5142
+   ],
+   [
+    1.0014,
+    0.9588,
+    0.5286
+   ]
+  ]
+ ],
+ [
+  "LOD1 glb present",
+  true,
+  ""
+ ],
+ [
+  "LOD1 tris 372",
+  true,
+  372
+ ],
+ [
+  "LOD1 has no sockets/collision",
+  true,
+  ""
+ ],
+ [
+  "build_report ok",
+  true,
+  {
+   "triangles": true,
+   "bounds": true,
+   "objects": true,
+   "collision_tris": true,
+   "lod1_triangles": true,
+   "sidecar_sockets": true
+  }
+ ],
+ [
+  "report sha256 = files",
+  true,
+  ""
+ ]
+]

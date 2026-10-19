@@ -1,0 +1,88 @@
+{
+ "asset": "Prop_YTM_RopeBridge_Seg_S1",
+ "status": "BUILT (staged, NOT READY)",
+ "recipe_sha256": "6999020759b9506ff3c33c92e8ddb6915fad4e0cf3a3e36fd077d19379cafaa4",
+ "lod0": {
+  "objects": {
+   "Prop_YTM_RopeBridge_Seg_S1": 1032
+  },
+  "triangles": 1032,
+  "bounds_min": [
+   -1.0635,
+   -0.5294,
+   0.0
+  ],
+  "bounds_max": [
+   1.0031,
+   0.5298,
+   0.9561
+  ],
+  "dimensions": [
+   2.0666,
+   1.0592,
+   0.9561
+  ],
+  "materials": {
+   "Prop_YTM_RopeBridge_Seg_S1": [
+    "Prop_YTM_RopeBridge_Seg_S1_M0",
+    "Prop_YTM_RopeBridge_Seg_S1_M1",
+    "Prop_YTM_RopeBridge_Seg_S1_M2"
+   ]
+  }
+ },
+ "sockets": [
+  "SOCKET_Anchor_A",
+  "SOCKET_Anchor_B"
+ ],
+ "collision": [
+  {
+   "name": "UCX_Prop_YTM_RopeBridge_Seg_S1_00",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_YTM_RopeBridge_Seg_S1_01",
+   "triangles": 12
+  },
+  {
+   "name": "UCX_Prop_YTM_RopeBridge_Seg_S1_02",
+   "triangles": 12
+  }
+ ],
+ "files": {
+  "Prop_YTM_RopeBridge_Seg_S1.glb": {
+   "bytes": 62260,
+   "sha256": "0504aa64a6e7dcb4aac3a1c042ef41a5d3e85ecd260cab2c3a4510184cd164cb"
+  },
+  "Prop_YTM_RopeBridge_Seg_S1.blend": {
+   "bytes": 524756,
+   "sha256": "4d72313042e0eae1fd5c3fbc2c3aedeb6d3f6fee9559112a17e54aa1ef842978"
+  },
+  "Prop_YTM_RopeBridge_Seg_S1_LOD1.glb": {
+   "bytes": 24808,
+   "sha256": "c8a52d1b16bc1cc173e3579c82b92dcf69035b036f5d80d3d603a07aa7aa154f"
+  },
+  "Prop_YTM_RopeBridge_Seg_S1.sockets.json": {
+   "bytes": 985,
+   "sha256": "b69e04b41315c827944334b98c9a4459f80018f57585bb91e523f5a5748a2726"
+  }
+ },
+ "match": {
+  "triangles": true,
+  "bounds": true,
+  "objects": true,
+  "collision_tris": true,
+  "lod1_triangles": true,
+  "sidecar_sockets": true
+ },
+ "lod1": {
+  "triangles": 408,
+  "ratio": 0.395,
+  "dimensions": [
+   2.0678,
+   1.0579,
+   0.9598
+  ]
+ },
+ "sockets_sidecar": "Prop_YTM_RopeBridge_Seg_S1.sockets.json",
+ "ok": true
+}
